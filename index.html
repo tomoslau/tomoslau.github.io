@@ -6,132 +6,292 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="icon" href="http://tomoslau.com/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="http://tomoslau.com/favicon.ico" type="image/x-icon">
-    <meta name="description" content="Tom Lau is a digital product designer based in Hong Kong. Designer at HYPEBEAST, co-founder of Jook, former art director at Isobar and product designer at Happy Owl.">
+    <meta name="description" content="Tom Lau is a Product Designer in Hong Kong building design systems at HYPEBEAST.">
     <title>Tom Lau</title>
     <meta property="og:title" content="Tom Lau">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://tomoslau.com">
     <style>
-    html, body, .wrapper {
-        height: 100%;;
-        font-family:Tahoma, Geneva, sans-serif;
-        color: #333;
-        line-height: 1.5;
-        background-color: #edf5f8;
-        margin: 0;
-    }
-    body {
-        overflow: hidden;
-    }
-    span {
-        color: #767676;
-    }
-    h1 {
-        font-size: 1rem;
-        margin: 0;
-    }
-    p {
-        margin: 0;
-        margin-left: 1rem;
-    }
-    a {
-        text-decoration: none;
-        word-wrap: break-word;
-    }
-    .chat a {
-        text-decoration: underline;
-    }
-    .wrapper {  
-        display: flex;
-        flex-direction: column;
-    }
-    .chat {
-        flex: 1 1 auto;
-        position: relative;/* need this to position inner content */
-        overflow-y: auto;
-        border: 1px solid #c8d3d9;
-        padding: 1rem;
-        padding-top: 0.75rem;
-        margin: 1rem;
-        background-color: #fff;
-    }
-    .top {
-        flex: 0 0 auto;
-        border-bottom: 1px solid #c8d3d9;
-        padding: 1rem;
-        padding-left: 2rem;
-        background: #cbdee4; /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(#cbdee4, #f3feff); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(#cbdee4, #f3feff); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(#cbdee4, #f3feff); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(#ebfffe, #caf0f9); /* Standard syntax */
-    }
-    .top span {
-        font-size: 0.75rem;
-    }
-    .footer {
-        display: flex;
-        flex-direction: row;
-    }
-    .input {
-        flex-grow: 1;
-        height: 3rem;
-        border: 1px solid #c8d3d9;
-        padding: 1rem;
-        padding-top: 0.75rem;
-        background-color: #fff;
-        margin: 1rem;
-        margin-top: 0;
-    }
-    .button {
-        width: auto;
-        margin-right: 1rem;
-    }
-    .button button {
-        width: 6rem;
-        height: 2rem;
-        border: 1px solid #c8d3d9;
-        background-color: #f1eff0;
-    }
-</style>
-<script async="" src="./Tom Lau_files/analytics.js"></script><script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        body {
+            font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            color: #222;
+            background-color: #fcfcfc;
+            margin: 64px 0;
+        }
+        h1 {
+            font-size: 32px;
+            line-height: 1.3;
+        }
+        h2 {
+            font-size: 24px;
+            line-height: 1.3;
+            margin: 0;
+        }
+        p {
+            line-height: 1.5;
+        }
+        .container {
+            margin: 0 auto;
+            display: block;
+            max-width: 1224px;
+        }
+        .header, .section-heading, .footer {
+            margin-top: 48px;
+            max-width: 1176px;
+        }
+        ul {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            display: inline-block;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .card {
+            display: inline-block;
+            position: relative;
+            width: 360px;
+            height: 425px;
+            margin: 24px;
+            vertical-align: top;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 12px 24px rgba(0,0,0,.08);
+            -webkit-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+            -moz-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+            transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+        }
+        .card:hover {
+            box-shadow: 0 12px 48px rgba(0,0,0,.16);
+            transform: scale(1.008);
+        }
+        .title-only {
+            height: 365px;
+        }
+        .card-image {
+            width: 100%;
+            height: 270px;
+            background-color: #fff;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            border-radius: 12px 12px 0 0;
+        }
+        .card-body {
+            position: relative;
+            padding: 24px;
+        }
+        .card-title {
+            margin: 0 0 16px 0;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1.33;
+        }
+        .card-description {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #767676;
+        }
+        .footer a {
+            text-decoration: underline;
+        }
+        @media screen and (max-width: 1272px) {
+            .container {
+                max-width: 640px;
+            }
+            .header, .section-heading, .footer {
+                margin-top: 32px;
+                max-width: 608px;
+            }
+            .card {
+                width: 288px;
+                margin: 16px;
+                height: 392px;
+            }
+            .title-only {
+                height: 303px;
+            }
+            .card-image {
+                height: 216px;
+            }
+        }
+        @media screen and (max-width: 672px) {
+            .container {
+                max-width: 320px;
+            }
+            .header, .section-heading, .footer {
+                max-width: 288px;
+            }
+        }       
+    </style>
+    <script async="" src="./Tom Lau_files/analytics.js"></script><script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-101331298-1', 'auto');
-    ga('send', 'pageview');
-</script>
+        ga('create', 'UA-101331298-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="top">
-            <h1>Tom Lau</h1>
-            <span>My octopus goes doodoodood</span>
-        </div>
-        <div class="chat">
-            <span>Tom says:</span>
-            <p>Hi, I'm a Product Designer in Hong Kong building design systems at HYPEBEAST.</p>
-            <span>Tom says:</span>
-            <p>Work<br>- HYPEBEAST feed personalization <a href="https://medium.com/@tlau/hypebeast-feed-personalization-c95b92deab6f" target="_blank">https://medium.com/@tlau/hypebeast-feed-personalization-c95b92deab6f</a><br>- Bupa HK website <a href="https://medium.com/@tlau/bupa-4ab2028f1265" target="_blank">https://medium.com/@tlau/bupa-4ab2028f1265</a><br>- Happy Owl app <a href="https://medium.com/@tlau/designing-happy-owl-1f45f18976fc" target="_blank">https://medium.com/@tlau/designing-happy-owl-1f45f18976fc</a></p>
-            <span>Tom says:</span>
-            <p>Side projects<br>- Jook (jukebox app) <a href="https://medium.com/@tlau/jook-ea0b08553f03" target="_blank">https://medium.com/@tlau/jook-ea0b08553f03</a><br>- HikeHK (hiking blog) <a href="http://hikehk.com" target="_blank">http://hikehk.com</a></p>
-            <span>Tom says:</span>
-            <p>Fun stuff I've worked on recently<br>- Virgil Abloh x Crocs concept <a href="https://www.instagram.com/p/BbON8ZGhCOO/" target="_blank">https://www.instagram.com/p/BbON8ZGhCOO/</a><br>- <a href="http://gluestickent.com" target="_blank">http://gluestickent.com/</a><br>- The Majestic G art <a href="https://themajesticg.bandcamp.com/" target="_blank">https://themajesticg.bandcamp.com/</a></p>
-            <span>Tom says:</span>
-            <p>Me on<br>- <a href="https://dribbble.com/tomoslau" target="_blank">https://dribbble.com/tomoslau</a><br>- <a href="https://instagram.com/tomoslau" target="_blank">https://instagram.com/tomoslau</a><br>- <a href="https://youtube.com/burntomato" target="_blank">https://youtube.com/burntomato</a><br>- <a href="https://twitter.com/tomoslau" target="_blank">https://twitter.com/tomoslau</a></p>
-        </div>
-        <a href="mailto:tomoslau@gmail.com">
-            <div class="footer">
-                <div class="input">
-                    <span>Say hello...</span>
-                </div>
-                <div class="button">
-                    <button type="button" disabled><u>S</u>end</button>
-                </div>
-            </div>
-        </a>
+    <div class="container header">
+        <h1>Tom Lau</h1>
+        <p>I'm a Product Designer in Hong Kong building design systems at HYPEBEAST.</p>
+    </div>
+    <div class="container section-heading">
+        <h2>Work</h2>
+    </div>
+    <div class="container">
+        <ul>
+            <li>
+                <a href="https://medium.com/@tlau/hypebeast-feed-personalization-c95b92deab6f" target="_blank">
+                    <div class="card">
+                        <div class="card-image" style="background-image: url(https://cdn-images-1.medium.com/max/1600/1*isVJbFBPdDvVQ58no0cXpA.jpeg)">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                HYPEBEAST feed personalization
+                            </div>
+                            <div class="card-description">
+                                Making the feed more relevant for readers.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://medium.com/@tlau/bupa-4ab2028f1265" target="_blank">
+                    <div class="card">
+                        <div class="card-image" style="background-image: url(images/bupa.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                Bupa HK website
+                            </div>
+                            <div class="card-description">
+                                Helping users find the right plan for themselves and family members.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://medium.com/@tlau/designing-happy-owl-1f45f18976fc" target="_blank">
+                    <div class="card">
+                        <div class="card-image" style="background-image: url(images/ho-co.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                Happy Owl app
+                            </div>
+                            <div class="card-description">
+                                A drink subscription to boost bars' sales
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="container section-heading">
+        <h2>Side projects</h2>
+    </div>
+    <div class="container">
+        <ul>
+            <li>
+                <a href="https://medium.com/@tlau/jook-ea0b08553f03" target="_blank">
+                    <div class="card">
+                        <div class="card-image" style="background-image: url(images/jook.png)">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                Jook
+                            </div>
+                            <div class="card-description">
+                                A jukebox app created with Lucas Kuan and Matthieu Bodin.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://hikehk.com" target="_blank">
+                    <div class="card">
+                        <div class="card-image" style="background-image: url(images/hikehk.png)">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                HikeHK
+                            </div>
+                            <div class="card-description">
+                                Making hiking guides more usable while hiking and on mobile.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+        <div class="container section-heading">
+        <h2>Fun stuff I worked on recently</h2>
+    </div>
+    <div class="container">
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/p/BbON8ZGhCOO/" target="_blank">
+                    <div class="card title-only">
+                        <div class="card-image" style="background-image: url(https://instagram.fhkg3-2.fna.fbcdn.net/t51.2885-15/e35/23348151_1969817476610346_2898235736543199232_n.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                Virgil Abloh x Crocs
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://gluestickent.com/" target="_blank">
+                    <div class="card title-only">
+                        <div class="card-image" style="background-image: url(https://cdn.dribbble.com/users/611270/screenshots/3781701/gluestick-contact.png)">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                gluestick
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://themajesticg.bandcamp.com/" target="_blank">
+                    <div class="card title-only">
+                        <div class="card-image" style="background-image: url(images/tmg.jpg)">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                The Majestic G art
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="container footer">
+        <p>Email me at <a href="mailto:tomoslau@gmail.com">tomoslau@gmail.com</a> or find me on <a href="https://dribbble.com/tomoslau" target="_blank">Dribbble</a>, <a href="https://instagram.com/tomoslau" target="_blank">Instagram</a>, and <a href="https://youtube.com/burntomato" target="_blank">YouTube.</a></p>
     </div>
 </body>
 </html>
