@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      {% if page.year %}
+        <span>{{ page.year }}</span>
+      {% endif %}
+      <br>
+      {% if page.role %}
+        <span>{{ page.role }}</span>
+      {% endif %}
+    </p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
+
+    <ul class="post-list col-wrapper">
+    {% for post in site.posts %}
+      <li class="col col-2">
+        <a href="{{ post.url }}" ><img class="thumbnail" src="{{ post.thumbnail }}" />
+          <!--
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</article>
