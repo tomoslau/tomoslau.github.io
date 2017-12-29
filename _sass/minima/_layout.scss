@@ -3,9 +3,8 @@
  */
 .site-header {
   min-height: $spacing-unit * 1.865;
-
-  // Positioning context for the mobile navigation icon
-  position: relative;
+  width: 100%;
+  position: fixed;
 
   a {
     text-decoration: none;
@@ -26,14 +25,6 @@
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
-  .nav-trigger {
-      display: none;
-  }
-
-  .menu-icon {
-    display: none;
-  }
-
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
@@ -41,59 +32,6 @@
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
-    }
-  }
-
-  @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
-
-    label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
-      cursor: pointer;
-    }
-
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg path {
-        fill: $grey-color-dark;
-      }
-    }
-
-    input ~ .trigger {
-      clear: both;
-      display: none;
-    }
-
-    input:checked ~ .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      display: block;
-      padding: 5px 10px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
     }
   }
 }
@@ -117,7 +55,12 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding: 0 0 $spacing-unit 0;
+}
+
+// Adds padding to pages without banner
+.home, .page {
+  padding-top: $spacing-unit*4;
 }
 
 .page-heading {
@@ -149,7 +92,15 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
-  text-align: center;
+}
+
+.banner-image {
+  width: 100%;
+  margin-bottom: $spacing-unit;
+}
+
+.post-header .wrapper {
+  max-width: 720px;
 }
 
 .post-title {
@@ -162,6 +113,7 @@
 }
 
 .post-content {
+  max-width: 720px;
   margin-bottom: $spacing-unit;
 
   h2 {
@@ -189,16 +141,11 @@
   }
 }
 
-.post-content p, .post-content ul {
-  max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .post-content img {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 /**
  * Columns

@@ -147,7 +147,8 @@ pre {
  */
 .site-header {
   min-height: 59.68px;
-  position: relative; }
+  width: 100%;
+  position: fixed; }
   .site-header a {
     text-decoration: none; }
   .site-header a:hover {
@@ -161,53 +162,11 @@ pre {
 .site-nav {
   float: right;
   line-height: 67.5px; }
-  .site-nav .nav-trigger {
-    display: none; }
-  .site-nav .menu-icon {
-    display: none; }
   .site-nav .page-link {
     color: #111;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
-  @media screen and (max-width: 600px) {
-    .site-nav {
-      position: absolute;
-      top: 9px;
-      right: 16px;
-      background-color: #fff;
-      border: 1px solid #e8e8e8;
-      border-radius: 5px;
-      text-align: right; }
-      .site-nav label[for="nav-trigger"] {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 36px;
-        z-index: 2;
-        cursor: pointer; }
-      .site-nav .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-nav .menu-icon > svg path {
-          fill: #424242; }
-      .site-nav input ~ .trigger {
-        clear: both;
-        display: none; }
-      .site-nav input:checked ~ .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px;
-        margin-left: 20px; }
-        .site-nav .page-link:not(:last-child) {
-          margin-right: 0; } }
 
 /**
  * Site footer
@@ -224,7 +183,10 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 32px 0; }
+  padding: 0 0 32px 0; }
+
+.home, .page {
+  padding-top: 128px; }
 
 .page-heading {
   font-size: 20px; }
@@ -247,8 +209,14 @@ pre {
  * Posts
  */
 .post-header {
-  margin-bottom: 32px;
-  text-align: center; }
+  margin-bottom: 32px; }
+
+.banner-image {
+  width: 100%;
+  margin-bottom: 32px; }
+
+.post-header .wrapper {
+  max-width: 720px; }
 
 .post-title {
   font-size: 52.5px;
@@ -258,6 +226,7 @@ pre {
       font-size: 45px; } }
 
 .post-content {
+  max-width: 720px;
   margin-bottom: 32px; }
   .post-content h2 {
     font-size: 40px; }
@@ -274,11 +243,6 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 22.5px; } }
-
-.post-content p, .post-content ul {
-  max-width: 720px;
-  margin-left: auto;
-  margin-right: auto; }
 
 .post-content img {
   margin-left: auto;

@@ -24,6 +24,7 @@ Education
 2010 - 2014: BFA in Advertising, SCAD
 
 What I'm reading  
-[Homo Deus: A Brief History of Tomorrow](https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow-ebook/dp/B019CGXTP0)
+<a href="https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow-ebook/dp/B019CGXTP0" target="_blank">Homo Deus: A Brief History of Tomorrow</a>
+
 </div>
 </div>

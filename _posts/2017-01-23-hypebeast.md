@@ -5,7 +5,7 @@ date: 2017-01-23 00:00:00 +0800
 categories:
 year: 2017 - Present
 role: Designer
-summary: This is the project summary.
+summary: 
 thumbnail: "/assets/800x600.jpg"
 permalink: /zebra/
 ---
