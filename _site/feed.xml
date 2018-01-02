@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-29T18:12:14+08:00</updated><id>http://localhost:4000/</id><title type="html">Tom Lau</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">HYPEBEAST</title><link href="http://localhost:4000/zebra/" rel="alternate" type="text/html" title="HYPEBEAST" /><published>2017-01-23T00:00:00+08:00</published><updated>2017-01-23T00:00:00+08:00</updated><id>http://localhost:4000/hypebeast</id><content type="html" xml:base="http://localhost:4000/zebra/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/800x600.jpg&quot; alt=&quot;placeholder&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-02T18:06:57+08:00</updated><id>http://localhost:4000/</id><title type="html">Tom Lau</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">HYPEBEAST</title><link href="http://localhost:4000/zebra/" rel="alternate" type="text/html" title="HYPEBEAST" /><published>2017-01-23T00:00:00+08:00</published><updated>2017-01-23T00:00:00+08:00</updated><id>http://localhost:4000/hypebeast</id><content type="html" xml:base="http://localhost:4000/zebra/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/800x600.jpg&quot; alt=&quot;placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I joined &lt;a href=&quot;https://hypebeast.com&quot;&gt;HYPEBEAST&lt;/a&gt; in January 2017. HYPEBEAST is a digital media and e-commerce platform with a focus in fashion and footwear. I get to work on HYPEBEAST, HBX, HYPEBAE, and POPBEE products across iOS, Android and the web. Here are some of the projects I’ve worked on so far:&lt;/p&gt;
 
@@ -18,83 +18,56 @@
     &lt;/li&gt;
   
     &lt;li&gt;
-      &lt;a href=&quot;/bupa/&quot;&gt;Bupa&lt;/a&gt;
+      &lt;a href=&quot;/bupa/&quot;&gt;bupa.com.hk&lt;/a&gt;
     &lt;/li&gt;
   
     &lt;li&gt;
       &lt;a href=&quot;/happy-owl/&quot;&gt;Happy Owl&lt;/a&gt;
     &lt;/li&gt;
   
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Bupa</title><link href="http://localhost:4000/bupa/" rel="alternate" type="text/html" title="Bupa" /><published>2016-11-01T00:00:00+08:00</published><updated>2016-11-01T00:00:00+08:00</updated><id>http://localhost:4000/bupa</id><content type="html" xml:base="http://localhost:4000/bupa/">&lt;p&gt;Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team to improve the experience.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">bupa.com.hk</title><link href="http://localhost:4000/bupa/" rel="alternate" type="text/html" title="bupa.com.hk" /><published>2016-11-01T00:00:00+08:00</published><updated>2016-11-01T00:00:00+08:00</updated><id>http://localhost:4000/bupa</id><content type="html" xml:base="http://localhost:4000/bupa/">&lt;p&gt;Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.&lt;/p&gt;
 
-&lt;p&gt;[insert description of Bupa here]&lt;/p&gt;
+&lt;p&gt;Bupa is a healthcare group headquartered in the United Kingdom. It expanded into Hong Kong in 1976 and has been a health insurance and healthcare provision business since. Their audience are professional individuals and companies looking for a healthcare plan for their employees.&lt;/p&gt;
 
-&lt;p&gt;[brief - applying the global style / loosely based on it~ however content and objectives of the website is different from other regions]&lt;/p&gt;
+&lt;p&gt;We designed the new bupa.com.hk based on their global style guide. We applied it whenever possible and extended the style guide for region-specific content and elements from designs that we proposed.&lt;/p&gt;
 
-&lt;p&gt;Discover / research&lt;/p&gt;
+&lt;h2 id=&quot;discovery&quot;&gt;Discovery&lt;/h2&gt;
 
-&lt;p&gt;We reviewed feedback on the current site and discovered that people found it difficult to find a suitable insurance plan through the website. We did an analysis and found that product names were vague or nondescriptive, the wide range of plans and broad categories displayed in list form were hard to browse, and the website wasn’t mobile-optimized.&lt;/p&gt;
+&lt;p&gt;We reviewed feedback on the current site and discovered that people found it difficult to find a suitable insurance plan through the website. We did an analysis and found that product names were vague and non-descriptive, the wide range of plans and broad categories  were hard to browse, and the website wasn’t mobile-optimized.&lt;/p&gt;
 
-&lt;p&gt;We brainstormed on how to simplify the flow, and proceeded with the idea of adding a simple recommendation engine and introducing online quotation and enrollment.&lt;/p&gt;
+&lt;p&gt;We brainstormed on how to simplify the flow, and proceeded with the idea of adding a simple recommendation and quotation engine. We added a simple form on the home page where customers fill in four fields and immediately get three recommended plans. They can choose to refine the pricing by adding more information and enroll the plan.&lt;/p&gt;
 
-&lt;p&gt;We added a simple form on the home page where users can fill in four fields and get three recommended plans. They can choose to refine the pricing by adding more information and enroll the plan.&lt;/p&gt;
+&lt;p&gt;The beginning (at the top of the funnel) looks the simplest, and with each step the flow becomes more specific and there is more information and data input.&lt;/p&gt;
 
-&lt;p&gt;The copy and visuals play a key role in making the forms look simple&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Input a few pieces of information to receive three recommendations&lt;/li&gt;
+  &lt;li&gt;Compare and select a plan&lt;/li&gt;
+  &lt;li&gt;Refine the quotation by choosing payment and plan options&lt;/li&gt;
+  &lt;li&gt;Long form for personal details and a series of yes/no health questions&lt;/li&gt;
+  &lt;li&gt;Payment&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;//&lt;/p&gt;
+&lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
 
-&lt;p&gt;Objectives&lt;/p&gt;
+&lt;p&gt;We designed the recommended plans view to be in the same style as regular cards, but expanded vertically to show more information. The information is divided into sections and displayed in an underlying grid so the same information can be easily scanned across all three plans.&lt;/p&gt;
 
-&lt;p&gt;Help users find the right plan for themselves and family members&lt;/p&gt;
-
-&lt;p&gt;Introduce online quotation and enrollment&lt;/p&gt;
-
-&lt;p&gt;Make forms less tedious to fill&lt;/p&gt;
-
-&lt;p&gt;Visual design to align with global brand guidelines&lt;/p&gt;
-
-&lt;p&gt;Product Recommendation&lt;/p&gt;
-
-&lt;p&gt;We designed the product recommendation flow to make it easier for users to find suitable plans. It’s the secondary call to action on the landing page behind “Contact us/Let us contact you,” and the primary action on the medical insurance landing page — where users can alternatively browse all the products in cards views.&lt;/p&gt;
-
-&lt;p&gt;The user fills in four pieces of information, written in first person copy to make it personal, and receives three recommended products with estimated quotations. The products are displayed in columns to make it easy to compare the product details below. If the user is interested, they can refine the quote and enroll.&lt;/p&gt;
-
-&lt;p&gt;Online enrollment — making forms more usable&lt;/p&gt;
-
-&lt;p&gt;Early feedback and testing of the wireframes showed that many people found the forms long and overwhelming.&lt;/p&gt;
-
-&lt;p&gt;In addition to breaking up the long forms into smaller chunks and steps, using placeholders as labels was suggested in a meeting. This made the forms appear less overwhelming, especially on desktop where more fields are visible in a single viewport.&lt;/p&gt;
+&lt;p&gt;Early feedback and testing of the wireframes showed that many people found the forms long and overwhelming. In addition to breaking up the long forms into smaller chunks and steps, we tested the idea of using placeholders as labels. Bupa and our team were initially drawn to this idea because it made the forms appear less overwhelming—the forms looked “cleaner” and the reduced vertical space meant less scroll.&lt;/p&gt;
 
 &lt;p&gt;Due to the density of Traditional Chinese characters, labels are easier to read in a larger size and lighter weight than smaller size and heavier weight. Material Design recommends increasing “Dense scripts” by 1 point from the specified size for English. This adds more vertical space for Chinese form labels, plus exaggerates the visual density when compared to using placeholders as labels.&lt;/p&gt;
 
-&lt;p&gt;However, I strongly advised against using placeholders as labels. There are a number of usability problems, as summarized by Katie Sherwin of Nielsen Norman Group. Here are my top three reasons that applied to the forms we were designing:&lt;/p&gt;
+&lt;p&gt;However, using placeholders as labels create a number of usability problems, as summarized by Katie Sherwin of Nielsen Norman Group. Here are the top three reasons that applied to the forms we were designing:&lt;/p&gt;
 
-&lt;p&gt;Strains short-term memory: users have to delete what they wrote to reveal the placeholder label again&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Strains short-term memory: users have to delete what they wrote to reveal the placeholder label again&lt;/li&gt;
+  &lt;li&gt;Users cannot check their input with the label (especially important for browsers with autocomplete)&lt;/li&gt;
+  &lt;li&gt;Empty vs non-empty fields are less noticeable&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Users cannot check their input with the label (especially important for browsers with autocomplete)&lt;/p&gt;
+&lt;p&gt;We compromised by using &lt;a href=&quot;https://medium.com/r/?url=http%3A%2F%2Fmds.is%2Ffloat-label-pattern%2F&quot;&gt;float labels&lt;/a&gt;. Float labels allow the empty form to appear more clean and less overwhelming, while solving the usability problems of placeholder labels to a certain extent. When asked which form looks less overwhelming, most people picked the one with float labels over labels on top of fields.&lt;/p&gt;
 
-&lt;p&gt;Empty vs non-empty fields are less noticeable&lt;/p&gt;
+&lt;p&gt;This project took around X months to design with three rounds of visual deign revisions. Bupa loved the brand new clean, simple and functional design. The new website increased sales leads by 200% and online purchases by 300%.&lt;/p&gt;
 
-&lt;p&gt;Design&lt;/p&gt;
-
-&lt;p&gt;We originally used six different colors from the Bupa brand guideline. At some point, we used large blocks of different colors to make the pages more interesting. However, the extra colors didn’t give any meaning, and added visual clutter. I ended up stripping away all the colors, leaving only the Bupa blue as primary color and fuchsia as an accent color. The fuchsia compliments the blue nicely and is vibrant while providing enough contrast on white to meet WCAG guidelines.&lt;/p&gt;
-
-&lt;p&gt;This project took around X months to design with three rounds of visual deign revisions. Bupa loved the brand new clean, simple and functional design.&lt;/p&gt;
-
-&lt;p&gt;I worked closely with our UX consultant, project manager, and creative director in this project.&lt;/p&gt;
-
-&lt;p&gt;Results&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;• Bupa Health Insurance website revamp - phase 1 increased sales leads by 200%&lt;/td&gt;
-      &lt;td&gt;phase 2 increased online purchased by 300%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Credits&lt;/p&gt;
+&lt;p&gt;Agency: Isobar&lt;/p&gt;
 
 &lt;p&gt;Business Director - Edward Williams&lt;/p&gt;
 
@@ -113,10 +86,10 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-	 &lt;img src=&quot;/assets/bupa-desktop.jpg&quot; /&gt;
+ &lt;img src=&quot;/assets/bupa-desktop.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;h2&gt;Visit &lt;a href=&quot;https://www.bupa.com.hk&quot; target=&quot;_blank&quot;&gt;bupa.com.hk&lt;/a&gt;&lt;/h2&gt;</content><author><name></name></author><summary type="html">Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team to improve the experience.</summary></entry><entry><title type="html">Happy Owl</title><link href="http://localhost:4000/happy-owl/" rel="alternate" type="text/html" title="Happy Owl" /><published>2016-07-01T15:33:10+08:00</published><updated>2016-07-01T15:33:10+08:00</updated><id>http://localhost:4000/happy-owl</id><content type="html" xml:base="http://localhost:4000/happy-owl/">&lt;figure&gt;
+&lt;h2&gt;Visit &lt;a href=&quot;https://www.bupa.com.hk&quot; target=&quot;_blank&quot;&gt;bupa.com.hk&lt;/a&gt;&lt;/h2&gt;</content><author><name></name></author><summary type="html">Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.</summary></entry><entry><title type="html">Happy Owl</title><link href="http://localhost:4000/happy-owl/" rel="alternate" type="text/html" title="Happy Owl" /><published>2016-07-01T15:33:10+08:00</published><updated>2016-07-01T15:33:10+08:00</updated><id>http://localhost:4000/happy-owl</id><content type="html" xml:base="http://localhost:4000/happy-owl/">&lt;figure&gt;
  &lt;img src=&quot;/assets/ho-co.jpg&quot; /&gt;
 &lt;/figure&gt;
 
