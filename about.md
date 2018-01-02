@@ -9,9 +9,13 @@ permalink: /about/
 </div>
 
 <div class="col col-3" markdown="1">
-你好 Hello
+# 你好 Hello
 
-I'm a designer based in Hong Kong, currently working on web and app products at HYPEBEAST. I have three years of experience designing interactive experiences for brands in agency and in-house environments.
+# I'm a designer based in Hong Kong, currently working on web and app products at HYPEBEAST.
+
+I have three years of experience designing interactive experiences for brands in agency and in-house environments.
+
+I'm a morning person.
 
 I enjoy coffee, video games, hiking, and spending quality time with my doggos.
 
