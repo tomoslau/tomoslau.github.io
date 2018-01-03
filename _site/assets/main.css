@@ -245,8 +245,7 @@ pre {
         font-size: 22.5px; } }
 
 .post-content img {
-  margin-left: auto;
-  margin-right: auto; }
+  margin: 32px auto; }
 
 /**
  * Columns
