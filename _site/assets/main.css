@@ -197,9 +197,6 @@ pre {
   .post-list > li {
     margin-bottom: 32px; }
 
-.post-meta {
-  font-size: 17.5px; }
-
 .post-link {
   display: block;
   font-size: 20px;
@@ -245,7 +242,7 @@ pre {
         font-size: 22.5px; } }
 
 .post-content img {
-  margin: 32px auto; }
+  margin: 16px auto; }
 
 /**
  * Columns

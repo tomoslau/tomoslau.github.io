@@ -76,10 +76,6 @@
   }
 }
 
-.post-meta {
-  font-size: $small-font-size;
-}
-
 .post-link {
   display: block;
   @include relative-font-size(1);
@@ -142,7 +138,7 @@
 }
 
 .post-content img {
-  margin: $spacing-unit auto;
+  margin: $spacing-unit/2 auto;
 }
 
 

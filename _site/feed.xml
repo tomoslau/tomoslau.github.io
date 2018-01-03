@@ -1,31 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-02T21:27:00+08:00</updated><id>http://localhost:4000/</id><title type="html">Tom Lau</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">HYPEBEAST</title><link href="http://localhost:4000/zebra/" rel="alternate" type="text/html" title="HYPEBEAST" /><published>2017-01-23T00:00:00+08:00</published><updated>2017-01-23T00:00:00+08:00</updated><id>http://localhost:4000/hypebeast</id><content type="html" xml:base="http://localhost:4000/zebra/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/800x600.jpg&quot; alt=&quot;placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I joined &lt;a href=&quot;https://hypebeast.com&quot;&gt;HYPEBEAST&lt;/a&gt; in January 2017. HYPEBEAST is a digital media and e-commerce platform with a focus in fashion and footwear. I get to work on HYPEBEAST, HBX, HYPEBAE, and POPBEE products across iOS, Android and the web. Here are some of the projects I’ve worked on so far:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-03T21:36:46+08:00</updated><id>http://localhost:4000/</id><title type="html">Tom Lau</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">HYPEBEAST</title><link href="http://localhost:4000/zebra/" rel="alternate" type="text/html" title="HYPEBEAST" /><published>2017-01-23T00:00:00+08:00</published><updated>2017-01-23T00:00:00+08:00</updated><id>http://localhost:4000/hypebeast</id><content type="html" xml:base="http://localhost:4000/zebra/">&lt;p&gt;I joined &lt;a href=&quot;https://hypebeast.com&quot; target=&quot;_blank&quot;&gt;HYPEBEAST&lt;/a&gt; in January 2017. HYPEBEAST is a digital media and e-commerce platform with a focus in fashion and footwear. I get to work on HYPEBEAST, HBX, HYPEBAE, and POPBEE products across iOS, Android and the web. Here are some of the projects I’ve worked on so far:&lt;/p&gt;
 
 &lt;h2 id=&quot;feed-personalization&quot;&gt;Feed personalization&lt;/h2&gt;
 
+&lt;p&gt;We added a personalized feed to the HYPEBEAST app to make it easier for our readers to view relevant content.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/hb-app.jpg&quot; alt=&quot;Your Feed on Android app&quot; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;drops&quot;&gt;Drops&lt;/h2&gt;
+
+&lt;p&gt;We created a calendar for hypebeasts to track upcoming releases and find out where to buy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/hb-drops.jpg&quot; alt=&quot;HYPEBEAST Drops&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;hbx-kids&quot;&gt;HBX Kids&lt;/h2&gt;
 
-&lt;h2 id=&quot;hbx-app-revamp&quot;&gt;HBX app revamp&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/800x600.jpg&quot; alt=&quot;placeholder&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  
-    &lt;li&gt;
-      &lt;a href=&quot;/zebra/&quot;&gt;HYPEBEAST&lt;/a&gt;
-    &lt;/li&gt;
-  
-    &lt;li&gt;
-      &lt;a href=&quot;/bupa/&quot;&gt;bupa.com.hk&lt;/a&gt;
-    &lt;/li&gt;
-  
-    &lt;li&gt;
-      &lt;a href=&quot;/happy-owl/&quot;&gt;Happy Owl&lt;/a&gt;
-    &lt;/li&gt;
-  
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">bupa.com.hk</title><link href="http://localhost:4000/bupa/" rel="alternate" type="text/html" title="bupa.com.hk" /><published>2016-11-01T00:00:00+08:00</published><updated>2016-11-01T00:00:00+08:00</updated><id>http://localhost:4000/bupa</id><content type="html" xml:base="http://localhost:4000/bupa/">&lt;p&gt;Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.&lt;/p&gt;
+&lt;h2 id=&quot;hbx-app-revamp&quot;&gt;HBX app revamp&lt;/h2&gt;</content><author><name></name></author><summary type="html">I joined HYPEBEAST in January 2017. HYPEBEAST is a digital media and e-commerce platform with a focus in fashion and footwear. I get to work on HYPEBEAST, HBX, HYPEBAE, and POPBEE products across iOS, Android and the web. Here are some of the projects I’ve worked on so far:</summary></entry><entry><title type="html">bupa.com.hk</title><link href="http://localhost:4000/bupa/" rel="alternate" type="text/html" title="bupa.com.hk" /><published>2016-11-01T00:00:00+08:00</published><updated>2016-11-01T00:00:00+08:00</updated><id>http://localhost:4000/bupa</id><content type="html" xml:base="http://localhost:4000/bupa/">&lt;p&gt;Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.&lt;/p&gt;
 
 &lt;p&gt;Bupa is a healthcare group headquartered in the United Kingdom. It expanded into Hong Kong in 1976 and has been a health insurance and healthcare provision business since. Their audience are professional individuals and companies looking for a healthcare plan for their employees.&lt;/p&gt;
 
@@ -37,6 +26,8 @@
 
 &lt;p&gt;We brainstormed on how to simplify the flow, and proceeded with the idea of adding a simple recommendation and quotation engine. We added a simple form on the home page where customers fill in four fields and immediately get three recommended plans. They can choose to refine the pricing by adding more information and enroll the plan.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/assets/bupa-flow.png&quot; alt=&quot;Flow wireframes&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;The beginning (at the top of the funnel) looks the simplest, and with each step the flow becomes more specific and there is more information and data input.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -46,6 +37,8 @@
   &lt;li&gt;Long form for personal details and a series of yes/no health questions&lt;/li&gt;
   &lt;li&gt;Payment&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/bupa-desktop.jpg&quot; alt=&quot;Medical insurance plans and quotation engine&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
 
@@ -63,31 +56,24 @@
   &lt;li&gt;Empty vs non-empty fields are less noticeable&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;We compromised by using &lt;a href=&quot;https://medium.com/r/?url=http%3A%2F%2Fmds.is%2Ffloat-label-pattern%2F&quot;&gt;float labels&lt;/a&gt;. Float labels allow the empty form to appear more clean and less overwhelming, while solving the usability problems of placeholder labels to a certain extent. When asked which form looks less overwhelming, most people picked the one with float labels over labels on top of fields.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/bupa-labels.png&quot; alt=&quot;Traditional labels, placeholder labels and float labels.&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This project took around X months to design with three rounds of visual deign revisions. Bupa loved the brand new clean, simple and functional design. The new website increased sales leads by 200% and online purchases by 300%.&lt;/p&gt;
+&lt;p&gt;We compromised by using &lt;a href=&quot;https://medium.com/r/?url=http%3A%2F%2Fmds.is%2Ffloat-label-pattern%2F&quot; target=&quot;_blank&quot;&gt;float labels&lt;/a&gt;. Float labels allow the empty form to appear more clean and less overwhelming, while solving the usability problems of placeholder labels to a certain extent. When asked which form looks less overwhelming, most people picked the one with float labels over labels on top of fields.&lt;/p&gt;
 
-&lt;p&gt;Agency: Isobar&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/bupa-form.png&quot; alt=&quot;Enrollment form&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Business Director - Edward Williams&lt;/p&gt;
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
-&lt;p&gt;Associate Creative Director - Andy Wong&lt;/p&gt;
+&lt;p&gt;The website launched in early 2017. Bupa loved the brand new clean, simple and functional design. The new website increased sales leads by 200% and online purchases by 300%.&lt;/p&gt;
+
+&lt;p&gt;Credits to my team at Isobar:&lt;br /&gt;
+Business Director - Edward Williams
+Executive Creative Director - Nicoletta Stefanidou
+Associate Creative Director - Andy Wong&lt;/p&gt;
 
 &lt;p&gt;Project Manager - Leo Chan&lt;/p&gt;
 
 &lt;p&gt;Experience Design Consultant - Dennis Tsang&lt;/p&gt;
-
-&lt;figure&gt;
- &lt;img src=&quot;/assets/bupa-labels.png&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
- &lt;img src=&quot;/assets/bupa-form.png&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
- &lt;img src=&quot;/assets/bupa-desktop.jpg&quot; /&gt;
-&lt;/figure&gt;
 
 &lt;h2&gt;Visit &lt;a href=&quot;https://www.bupa.com.hk&quot; target=&quot;_blank&quot;&gt;bupa.com.hk&lt;/a&gt;&lt;/h2&gt;</content><author><name></name></author><summary type="html">Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.</summary></entry><entry><title type="html">Happy Owl</title><link href="http://localhost:4000/happy-owl/" rel="alternate" type="text/html" title="Happy Owl" /><published>2016-07-01T15:33:10+08:00</published><updated>2016-07-01T15:33:10+08:00</updated><id>http://localhost:4000/happy-owl</id><content type="html" xml:base="http://localhost:4000/happy-owl/">&lt;figure&gt;
  &lt;img src=&quot;/assets/ho-co.jpg&quot; /&gt;
@@ -101,7 +87,7 @@
 
 &lt;p&gt;In the first version of the flow, I prioritized the district selection, map view, and venue list with clear images and description. I also added Nearby venue, a secondary flow as users tend to decide on a venue before heading out (ie. before leaving work.)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ho-wireframes-2.png&quot; alt=&quot;Happy Owl flow&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/ho-wireframes-2.png&quot; alt=&quot;Happy Owl flow&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The drink redemption process required:&lt;/p&gt;
 &lt;ul&gt;
@@ -110,18 +96,18 @@
   &lt;li&gt;The redeem action is easy enough so the staff can be trained easily (training our 40+ venues was time intensive for our operations team.)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ho-owl-sketches.png&quot; alt=&quot;Happy Owl flow&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/ho-owl-sketches.png&quot; alt=&quot;Happy Owl flow&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ho-logos.png&quot; alt=&quot;Happy Owl flow&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/ho-logos.png&quot; alt=&quot;Happy Owl flow&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ho-colors.png&quot; alt=&quot;Happy Owl colors&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/ho-colors.png&quot; alt=&quot;Happy Owl colors&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ho-icons.gif&quot; alt=&quot;Happy Owl flow&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/ho-icons.gif&quot; alt=&quot;Happy Owl flow&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ho-co.jpg&quot; alt=&quot;Happy Owl flow&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/ho-co.jpg&quot; alt=&quot;Happy Owl flow&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;With the help of event promotions, word of mouth and media coverage, we reached over 1,000 downloads and 300 paying subscribers by the end of the first month.&lt;/p&gt;
 
 &lt;p&gt;Happy Owl featured on the App Store and named one of four handy apps for Hong Kong drinkers: &lt;a href=&quot;http://www.scmp.com/lifestyle/food-drink/article/2055131/four-handy-apps-hong-kongs-drinkers-and-party-people&quot;&gt;http://www.scmp.com/lifestyle/food-drink/article/2055131/four-handy-apps-hong-kongs-drinkers-and-party-people&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/ho-event-3.png&quot; alt=&quot;Happy Owl flow&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/ho-event-3.png&quot; alt=&quot;Happy Owl flow&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
