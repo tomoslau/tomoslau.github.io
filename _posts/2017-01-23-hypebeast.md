@@ -8,7 +8,7 @@ role: Designer
 summary:
 banner-image: "/assets/800x600.jpg"
 thumbnail: "/assets/hb.jpg"
-permalink: /zebra/
+permalink: /hypebeast/
 ---
 
 I joined <a href="https://hypebeast.com" target="_blank">HYPEBEAST</a> in January 2017. HYPEBEAST is a digital media and e-commerce platform with a focus in fashion and footwear. I get to work on HYPEBEAST, HBX, HYPEBAE, and POPBEE products across iOS, Android and the web. Here are some of the projects I've worked on so far:
