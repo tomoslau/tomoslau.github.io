@@ -25,9 +25,12 @@ We created a calendar for hypebeasts to track upcoming releases and find out whe
 
 ![HYPEBEAST Drops]({{ "/assets/hb-drops.jpg" }})
 
-## HBX Kids
+## HBX app gesture browsing
+
+We designed a gesture-based product level browsing to make it easier for our customers to shop for products.
 
 
 
-## HBX app revamp
+## HBX find your size
 
+We improved the usability of the size recommendation by simplifying the measurements input and making subtle styling changes. It resulted in increased click rate and reduced the item return rate. 
