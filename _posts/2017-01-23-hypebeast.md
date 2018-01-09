@@ -6,7 +6,7 @@ categories:
 year: 2017 - Present
 role: Designer
 summary:
-banner-image: "/assets/800x600.jpg"
+banner-image: "/assets/hb-banner.jpg"
 thumbnail: "/assets/hb.jpg"
 permalink: /hypebeast/
 ---
@@ -27,9 +27,9 @@ We created a calendar for hypebeasts to track upcoming releases and find out whe
 
 ## HBX app gesture browsing
 
-We designed a gesture-based product level browsing to make it easier for our customers to shop for products.
+We designed a visual language influenced by brutalism and updated the product-browsing navigation to create a new shopping experience.
 
-
+![HBX app]({{ "/assets/hbx-app-gestures.jpg" }})
 
 ## HBX find your size
 
