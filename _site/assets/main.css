@@ -154,6 +154,9 @@ pre {
   .site-header a:hover {
     text-decoration: underline; }
 
+@media screen and (max-width: 600px) {
+  .site-header {
+    position: relative; } }
 .site-title {
   line-height: 67.5px;
   margin-bottom: 0;

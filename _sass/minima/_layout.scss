@@ -15,6 +15,12 @@
   }
 }
 
+@include media-query($on-palm) {
+  .site-header {
+    position: relative;
+  }
+}
+
 .site-title {
   line-height: $base-line-height * $base-font-size * 2.25;
   margin-bottom: 0;

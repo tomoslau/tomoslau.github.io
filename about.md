@@ -15,8 +15,6 @@ permalink: /about/
 
 I have three years of experience designing interactive experiences for brands in agency and in-house environments.
 
-I'm a morning person.
-
 I enjoy coffee, video games, hiking, and spending quality time with my doggos.
 
 Experience  
