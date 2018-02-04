@@ -5,6 +5,7 @@
   min-height: $spacing-unit * 1.865;
   width: 100%;
   position: fixed;
+  font-weight: bold;
 
   a {
     text-decoration: none;
@@ -51,8 +52,7 @@
   padding: $spacing-unit 0;
 }
 
-.contact-list,
-.social-media-list {
+.site-footer ul {
   list-style: none;
   margin-left: 0;
 }
@@ -67,6 +67,10 @@
 // Adds padding to pages without banner
 .home, .page {
   padding-top: $spacing-unit*4;
+
+  @include media-query($on-palm) {
+    padding-top: $spacing-unit/2;
+  }
 }
 
 .page-heading {
@@ -74,18 +78,29 @@
 }
 
 .post-list {
+  margin-top: $spacing-unit/1.5;
   margin-left: 0;
   list-style: none;
 
-  > li {
-    margin-bottom: $spacing-unit;
+  > .col {
+    margin-bottom: 0;
   }
+
 }
 
 .post-link {
   display: block;
-  @include relative-font-size(1);
-  padding-top: $spacing-unit /2;
+  padding-top: $spacing-unit /3;
+  font-weight: bold;
+}
+
+.work {
+  h2{
+  margin-top: 0;
+  }
+  .post-link {
+    padding-top: 0;
+  }
 }
 
 
@@ -105,18 +120,9 @@
   max-width: 720px;
 }
 
-.post-title {
-  @include relative-font-size(2.625);
-  line-height: 1;
-
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
-  }
-}
-
 .post-content {
   max-width: 720px;
-  margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit*3;
 
   h2 {
     @include relative-font-size(2);
@@ -147,10 +153,25 @@
   margin: $spacing-unit/2 auto;
 }
 
+.post-meta {
+  font-style: italic;
+}
+
 
 /**
  * Columns
 */
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  @include media-query($on-palm) {
+    display: inline-block;
+    margin-bottom: $spacing-unit;
+  }
+}
+
 .col-wrapper {
   margin-left: -$spacing-unit ;
   @extend %clearfix;
@@ -160,6 +181,9 @@
   float: left;
   margin-bottom: $spacing-unit;
   padding-left: $spacing-unit;
+  @include media-query($on-palm) {
+    margin-bottom: $spacing-unit/3;
+  }
 }
 
 .col-2 {
@@ -198,11 +222,47 @@
   }
 }
 
+.col-6 {
+  width: 100%;
+}
+
 /**
  * Home page
 */
+.home h1 {
+  margin-bottom: $spacing-unit*4;
+  @include media-query($on-palm) {
+    margin-bottom: $spacing-unit*2;
+  }
+}
 
-.home li {
-  padding-top: $spacing-unit;
-  padding-bottom: $spacing-unit;
+/**
+ * About page
+*/
+.hi {
+  @include relative-font-size(16);
+  line-height: 1;
+  margin-bottom: $spacing-unit*4;
+  @include media-query($on-laptop) {
+    @include relative-font-size(4);
+    font-weight: bold;
+  }
+}
+.hi:before {
+  content:"你好";
+}
+.hi:hover:before {
+  content:"Hello";
+}
+
+#hi-container {
+  margin-bottom: $spacing-unit*2;
+  padding-left: $spacing-unit/3;
+  @include media-query($on-laptop) {
+    padding-left: $spacing-unit;
+    margin-bottom: $spacing-unit;
+  }
+}
+.about ol {
+  list-style-type: cjk-heavenly-stem;
 }

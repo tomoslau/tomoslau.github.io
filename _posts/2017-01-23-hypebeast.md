@@ -25,12 +25,8 @@ We created a calendar for hypebeasts to track upcoming releases and find out whe
 
 ![HYPEBEAST Drops]({{ "/assets/hb-drops.jpg" }})
 
-## HBX app gesture browsing
+## HBX app
 
-We designed a visual language influenced by brutalism and updated the product-browsing navigation to create a new shopping experience.
+We introduced a gesture-based product browsing navigation and designed a new visual language to improve the shopping experience.
 
 ![HBX app]({{ "/assets/hbx-app-gestures.jpg" }})
-
-## HBX find your size
-
-We improved the usability of the size recommendation by simplifying the measurements input and making subtle styling changes. It resulted in increased click rate and reduced the item return rate. 

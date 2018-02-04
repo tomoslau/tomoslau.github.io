@@ -30,14 +30,19 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
+h1, p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit/4*3;
 }
 
+h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
 
+h1, h2, h3, h4, h5, h6, {
+  margin-top: $spacing-unit;
+}
 
 /**
  * Images
@@ -65,14 +70,16 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
-  margin-left: $spacing-unit;
-}
 
 li {
+  list-style-position: outside;
+  display: list-item;
   > ul,
   > ol {
     margin-bottom: 0;
+  }
+  @include media-query($on-laptop) {
+    margin-left: $spacing-unit;
   }
 }
 
@@ -81,11 +88,15 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+
+h1 {
+  @include relative-font-size(2);
+  line-height: 1.2;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(1.5);
+  }
 }
-
-
 
 /**
  * Links
@@ -155,12 +166,12 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 4));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 4));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding-right: $spacing-unit * 2;
+  padding-left: $spacing-unit * 2;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
