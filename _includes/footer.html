@@ -1,0 +1,43 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="col-wrapper">
+      <div class="col col-2">
+        <ul>
+            <h3>Contact</h3>
+            {% if site.email %}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% endif %}
+        </ul>
+      </div>
+
+      <div class="col col-2">
+        <ul>
+          <h3>Find me</h3>
+          <li>
+            <a href="https://dribbble.com/tomoslau" target="blank">Dribbble</a>
+          </li>
+          <li>
+            <a href="https://instagram.com/tomoslau" target="blank">Instagram</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col col-2">
+        <ul>
+          <h3>Side projects</h3>
+          <li>
+            <a href="http://jookapp.com" target="blank">Jook</a>
+          </li>
+          <li>
+            <a href="http://hikehk.com" target="blank">HikeHK</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>

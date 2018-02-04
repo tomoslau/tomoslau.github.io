@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    {% if page.banner-image %}
+      <img class="banner-image" src="{{ page.banner-image }}">
+    {% endif %}
+    <div class="wrapper">
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="post-meta">
+        {% if page.year %}
+          <span>{{ page.year }}</span>
+        {% endif %}
+        <br>
+        {% if page.role %}
+          <span>{{ page.role }}</span>
+        {% endif %}
+      </p>
+    </div>
+  </header>
+
+  <div class="post-content wrapper">
+    {{ content }}
+  </div>
+
+  <div class="wrapper">
+    <h3>Work</h3>
+    <ul class="post-list col-wrapper">
+      {% for post in site.posts %}
+        <li class="col col-2">
+          <a href="{{ post.url }}" ><img class="thumbnail" src="{{ post.thumbnail }}" /></a>
+          <p>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</article>
