@@ -83,6 +83,12 @@ li {
   }
 }
 
+.post-list li, .site-footer li {
+  @include media-query($on-laptop) {
+    margin-left: 0;
+  }
+}
+
 
 
 /**
