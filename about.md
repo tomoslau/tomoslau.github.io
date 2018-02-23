@@ -25,6 +25,7 @@ I also enjoy waking up early to hit the gym before work, hiking on weekends, and
 
 ### What I'm reading
 1. <a href="https://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0812993012" target="_blank">Creativity, Inc.</a>
+2. <a href="https://www.amazon.com/Wild-Sheep-Chase-Novel/dp/037571894X" target="_blank">A Wild Sheep Chase</a>
 
 ### Accomplishments in 2018 so far
 1. Flew a drone in the office
