@@ -266,7 +266,8 @@ pre {
         font-size: 22.5px; } }
 
 .post-content img {
-  margin: 16px auto; }
+  margin: 16px auto;
+  display: block; }
 
 .post-meta {
   font-style: italic; }
