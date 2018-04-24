@@ -24,8 +24,7 @@ I also enjoy waking up early to hit the gym before work, hiking on weekends, and
 1. 2010 - 2014: BFA in Advertising, SCAD
 
 ### What I'm reading
-1. <a href="https://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0812993012" target="_blank">Creativity, Inc.</a>
-2. <a href="https://www.amazon.com/Wild-Sheep-Chase-Novel/dp/037571894X" target="_blank">A Wild Sheep Chase</a>
+<script src="https://www.goodreads.com/review/custom_widget/53473424.What%20I'm%20reading?cover_position=left&cover_size=small&num_books=5&order=a&shelf=currently-reading&show_author=0&show_cover=0&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1524583101&widget_text_color=000000&widget_title_size=medium&widget_width=medium" type="text/javascript" charset="utf-8"></script>
 
 ### Accomplishments in 2018 so far
 1. Flew a drone in the office

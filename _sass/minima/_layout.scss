@@ -269,3 +269,21 @@
 .about ol {
   list-style-type: cjk-heavenly-stem;
 }
+
+/**
+ * Goodreads widget
+*/
+
+.gr_custom_header_1524583101 {
+  display: none;
+}
+
+.gr_custom_each_container_1524583101 {
+  display: list-item;
+  list-style-position: outside;
+  list-style-type: cjk-heavenly-stem;
+}
+
+.gr_custom_container_1524583101 center, .gr_custom_container_1524583101 br {
+  display: none;
+}
