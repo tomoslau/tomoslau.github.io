@@ -13,11 +13,11 @@ permalink: /about/
   
 I have three years of experience designing interactive experiences for brands in agency and in-house environments, such as Audi, Bupa, Disney, and Hyatt.
 
-I also enjoy waking up early to hit the gym before work, hiking on weekends, and spending quality time with my doggos in the evening.
+I also enjoy hitting the gym before work, hiking, and spending quality time with my doggos.
 
 ### Experience 
 1. 2017 - Present: Designer, HYPEBEAST
-2. 2016 - 2016: Art Director, Isobar
+2. 2016: Art Director, Isobar
 3. 2014 - 2016: Designer, Clarity Labs
 
 ### Education
@@ -28,7 +28,7 @@ I also enjoy waking up early to hit the gym before work, hiking on weekends, and
 
 ### Accomplishments in 2018 so far
 1. Flew a drone in the office
-2. Sole-swapped Nike Gakou and Vans
+2. Sole-swapped Nike Gakou upper + Vans waffle sole
 3. Witnessed the super blue blood moon
 
 </div>
