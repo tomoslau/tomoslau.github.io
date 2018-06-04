@@ -282,6 +282,9 @@
   display: list-item;
   list-style-position: outside;
   list-style-type: cjk-heavenly-stem;
+  @include media-query($on-laptop) {
+    margin-left: $spacing-unit;
+  }
 }
 
 .gr_custom_container_1524583101 center, .gr_custom_container_1524583101 br {
