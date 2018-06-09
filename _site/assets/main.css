@@ -347,6 +347,9 @@ pre {
   display: list-item;
   list-style-position: outside;
   list-style-type: cjk-heavenly-stem; }
+  @media screen and (max-width: 800px) {
+    .gr_custom_each_container_1524583101 {
+      margin-left: 32px; } }
 
 .gr_custom_container_1524583101 center, .gr_custom_container_1524583101 br {
   display: none; }
