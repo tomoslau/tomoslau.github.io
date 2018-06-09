@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /**
  * Reset some basic elements
  */
@@ -335,29 +334,6 @@ pre {
 /**
  * About page
 */
-.hi {
-  font-size: 320px;
-  line-height: 1;
-  margin-bottom: 128px; }
-  @media screen and (max-width: 800px) {
-    .hi {
-      font-size: 80px;
-      font-weight: bold; } }
-
-.hi:before {
-  content: "你好"; }
-
-.hi:hover:before {
-  content: "Hello"; }
-
-#hi-container {
-  margin-bottom: 64px;
-  padding-left: 10.6666666667px; }
-  @media screen and (max-width: 800px) {
-    #hi-container {
-      padding-left: 32px;
-      margin-bottom: 32px; } }
-
 .about ol {
   list-style-type: cjk-heavenly-stem; }
 

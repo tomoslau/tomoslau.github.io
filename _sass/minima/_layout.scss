@@ -242,30 +242,7 @@
 /**
  * About page
 */
-.hi {
-  @include relative-font-size(16);
-  line-height: 1;
-  margin-bottom: $spacing-unit*4;
-  @include media-query($on-laptop) {
-    @include relative-font-size(4);
-    font-weight: bold;
-  }
-}
-.hi:before {
-  content:"你好";
-}
-.hi:hover:before {
-  content:"Hello";
-}
 
-#hi-container {
-  margin-bottom: $spacing-unit*2;
-  padding-left: $spacing-unit/3;
-  @include media-query($on-laptop) {
-    padding-left: $spacing-unit;
-    margin-bottom: $spacing-unit;
-  }
-}
 .about ol {
   list-style-type: cjk-heavenly-stem;
 }
