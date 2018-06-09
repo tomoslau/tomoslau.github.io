@@ -43,7 +43,11 @@
   }
 }
 
-
+.site-title, .site-nav {
+  @include media-query($on-palm) {
+    @include relative-font-size(0.9);
+  }
+}
 
 /**
  * Site footer
