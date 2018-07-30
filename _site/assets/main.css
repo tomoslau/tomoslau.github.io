@@ -20,6 +20,12 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal; }
+  @media screen and (max-width: 600px) {
+    body {
+      font-size: 17px; } }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -29,11 +35,15 @@ ul, ol, dl, figure,
 .highlight {
   margin-bottom: 24px; }
 
-h2, h3, h4, h5, h6 {
+h2 {
+  margin-bottom: 10.6666666667px; }
+
+h3, h4, h5, h6 {
   margin-bottom: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 32px; }
+  margin-top: 32px;
+  line-height: 1.2; }
 
 /**
  * Images
@@ -72,11 +82,16 @@ li {
  * Headings
  */
 h1 {
-  font-size: 40px;
-  line-height: 1.2; }
+  font-size: 40px; }
   @media screen and (max-width: 800px) {
     h1 {
       font-size: 30px; } }
+
+h2 {
+  font-size: 26.6px; }
+
+h3 {
+  font-size: 20px; }
 
 /**
  * Links
@@ -136,10 +151,10 @@ pre {
   padding-left: 64px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(1200px - (32px));
-      max-width: calc(1200px - (32px));
-      padding-right: 16px;
-      padding-left: 16px; } }
+      max-width: -webkit-calc(1200px - (32px / 0.8));
+      max-width: calc(1200px - (32px / 0.8));
+      padding-right: 20px;
+      padding-left: 20px; } }
 
 /**
  * Clearfix
@@ -164,8 +179,7 @@ pre {
 .site-header {
   min-height: 59.68px;
   width: 100%;
-  position: fixed;
-  font-weight: bold; }
+  position: fixed; }
   .site-header a {
     text-decoration: none; }
   .site-header a:hover {
@@ -226,13 +240,15 @@ pre {
 
 .post-link {
   display: block;
-  padding-top: 10.6666666667px;
-  font-weight: bold; }
+  padding-top: 10.6666666667px; }
 
 .work h2 {
   margin-top: 0; }
 .work .post-link {
   padding-top: 0; }
+.work span {
+  font-size: 13.2px;
+  text-transform: uppercase; }
 
 /**
  * Posts
@@ -250,30 +266,14 @@ pre {
 .post-content {
   max-width: 720px;
   margin-bottom: 96px; }
-  .post-content h2 {
-    font-size: 40px;
-    line-height: 1.1;
-    margin-bottom: 16px; }
-    @media screen and (max-width: 800px) {
-      .post-content h2 {
-        font-size: 35px; } }
-  .post-content h3 {
-    font-size: 32.5px; }
-    @media screen and (max-width: 800px) {
-      .post-content h3 {
-        font-size: 27.5px; } }
-  .post-content h4 {
-    font-size: 25px; }
-    @media screen and (max-width: 800px) {
-      .post-content h4 {
-        font-size: 22.5px; } }
 
 .post-content img {
   margin: 16px auto;
   display: block; }
 
 .post-meta {
-  font-style: italic; }
+  font-size: 13.2px;
+  text-transform: uppercase; }
 
 /**
  * Columns
@@ -296,7 +296,7 @@ pre {
   padding-left: 32px; }
   @media screen and (max-width: 600px) {
     .col {
-      margin-bottom: 10.6666666667px; } }
+      margin-bottom: 16px; } }
 
 .col-2 {
   width: -webkit-calc(calc(100%  /3) - (32px ));
@@ -338,9 +338,6 @@ pre {
 /**
  * About page
 */
-.about ol {
-  list-style-type: cjk-heavenly-stem; }
-
 /**
  * Goodreads widget
 */
@@ -349,8 +346,7 @@ pre {
 
 .gr_custom_each_container_1524583101 {
   display: list-item;
-  list-style-position: outside;
-  list-style-type: cjk-heavenly-stem; }
+  list-style-position: outside; }
   @media screen and (max-width: 800px) {
     .gr_custom_each_container_1524583101 {
       margin-left: 32px; } }

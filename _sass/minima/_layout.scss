@@ -5,7 +5,6 @@
   min-height: $spacing-unit * 1.865;
   width: 100%;
   position: fixed;
-  font-weight: bold;
 
   a {
     text-decoration: none;
@@ -95,7 +94,6 @@
 .post-link {
   display: block;
   padding-top: $spacing-unit /3;
-  font-weight: bold;
 }
 
 .work {
@@ -104,6 +102,10 @@
   }
   .post-link {
     padding-top: 0;
+  }
+  span {
+    @include relative-font-size(0.66);
+    text-transform: uppercase;
   }
 }
 
@@ -127,32 +129,6 @@
 .post-content {
   max-width: 720px;
   margin-bottom: $spacing-unit*3;
-
-  h2 {
-    @include relative-font-size(2);
-    line-height: 1.1;
-    margin-bottom: $spacing-unit/2;
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.75);
-    }
-  }
-
-  h3 {
-    @include relative-font-size(1.625);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.375);
-    }
-  }
-
-  h4 {
-    @include relative-font-size(1.25);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.125);
-    }
-  }
 }
 
 .post-content img {
@@ -161,7 +137,8 @@
 }
 
 .post-meta {
-  font-style: italic;
+  @include relative-font-size(0.66);
+    text-transform: uppercase;
 }
 
 
@@ -189,7 +166,7 @@
   margin-bottom: $spacing-unit;
   padding-left: $spacing-unit;
   @include media-query($on-palm) {
-    margin-bottom: $spacing-unit/3;
+    margin-bottom: $spacing-unit/2;
   }
 }
 
@@ -247,10 +224,6 @@
  * About page
 */
 
-.about ol {
-  list-style-type: cjk-heavenly-stem;
-}
-
 /**
  * Goodreads widget
 */
@@ -262,7 +235,6 @@
 .gr_custom_each_container_1524583101 {
   display: list-item;
   list-style-position: outside;
-  list-style-type: cjk-heavenly-stem;
   @include media-query($on-laptop) {
     margin-left: $spacing-unit;
   }

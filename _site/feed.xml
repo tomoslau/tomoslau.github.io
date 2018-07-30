@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-09T17:45:55+08:00</updated><id>http://localhost:4000/</id><title type="html">Tom Lau</title><subtitle>Tom Lau is a Hong Kong-based designer who loves to create useful and aesthetic products.</subtitle><entry><title type="html">HYPEBEAST feed personalization</title><link href="http://localhost:4000/hypebeast-feed-personalization/" rel="alternate" type="text/html" title="HYPEBEAST feed personalization" /><published>2017-10-01T00:00:00+08:00</published><updated>2017-10-01T00:00:00+08:00</updated><id>http://localhost:4000/hypebeast-feed-personalization</id><content type="html" xml:base="http://localhost:4000/hypebeast-feed-personalization/">&lt;p&gt;During my job interview at HYPEBEAST, I was asked a question: “If you were to improve one thing on HYPEBEAST, what would it be?”&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-30T22:51:52+08:00</updated><id>http://localhost:4000/</id><title type="html">Tom Lau</title><subtitle>Tom Lau is a Hong Kong-based designer who loves to create useful and aesthetic products.</subtitle><entry><title type="html">HYPEBEAST feed personalization</title><link href="http://localhost:4000/hypebeast-feed-personalization/" rel="alternate" type="text/html" title="HYPEBEAST feed personalization" /><published>2017-10-01T00:00:00+08:00</published><updated>2017-10-01T00:00:00+08:00</updated><id>http://localhost:4000/hypebeast-feed-personalization</id><content type="html" xml:base="http://localhost:4000/hypebeast-feed-personalization/">&lt;p&gt;During my job interview at HYPEBEAST, I was asked a question: “If you were to improve one thing on HYPEBEAST, what would it be?”&lt;/p&gt;
 
 &lt;p&gt;As a moderate sneakerhead, I often went on HYPEBEAST to read about the latest and upcoming sneaker releases. I rarely browsed the home feed because the “Latest” feed was full of content from other categories that I wasn’t as interested about. I found myself always tapping on “Footwear” on the navigation bar. On mobile, this was two additional taps. So I told my interviewer that I would love HYPEBEAST to show more relevant content to readers.&lt;/p&gt;
 
 &lt;p&gt;This became one of the first projects I got to work on after joining HYPEBEAST in early 2017.&lt;/p&gt;
 
-&lt;h3 id=&quot;validating-the-problem&quot;&gt;Validating the problem&lt;/h3&gt;
+&lt;h2 id=&quot;validating-the-problem&quot;&gt;Validating the problem&lt;/h2&gt;
 
 &lt;p&gt;We started by talking about the problem internally and found out a majority of us had the same problem. We also learned that although our readers have similar interests in streetwear (mainly fashion and footwear), they also have different interests in other news categories like art, design, and automotive. We wanted to make it easier for readers to view content that they want to read.&lt;/p&gt;
 
-&lt;h3 id=&quot;testing-solutions&quot;&gt;Testing solutions&lt;/h3&gt;
+&lt;h2 id=&quot;testing-solutions&quot;&gt;Testing solutions&lt;/h2&gt;
 
 &lt;p&gt;The most straightforward solution we had was to create a filter that is saved to the reader’s profile. News aggregators, like Feedly, Flipboard, and Apple News are great at doing this. Readers are shown stories based on topics and news sources they follow.&lt;/p&gt;
 
@@ -18,7 +18,7 @@
 
 &lt;p&gt;We decided to go ahead with allowing users to pick their interests so that users have more control over what they see, as well as fitting within the project timeline constraints.&lt;/p&gt;
 
-&lt;h3 id=&quot;limitations--project-constraints&quot;&gt;Limitations / Project constraints&lt;/h3&gt;
+&lt;h2 id=&quot;limitations--project-constraints&quot;&gt;Limitations / Project constraints&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;The feature is to be rolled out on iOS and Android apps first, since there are more loyal readers there compared to the web, where traffic is predominantly coming from social media.&lt;/li&gt;
@@ -26,7 +26,7 @@
   &lt;li&gt;Personalization supports all five languages — now six (with different categories per language.)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;reducing-friction&quot;&gt;Reducing friction&lt;/h3&gt;
+&lt;h2 id=&quot;reducing-friction&quot;&gt;Reducing friction&lt;/h2&gt;
 
 &lt;p&gt;The app personalization is linked to the user’s account instead of storing locally so that it’s synced across devices (and on web in the future), just like the existing bookmarks feature. Ideally this feature could be synced, but also available to non-registered users. However, due to technical constraints and marketing incentives, we decided to make it available for registered users only.&lt;/p&gt;
 
@@ -42,7 +42,7 @@
 
 &lt;p&gt;Although images add a visual impact to the design, it’s unrealistic because they have to be updated frequently, as “hype” products go out of trend very quickly. Displaying the list of categories inline allowed the flexibility for different languages to fill up the modal from the bottom without creating excessive vertical space and hindering reachability.&lt;/p&gt;
 
-&lt;h3 id=&quot;extendability&quot;&gt;Extendability&lt;/h3&gt;
+&lt;h2 id=&quot;extendability&quot;&gt;Extendability&lt;/h2&gt;
 
 &lt;p&gt;The feed is the first step of user personalization. We also looked at rolling out personalized notifications with the same categories selected for the feed, along with a tailored newsletter experience.&lt;/p&gt;
 
@@ -52,7 +52,7 @@
 
 &lt;p&gt;Based on the feedback, we created options that allow users to select different topics for notifications. We suggested categorizing notifications by &lt;em&gt;Breaking News&lt;/em&gt;, which is pushed less frequently but includes all categories, and &lt;em&gt;Your Topics&lt;/em&gt;. The unlinked option allows more customization, but adds additional steps to the onboarding flow.&lt;/p&gt;
 
-&lt;h3 id=&quot;what-we-learned&quot;&gt;What we learned&lt;/h3&gt;
+&lt;h2 id=&quot;what-we-learned&quot;&gt;What we learned&lt;/h2&gt;
 
 &lt;p&gt;As of October 2017 (four months since launch), there are 31,002 subscribers out of 150,527 monthly active users.&lt;/p&gt;
 
@@ -66,7 +66,7 @@
 
 &lt;p&gt;Due to the amount of Fashion and Footwear content published compared to other categories, users subscribed to both Fashion and Footwear end up having similar feeds between Latest (landing feed) and Your Feed. To make the feed more relevant and personal to each user, we redefined Your Feed as “popular stories about things you care about that you haven’t seen yet.”&lt;/p&gt;
 
-&lt;h3 id=&quot;whats-next&quot;&gt;What’s next&lt;/h3&gt;
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;We recently modified the feed by only showing posts above a certain level of “hype” — a metric we rolled out on website from views and engagement.&lt;/li&gt;
