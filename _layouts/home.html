@@ -3,26 +3,45 @@ layout: default
 ---
 
 <div class="home wrapper">
-  <h1>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</h1>
-  <ul class="post-list col-wrapper work">
-    {% for post in site.posts %}
-      <li class="row">
-        <div class="col col-3">
-          <a href="{{ post.url }}" ><img class="thumbnail" src="{{ post.thumbnail }}" /></a>
+  <div class="section bio tofadein">
+    <div class="measure">
+      <h1>Hey, I’m Tom Lau.</h1>
+      <p>I always wear black because I have a tendency to spill coffee or tam jai soup on my shirt.</p>
+      <p>Currently, I live in Hong Kong and I'm a product designer at GoGoVan. Before that, I was a designer at HYPEBEAST and an art director at Isobar. I also created <a href="http://jookapp.com" target="_blank">Jook, a jukebox for parties.</a> Interested in working with me? Message me: <a href="mailto:tomoslau@gmail.com">tomoslau@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="work-header tofadein-second">
+      <h2>Case studies &darr;</h2>
+    </div>
+    <div class="grid grid-d2-m1 work-grid">
+      {% for post in site.posts %}
+        <div class="grid-item work-item scrollreveal">
+          <a href="{{ post.url }}" class="link-reset">
+            <figure>
+              <img class="thumbnail" src="{{ post.thumbnail }}" />
+            </figure>
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.description }}</p>
+          </a>
         </div>
-        <div class="col col-3">
-          <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h2>
-          <span>{{ post.role }}</span> · <span>{{ post.type}}</span>
-        </div>
-        
-          <!--
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-        
-      </li>
-    {% endfor %}
-  </ul>
-  <h2>See more work on <a href="https://dribbble.com/tomoslau" target="_blank">Dribbble</a></h2>
+      {% endfor %}
+    </div>
+  </div>
+  <hr>
+  <div class="section grid grid-d2-m1">
+    <div class="grid-item">
+      <h2>Specialties</h2>
+      <ul class="list-reset">
+        <li>Product Design</li>
+        <li>User Experience Design</li>
+        <li>User Interface Design</li>
+      </ul>
+    </div>
+    <div class="grid-item">
+      <h2>What I’m Reading</h2>
+      <script src="https://www.goodreads.com/review/custom_widget/53473424.What%20I'm%20reading?cover_position=left&cover_size=small&num_books=5&order=a&shelf=currently-reading&show_author=0&show_cover=0&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1524583101&widget_text_color=000000&widget_title_size=medium&widget_width=medium" type="text/javascript" charset="utf-8"></script>
+    </div>
+  </div>
+  <hr>
 </div>

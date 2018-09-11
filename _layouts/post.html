@@ -5,42 +5,50 @@ layout: default
 
   <header class="post-header">
     {% if page.banner-image %}
-      <img class="banner-image" src="{{ page.banner-image }}">
+      <img class="banner-image tofadein" src="{{ page.banner-image }}">
     {% endif %}
-    <div class="wrapper">
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-      <p class="post-meta">
-        {% if page.year %}
-          <span>{{ page.year }}</span>
-        {% endif %}
-        <br>
-        {% if page.role %}
-          <span>{{ page.role }}</span>
-        {% endif %}
-        <br>
-        {% if page.type %}
-          <span>{{ page.type }}</span>
-        {% endif %}
+    <div class="wrapper tofadein-second">
+      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+      <h2 class="post-subtitle">{{ page.description }}</h2>
+      <ul class="post-meta list-reset">
+        <li>{{ page.year }}</li>
+        <li>{{ page.role }}</li>
+      </ul>
       </p>
     </div>
   </header>
 
-  <div class="post-content wrapper">
-    {{ content }}
-  </div>
 
-  <div class="wrapper">
-    <h3>Work</h3>
-    <ul class="post-list col-wrapper">
-      {% for post in site.posts %}
-        <li class="col col-2">
-          <a href="{{ post.url }}" ><img class="thumbnail" src="{{ post.thumbnail }}" /></a>
-          <p>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </p>
-        </li>
-      {% endfor %}
+
+  <div class="post-content wrapper tofadein-second">
+    {{ content }}
+    <ul class="list-reset">
+        {% if page.website-link %}
+        <li><a class="button button-secondary" href="{{ page.website-link }}" target="_blank">Visit website</a></li>
+        {% endif %}
+        {% if page.appstore-link %}
+        <li><a class="button button-secondary" href="{{ page.appstore-link }}" target="_blank">View {{ page.title }} on the App Store</a></li>
+        {% endif %}
+        {% if page.googleplay-link %}
+        <li><a class="button button-secondary" href="{{ page.googleplay-link }}" target="_blank">View {{ page.title }} on Google Play</a></li>
+        {% endif %}
     </ul>
+  </div>
+  <div class="wrapper">
+    <hr>
+    {% if page.previous.url %}
+    <div class="next-project work-item">
+      <a href="{{ page.previous.url }}" class="link-reset">
+        <h2>Next project &rarr;</h2>
+        <figure>
+          <img src="{{ page.previous.thumbnail }}" />
+        </figure>
+        <h3>{{ page.previous.title }}</h3>
+        <p>{{ page.previous.description }}</p>
+      </a>
+    </div>
+    <hr>
+    {% endif %}
   </div>
 
 </article>

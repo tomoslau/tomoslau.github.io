@@ -1,0 +1,16 @@
+.scrollreveal, .tofadein, .tofadein-second {
+    opacity:0;
+}
+
+.fadein {
+  opacity: 1;
+  transition: all 400ms ease-out;
+}
+.move {
+  transform: translate(0, -16px);
+  transition: all 400ms ease-out;
+}
+
+.delay {
+  transition-delay: 240ms;
+}

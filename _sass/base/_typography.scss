@@ -1,0 +1,116 @@
+html {
+	font-size: $base-font-size;
+}
+
+body {
+	font-size: 100%;
+	color: $color-text;
+	font-family: 'Helvetica Neue', 'Segoe UI', Roboto, sans-serif;
+	font-weight: $base-font-weight;
+	line-height: $base-line-height;
+	text-rendering: optimizeLegibility;
+}
+
+a {
+	color: $color-text;
+	text-decoration: none;
+	border-bottom: 1px solid $color-text;
+	&:hover {
+		color: $color-link-hover;
+		border-bottom: 1px solid $color-link-hover;
+	}
+	&.link-cta {
+		color: $color-link;
+		border-bottom: none;
+		&:hover {
+			color: $color-link-hover;
+		}
+	}
+}
+
+.link-reset {
+	color: $color-text;
+	border-bottom: none;
+	&:hover {
+		color: $color-text;
+		border-bottom: none;
+	}
+}
+
+h1, h2, h3, h4 {
+	font-weight: $heading-font-weight;
+	line-height: $heading-line-height;
+}
+
+h1 {
+	font-size: $base-font-size*3;
+	@include breakpoint(xs) {
+		font-size: $base-font-size*2;
+	}
+}
+
+h2 {
+	font-size: $base-font-size*1.5;
+	@include breakpoint(xs) {
+		font-size: $base-font-size*1.25;
+	}
+}
+
+h3 {
+	font-size: $base-font-size*1.25;
+	@include breakpoint(xs) {
+		font-size: $base-font-size;
+	}
+}
+
+h4 {
+	font-size: $base-font-size*1.25;
+	@include breakpoint(xs) {
+		font-size: $base-font-size;
+	}
+}
+
+p {
+	font-size: $base-font-size*1.125;
+	margin: 1.125rem 0;
+	&:first-child {
+		margin-top: 0;
+	}
+	&:last-child {
+		margin-bottom: 0;
+	}
+	@include breakpoint(xs) {
+		font-size: $base-font-size;
+	}
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	font-size: $base-font-size*1.125;
+	list-style-position: outside;
+	margin: 0.64rem 0;
+	@include breakpoint(xs) {
+		font-size: $base-font-size;
+		margin-left: 1.5em;
+	}
+}
+
+.list-reset {
+	list-style-type: none;
+	li {
+		@include breakpoint(xs) {
+			margin-left: 0;
+		}
+	}
+}
+
+small {
+	font-size: $base-font-size*0.875;
+}
+
+hr {
+	border-top: 1px solid #ddd;
+}

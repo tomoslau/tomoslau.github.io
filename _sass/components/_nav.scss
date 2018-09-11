@@ -1,0 +1,29 @@
+.site-header {
+  width: 100%;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  font-size: $base-font-size*1.125;
+  line-height: $base-line-height;
+  @include breakpoint(xs) {
+    font-size: $base-font-size;
+  }
+}
+
+.site-title {
+  float: left;
+  font-weight: 700;
+}
+
+.site-nav {
+  float: right;
+
+  .page-link {
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}

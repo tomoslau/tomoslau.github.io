@@ -1,0 +1,42 @@
+.bio {
+	width:100%;
+	margin-top: 2rem;
+	background-image: url("/assets/bg-pp.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	height: 480px;
+	display: flex;
+	align-items: center;
+	@include breakpoint(xs) {
+		height: 320px;
+		margin: 6rem 0;
+ 	}
+ }
+
+ .bio .measure {
+ 	max-width: $max-line-length;
+ }
+
+ .work-header {
+ 	margin-bottom: 2rem;
+ }
+ 
+ // Work grid
+.work-grid {
+	padding-bottom: 200px;
+	@include breakpoint (xs) {
+		padding-bottom: 0;
+	}
+	.work-item {
+		&:nth-child(even) {
+	      position: relative;
+	      @include breakpoint(sm) {
+	        top: 200px;
+	      }
+	      @include breakpoint(md) {
+	        top: 200px;
+	      }
+	    }
+	}
+}

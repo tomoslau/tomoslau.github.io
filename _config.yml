@@ -16,17 +16,18 @@
 title: Tom Lau
 email: tomoslau@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Tom Lau is a Hong Kong-based designer who loves to create useful and aesthetic products.
+  I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tomoslau.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 
-exclude: [vendor]
+# Sass
+sass:
+  sass_dir: _sass
+  style: :compressed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -1,0 +1,59 @@
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	@include breakpoint (xs) {
+		padding: 0 1.25rem;
+	}
+	@include breakpoint(sm) {
+		padding: 0 2rem;
+	}
+}
+
+.section {
+	@include breakpoint(xs) {
+		margin: 3em 0;
+	}
+	@include breakpoint(sm) {
+		margin: 6em 0;
+	}	
+}
+
+.grid {
+	@include breakpoint(sm) {
+		display: grid;
+	}
+	&-item {
+		@include breakpoint(xs) {
+			margin-bottom: 3em;
+		}
+	}
+}
+
+.grid-d2-m1 {
+	grid-template-columns: 1fr 1fr;
+	justify-content: space-between;
+	@include breakpoint(sm) {
+		grid-gap: 2em;
+	}
+	@include breakpoint(md) {
+		grid-gap: 6em;
+	}
+}
+
+.page-content {
+  padding: 0 0 $spacing-unit 0;
+}
+
+// Adds padding to pages without banner
+.home, .page {
+  padding-top: $spacing-unit*4;
+
+  @include breakpoint(xs) {
+    padding-top: $spacing-unit/2;
+  }
+}
+
+//Images
+img {
+	width: 100%;
+}

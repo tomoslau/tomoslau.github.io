@@ -1,78 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-30T22:51:52+08:00</updated><id>http://localhost:4000/</id><title type="html">Tom Lau</title><subtitle>Tom Lau is a Hong Kong-based designer who loves to create useful and aesthetic products.</subtitle><entry><title type="html">HYPEBEAST feed personalization</title><link href="http://localhost:4000/hypebeast-feed-personalization/" rel="alternate" type="text/html" title="HYPEBEAST feed personalization" /><published>2017-10-01T00:00:00+08:00</published><updated>2017-10-01T00:00:00+08:00</updated><id>http://localhost:4000/hypebeast-feed-personalization</id><content type="html" xml:base="http://localhost:4000/hypebeast-feed-personalization/">&lt;p&gt;During my job interview at HYPEBEAST, I was asked a question: “If you were to improve one thing on HYPEBEAST, what would it be?”&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-11T22:59:01+08:00</updated><id>http://localhost:4000/</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">HYPEBEAST</title><link href="http://localhost:4000/hypebeast-mobile-redesign/" rel="alternate" type="text/html" title="HYPEBEAST" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://localhost:4000/hypebeast-mobile-redesign</id><content type="html" xml:base="http://localhost:4000/hypebeast-mobile-redesign/">&lt;p&gt;&lt;a href=&quot;http://hypebeast.com&quot;&gt;HYPEBEAST&lt;/a&gt; is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music. Our readers get their dose of hype through social media, website, and app. Of these channels, our most loyal readers use the app. In turn, readers who download the app have increased retention.&lt;/p&gt;
 
-&lt;p&gt;As a moderate sneakerhead, I often went on HYPEBEAST to read about the latest and upcoming sneaker releases. I rarely browsed the home feed because the “Latest” feed was full of content from other categories that I wasn’t as interested about. I found myself always tapping on “Footwear” on the navigation bar. On mobile, this was two additional taps. So I told my interviewer that I would love HYPEBEAST to show more relevant content to readers.&lt;/p&gt;
+&lt;p&gt;Our goal was to increase our loyal readership by improving the mobile app reading experience and marketing. During 2017 and 2018, I redesigned HYPEBEAST’s mobile apps to foster a better reading experience. Below are a few changes we shipped.&lt;/p&gt;
 
-&lt;p&gt;This became one of the first projects I got to work on after joining HYPEBEAST in early 2017.&lt;/p&gt;
+&lt;h2 id=&quot;creating-a-more-familiar-experience-for-both-platforms&quot;&gt;Creating a more familiar experience for both platforms&lt;/h2&gt;
 
-&lt;h2 id=&quot;validating-the-problem&quot;&gt;Validating the problem&lt;/h2&gt;
+&lt;p&gt;When I joined the team, HYPEBEAST’s Android app was designed and developed to mimic the iOS counterpart. The prioritization to design for iOS only was due to the 80% iOS and 20% Android monthly active users split.&lt;/p&gt;
 
-&lt;p&gt;We started by talking about the problem internally and found out a majority of us had the same problem. We also learned that although our readers have similar interests in streetwear (mainly fashion and footwear), they also have different interests in other news categories like art, design, and automotive. We wanted to make it easier for readers to view content that they want to read.&lt;/p&gt;
+&lt;p&gt;This created an &lt;strong&gt;unfamiliar interactive and visual experience&lt;/strong&gt; for our Android readers, as well as a &lt;strong&gt;reduction in app performance&lt;/strong&gt; due to custom components and animations based on iOS. Furthermore, Google Play refused to feature our app due to several usability and visual issues addressed in the Material Design guidelines.&lt;/p&gt;
 
-&lt;h2 id=&quot;testing-solutions&quot;&gt;Testing solutions&lt;/h2&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/hb-material.jpg&quot; alt=&quot;Application of Material Design patterns to the Android app&quot; /&gt;&lt;/figure&gt;
 
-&lt;p&gt;The most straightforward solution we had was to create a filter that is saved to the reader’s profile. News aggregators, like Feedly, Flipboard, and Apple News are great at doing this. Readers are shown stories based on topics and news sources they follow.&lt;/p&gt;
+&lt;p&gt;To make our app less confusing for our app readers, &lt;strong&gt;we utilized patterns shared by both iOS and Android platforms, while conforming to Human Interface Guidelines and Material Design specs.&lt;/strong&gt; We applied Jakob’s law by ensuring our app works the the same way as all the other apps they use. For example, both apps share a bottom tab bar as the primary navigation, but details such as the bar height, shadow “elevation”, and transitions differed.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*NWE17Q7StqRmkhM42v8KCw.jpeg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We used native components and system icons wherever possible.&lt;/strong&gt; By removing custom components and animations, such as the app bar and iOS-style “back” transition, the Android app felt more snappy and familiar according to our testers. This resulted in a &amp;lt;400ms (Doherty Threshold) interaction feedback on lower end devices.&lt;/p&gt;
 
-&lt;p&gt;Another solution is to use an algorithm to show users stories based on their engagement, like how Google News suggests stories based on users’ search activity.&lt;/p&gt;
+&lt;h2 id=&quot;improving-readability-andfocus&quot;&gt;Improving readability and focus&lt;/h2&gt;
 
-&lt;p&gt;We decided to go ahead with allowing users to pick their interests so that users have more control over what they see, as well as fitting within the project timeline constraints.&lt;/p&gt;
+&lt;p&gt;We received feedback from our readers and internally that our app looks dated. This is apparent when compared to our competitors and other apps. Instead of simply following the minimalism trend, we decided to take this opportunity to improve readability and focus as a whole.&lt;/p&gt;
 
-&lt;h2 id=&quot;limitations--project-constraints&quot;&gt;Limitations / Project constraints&lt;/h2&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/hb-home.jpg&quot; alt=&quot;News feed: before and after&quot; /&gt;&lt;/figure&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;The feature is to be rolled out on iOS and Android apps first, since there are more loyal readers there compared to the web, where traffic is predominantly coming from social media.&lt;/li&gt;
-  &lt;li&gt;The latest feed remains as the default landing feed to always show pinned feature and sale posts at the top.&lt;/li&gt;
-  &lt;li&gt;Personalization supports all five languages — now six (with different categories per language.)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;We avoided long headlines on images&lt;/strong&gt; for articles where editors and designers don’t have control over placement and styling. Previously, the gradient overlays made images too dark, covered parts of images, and sometimes created undesirable visuals. The revised design allows both headline and image to be clear, and also uses the same assets across mobile, tablet and desktop designs to simplify editors’ workflow.&lt;/p&gt;
 
-&lt;h2 id=&quot;reducing-friction&quot;&gt;Reducing friction&lt;/h2&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/hb-style.jpg&quot; alt=&quot;Visual styling revisited&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/hb-components.jpg&quot; alt=&quot;App components&quot; /&gt;&lt;/figure&gt;
 
-&lt;p&gt;The app personalization is linked to the user’s account instead of storing locally so that it’s synced across devices (and on web in the future), just like the existing bookmarks feature. Ideally this feature could be synced, but also available to non-registered users. However, due to technical constraints and marketing incentives, we decided to make it available for registered users only.&lt;/p&gt;
+&lt;p&gt;We revisited the typography to &lt;strong&gt;create a stronger hierarchy&lt;/strong&gt;. Readers can identify important news and sponsored posts based on prominence. We reduced the complexity of icons to make them more recognizable. We also implemented new color guidelines to improve contrast and meet WCAG guidelines, and a soft 8-point grid to create vertical rhythm, consistent spacing and increased proximity.&lt;/p&gt;
 
-&lt;p&gt;To cater our multilingual readers, we linked categories across different languages so they don’t have to set up their preferences again when they switch to a new language.&lt;/p&gt;
+&lt;h2 id=&quot;more-natural-and-familiar-gesture-controls&quot;&gt;More natural and familiar gesture controls&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*WbFoot4UTue8jbgq2JY3sQ.gif&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;In usability tests, we noticed readers trying to use certain gesture controls, but the app failed to do their desired action. Some gestures are not native to the platform but are so common in popular apps that readers expect them to work.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;An early prototype I created in Origami.&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;
+&lt;div class=&quot;video-wrapper&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1d6cTwAg_cM&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
 
-&lt;p&gt;We ask new readers to pick their interests right after sign up. Returning readers and those who skip sign up see an empty state with a call to action when they tap on “Your Feed” tab. This way, users know about the feature, but also have the option to browse without signing up or personalizing their feed.&lt;/p&gt;
+&lt;p&gt;For example, we learned that many iOS readers didn’t know that tapping on the status bar scrolls to top. Instead, they tried to scroll to top by tapping on the bottom bar again. We added this gesture control to both platforms. We also made sure all the tabs were swipeable, and image galleries can be closed based on vertical gestures (flicking away).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*W-WNAWaa9A-zvJP9hRfcZA.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Our readers love reading article comments. However, navigating from comments back to the article was difficult on iOS. Due to the limitations with Disqus, we loaded the comments on a separate page. Previously, this was presented as a full page modal, with a close button on the top bar away from the thumb zone. Android readers didn’t have this problem because it could be closed by tapping the back button. To make it easier to navigate, we changed the comments page so it pushed in from the right, and added the familiar swipe back gesture.&lt;/p&gt;
 
-&lt;p&gt;Although images add a visual impact to the design, it’s unrealistic because they have to be updated frequently, as “hype” products go out of trend very quickly. Displaying the list of categories inline allowed the flexibility for different languages to fill up the modal from the bottom without creating excessive vertical space and hindering reachability.&lt;/p&gt;
-
-&lt;h2 id=&quot;extendability&quot;&gt;Extendability&lt;/h2&gt;
-
-&lt;p&gt;The feed is the first step of user personalization. We also looked at rolling out personalized notifications with the same categories selected for the feed, along with a tailored newsletter experience.&lt;/p&gt;
-
-&lt;p&gt;We designed the onboarding flow with personalized notifications in mind. By adding a notification prompt right after the reader chooses their topics, it becomes more relevant and meaningful. Previously, the prompt was triggered based on a number of page views.&lt;/p&gt;
-
-&lt;p&gt;However, after creating a prototype and testing it with users, I realized I was wrong to assume that people wanted to receive notifications based on the same topics they chose for their feed. Some users wanted to receive more specific notifications, and some wanted a wider set of notifications.&lt;/p&gt;
-
-&lt;p&gt;Based on the feedback, we created options that allow users to select different topics for notifications. We suggested categorizing notifications by &lt;em&gt;Breaking News&lt;/em&gt;, which is pushed less frequently but includes all categories, and &lt;em&gt;Your Topics&lt;/em&gt;. The unlinked option allows more customization, but adds additional steps to the onboarding flow.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-we-learned&quot;&gt;What we learned&lt;/h2&gt;
-
-&lt;p&gt;As of October 2017 (four months since launch), there are 31,002 subscribers out of 150,527 monthly active users.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;96% of users are subscribed to Fashion, and 95% Footwear. 63% Music.&lt;/li&gt;
-  &lt;li&gt;A majority of users subscribe to two categories, with the number falling off as the number of categories increase.&lt;/li&gt;
-  &lt;li&gt;Subscribers view Your Feed once every three days on average.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*isVJbFBPdDvVQ58no0cXpA.jpeg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Due to the amount of Fashion and Footwear content published compared to other categories, users subscribed to both Fashion and Footwear end up having similar feeds between Latest (landing feed) and Your Feed. To make the feed more relevant and personal to each user, we redefined Your Feed as “popular stories about things you care about that you haven’t seen yet.”&lt;/p&gt;
-
-&lt;h2 id=&quot;whats-next&quot;&gt;What’s next&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We recently modified the feed by only showing posts above a certain level of “hype” — a metric we rolled out on website from views and engagement.&lt;/li&gt;
-  &lt;li&gt;Test and build a “seen” feature, so that stories that have been read or seen by the user won’t be shown again on the feed. This will allow us to test a wider range of sorting, since the latest posts won’t always have to be at the top for the feed to appear fresh.&lt;/li&gt;
-  &lt;li&gt;Test algorithms where posts are shown based on the user’s browsing history, hype, time published. For example, a user who reads a lot about Off-White will see more stories about Off-White in their feed. This also reduces friction by allowing us to remove the Choose Your Topics flow, and Your Feed will be accessible to everyone immediately, hopefully reducing drop-off and allowing our non registered users to view Your Feed.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">During my job interview at HYPEBEAST, I was asked a question: “If you were to improve one thing on HYPEBEAST, what would it be?”</summary></entry><entry><title type="html">Jook</title><link href="http://localhost:4000/jook/" rel="alternate" type="text/html" title="Jook" /><published>2017-01-01T00:00:00+08:00</published><updated>2017-01-01T00:00:00+08:00</updated><id>http://localhost:4000/jook</id><content type="html" xml:base="http://localhost:4000/jook/">&lt;p&gt;Jook is a side project I’ve been working on with &lt;a href=&quot;https://twitter.com/Kahou526&quot;&gt;Lucas Kuan&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/MaBoXiu&quot;&gt;Matthieu Bodin&lt;/a&gt;. I focus on design, front-end web development, user testing, and data analysis.&lt;/p&gt;
+&lt;p&gt;Since shipping these updates, our app reviews improved, and the app was featured on Google Play and the App Store. In 2017, we grew from 32k to 73k monthly active users.&lt;/p&gt;</content><author><name></name></author><summary type="html">HYPEBEAST is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music. Our readers get their dose of hype through social media, website, and app. Of these channels, our most loyal readers use the app. In turn, readers who download the app have increased retention.</summary></entry><entry><title type="html">Jook</title><link href="http://localhost:4000/jook/" rel="alternate" type="text/html" title="Jook" /><published>2017-01-01T00:00:00+08:00</published><updated>2017-01-01T00:00:00+08:00</updated><id>http://localhost:4000/jook</id><content type="html" xml:base="http://localhost:4000/jook/">&lt;p&gt;Jook is a side project I’ve been working on with &lt;a href=&quot;https://twitter.com/Kahou526&quot;&gt;Lucas Kuan&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/MaBoXiu&quot;&gt;Matthieu Bodin&lt;/a&gt;. I focus on design, front-end web development, user testing, and data analysis.&lt;/p&gt;
 
 &lt;h2 id=&quot;discovering-the-problem&quot;&gt;Discovering the problem&lt;/h2&gt;
 
@@ -115,7 +84,7 @@
   &lt;li&gt;Adds songs to the queue and upvote songs added by others.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/jook-web.png&quot; alt=&quot;Web app screenshots&quot; /&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/jook-web.png&quot; alt=&quot;Web app screenshots&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;At a small party, the host can easily tell everyone about the jukebox, and share a link to them through a group chat. At larger events, this becomes more tricky. Strangers are less likely to try something new, so broadcasting it is not as easy.&lt;/p&gt;
 
@@ -146,7 +115,7 @@
   &lt;li&gt;Preview song snippets before adding them to the jukebox.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/jook-app.png&quot; alt=&quot;We added a fallback playlist feature so the jukebox will never run out of songs to play.&quot; /&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/jook-app.png&quot; alt=&quot;We added a fallback playlist feature so the jukebox will never run out of songs to play&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;We also added a prominent “Send Feedback” button to encourage our users to send us valuable feedback.&lt;/p&gt;
 
@@ -178,9 +147,7 @@
 
 &lt;p&gt;Thank you to all the users who helped us test the product and gave us amazing feedback. Especially the ones who shared with us the images of posters they made for their parties ❤️&lt;/p&gt;
 
-&lt;p&gt;We’re continuously looking at the data and feedback from our lovely users, and working towards a big update.&lt;/p&gt;
-
-&lt;h4&gt;Visit website: &lt;a href=&quot;http://jookapp.com&quot; target=&quot;_blank&quot;&gt;jookapp.com&lt;/a&gt;&lt;/h4&gt;</content><author><name></name></author><summary type="html">Jook is a side project I’ve been working on with Lucas Kuan and Matthieu Bodin. I focus on design, front-end web development, user testing, and data analysis.</summary></entry><entry><title type="html">bupa.com.hk</title><link href="http://localhost:4000/bupa/" rel="alternate" type="text/html" title="bupa.com.hk" /><published>2016-11-01T00:00:00+08:00</published><updated>2016-11-01T00:00:00+08:00</updated><id>http://localhost:4000/bupa</id><content type="html" xml:base="http://localhost:4000/bupa/">&lt;p&gt;Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.&lt;/p&gt;
+&lt;p&gt;We’re continuously looking at the data and feedback from our lovely users, and working towards a big update.&lt;/p&gt;</content><author><name></name></author><summary type="html">Jook is a side project I’ve been working on with Lucas Kuan and Matthieu Bodin. I focus on design, front-end web development, user testing, and data analysis.</summary></entry><entry><title type="html">Bupa</title><link href="http://localhost:4000/bupa/" rel="alternate" type="text/html" title="Bupa" /><published>2016-11-01T00:00:00+08:00</published><updated>2016-11-01T00:00:00+08:00</updated><id>http://localhost:4000/bupa</id><content type="html" xml:base="http://localhost:4000/bupa/">&lt;p&gt;Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.&lt;/p&gt;
 
 &lt;p&gt;Bupa is a healthcare group headquartered in the United Kingdom. It expanded into Hong Kong in 1976 and has been a health insurance and healthcare provision business since. Their audience are professional individuals and companies looking for a healthcare plan for their employees.&lt;/p&gt;
 
@@ -204,7 +171,7 @@
   &lt;li&gt;Payment&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/bupa-desktop.jpg&quot; alt=&quot;Medical insurance plans and quotation engine&quot; /&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/bupa-desktop.jpg&quot; alt=&quot;Medical insurance plans and quotation engine&quot; /&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
 
@@ -222,17 +189,15 @@
   &lt;li&gt;Empty vs non-empty fields are less noticeable&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/bupa-labels.png&quot; alt=&quot;Traditional labels, placeholder labels and float labels.&quot; /&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/bupa-labels.png&quot; alt=&quot;Traditional labels, placeholder labels and float labels&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;We compromised by using &lt;a href=&quot;https://medium.com/r/?url=http%3A%2F%2Fmds.is%2Ffloat-label-pattern%2F&quot; target=&quot;_blank&quot;&gt;float labels&lt;/a&gt;. Float labels allow the empty form to appear more clean and less overwhelming, while solving the usability problems of placeholder labels to a certain extent. When asked which form looks less overwhelming, most people picked the one with float labels over labels on top of fields.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/bupa-form.png&quot; alt=&quot;Enrollment form&quot; /&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/bupa-form.png&quot; alt=&quot;Enrollment form&quot; /&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
-&lt;p&gt;The website launched in early 2017. Bupa loved the brand new clean, simple and functional design. The new website increased sales leads by 200% and online purchases by 300%.&lt;/p&gt;
-
-&lt;h4&gt;Visit &lt;a href=&quot;https://www.bupa.com.hk&quot; target=&quot;_blank&quot;&gt;bupa.com.hk&lt;/a&gt;&lt;/h4&gt;</content><author><name></name></author><summary type="html">Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.</summary></entry><entry><title type="html">Happy Owl</title><link href="http://localhost:4000/happy-owl/" rel="alternate" type="text/html" title="Happy Owl" /><published>2016-07-01T15:33:10+08:00</published><updated>2016-07-01T15:33:10+08:00</updated><id>http://localhost:4000/happy-owl</id><content type="html" xml:base="http://localhost:4000/happy-owl/">&lt;p&gt;I joined Happy Owl in May 2016 to design a minimum viable product.&lt;/p&gt;
+&lt;p&gt;The website launched in early 2017. Bupa loved the brand new clean, simple and functional design. The new website increased sales leads by 200% and online purchases by 300%.&lt;/p&gt;</content><author><name></name></author><summary type="html">Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.</summary></entry><entry><title type="html">Happy Owl</title><link href="http://localhost:4000/happy-owl/" rel="alternate" type="text/html" title="Happy Owl" /><published>2016-07-01T15:33:10+08:00</published><updated>2016-07-01T15:33:10+08:00</updated><id>http://localhost:4000/happy-owl</id><content type="html" xml:base="http://localhost:4000/happy-owl/">&lt;p&gt;I joined Happy Owl in May 2016 to design a minimum viable product.&lt;/p&gt;
 
 &lt;p&gt;Happy Owl aimed to solve partner bars and restaurants’ problem of a lack of customers during non-peak hours. We increased traffic by offering one drink per day to customers at a low monthly price at any of the venues.&lt;/p&gt;
 
