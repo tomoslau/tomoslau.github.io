@@ -41,4 +41,4 @@ sass:
 #   - vendor/gems/
 #   - vendor/ruby/
 exclude:
-- vendor
+- vendor/cache/
