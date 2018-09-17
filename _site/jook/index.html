@@ -5,26 +5,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Jook</title>
   <meta name="description" content="Jook is a side project I’ve been working on with Lucas Kuan and Matthieu Bodin. I focus on design, front-end web development, user testing, and data analysis.">
-
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://tomoslau.com/jook/">
   <link rel="alternate" type="application/rss+xml" title="Tom Lau" href="/feed.xml">
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101331298-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-101331298-1');
-</script>
-
+  
 </head>
-
 
   <body>
 
@@ -45,7 +32,11 @@
 
   <header class="post-header">
     
-      <img class="banner-image tofadein" src="/assets/jook-banner.jpg">
+    <div class="banner-wrapper">
+      <figure class="banner-image-wrapper">
+        <img class="banner-image tofadein lazy" data-src="/assets/jook-banner.jpg" alt="Jook project banner image">
+      </figure>
+    </div>
     
     <div class="wrapper tofadein-second">
       <h1 class="post-title" itemprop="name headline">Jook</h1>
@@ -65,9 +56,9 @@
 
 <h2 id="discovering-the-problem">Discovering the problem</h2>
 
-<p>Our project spawned from a specific problem my colleagues and I faced during the summer of 2015. Lucas, Matthieu and I worked in a small office room. We loved to play music on speakers while we worked.</p>
+<p>Our project spawned from a specific problem my colleagues and I faced during the summer of 2015. Lucas, Matthieu and I worked in a small office room. <strong>We loved playing music on speakers while we worked.</strong></p>
 
-<p><img src="/assets/jook-office.png" alt="Our office" /></p>
+<p><img class="lazy" data-src="/assets/jook-office.jpg" alt="Our office" /></p>
 
 <p>The set up was simple. Matthieu hooked up his computer to the speakers, and played music on Spotify. Although we shared similar tastes in music, Lucas and I would make song requests whenever we felt like a change of music.</p>
 
@@ -79,15 +70,13 @@
   <li>To change the mood by playing something different</li>
 </ul>
 
-<p>After a few weeks, we sensed that requesting songs became disruptive to our work. We tried sending Spotify links on Slack to make it easier for Matthieu, but it still felt disruptive. We tried using a shared playlist on Spotify, but it didn’t feel spontaneous. What if we could each queue songs from our own computer without bothering each other?</p>
+<p>After a few weeks, we sensed that <strong>requesting songs became disruptive to our work.</strong> We tried sending Spotify links on Slack to make it easier for Matthieu, but it still felt disruptive. We tried using a shared playlist on Spotify, but it didn’t feel spontaneous. <strong>What if we could each queue songs from our own devices without bothering each other?</strong></p>
 
-<p><img src="/assets/jook-sketch.png" alt="Four years at art school and I still can’t draw straight lines." /></p>
+<p><img class="lazy" data-src="/assets/jook-sketch.jpg" alt="Four years at art school and I still can’t draw straight lines." /></p>
 
-<p>We decided to build an app to do that. A jukebox for our office room that uses Spotify’s API. At the beginning, we didn’t even consider validating our problem and idea with anybody else. We simply wanted to build something we could use in the office.</p>
+<p>We decided to build an app to do that—a jukebox for our office room that uses Spotify’s API. As we designed and developed the prototype, we realized that we could use the jukebox app outside of the office—for things like parties and startup events that we organized or attended.</p>
 
-<p>As we designed and developed the prototype, we realized that we could use the jukebox app outside of the office — for things like house parties and startup events that we organized or attended.</p>
-
-<p><img src="/assets/jook-flow.png" alt="Initial host and guest diagram" /></p>
+<p><img class="lazy" data-src="/assets/jook-flow.png" alt="Initial host and guest diagram" /></p>
 
 <p>The host is responsible for:</p>
 
@@ -104,59 +93,55 @@
   <li>Adds songs to the queue and upvote songs added by others.</li>
 </ol>
 
-<figure><img src="/assets/jook-web.png" alt="Web app screenshots" /></figure>
+<figure><img class="lazy" data-src="/assets/jook-web.png" alt="Web app screenshots" /></figure>
 
-<p>At a small party, the host can easily tell everyone about the jukebox, and share a link to them through a group chat. At larger events, this becomes more tricky. Strangers are less likely to try something new, so broadcasting it is not as easy.</p>
+<p>At a small party, the host can easily tell everyone about the jukebox, and share a link to them through a group chat. At larger events, this becomes more tricky. Strangers are less likely to try something new, so broadcasting it is not as easy. We later learned from hosts that <strong>guests favor using the host’s device</strong> to add songs instead of using their own. Many requested for a tablet version of the app to make this easier.</p>
 
-<p><img src="/assets/jook-swhk.png" alt="We tested Jook at a Startup Weekend event by word of mouth and handouts" /></p>
+<p><img class="lazy" data-src="/assets/jook-swhk.jpg" alt="We tested Jook at a Startup Weekend event by word of mouth and handouts" /></p>
 
 <p><em>↑ One of our first tests at a Startup Weekend event by word of mouth and handouts (like the one on this table above the Subway napkin).</em></p>
 
-<h3 id="testing">Testing</h3>
+<h2 id="testing">Testing</h2>
 
 <p>We tested Jook whenever possible—at the office, events, and parties. Getting organizers to host a jukebox turned out to be easier than we thought. After observing and talking to guests and hosts, this is what we learned:</p>
 
 <ul>
-  <li>Users felt the need to keep adding songs when their jukebox ran out of songs in the queue.</li>
-  <li>They spent a lot of time stuck at the search bar thinking of what song to add.</li>
+  <li><strong>Users felt the need to keep adding songs</strong> when their jukebox ran out of songs in the queue.</li>
+  <li>They spent a lot of time <strong>stuck at the search bar</strong> thinking of what song to add.</li>
   <li>They often opened Spotify to find a song from their library, and then went back to Jook to search the song.</li>
-  <li>At large events, hosts noticed that guests prefer to walk up to and use the host’s device (ie. an iPad) rather than manually typing in the url when a share link is not sent to them.</li>
+  <li>At large events, hosts noticed that <strong>guests prefer to walk up to and use the host’s device</strong> (ie. an iPad) rather than manually typing in the url when a share link is not sent to them.</li>
 </ul>
 
-<p><img src="/assets/jook-graph.png" alt="People who care about music vs number of people at event" /></p>
-
-<p>What we also recognized is that not everyone has a strong music preference, especially at larger events. Some people have a strong urge to comment on or suggest a song when they walk into a party or event, while others are happy with whatever is playing.</p>
-
-<h3 id="features-we-added-prior-to-public-beta">Features we added prior to public beta</h3>
+<h2 id="features-we-added-prior-to-public-beta">Features we added prior to public beta</h2>
 
 <ul>
-  <li>Fallback playlist: where the host can select a playlist to fallback on when there are no songs left in the queue, so that the jukebox will never run out of songs.</li>
-  <li>Drag-and-drop songs from Spotify directly to Jook on web browser.</li>
+  <li><strong>Fallback playlist</strong>: where the host can select a playlist to fallback on when there are no songs left in the queue, so that the jukebox will never run out of songs.</li>
+  <li><strong>Drag-and-drop songs from Spotify</strong> directly to Jook on web browser.</li>
   <li>Preview song snippets before adding them to the jukebox.</li>
 </ul>
 
-<figure><img src="/assets/jook-app.png" alt="We added a fallback playlist feature so the jukebox will never run out of songs to play" /></figure>
+<figure><img class="lazy" data-src="/assets/jook-app.jpg" alt="We added a fallback playlist feature so the jukebox will never run out of songs to play" /></figure>
 
 <p>We also added a prominent “Send Feedback” button to encourage our users to send us valuable feedback.</p>
 
 <p>Since releasing Jook, hosts have created more than 500 jukeboxes with over 5,000 guests. We learned several things from our users:</p>
 
-<h3 id="what-they-loved">What they loved</h3>
+<h2 id="what-they-loved">What they loved</h2>
 
 <ul>
   <li>An easy way to play everyone’s favorite music in an environment</li>
-  <li>Voting songs</li>
+  <li>Voting songs is fun</li>
   <li>The ease of adding songs on desktop</li>
 </ul>
 
-<h3 id="what-they-struggled-with">What they struggled with</h3>
+<h2 id="what-they-struggled-with">What they struggled with</h2>
 
 <ul>
   <li>Finding songs to add on mobile (no drag-and-drop in app or mobile web)</li>
   <li>Not knowing that a Spotify Premium account is needed to host a jukebox (high drop-off rate on login screen in app)</li>
 </ul>
 
-<h3 id="what-they-asked-for">What they asked for</h3>
+<h2 id="what-they-asked-for">What they asked for</h2>
 
 <ul>
   <li>Downvote to drop unpopular songs</li>
@@ -165,9 +150,7 @@
   <li>Android app</li>
 </ul>
 
-<p>Thank you to all the users who helped us test the product and gave us amazing feedback. Especially the ones who shared with us the images of posters they made for their parties ❤️</p>
-
-<p>We’re continuously looking at the data and feedback from our lovely users, and working towards a big update.</p>
+<p>Thank you to all the users who helped us test the product and gave us amazing feedback. We’re continuously looking at feedback and data from our lovely users, and working towards an update.</p>
 
     <ul class="list-reset">
         
@@ -186,7 +169,7 @@
       <a href="/bupa/" class="link-reset">
         <h2>Next project &rarr;</h2>
         <figure>
-          <img src="/assets/bupa.jpg" />
+          <img class="lazy" data-src="/assets/bupa.jpg" />
         </figure>
         <h3>Bupa</h3>
         <p>Finding the right insurance plan</p>
@@ -211,9 +194,9 @@
     <div class="grid grid-d2-m1">
       <div class="grid-item">
         <p>
-          <a href="https://dribbble.com/tomoslau" target="blank" class="link-reset">Dribbble</a> / 
-          <a href="https://instagram.com/tomoslau" target="blank" class="link-reset">Instagram</a> / 
-          <a href="https://medium.com/@tlau" target="blank" class="link-reset">Medium</a>
+          <a href="https://dribbble.com/tomoslau" target="blank">Dribbble</a> / 
+          <a href="https://instagram.com/tomoslau" target="blank">Instagram</a> / 
+          <a href="https://medium.com/@tlau" target="blank">Medium</a>
         </p>
       </div>
       <div class="grid-item" id="footer-right">
@@ -224,7 +207,8 @@
 </footer>
 
 <script src="/js/jquery-3.3.1.min.js" type="text/javascript"></script>
-<script src="/js/fade.js" type="text/javascript"></script>
+<script src="/js/lazyload.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
 
   </body>
 

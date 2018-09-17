@@ -24,7 +24,7 @@ When I joined the team, HYPEBEAST’s Android app was designed and developed to 
 
 This created an **unfamiliar interactive and visual experience** for our Android readers, as well as a **reduction in app performance** due to custom components and animations based on iOS. Furthermore, Google Play refused to feature our app due to several usability and visual issues addressed in the Material Design guidelines.
 
-<figure><img src ="/assets/hb-material.jpg" alt="Application of Material Design patterns to the Android app"></figure>
+<figure><img class="lazy" data-src="/assets/hb-material.jpg" alt="Application of Material Design patterns to the Android app"></figure>
 
 To make our app less confusing for our app readers, **we utilized patterns shared by both iOS and Android platforms, while conforming to Human Interface Guidelines and Material Design specs.** We applied Jakob’s law by ensuring our app works the the same way as all the other apps they use. For example, both apps share a bottom tab bar as the primary navigation, but details such as the bar height, shadow “elevation”, and transitions differed.
 
@@ -34,12 +34,12 @@ To make our app less confusing for our app readers, **we utilized patterns share
 
 We received feedback from our readers and internally that our app looks dated. This is apparent when compared to our competitors and other apps. Instead of simply following the minimalism trend, we decided to take this opportunity to improve readability and focus as a whole.
 
-<figure><img src ="/assets/hb-home.jpg" alt="News feed: before and after"></figure>
+<figure><img class="lazy" data-src="/assets/hb-home.jpg" alt="News feed: before and after"></figure>
 
 **We avoided long headlines on images** for articles where editors and designers don’t have control over placement and styling. Previously, the gradient overlays made images too dark, covered parts of images, and sometimes created undesirable visuals. The revised design allows both headline and image to be clear, and also uses the same assets across mobile, tablet and desktop designs to simplify editors’ workflow.
 
-<figure><img src ="/assets/hb-style.jpg" alt="Visual styling revisited"></figure>
-<figure><img src ="/assets/hb-components.jpg" alt="App components"></figure>
+<figure><img class="lazy" data-src="/assets/hb-style.jpg" alt="Visual styling revisited"></figure>
+<figure><img class="lazy" data-src="/assets/hb-components.jpg" alt="App components"></figure>
 
 We revisited the typography to **create a stronger hierarchy**. Readers can identify important news and sponsored posts based on prominence. We reduced the complexity of icons to make them more recognizable. We also implemented new color guidelines to improve contrast and meet WCAG guidelines, and a soft 8-point grid to create vertical rhythm, consistent spacing and increased proximity. 
 

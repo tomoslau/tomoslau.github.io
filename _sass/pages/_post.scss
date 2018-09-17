@@ -44,7 +44,20 @@
 	color: $color-text-light;
 }
 
-.banner-image {
-  width: 100%;
-  margin: 3rem 0 !important;
+.banner-wrapper {
+	padding: 3rem 0;
+	.banner-image-wrapper {
+		padding-bottom: 40%;
+		background-color: #f1f1f1;
+		position:relative;
+		.banner-image {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			margin: 0;
+		}
+	}
 }
