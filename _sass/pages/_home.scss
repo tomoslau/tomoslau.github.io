@@ -24,10 +24,6 @@
  
  // Work grid
 .work-grid {
-	padding-bottom: 200px;
-	@include breakpoint (xs) {
-		padding-bottom: 0;
-	}
 	.work-item {
 		&:nth-child(even) {
 	      position: relative;

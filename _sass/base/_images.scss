@@ -4,8 +4,21 @@ img, video {
 }
 
 figure {
-	margin: 0;
+	margin: 1.5rem 0;
 	background-color: #f1f1f1;
+	&.ratio-4x3 {
+		padding-bottom: 75%;
+		position: relative;
+		img {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			margin: 0;
+		}
+	}
 }
 
 .video-wrapper {

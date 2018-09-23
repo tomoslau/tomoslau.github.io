@@ -5,11 +5,9 @@ layout: default
 
   <header class="post-header">
     {% if page.banner-image %}
-    <div class="banner-wrapper">
-      <figure class="banner-image-wrapper">
-        <img class="banner-image tofadein lazy" data-src="{{ page.banner-image }}" alt="{{ page.title }} project banner image">
-      </figure>
-    </div>
+    <figure class="banner-image-wrapper">
+      <img class="banner-image tofadein lazy" data-src="{{ page.banner-image }}" alt="{{ page.title }} project banner image">
+    </figure>
     {% endif %}
     <div class="wrapper tofadein-second">
       <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
@@ -21,9 +19,7 @@ layout: default
       </p>
     </div>
   </header>
-
-
-
+  
   <div class="post-content wrapper tofadein-second">
     {{ content }}
     <ul class="list-reset">
