@@ -1,3 +1,9 @@
+html {
+	background-color: $color-background;
+}
+hr {
+	border-color: rgba(0,0,0,0.16)
+}
 .wrapper {
 	max-width: 960px;
 	margin: 0 auto;
@@ -11,28 +17,21 @@
 
 .section {
 	@include breakpoint(xs) {
-		margin: 3em 0;
+		margin: 4rem 0;
 	}
 	@include breakpoint(sm) {
-		margin: 6em 0;
+		margin: 8rem 0;
 	}	
 }
 
 .grid {
-	@include breakpoint(sm) {
-		display: grid;
-	}
 	&-item {
 		@include breakpoint(xs) {
 			margin-bottom: 3em;
 		}
 	}
-}
-
-.grid-d2-m1 {
-	grid-template-columns: 1fr 1fr;
-	justify-content: space-between;
 	@include breakpoint(sm) {
+		display: grid;
 		grid-gap: 2em;
 	}
 	@include breakpoint(md) {
@@ -40,6 +39,20 @@
 	}
 }
 
+.grid-d2-m1 {
+	grid-template-columns: 1fr 1fr;
+	justify-content: space-between;
+
+}
+
+.grid-d3-m1 {
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-between;
+}
+
+.span-2 {
+	grid-column: span 2;
+}
 .page-content {
   padding: 0 0 $spacing-unit 0;
 }

@@ -5,7 +5,7 @@ html {
 body {
 	font-size: 100%;
 	color: $color-text;
-	font-family: 'Helvetica Neue', 'Segoe UI', Roboto, sans-serif;
+	font-family: 'Chivo', sans-serif;
 	font-weight: $base-font-weight;
 	line-height: $base-line-height;
 	text-rendering: optimizeLegibility;
@@ -13,27 +13,10 @@ body {
 
 a {
 	color: $color-text;
-	text-decoration: none;
-	border-bottom: 1px solid $color-text;
+	font-weight: $heading-font-weight;
+	text-decoration: underline;
 	&:hover {
 		color: $color-link-hover;
-		border-bottom: 1px solid $color-link-hover;
-	}
-	&.link-cta {
-		color: $color-link;
-		border-bottom: none;
-		&:hover {
-			color: $color-link-hover;
-		}
-	}
-}
-
-.link-reset {
-	color: $color-text;
-	border-bottom: none;
-	&:hover {
-		color: $color-text;
-		border-bottom: none;
 	}
 }
 
@@ -43,7 +26,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	font-size: $base-font-size*3;
+	font-size: $base-font-size*4;
 	@include breakpoint(xs) {
 		font-size: $base-font-size*2;
 	}
