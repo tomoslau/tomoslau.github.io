@@ -14,6 +14,12 @@
  
  // Work grid
 .work-grid {
+	@include breakpoint(xs) {
+		margin-bottom: 4rem;
+	}
+	@include breakpoint(sm) {
+		margin-bottom: calc(8rem + 200px)
+	}	
 	.work-item {
 		&:nth-child(even) {
 	      position: relative;

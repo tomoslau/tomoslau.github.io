@@ -6,6 +6,9 @@
   @include breakpoint(xs) {
     font-size: $base-font-size;
   }
+  a {
+    text-decoration: none;
+  }
 }
 
 .site-title {
