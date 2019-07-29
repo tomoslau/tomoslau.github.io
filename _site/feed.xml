@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2019-07-15T23:53:09+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. The service targets small-medium businesses with ad-hoc urgent delivery needs in Hong Kong.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2019-07-29T21:38:18+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. The service targets small-medium businesses with ad-hoc urgent delivery needs in Hong Kong.&lt;/p&gt;
 
 &lt;h2 id=&quot;reducing-oversize-and-overweight-orders&quot;&gt;Reducing oversize and overweight orders&lt;/h2&gt;
 
@@ -10,25 +10,19 @@
 
 &lt;p&gt;“Shippers assume our couriers deliver packages using &lt;strong&gt;vans&lt;/strong&gt;,” Jackie, head of customer service, said, “but in reality, our couriers are &lt;strong&gt;walkers&lt;/strong&gt; (couriers who travel on foot and public transport).” This led to oversized, overweight or multiple packages that were physically impossible for a courier to carry.&lt;/p&gt;
 
-&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggv-oversize-sketches.jpg&quot; alt=&quot;Sketches and voting stickers to explore and decide which ideas to test in our prototype&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggv-oversize-sketches.jpg&quot; alt=&quot;Sketches and voting stickers to explore and decide which ideas to test in our prototype&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;Sketches and voting stickers to explore and decide which ideas to test in our prototype&lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;p&gt;My PM Waikit and I made some quick sketches and voted to explore and decide which ideas to test in our prototype.&lt;/p&gt;
+&lt;p&gt;My PM Waikit and I wrote out some How Might We’s, made some quick sketches and voted to decide which ideas to test in our prototype. We tested the prototype with five shippers unfamiliar with our service, and all testers understood that courier deliveries are carried out by a walker or biker. They also successfully switched to the van service when tasked to deliver a larger or heavier item.&lt;/p&gt;
 
-&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggv-oversize-screens.png&quot; alt=&quot;1. Added package type options to show what kind of packages are acceptable for couriers to deliver. 2. Helper text with a link to direct oversized delivery needs to our van service. 3. An option for oversized packages that direct to our van service.&quot; /&gt;&lt;/figure&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Redesigned service icon and label to clarify our couriers’ &lt;strong&gt;mode of transport&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Added package type options to show &lt;strong&gt;what kind of packages are acceptable for couriers to deliver&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Helper text with a link to direct oversized delivery needs to our van service&lt;/li&gt;
-  &lt;li&gt;An option for oversized packages that direct to our van service&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;We tested the prototype with five shippers unfamiliar with our new service:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;On the new order screen, all testers understood that courier deliveries are carried out by a walker or biker.&lt;/li&gt;
-  &lt;li&gt;When tasked to place an order that exceeds the size or weight limit, all testers successfully switched to van service.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;figure&gt;
+	&lt;div class=&quot;ratio-4x3&quot;&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggv-oversize-screens.png&quot; alt=&quot;1. Added package type options to show what kind of packages are acceptable for couriers to deliver. 2. Helper text with a link to direct oversized delivery needs to our van service. 3. An option for oversized packages that direct to our van service.&quot; /&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;1. Redesigned service icon and label to clarify our couriers’ mode of transport&lt;br /&gt;
+	2. Added package type options to show what kind of packages are acceptable for couriers to deliver&lt;br /&gt;
+	3. Helper text with a link to direct oversized delivery needs to our van service&lt;br /&gt;
+	4. An option for oversized packages that direct to our van service&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h3 id=&quot;the-outcome&quot;&gt;The outcome&lt;/h3&gt;
 
@@ -36,7 +30,38 @@
 
 &lt;p&gt;One month after the release, cancellations due to oversized items by new shippers reduced by 37%. Overall cancellation rate dropped 17%.&lt;/p&gt;
 
-&lt;h3 id=&quot;lessons-learned&quot;&gt;Lessons learned&lt;/h3&gt;
+&lt;h2 id=&quot;scheduled-delivery&quot;&gt;Scheduled delivery&lt;/h2&gt;
+
+&lt;p&gt;Through interviews with e-commerce shippers and local boutique store visits, we learned that shippers wanted to be able to schedule deliveries for the next day so they can &lt;strong&gt;place multiple orders at the same time without worrying about it the next morning&lt;/strong&gt;. Our customer service team also informed us that many clients found it &lt;strong&gt;difficult to understand the cut-off time for each drop-off option&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;process--experience-1&quot;&gt;Process &amp;amp; experience&lt;/h3&gt;
+
+&lt;p&gt;To improve the clarity of drop-off times, we worked with the operations and marketing team to make the times more memorable by rounding the times to the closest hour and displaying all drop-off options even when they’re not available. We also added helper text to make the cut-off time more transparent.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F5F8;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;width:372px;margin:0 auto&quot;&gt;
+			&lt;source src=&quot;/assets/ggd-do-time-prototype.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Prototype to test the clarity of drop-off options and cut-off times&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested the prototype with users and they found the helper text most useful in understanding the options. However, some users found the “available if…” helper text on available options confusing, so we decided to only show it when the option is disabled.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;div class=&quot;ratio-4x3&quot;&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-scheduling.png&quot; alt=&quot;1. Added package type options to show what kind of packages are acceptable for couriers to deliver. 2. Helper text with a link to direct oversized delivery needs to our van service. 3. An option for oversized packages that direct to our van service.&quot; /&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;1. Simplified the pick-up time selection for clarity&lt;br /&gt;
+	2. Showing unavailable drop-off options in a disabled state with helper text to remind shippers of the cut-off times&lt;br /&gt;
+	3. Date picker for scheduling deliveries up to six days in advance&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;the-outcome-1&quot;&gt;The outcome&lt;/h3&gt;
+&lt;p&gt;After shipping the scheduling feature, the percentage of scheduled orders increased by 270%. Scheduled orders make 20–30% of our daily orders.&lt;/p&gt;
+
+&lt;h2 id=&quot;lessons-learned&quot;&gt;Lessons learned&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;The problem of shippers not understanding our service wasn’t identified during the closed beta period prior to launch because our sales team onboarded each user so they had a good understanding of the service. When new customers started using the service, the problems started to show up. &lt;strong&gt;Test product onboarding with completely new users.&lt;/strong&gt;&lt;/li&gt;

@@ -61,25 +61,19 @@
 
 <p>“Shippers assume our couriers deliver packages using <strong>vans</strong>,” Jackie, head of customer service, said, “but in reality, our couriers are <strong>walkers</strong> (couriers who travel on foot and public transport).” This led to oversized, overweight or multiple packages that were physically impossible for a courier to carry.</p>
 
-<figure class="ratio-4x3"><img class="lazy" data-src="/assets/ggv-oversize-sketches.jpg" alt="Sketches and voting stickers to explore and decide which ideas to test in our prototype" /></figure>
+<figure><div class="ratio-4x3"><img class="lazy" data-src="/assets/ggv-oversize-sketches.jpg" alt="Sketches and voting stickers to explore and decide which ideas to test in our prototype" /></div><figcaption>Sketches and voting stickers to explore and decide which ideas to test in our prototype</figcaption></figure>
 
-<p>My PM Waikit and I made some quick sketches and voted to explore and decide which ideas to test in our prototype.</p>
+<p>My PM Waikit and I wrote out some How Might We’s, made some quick sketches and voted to decide which ideas to test in our prototype. We tested the prototype with five shippers unfamiliar with our service, and all testers understood that courier deliveries are carried out by a walker or biker. They also successfully switched to the van service when tasked to deliver a larger or heavier item.</p>
 
-<figure class="ratio-4x3"><img class="lazy" data-src="/assets/ggv-oversize-screens.png" alt="1. Added package type options to show what kind of packages are acceptable for couriers to deliver. 2. Helper text with a link to direct oversized delivery needs to our van service. 3. An option for oversized packages that direct to our van service." /></figure>
-
-<ol>
-  <li>Redesigned service icon and label to clarify our couriers’ <strong>mode of transport</strong></li>
-  <li>Added package type options to show <strong>what kind of packages are acceptable for couriers to deliver</strong></li>
-  <li>Helper text with a link to direct oversized delivery needs to our van service</li>
-  <li>An option for oversized packages that direct to our van service</li>
-</ol>
-
-<p>We tested the prototype with five shippers unfamiliar with our new service:</p>
-
-<ul>
-  <li>On the new order screen, all testers understood that courier deliveries are carried out by a walker or biker.</li>
-  <li>When tasked to place an order that exceeds the size or weight limit, all testers successfully switched to van service.</li>
-</ul>
+<figure>
+	<div class="ratio-4x3">
+		<img class="lazy" data-src="/assets/ggv-oversize-screens.png" alt="1. Added package type options to show what kind of packages are acceptable for couriers to deliver. 2. Helper text with a link to direct oversized delivery needs to our van service. 3. An option for oversized packages that direct to our van service." />
+	</div>
+	<figcaption>1. Redesigned service icon and label to clarify our couriers’ mode of transport<br />
+	2. Added package type options to show what kind of packages are acceptable for couriers to deliver<br />
+	3. Helper text with a link to direct oversized delivery needs to our van service<br />
+	4. An option for oversized packages that direct to our van service</figcaption>
+</figure>
 
 <h3 id="the-outcome">The outcome</h3>
 
@@ -87,7 +81,38 @@
 
 <p>One month after the release, cancellations due to oversized items by new shippers reduced by 37%. Overall cancellation rate dropped 17%.</p>
 
-<h3 id="lessons-learned">Lessons learned</h3>
+<h2 id="scheduled-delivery">Scheduled delivery</h2>
+
+<p>Through interviews with e-commerce shippers and local boutique store visits, we learned that shippers wanted to be able to schedule deliveries for the next day so they can <strong>place multiple orders at the same time without worrying about it the next morning</strong>. Our customer service team also informed us that many clients found it <strong>difficult to understand the cut-off time for each drop-off option</strong>.</p>
+
+<h3 id="process--experience-1">Process &amp; experience</h3>
+
+<p>To improve the clarity of drop-off times, we worked with the operations and marketing team to make the times more memorable by rounding the times to the closest hour and displaying all drop-off options even when they’re not available. We also added helper text to make the cut-off time more transparent.</p>
+
+<figure>
+	<div style="background-color:#F1F5F8;padding: 2rem">
+		<video class="lazy" autoplay="" loop="" style="width:372px;margin:0 auto">
+			<source src="/assets/ggd-do-time-prototype.mp4" type="video/mp4" />
+		</video>
+	</div>
+	<figcaption>Prototype to test the clarity of drop-off options and cut-off times</figcaption>
+</figure>
+
+<p>We tested the prototype with users and they found the helper text most useful in understanding the options. However, some users found the “available if…” helper text on available options confusing, so we decided to only show it when the option is disabled.</p>
+
+<figure>
+	<div class="ratio-4x3">
+		<img class="lazy" data-src="/assets/ggd-scheduling.png" alt="1. Added package type options to show what kind of packages are acceptable for couriers to deliver. 2. Helper text with a link to direct oversized delivery needs to our van service. 3. An option for oversized packages that direct to our van service." />
+	</div>
+	<figcaption>1. Simplified the pick-up time selection for clarity<br />
+	2. Showing unavailable drop-off options in a disabled state with helper text to remind shippers of the cut-off times<br />
+	3. Date picker for scheduling deliveries up to six days in advance</figcaption>
+</figure>
+
+<h3 id="the-outcome-1">The outcome</h3>
+<p>After shipping the scheduling feature, the percentage of scheduled orders increased by 270%. Scheduled orders make 20–30% of our daily orders.</p>
+
+<h2 id="lessons-learned">Lessons learned</h2>
 
 <ol>
   <li>The problem of shippers not understanding our service wasn’t identified during the closed beta period prior to launch because our sales team onboarded each user so they had a good understanding of the service. When new customers started using the service, the problems started to show up. <strong>Test product onboarding with completely new users.</strong></li>

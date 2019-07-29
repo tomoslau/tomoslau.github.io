@@ -4,21 +4,27 @@ img, video {
 }
 
 figure {
-	margin: 1.5rem 0;
+	margin: 2rem 0;
+}
+
+
+.ratio-4x3 {
 	background-color: #f1f1f1;
-	&.ratio-4x3 {
-		padding-bottom: 75%;
-		position: relative;
-		img {
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			width: 100%;
-			margin: 0;
-		}
+	padding-bottom: 75%;
+	position: relative;
+	img {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		margin: 0;
 	}
+}
+
+figcaption {
+	margin-top: 1rem;
 }
 
 .video-wrapper {
