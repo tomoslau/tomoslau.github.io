@@ -32,7 +32,7 @@ To make our app less confusing for our app readers, **we utilized patterns share
 
 We received feedback from our readers that our app looks dated. This was apparent when compared to our competitors and other apps. Instead of simply following the minimalism trend, we decided to take this opportunity to improve readability and focus as a whole.
 
-<figure class="ratio-4x3"><img class="lazy" data-src="/assets/hb-home.jpg" alt="News feed: before and after"></figure>
+<figure class="ratio-4x3"><img class="lazy" data-src="/assets/hb-home-article.jpg" alt="News feed and article"></figure>
 
 **We avoided long headlines on images** for articles where editors and designers don’t have control over placement and styling. Previously, the gradient overlays made images too dark, covered parts of images, and sometimes created undesirable visuals. The revised design allows both headline and image to be clear, and also uses the same assets across mobile, tablet and desktop designs to simplify editors’ workflow.
 

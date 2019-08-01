@@ -13,7 +13,6 @@ body {
 
 a {
 	color: $color-text;
-	font-weight: $heading-font-weight;
 	text-decoration: underline;
 	&:hover {
 		color: $color-link-hover;
