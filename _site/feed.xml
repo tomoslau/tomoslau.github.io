@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2019-08-03T23:56:44+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. The service targets small-medium businesses with ad-hoc urgent delivery needs in Hong Kong.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2019-08-09T23:43:28+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. The service targets small-medium businesses with ad-hoc urgent delivery needs in Hong Kong.&lt;/p&gt;
 
 &lt;h2 id=&quot;reducing-oversize-and-overweight-orders&quot;&gt;Reducing oversize and overweight orders&lt;/h2&gt;
 
@@ -11,7 +11,6 @@
 &lt;p&gt;“Shippers assume our couriers deliver packages using &lt;strong&gt;vans&lt;/strong&gt;,” Jackie, head of customer service, said, “but in reality, our couriers are &lt;strong&gt;walkers&lt;/strong&gt; (couriers who travel on foot and public transport).” This led to oversized, overweight or multiple packages that were physically impossible for a courier to carry.&lt;/p&gt;
 
 &lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggv-oversize-sketches.jpg&quot; alt=&quot;Sketches and voting stickers to explore and decide which ideas to test in our prototype&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;Sketches and voting stickers to explore and decide which ideas to test in our prototype&lt;/figcaption&gt;&lt;/figure&gt;
-
 &lt;p&gt;My PM Waikit and I wrote out some How Might We’s, made some quick sketches and voted to decide which ideas to test in our prototype. We tested the prototype with five shippers unfamiliar with our service, and all testers understood that courier deliveries are carried out by a walker or biker. They also successfully switched to the van service when tasked to deliver a larger or heavier item.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -76,7 +75,6 @@
 &lt;p&gt;HYPEBEAST’s Android app was designed to mimic the iOS counterpart. This created an &lt;strong&gt;unfamiliar interactive and visual experience&lt;/strong&gt; for our Android readers, as well as a &lt;strong&gt;reduction in app performance&lt;/strong&gt; due to custom components and animations based on iOS. Furthermore, Google Play refused to feature our app due to several usability and visual issues addressed in the Material Design guidelines.&lt;/p&gt;
 
 &lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-drops-platforms.jpg&quot; alt=&quot;Application of Material Design patterns to the Android app&quot; /&gt;&lt;/figure&gt;
-
 &lt;p&gt;To make our app less confusing for our app readers, &lt;strong&gt;we utilized patterns shared by both iOS and Android platforms, while conforming to Human Interface Guidelines and Material Design specs.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;We used native components and system icons wherever possible.&lt;/strong&gt; By removing custom components and animations, such as the app bar and iOS-style “back” transition, the Android app’s performance increased and felt more snappy and familiar to our readers.&lt;/p&gt;
@@ -86,30 +84,48 @@
 &lt;p&gt;We received feedback from our readers that our app looks dated. This was apparent when compared to our competitors and other apps. Instead of simply following the minimalism trend, we decided to take this opportunity to improve readability and focus as a whole.&lt;/p&gt;
 
 &lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-home-article.jpg&quot; alt=&quot;News feed and article&quot; /&gt;&lt;/figure&gt;
-
 &lt;p&gt;&lt;strong&gt;We avoided long headlines on images&lt;/strong&gt; for articles where editors and designers don’t have control over placement and styling. Previously, the gradient overlays made images too dark, covered parts of images, and sometimes created undesirable visuals. The revised design allows both headline and image to be clear, and also uses the same assets across mobile, tablet and desktop designs to simplify editors’ workflow.&lt;/p&gt;
 
 &lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-style.jpg&quot; alt=&quot;Visual styling revisited&quot; /&gt;&lt;/figure&gt;
-
 &lt;p&gt;We revisited the typography to &lt;strong&gt;create a stronger hierarchy&lt;/strong&gt;. Readers can identify important news and sponsored posts based on prominence. We reduced the complexity of icons to make them more recognizable. We also implemented new color guidelines to improve contrast and meet WCAG guidelines, and a soft 8-point grid to create vertical rhythm, consistent spacing and increased proximity.&lt;/p&gt;
 
 &lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-components.jpg&quot; alt=&quot;App components&quot; /&gt;&lt;/figure&gt;
-
 &lt;h2 id=&quot;more-natural-and-familiar-gesture-controls&quot;&gt;More natural and familiar gesture controls&lt;/h2&gt;
 
 &lt;p&gt;In usability tests, we noticed readers trying to use certain gesture controls based on their experience with other popular apps, but the app failed to do their desired action.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;div class=&quot;video-wrapper&quot;&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1d6cTwAg_cM&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+	&lt;div&gt;
+		&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/hb-gestures.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Gesture interactions based on what readers expected&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;For example, we learned that many iOS readers didn’t know that tapping on the status bar scrolls to top. Instead, they tried to scroll to top by tapping on the bottom bar again. We added this gesture control to both platforms. We also made sure all the tabs were swipeable, and image galleries can be closed by flicking it away.&lt;/p&gt;
 
 &lt;p&gt;Since shipping these updates, our app reviews improved, and the app was featured on Google Play and the App Store. In 2017, we grew from 32k to 73k monthly active users.&lt;/p&gt;
 
-&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-home-devices.jpg&quot; alt=&quot;HYPEBEAST app on mobile and tablet&quot; /&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">HYPEBEAST is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.</summary></entry><entry><title type="html">Jook app</title><link href="http://tomoslau.com/jook/" rel="alternate" type="text/html" title="Jook app" /><published>2017-01-01T00:00:00+08:00</published><updated>2017-01-01T00:00:00+08:00</updated><id>http://tomoslau.com/jook</id><content type="html" xml:base="http://tomoslau.com/jook/">&lt;p&gt;Jook is a side project I’ve been working on with &lt;a href=&quot;https://twitter.com/Kahou526&quot;&gt;Lucas Kuan&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/MaBoXiu&quot;&gt;Matthieu Bodin&lt;/a&gt;. I focus on design, front-end web development, user testing, and data analysis.&lt;/p&gt;
+&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-home-devices.jpg&quot; alt=&quot;HYPEBEAST app on mobile and tablet&quot; /&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">HYPEBEAST is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.</summary></entry><entry><title type="html">HBX size recommendation</title><link href="http://tomoslau.com/hbx-size-recommendation/" rel="alternate" type="text/html" title="HBX size recommendation" /><published>2018-01-01T00:00:00+08:00</published><updated>2018-01-01T00:00:00+08:00</updated><id>http://tomoslau.com/hbx-find-your-size</id><content type="html" xml:base="http://tomoslau.com/hbx-size-recommendation/">&lt;p&gt;We kickstarted tackling product returns by analyzing data to validate the top reason for returns: due to wrong size. Through user interviews and testing, we found that this was due to brands using different sizing and the difficulty of using traditional sizing charts. Most shoppers didn’t know their detailed body measurements like chest circumference and shoulder width, but knew their height and weight off the top of their head.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How might we help and encourage shoppers to find a more accurate size?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hbx-find-your-size-height-weight.jpg&quot; alt=&quot;We designed the size recommendation based on what most shoppers knew: their height and weight&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;We designed the size recommendation based on what most shoppers already knew: their height and weight&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;To simplify the process, we mapped the body measurements to the height and weight and tested with our coworkers in the office to refine the accuracy. We found that people who had a flat/round belly or broad/slim shoulders produced a wider range of results, so we added those options to the flow and encouraged them to input their body measurements for a more reliable size recommendation.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;div&gt;
+		&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/hbx-find-your-size.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We AB tested the call-to-cation on the product page to determine the most effective design.&lt;/p&gt;
+
+&lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hbx-find-your-size-saved.jpg&quot; alt=&quot;The most effective call-to-action based on AB testing: an underlined link positioned right beneath the size options&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;The most effective call-to-action based on AB testing: an underlined link positioned right beneath the size options&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Outcome: three months after we launched the size recommendation, returns due to improper sizing dropped by 86%.&lt;/p&gt;</content><author><name></name></author><summary type="html">We kickstarted tackling product returns by analyzing data to validate the top reason for returns: due to wrong size. Through user interviews and testing, we found that this was due to brands using different sizing and the difficulty of using traditional sizing charts. Most shoppers didn’t know their detailed body measurements like chest circumference and shoulder width, but knew their height and weight off the top of their head.</summary></entry><entry><title type="html">Jook app</title><link href="http://tomoslau.com/jook/" rel="alternate" type="text/html" title="Jook app" /><published>2017-01-01T00:00:00+08:00</published><updated>2017-01-01T00:00:00+08:00</updated><id>http://tomoslau.com/jook</id><content type="html" xml:base="http://tomoslau.com/jook/">&lt;p&gt;Jook is a side project I’ve been working on with &lt;a href=&quot;https://twitter.com/Kahou526&quot;&gt;Lucas Kuan&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/MaBoXiu&quot;&gt;Matthieu Bodin&lt;/a&gt;. I focus on design, front-end web development, user testing, and data analysis.&lt;/p&gt;
 
 &lt;h2 id=&quot;discovering-the-problem&quot;&gt;Discovering the problem&lt;/h2&gt;
 
