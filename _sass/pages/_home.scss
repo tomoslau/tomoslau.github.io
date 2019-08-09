@@ -21,7 +21,7 @@
 		margin-bottom: 4rem;
 	}
 	@include breakpoint(sm) {
-		margin-bottom: calc(8rem + 200px)
+		margin-bottom: calc(8rem) /* For odd number work grid: + 200px */
 	}	
 	.work-item {
 		&:nth-child(even) {
