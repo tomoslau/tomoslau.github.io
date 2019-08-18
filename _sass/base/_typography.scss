@@ -66,6 +66,26 @@ p {
 	}
 }
 
+.big-text p {
+	font-size: $base-font-size*1.5;
+	margin: 1.5rem 0;
+	&:first-child {
+		margin-top: 0;
+	}
+	&:last-child {
+		margin-bottom: 0;
+	}
+	@include breakpoint(xs) {
+		font-size: $base-font-size;
+		margin: 1rem 0;
+		&:first-child {
+			margin-top: 0;
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
 ul {
 	padding: 0;
 }

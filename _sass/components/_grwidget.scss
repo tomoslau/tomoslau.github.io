@@ -3,11 +3,11 @@
 }
 
 .gr_custom_each_container_1524583101 {
-  font-size: $base-font-size*1.125;
-  margin: 0.64rem 0;
-  @include breakpoint(xs) {
-  	font-size: $base-font-size;
-  }
+  margin: 1rem 0;
+	font-size: $base-font-size*1.5;
+	@include breakpoint(xs) {
+		font-size: $base-font-size;
+	}
 }
 
 .gr_custom_container_1524583101 center, .gr_custom_container_1524583101 br {
