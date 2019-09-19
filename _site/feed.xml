@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2019-09-19T23:41:10+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc urgent delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for GOGO delivery.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2019-09-19T23:47:29+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc urgent delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for GOGO delivery.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-challenge&quot;&gt;The challenge&lt;/h2&gt;
 
@@ -6,8 +6,8 @@
 
 &lt;ol&gt;
   &lt;li&gt;Improve order completion rate (activation/retention)&lt;/li&gt;
-  &lt;li&gt;Improve activation/retention for on-demand pro segment (e-commerce merchants)&lt;/li&gt;
-  &lt;li&gt;Improve courier activation&lt;/li&gt;
+  &lt;li&gt;Increase activation/retention for on-demand pro segment (e-commerce merchants)&lt;/li&gt;
+  &lt;li&gt;Increase courier activation&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-roadmap.svg&quot; alt=&quot;GOGO delivery product roadmap&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;GOGO delivery product roadmap&lt;/figcaption&gt;&lt;/figure&gt;
