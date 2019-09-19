@@ -22,15 +22,15 @@ layout: default
   
   <div class="post-content wrapper tofadein-second">
     {{ content }}
-    <ul class="list-reset">
+    <ul class="list-reset" style="margin-top: 4rem;">
         {% if page.website-link %}
-        <li><a class="button button-secondary" href="{{ page.website-link }}" target="_blank">Visit website</a></li>
+        <li>🔗 <a class="button button-secondary" href="{{ page.website-link }}" target="_blank">Visit website</a></li>
         {% endif %}
         {% if page.appstore-link %}
-        <li><a class="button button-secondary" href="{{ page.appstore-link }}" target="_blank">View on the App Store</a></li>
+        <li>🔗 <a class="button button-secondary" href="{{ page.appstore-link }}" target="_blank">View on the App Store</a></li>
         {% endif %}
         {% if page.googleplay-link %}
-        <li><a class="button button-secondary" href="{{ page.googleplay-link }}" target="_blank">View on Google Play</a></li>
+        <li>🔗 <a class="button button-secondary" href="{{ page.googleplay-link }}" target="_blank">View on Google Play</a></li>
         {% endif %}
     </ul>
   </div>

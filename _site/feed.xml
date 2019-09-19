@@ -1,27 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2019-08-31T20:45:22+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. The service targets small-medium businesses with ad-hoc urgent delivery needs in Hong Kong.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2019-09-19T23:41:10+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc urgent delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for GOGO delivery.&lt;/p&gt;
 
-&lt;h2 id=&quot;reducing-oversize-and-overweight-orders&quot;&gt;Reducing oversize and overweight orders&lt;/h2&gt;
+&lt;h2 id=&quot;the-challenge&quot;&gt;The challenge&lt;/h2&gt;
 
-&lt;p&gt;During the first week of launch, we noticed a high cancellation rate, where 80% of cancellations were due to shippers placing orders with &lt;strong&gt;oversized, overweight or multiple packages&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;To find the product-market fit for GOGO delivery, our goals were to:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Improve order completion rate (activation/retention)&lt;/li&gt;
+  &lt;li&gt;Improve activation/retention for on-demand pro segment (e-commerce merchants)&lt;/li&gt;
+  &lt;li&gt;Improve courier activation&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-roadmap.svg&quot; alt=&quot;GOGO delivery product roadmap&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;GOGO delivery product roadmap&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;my-role&quot;&gt;My role&lt;/h2&gt;
+
+&lt;p&gt;I led the design for the delivery experience since the product launch in 2018 summer and collaborated with one designer on the on-demand pro features and two other designers to support delivery on the new client app.&lt;/p&gt;
+
+&lt;p&gt;In addition, I worked alongside a product manager and data analyst. We conducted continuous research through user interviews and usability testing.&lt;/p&gt;
+
+&lt;h2 id=&quot;reducing-order-cancellations&quot;&gt;Reducing order cancellations&lt;/h2&gt;
+
+&lt;p&gt;During the first week of launch, we noticed a high cancellation rate, where 80% of cancellations were due to shippers placing orders with oversized, overweight or multiple packages.&lt;/p&gt;
 
 &lt;h3 id=&quot;process--experience&quot;&gt;Process &amp;amp; experience&lt;/h3&gt;
 
-&lt;p&gt;To understand the problem, I asked the experts from our operations, customer service, engineering and data teams.&lt;/p&gt;
+&lt;p&gt;To understand the problem, I asked the experts from our operations and customer service team.&lt;/p&gt;
 
-&lt;p&gt;“Shippers assume our couriers deliver packages using &lt;strong&gt;vans&lt;/strong&gt;,” Jackie, head of customer service, said, “but in reality, our couriers are &lt;strong&gt;walkers&lt;/strong&gt; (couriers who travel on foot and public transport).” This led to oversized, overweight or multiple packages that were physically impossible for a courier to carry.&lt;/p&gt;
+&lt;p&gt;We found that new shippers assumed our couriers deliver packages using vans, but in reality, our couriers are walkers (they travel on foot and public transport). This led to oversized, overweight or multiple packages that were physically impossible for a courier to carry.&lt;/p&gt;
+
+&lt;p&gt;I tested the existing app with people unfamiliar with our service to dig deeper to the reasons why: most of them assumed packages were delivered by vans due to our brand “GOGOVAN” and that the order flow didn’t give them any idea of our courier’s mode of transport.&lt;/p&gt;
+
+&lt;p&gt;To tackle this problem, we ran a design sprint to come up with ideas and decide on what to test in our order flow prototype.&lt;/p&gt;
 
 &lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggv-oversize-sketches.jpg&quot; alt=&quot;Sketches and voting stickers to explore and decide which ideas to test in our prototype&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;Sketches and voting stickers to explore and decide which ideas to test in our prototype&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;My PM Waikit and I wrote out some How Might We’s, made some quick sketches and voted to decide which ideas to test in our prototype. We tested the prototype with five shippers unfamiliar with our service, and all testers understood that courier deliveries are carried out by a walker or biker. They also successfully switched to the van service when tasked to deliver a larger or heavier item.&lt;/p&gt;
-
 &lt;figure&gt;
 	&lt;div class=&quot;ratio-4x3&quot;&gt;
-		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggv-oversize-screens.png&quot; alt=&quot;1. Added package type options to show what kind of packages are acceptable for couriers to deliver. 2. Helper text with a link to direct oversized delivery needs to our van service. 3. An option for oversized packages that direct to our van service.&quot; /&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggv-oversize-screens.png&quot; alt=&quot;Prototype to test service clarity&quot; /&gt;
 	&lt;/div&gt;
-	&lt;figcaption&gt;1. Redesigned service icon and label to clarify our couriers’ mode of transport&lt;br /&gt;
-	2. Added package type options to show what kind of packages are acceptable for couriers to deliver&lt;br /&gt;
-	3. Helper text with a link to direct oversized delivery needs to our van service&lt;br /&gt;
-	4. An option for oversized packages that direct to our van service&lt;/figcaption&gt;
+	&lt;figcaption&gt;Prototype to test service clarity&lt;/figcaption&gt;
 &lt;/figure&gt;
+
+&lt;p&gt;The prototype included:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;A redesigned service icon and name to clarify our couriers’ mode of transport&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Package type options to show what kind of packages are acceptable for couriers to deliver&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Helper text with a link to direct oversized delivery needs to our van service&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;An option for oversized packages that direct to our van service&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h3 id=&quot;the-outcome&quot;&gt;The outcome&lt;/h3&gt;
 
@@ -29,14 +63,21 @@
 
 &lt;p&gt;One month after the release, cancellations due to oversized items by new shippers reduced by 37%. Overall cancellation rate dropped 17%.&lt;/p&gt;
 
-&lt;h2 id=&quot;scheduled-delivery&quot;&gt;Scheduled delivery&lt;/h2&gt;
+&lt;h2 id=&quot;scheduled-delivery-and-cut-off-times&quot;&gt;Scheduled delivery and cut-off times&lt;/h2&gt;
 
-&lt;p&gt;Through interviews with e-commerce shippers and local boutique store visits, we learned that shippers wanted to be able to schedule deliveries for the next day so they can &lt;strong&gt;place multiple orders at the same time without worrying about it the next morning&lt;/strong&gt;. Our customer service team also informed us that many clients found it &lt;strong&gt;difficult to understand the cut-off time for each drop-off option&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Through interviews with e-commerce and brick and mortar store visits, we learned that shippers like to consolidate orders and place them all at once at the same time. Some shippers preferred placing multiple orders in the evening for the next day without worrying about it the next morning due to cutoff times. Many shippers also found it difficult to understand the cut-off time for each drop-off option.&lt;/p&gt;
 
 &lt;h3 id=&quot;process--experience-1&quot;&gt;Process &amp;amp; experience&lt;/h3&gt;
 
-&lt;p&gt;To improve the clarity of drop-off times, we worked with the operations and marketing team to make the times more memorable by rounding the times to the closest hour and displaying all drop-off options even when they’re not available. We also added helper text to make the cut-off time more transparent.&lt;/p&gt;
+&lt;p&gt;To improve the clarity of drop-off times, we worked closely with operations and marketing team to adjust the drop-off and cut-off times that is more meaningful for both shippers and couriers.&lt;/p&gt;
 
+&lt;p&gt;We made the times easier to understand and more memorable by:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Simplifying the same-day drop-off options to office-hours and after office-hours for residential deliveries&lt;/li&gt;
+  &lt;li&gt;Displaying all drop-off options even when they’re not available (in a disabled state)&lt;/li&gt;
+  &lt;li&gt;Adding helper text to make the cut-off times more transparent&lt;/li&gt;
+  &lt;li&gt;Rounding times to the closest hour&lt;/li&gt;
+&lt;/ul&gt;
 &lt;figure&gt;
 	&lt;div style=&quot;background-color:#F1F5F8;padding: 2rem&quot;&gt;
 		&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:372px;margin:0 auto&quot;&gt;
@@ -60,13 +101,67 @@
 &lt;h3 id=&quot;the-outcome-1&quot;&gt;The outcome&lt;/h3&gt;
 &lt;p&gt;After shipping the scheduling feature, the percentage of scheduled orders increased by 270%. Scheduled orders make 20–30% of our daily orders.&lt;/p&gt;
 
+&lt;h2 id=&quot;finding-relevant-orders-for-couriers&quot;&gt;Finding relevant orders for couriers&lt;/h2&gt;
+
+&lt;p&gt;As our demand grew,  couriers found it difficult to find relevant orders. Supply couldn’t keep up with the demand, and completion rate dropped as a result. To increase completion rate, we decided to tackle the problem of difficulty in picking orders for couriers.&lt;/p&gt;
+
+&lt;h3 id=&quot;process--experience-2&quot;&gt;Process &amp;amp; experience&lt;/h3&gt;
+
+&lt;p&gt;Through focus groups, we learned that couriers pick orders based on distance from pick up location, drop off location and earnings.&lt;/p&gt;
+
+&lt;p&gt;I led a design sprint with cross-functional teams to identify the key problems to tackle and decide which ideas to test.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;div&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-finding-orders-sketches.png&quot; alt=&quot;1. Added package type options to show what kind of packages are acceptable for couriers to deliver. 2. Helper text with a link to direct oversized delivery needs to our van service. 3. An option for oversized packages that direct to our van service.&quot; /&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Sketches from the design sprint to tackle couriers' problem of finding relevant orders&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F5F8;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
+			&lt;source src=&quot;https://cdn.dribbble.com/users/611270/videos/23476/20190424-courier-map-3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Early prototype to explore suggested bundling for couriers&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We expolored the most popular idea: a visual map to show couriers available orders based on their location and suggesting bundling to increase efficiency and income.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;div&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-filters-flow.png&quot; alt=&quot;Courier flow for filtering and sorting available orders&quot; /&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Courier flow for filtering and sorting available orders&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We also explored using filters and sorting to help couriers find their optimal orders. We tested the prototype with couriers and made several iterations to suit their needs.  After discussing with engineers, we decided to go ahead with this solution based on effort and outcome.&lt;/p&gt;
+
+&lt;p&gt;Since shipping this feature, we received positive feedback from couriers and the completion rate increased.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F5F8;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
+			&lt;source src=&quot;https://cdn.dribbble.com/users/611270/screenshots/7063450/media/0e9512f5c4b5d57b247773766cebd0f9.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Prototype with pick up, drop off filters and sorting options to help couriers find relevant orders easier&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;h2 id=&quot;lessons-learned&quot;&gt;Lessons learned&lt;/h2&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;The problem of shippers not understanding our service wasn’t identified during the closed beta period prior to launch because our sales team onboarded each user so they had a good understanding of the service. When new customers started using the service, the problems started to show up. &lt;strong&gt;Test product onboarding with completely new users.&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Talking to our operations and customer service team gave us valuable insight into the problems we were tackling because they communicated with the shippers frequently. &lt;strong&gt;Talk to people who listen to  our users’ problems regularly.&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Asking for feedback on the product copy made me realize that simple words can be improved to convey more meaning. For example, I learned that there are different words in Chinese for “package” and one of them implies a small package. &lt;strong&gt;Always ask for advice.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. The service targets small-medium businesses with ad-hoc urgent delivery needs in Hong Kong.</summary></entry><entry><title type="html">HYPEBEAST mobile redesign</title><link href="http://tomoslau.com/hypebeast-mobile-redesign/" rel="alternate" type="text/html" title="HYPEBEAST mobile redesign" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://tomoslau.com/hypebeast-mobile-redesign</id><content type="html" xml:base="http://tomoslau.com/hypebeast-mobile-redesign/">&lt;p&gt;&lt;a href=&quot;http://hypebeast.com&quot;&gt;HYPEBEAST&lt;/a&gt; is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.&lt;/p&gt;
+&lt;h3 id=&quot;test-product-onboarding-with-new-users-unfamiliar-with-the-service&quot;&gt;Test product onboarding with new users unfamiliar with the service&lt;/h3&gt;
+
+&lt;p&gt;The problem of shippers not understanding our service wasn’t identified during the closed beta period prior to launch because our sales team onboarded each user so they had a good understanding of the service. When new customers started using the service, the problems started to show up.&lt;/p&gt;
+
+&lt;h3 id=&quot;listen-to-users-and-teammates-who-communicate-frequently-with-clients-on-a-regular-basis&quot;&gt;Listen to users and teammates who communicate frequently with clients on a regular basis.&lt;/h3&gt;
+
+&lt;p&gt;Conducting frequent user interviews and sync-ups with our operations / customer service team gave us valuable insight into the problems we should prioritize and tackle.&lt;/p&gt;
+
+&lt;h3 id=&quot;test-designs-and-get-feedback-early&quot;&gt;Test designs and get feedback early&lt;/h3&gt;
+
+&lt;p&gt;Testing early gave us a more concrete direction and prevent tunnel vision. It also helped cross-functional teams understand the product roadmap and priorities. There were many times our hypotheses were proven wrong and saved us time.&lt;/p&gt;</content><author><name></name></author><summary type="html">GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc urgent delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for GOGO delivery.</summary></entry><entry><title type="html">HYPEBEAST mobile redesign</title><link href="http://tomoslau.com/hypebeast-mobile-redesign/" rel="alternate" type="text/html" title="HYPEBEAST mobile redesign" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://tomoslau.com/hypebeast-mobile-redesign</id><content type="html" xml:base="http://tomoslau.com/hypebeast-mobile-redesign/">&lt;p&gt;&lt;a href=&quot;http://hypebeast.com&quot;&gt;HYPEBEAST&lt;/a&gt; is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.&lt;/p&gt;
 
 &lt;p&gt;Our goal was to increase our loyal readership by improving the mobile app reading experience. During 2017 and 2018, I redesigned HYPEBEAST’s mobile apps to foster a better reading experience. Below are a few changes we shipped.&lt;/p&gt;
 
