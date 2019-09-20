@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2019-09-19T23:47:29+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc urgent delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for GOGO delivery.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2019-09-20T10:54:01+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc urgent delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for GOGO delivery.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-challenge&quot;&gt;The challenge&lt;/h2&gt;
 
@@ -119,11 +119,9 @@
 &lt;/figure&gt;
 
 &lt;figure&gt;
-	&lt;div style=&quot;background-color:#F1F5F8;padding: 2rem&quot;&gt;
-		&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
-			&lt;source src=&quot;https://cdn.dribbble.com/users/611270/videos/23476/20190424-courier-map-3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-		&lt;/video&gt;
-	&lt;/div&gt;
+	&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
+		&lt;source src=&quot;https://cdn.dribbble.com/users/611270/videos/23476/20190424-courier-map-3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+	&lt;/video&gt;
 	&lt;figcaption&gt;Early prototype to explore suggested bundling for couriers&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -141,11 +139,9 @@
 &lt;p&gt;Since shipping this feature, we received positive feedback from couriers and the completion rate increased.&lt;/p&gt;
 
 &lt;figure&gt;
-	&lt;div style=&quot;background-color:#F1F5F8;padding: 2rem&quot;&gt;
-		&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
-			&lt;source src=&quot;https://cdn.dribbble.com/users/611270/screenshots/7063450/media/0e9512f5c4b5d57b247773766cebd0f9.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-		&lt;/video&gt;
-	&lt;/div&gt;
+	&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
+		&lt;source src=&quot;https://cdn.dribbble.com/users/611270/screenshots/7063450/media/0e9512f5c4b5d57b247773766cebd0f9.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+	&lt;/video&gt;
 	&lt;figcaption&gt;Prototype with pick up, drop off filters and sorting options to help couriers find relevant orders easier&lt;/figcaption&gt;
 &lt;/figure&gt;
 
