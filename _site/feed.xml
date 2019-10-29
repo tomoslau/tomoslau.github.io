@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2019-10-02T10:19:48+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc urgent delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for GOGO delivery.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2019-10-29T18:08:39+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc urgent delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for GOGO delivery.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-challenge&quot;&gt;The challenge&lt;/h2&gt;
 
@@ -34,28 +34,21 @@
 
 &lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggv-oversize-sketches.jpg&quot; alt=&quot;Sketches and voting stickers to explore and decide which ideas to test in our prototype&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;Sketches and voting stickers to explore and decide which ideas to test in our prototype&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure&gt;
-	&lt;div class=&quot;ratio-4x3&quot;&gt;
-		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggv-oversize-screens.png&quot; alt=&quot;Prototype to test service clarity&quot; /&gt;
+	&lt;div class=&quot;ratio-16x9&quot;&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-oversize-service-tabs.png&quot; alt=&quot;New service copy and icon to improve clarity&quot; /&gt;
 	&lt;/div&gt;
-	&lt;figcaption&gt;Prototype to test service clarity&lt;/figcaption&gt;
+	&lt;figcaption&gt;In the prototype, we renamed the service to &quot;Courier Delivery&quot; (搵速遞員) and redesigned the service icon to show a walker/biker to improve the clarity of the service on the home page.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;div class=&quot;ratio-4x3&quot;&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-oversize-order-details.png&quot; alt=&quot;Prototype to test service clarity&quot; /&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;
+		We also tested these ideas:&lt;br /&gt;
+	1. Package type options to show what kind of packages are acceptable for couriers to deliver &lt;br /&gt; 2. Helper text with a link to direct oversized delivery needs to our van service&lt;br /&gt;3. An option for oversized packages that direct to our van service&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The prototype included:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;A redesigned service icon and name to clarify our couriers’ mode of transport&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Package type options to show what kind of packages are acceptable for couriers to deliver&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Helper text with a link to direct oversized delivery needs to our van service&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;An option for oversized packages that direct to our van service&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;After testing the prototype with users unfamiliar with our delivery service, we found that all testers understood the service and the majority expected either a walker or biker to pick up their package. When given a task to deliver larger items, they successfully switched to the van booking service.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-outcome&quot;&gt;The outcome&lt;/h3&gt;
 
@@ -136,14 +129,14 @@
 
 &lt;p&gt;We also explored using filters and sorting to help couriers find their optimal orders. We tested the prototype with couriers and made several iterations to suit their needs.  After discussing with engineers, we decided to go ahead with this solution based on effort and outcome.&lt;/p&gt;
 
-&lt;p&gt;Since shipping this feature, we received positive feedback from couriers and the completion rate increased.&lt;/p&gt;
-
+&lt;!--
 &lt;figure&gt;
-	&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
-		&lt;source src=&quot;https://cdn.dribbble.com/users/611270/screenshots/7063450/media/0e9512f5c4b5d57b247773766cebd0f9.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+	&lt;video class=&quot;lazy&quot; autoplay loop style=&quot;max-width:960px;margin:0 auto&quot;&gt;
+		&lt;source src=&quot;https://cdn.dribbble.com/users/611270/screenshots/7063450/media/0e9512f5c4b5d57b247773766cebd0f9.mp4&quot; type=&quot;video/mp4&quot;&gt;
 	&lt;/video&gt;
 	&lt;figcaption&gt;Prototype with pick up, drop off filters and sorting options to help couriers find relevant orders easier&lt;/figcaption&gt;
 &lt;/figure&gt;
+--&gt;
 
 &lt;h2 id=&quot;lessons-learned&quot;&gt;Lessons learned&lt;/h2&gt;
 
