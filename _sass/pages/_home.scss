@@ -32,4 +32,7 @@
 
 .pp {
 	border-radius: 100%;
+	@include breakpoint(xs) {
+		width: 33%;
+	}
 }
