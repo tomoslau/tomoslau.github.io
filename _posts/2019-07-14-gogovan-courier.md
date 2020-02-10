@@ -12,17 +12,17 @@ thumbnail: "/assets/gogo-delivery-courier.jpg"
 permalink: /gogo-delivery-courier-activation/
 ---
 
-Nine months into launching GOGO Delivery, the demand grew to a point where the supply couldn't keep up. To increase completion rate, our theme pivoted our objective to improve courier activation.
+Nine months into launching GOGO Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn't keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.
 
 ## My role
 
-I led the design for courier experience and worked closely with the operations team to understand courier behavior.
+I led the design for courier experience and worked closely with the Operations team to understand courier behavior.
 
 ## Research
 
-Through user interviews and focus groups, we found that couriers had difficulty in finding relevant orders. A few months ago, when there was less demand, there were only around twenty pending orders that couriers can pick at a given time. Now, there's over a hundred.
+Through user interviews and focus groups, we found that couriers had **difficulty in finding relevant orders**. A few months earlier, when there was less demand, there were only around twenty pending orders that couriers can pick from at a given time. Now, there's over a hundred.
 
-We learned that couriers select orders based on distance from pick up location, drop off location and earnings. To empathize with our couriers, our team went out and delivered packages. This enabled further learnings such as order bundling planning and package size, weight considerations.
+We learned that couriers select orders based on distance from pick up location, drop off location and earnings. To empathize with our couriers, our team went out and delivered packages. This enabled further learnings such as order bundling planning to maximize travel efficiency and earnings, and package size and weight considerations.
 
 ## Design sprint
 
@@ -30,10 +30,13 @@ I led a design sprint with cross-functional teams to identify the key problems t
 
 <figure>
 	<div>
-		<img class="lazy" data-src="/assets/ggd-courier-finding-orders-sketches.png" alt="1. Added package type options to show what kind of packages are acceptable for couriers to deliver. 2. Helper text with a link to direct oversized delivery needs to our van service. 3. An option for oversized packages that direct to our van service.">
+		<img class="lazy" data-src="/assets/ggd-courier-finding-orders-sketches.png" alt="Sketches from the design sprint to tackle couriers' problem of finding relevant orders">
 	</div>
 	<figcaption>Sketches from the design sprint to tackle couriers' problem of finding relevant orders</figcaption>
 </figure>
+
+## Most popular idea: Order bundling suggestion
+
 
 <figure>
 	<video class="lazy" autoplay loop style="max-width:960px;margin:0 auto">
@@ -41,21 +44,47 @@ I led a design sprint with cross-functional teams to identify the key problems t
 	</video>
 	<figcaption>Early prototype to explore suggested bundling for couriers</figcaption>
 </figure>
+We explored the most popular idea: a visual map to show couriers available orders based on their location and suggesting bundling to increase efficiency and income. However, due to the technical scope of this idea, we chose not to pursue this.
 
-We expolored the most popular idea: a visual map to show couriers available orders based on their location and suggesting bundling to increase efficiency and income.
+## Order suggestions
+<figure>
+	<div  class="ratio-4x3">
+		<img class="lazy" data-src="/assets/ggd-courier-order-suggestions.png" alt="Push notifications for new orders based on proximity to active orders">
+	</div>
+	<figcaption>Push notifications for new orders based on proximity to active order</figcaption>
+</figure>
+
+Couriers tend to pick orders that are "on the way." We tested the idea of sending push notifications for new orders to active couriers based on their orders' pick up and drop off locations. This enables them to find orders they're interested in without opening the app.
+
+## Order filtering
 
 <figure>
-	<div>
+	<div  class="ratio-4x3">
 		<img class="lazy" data-src="/assets/ggd-courier-filters-flow.png" alt="Courier flow for filtering and sorting available orders">
 	</div>
 	<figcaption>Courier flow for filtering and sorting available orders</figcaption>
 </figure>
 
-We also explored using filters and sorting to help couriers find relevant orders. We tested the prototype with couriers and made several iterations to suit their needs and technical constraints.
+We also explored using filters and sorting to help couriers find relevant orders. We tested the prototype with couriers and made several iterations to suit their needs and technical constraints. The final design uses a sticky top bar with dropdown menus to indicate active filters (in a different color) and the sorting method at all times. 
 
 <figure>
 	<video class="lazy" autoplay loop style="max-width:960px;margin:0 auto">
 		<source src="/assets/gogo-delivery-courier-filters.mp4" type="video/mp4">
 	</video>
-	<figcaption>We shipped pick up / drop off region filters and sorting by pick up time, drop off time, distance to pick up and earnings</figcaption>
+	<figcaption>Prototype for pick up region, drop off region filters and sorting by time, distance to pick up and earnings</figcaption>
 </figure>
+
+We shipped the order filtering and sorting first. We assumed this had the greatest outcome for couriers due to their strong preference of picking orders by region and earnings.
+
+## Additional filters
+<figure>
+	<div  class="ratio-4x3">
+		<img class="lazy" data-src="/assets/ggd-courier-filters-add.png" alt="Additional filters for time, package size, and weight">
+	</div>
+	<figcaption>Additional filters for time, package size, and weight</figcaption>
+</figure>
+
+In addition, we shipped filters for time constraints, package size, and weight. This enabled couriers to further filter orders that are more relevant to them - for example, package weights that they are physically capable of carrying when bundling orders.
+
+## Filters usage
+After one month of release, the package size and weight filters had the most usage at 95%. Whereas the time filter had 25%, and pick up region filter only at 10%. Overall response time increased. Next steps: research and iterate on improving the time and pick up region filters.

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2020-01-27T13:42:59+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO Delivery for business</title><link href="http://tomoslau.com/gogo-delivery-web/" rel="alternate" type="text/html" title="GOGO Delivery for business" /><published>2020-01-25T00:00:00+08:00</published><updated>2020-01-25T00:00:00+08:00</updated><id>http://tomoslau.com/gogodelivery-web</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-web/">&lt;p&gt;After launching GOGO Delivery on mobile, we found that a small percentage of our users created a large percentage of orders. Through data and user interviews, we learned that these users were merchants selling food and beverages, beauty products, home electronics, pet products and such. They also had a need of placing multiple orders on a regular basis. When visiting their stores and offices, we found that most of the operations staff sat behind a computer while working with their e-commerce platforms. To support merchants, we launched &lt;strong&gt;GOGO Delivery for business&lt;/strong&gt; so they can work more efficiently.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2020-02-10T20:41:41+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GOGO Delivery for business</title><link href="http://tomoslau.com/gogo-delivery-web/" rel="alternate" type="text/html" title="GOGO Delivery for business" /><published>2020-01-25T00:00:00+08:00</published><updated>2020-01-25T00:00:00+08:00</updated><id>http://tomoslau.com/gogodelivery-web</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-web/">&lt;p&gt;After launching GOGO Delivery on mobile, we found that a small percentage of our users created a large percentage of orders. Through data and user interviews, we learned that these users were merchants selling food and beverages, beauty products, home electronics, pet products and such. They also had a need of placing multiple orders on a regular basis. When visiting their stores and offices, we found that most of the operations staff sat behind a computer while working with their e-commerce platforms. To support merchants, we launched &lt;strong&gt;GOGO Delivery for business&lt;/strong&gt; so they can work more efficiently.&lt;/p&gt;
 
 &lt;h2 id=&quot;order-management&quot;&gt;Order management&lt;/h2&gt;
 &lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-web-order-management.png&quot; alt=&quot;Order management page&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
@@ -11,17 +11,17 @@
 &lt;h2 id=&quot;print-shipping-labels&quot;&gt;Print shipping labels&lt;/h2&gt;
 
 &lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-web-print.png&quot; alt=&quot;Print shipping labels to aid package pickup&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;During our store visits, we found that many merchants wrote the address and pick-up verification code on labels or directly on the packages. To aid this process, we introduced shipping labels that merchants can choose to print after placing their orders. Interestingly, when we tested this with merchants, some said they still preferred to hand-write to save the environment and printing costs.&lt;/p&gt;</content><author><name></name></author><summary type="html">After launching GOGO Delivery on mobile, we found that a small percentage of our users created a large percentage of orders. Through data and user interviews, we learned that these users were merchants selling food and beverages, beauty products, home electronics, pet products and such. They also had a need of placing multiple orders on a regular basis. When visiting their stores and offices, we found that most of the operations staff sat behind a computer while working with their e-commerce platforms. To support merchants, we launched GOGO Delivery for business so they can work more efficiently.</summary></entry><entry><title type="html">GOGO Delivery courier activation</title><link href="http://tomoslau.com/gogo-delivery-courier-activation/" rel="alternate" type="text/html" title="GOGO Delivery courier activation" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan-courier</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-courier-activation/">&lt;p&gt;Nine months into launching GOGO Delivery, the demand grew to a point where the supply couldn’t keep up. To increase completion rate, our theme pivoted our objective to improve courier activation.&lt;/p&gt;
+&lt;p&gt;During our store visits, we found that many merchants wrote the address and pick-up verification code on labels or directly on the packages. To aid this process, we introduced shipping labels that merchants can choose to print after placing their orders. Interestingly, when we tested this with merchants, some said they still preferred to hand-write to save the environment and printing costs.&lt;/p&gt;</content><author><name></name></author><summary type="html">After launching GOGO Delivery on mobile, we found that a small percentage of our users created a large percentage of orders. Through data and user interviews, we learned that these users were merchants selling food and beverages, beauty products, home electronics, pet products and such. They also had a need of placing multiple orders on a regular basis. When visiting their stores and offices, we found that most of the operations staff sat behind a computer while working with their e-commerce platforms. To support merchants, we launched GOGO Delivery for business so they can work more efficiently.</summary></entry><entry><title type="html">GOGO Delivery courier activation</title><link href="http://tomoslau.com/gogo-delivery-courier-activation/" rel="alternate" type="text/html" title="GOGO Delivery courier activation" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan-courier</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-courier-activation/">&lt;p&gt;Nine months into launching GOGO Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.&lt;/p&gt;
 
 &lt;h2 id=&quot;my-role&quot;&gt;My role&lt;/h2&gt;
 
-&lt;p&gt;I led the design for courier experience and worked closely with the operations team to understand courier behavior.&lt;/p&gt;
+&lt;p&gt;I led the design for courier experience and worked closely with the Operations team to understand courier behavior.&lt;/p&gt;
 
 &lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
 
-&lt;p&gt;Through user interviews and focus groups, we found that couriers had difficulty in finding relevant orders. A few months ago, when there was less demand, there were only around twenty pending orders that couriers can pick at a given time. Now, there’s over a hundred.&lt;/p&gt;
+&lt;p&gt;Through user interviews and focus groups, we found that couriers had &lt;strong&gt;difficulty in finding relevant orders&lt;/strong&gt;. A few months earlier, when there was less demand, there were only around twenty pending orders that couriers can pick from at a given time. Now, there’s over a hundred.&lt;/p&gt;
 
-&lt;p&gt;We learned that couriers select orders based on distance from pick up location, drop off location and earnings. To empathize with our couriers, our team went out and delivered packages. This enabled further learnings such as order bundling planning and package size, weight considerations.&lt;/p&gt;
+&lt;p&gt;We learned that couriers select orders based on distance from pick up location, drop off location and earnings. To empathize with our couriers, our team went out and delivered packages. This enabled further learnings such as order bundling planning to maximize travel efficiency and earnings, and package size and weight considerations.&lt;/p&gt;
 
 &lt;h2 id=&quot;design-sprint&quot;&gt;Design sprint&lt;/h2&gt;
 
@@ -29,10 +29,12 @@
 
 &lt;figure&gt;
 	&lt;div&gt;
-		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-finding-orders-sketches.png&quot; alt=&quot;1. Added package type options to show what kind of packages are acceptable for couriers to deliver. 2. Helper text with a link to direct oversized delivery needs to our van service. 3. An option for oversized packages that direct to our van service.&quot; /&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-finding-orders-sketches.png&quot; alt=&quot;Sketches from the design sprint to tackle couriers' problem of finding relevant orders&quot; /&gt;
 	&lt;/div&gt;
 	&lt;figcaption&gt;Sketches from the design sprint to tackle couriers' problem of finding relevant orders&lt;/figcaption&gt;
 &lt;/figure&gt;
+
+&lt;h2 id=&quot;most-popular-idea-order-bundling-suggestion&quot;&gt;Most popular idea: Order bundling suggestion&lt;/h2&gt;
 
 &lt;figure&gt;
 	&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
@@ -40,24 +42,50 @@
 	&lt;/video&gt;
 	&lt;figcaption&gt;Early prototype to explore suggested bundling for couriers&lt;/figcaption&gt;
 &lt;/figure&gt;
+&lt;p&gt;We explored the most popular idea: a visual map to show couriers available orders based on their location and suggesting bundling to increase efficiency and income. However, due to the technical scope of this idea, we chose not to pursue this.&lt;/p&gt;
 
-&lt;p&gt;We expolored the most popular idea: a visual map to show couriers available orders based on their location and suggesting bundling to increase efficiency and income.&lt;/p&gt;
+&lt;h2 id=&quot;order-suggestions&quot;&gt;Order suggestions&lt;/h2&gt;
+&lt;figure&gt;
+	&lt;div class=&quot;ratio-4x3&quot;&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-order-suggestions.png&quot; alt=&quot;Push notifications for new orders based on proximity to active orders&quot; /&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Push notifications for new orders based on proximity to active order&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Couriers tend to pick orders that are “on the way.” We tested the idea of sending push notifications for new orders to active couriers based on their orders’ pick up and drop off locations. This enables them to find orders they’re interested in without opening the app.&lt;/p&gt;
+
+&lt;h2 id=&quot;order-filtering&quot;&gt;Order filtering&lt;/h2&gt;
 
 &lt;figure&gt;
-	&lt;div&gt;
+	&lt;div class=&quot;ratio-4x3&quot;&gt;
 		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-filters-flow.png&quot; alt=&quot;Courier flow for filtering and sorting available orders&quot; /&gt;
 	&lt;/div&gt;
 	&lt;figcaption&gt;Courier flow for filtering and sorting available orders&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;We also explored using filters and sorting to help couriers find relevant orders. We tested the prototype with couriers and made several iterations to suit their needs and technical constraints.&lt;/p&gt;
+&lt;p&gt;We also explored using filters and sorting to help couriers find relevant orders. We tested the prototype with couriers and made several iterations to suit their needs and technical constraints. The final design uses a sticky top bar with dropdown menus to indicate active filters (in a different color) and the sorting method at all times.&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
 		&lt;source src=&quot;/assets/gogo-delivery-courier-filters.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 	&lt;/video&gt;
-	&lt;figcaption&gt;We shipped pick up / drop off region filters and sorting by pick up time, drop off time, distance to pick up and earnings&lt;/figcaption&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Nine months into launching GOGO Delivery, the demand grew to a point where the supply couldn’t keep up. To increase completion rate, our theme pivoted our objective to improve courier activation.</summary></entry><entry><title type="html">GOGO Delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO Delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for GOGO Delivery.&lt;/p&gt;
+	&lt;figcaption&gt;Prototype for pick up region, drop off region filters and sorting by time, distance to pick up and earnings&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We shipped the order filtering and sorting first. We assumed this had the greatest outcome for couriers due to their strong preference of picking orders by region and earnings.&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-filters&quot;&gt;Additional filters&lt;/h2&gt;
+&lt;figure&gt;
+	&lt;div class=&quot;ratio-4x3&quot;&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-filters-add.png&quot; alt=&quot;Additional filters for time, package size, and weight&quot; /&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Additional filters for time, package size, and weight&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In addition, we shipped filters for time constraints, package size, and weight. This enabled couriers to further filter orders that are more relevant to them - for example, package weights that they are physically capable of carrying when bundling orders.&lt;/p&gt;
+
+&lt;h2 id=&quot;filters-usage&quot;&gt;Filters usage&lt;/h2&gt;
+&lt;p&gt;After one month of release, the package size and weight filters had the most usage at 95%. Whereas the time filter had 25%, and pick up region filter only at 10%. Overall response time increased. Next steps: research and iterate on improving the time and pick up region filters.&lt;/p&gt;</content><author><name></name></author><summary type="html">Nine months into launching GOGO Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.</summary></entry><entry><title type="html">GOGO Delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="GOGO Delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GOGOVAN launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for GOGO Delivery.&lt;/p&gt;
 
 &lt;h2 id=&quot;my-role&quot;&gt;My role&lt;/h2&gt;
 
