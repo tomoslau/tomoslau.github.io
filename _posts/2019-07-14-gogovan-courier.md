@@ -12,17 +12,23 @@ thumbnail: "/assets/gogo-delivery-courier.jpg"
 permalink: /gogo-delivery-courier-activation/
 ---
 
-Nine months into launching GOGO Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn't keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.
+Nine months into launching GOGO Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.
 
 ## My role
 
-I led the design for courier experience and worked closely with the Operations team to understand courier behavior.
+I led the design for courier experience. I worked closely with our PM, FE and BE enginers, Data Analyst, and cross-functional team (Operations, Customer Service, Marketing) throughout the design process.
 
 ## Research
 
 Through user interviews and focus groups, we found that couriers had **difficulty in finding relevant orders**. A few months earlier, when there was less demand, there were only around twenty pending orders that couriers can pick from at a given time. Now, there's over a hundred.
 
 We learned that couriers select orders based on distance from pick up location, drop off location and earnings. To empathize with our couriers, our team went out and delivered packages. This enabled further learnings such as order bundling planning to maximize travel efficiency and earnings, and package size and weight considerations.
+
+## Metrics
+
+0.4 daily orders per registered courier
+
+42 minutes average response time
 
 ## Design sprint
 
@@ -88,3 +94,37 @@ In addition, we shipped filters for time constraints, package size, and weight. 
 
 ## Filters usage
 After one month of release, the package size and weight filters had the most usage at 95%. Whereas the time filter had 25%, and pick up region filter only at 10%. Overall response time increased. Next steps: research and iterate on improving the time and pick up region filters.
+
+<figure>
+		<img class="lazy" data-src="/assets/ggd-courier-filters-usage.png" alt="Filter usage one month since launch">
+	<figcaption>Filter usage one month since launch</figcaption>
+</figure>
+
+<figure>
+		<img class="lazy" data-src="/assets/ggd-courier-filters-adopters.png" alt="Adoption vs orders taken 30 days before and after launch">
+	<figcaption>Adoption vs orders taken 30 days before and after launch</figcaption>
+</figure>
+
+Filter adopters increased their orders by 1.8x post-launch
+
+## Outcome
+
+### 1.8x
+
+Daily orders by adopters (0.4 → 0.7)
+
+### -83%
+
+Average response time (42m → 8m)
+
+## Retro
+
+- Assumed pick up regions filter and sorting is more impactful than size, weight, time
+  - Testing prototype indoor vs actual usage while making deliveries?
+- Why low usage on pick up region filters?
+  - How often do couriers pick up orders from different regions?
+  - Are the defined regions too large?
+  - Interaction cost?
+- When increased completion rate (price adjustment, coronavirus)
+  - Less than 5 pending orders to pick from
+  - How impactful are the filters?
