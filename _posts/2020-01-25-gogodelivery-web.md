@@ -25,7 +25,7 @@ After launching GOGO Delivery on mobile, we found that a small percentage of our
 ### Ad hoc
 
 - Places deliveries when needed
-- Requires urgen`t delivery (like food and medicine)
+- Requires urgent delivery (like food and medicine)
 - On the go, prefers to use mobile
 
 ### Batch
@@ -68,7 +68,7 @@ For the initial scope, we created a web app with the same functionalities as our
 
 We observed merchants placing orders and found that they tend to deliver items to frequent customers with similar package information. Some of the merchants even used the native mobile keyboard shortcuts to fill in the order form easier.
 
-To help merchants place orders, we enabled autofill for sender, recipient, and package information so that they can fill in most of the form in a few clicks without inputting each field individually.
+To help merchants place orders, we enabled autofill for the sender, recipient, and package information so that they can fill in most of the form in a few clicks without inputting each field individually.
 
 <figure><div><img class="lazy" data-src="/assets/ggb-autofill.jpg" alt="Autofill order information"></div></figure>
 
