@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GOGO Delivery for business
+title: Gogo Delivery for business
 date: 2020-01-25 00:00:00 +0800
 categories:
 year: 2020
@@ -16,11 +16,11 @@ permalink: /gogo-delivery-web/
 
 ## Role
 
-GOGO Delivery for business was a result of the continuous discovery that our PM and I conducted. I led user interviews, conducted surveys, and worked closely with our data analysts to learn more about our users on a regular basis. Based on our learnings, our PM and I defined product strategies that align with our business goals. From there, we defined hypotheses and metrics. I worked closely with engineers and the cross-functional team throughout the ideation and prototyping phase, sought feedback from designers via weekly critiques, and tested prototypes with merchants. For the final deliverables, I worked with designers who work on our Client mobile app and web app to align the UI and interaction, update the Design System if needed, and verify the translations. I discussed the design with engineers and QA during grooming, and design QA'ed before launch. Post-launch, we reviewed the metrics and retrospected.
+Gogo Delivery for business was a result of the continuous discovery that our PM and I conducted. I led user interviews, conducted surveys, and worked closely with our data analysts to learn more about our users on a regular basis. Based on our learnings, our PM and I defined product strategies that align with our business goals. From there, we defined hypotheses and metrics. I worked closely with engineers and the cross-functional team throughout the ideation and prototyping phase, sought feedback from designers via weekly critiques, and tested prototypes with merchants. For the final deliverables, I worked with designers who work on our Client mobile app and web app to align the UI and interaction, update the Design System if needed, and verify the translations. I discussed the design with engineers and QA during grooming, and design QA'ed before launch. Post-launch, we reviewed the metrics and retrospected.
 
 ## Research
 
-After launching GOGO Delivery on mobile, we found that a small percentage of our users created a large percentage of orders. Through data and user interviews, we learned that these users were merchants selling food and beverages, beauty products, electronics, and pet products. We segmented these merchants into two groups based on their behavior.
+After launching Gogo Delivery on mobile, we found that a small percentage of our users created a large percentage of orders. Through data and user interviews, we learned that these users were merchants selling food and beverages, beauty products, electronics, and pet products. We segmented these merchants into two groups based on their behavior.
 
 ### Ad hoc
 

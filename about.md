@@ -19,9 +19,9 @@ permalink: /about/
   <div class="grid-item">
     <p>💼 Experience</p>
     <ul>
-      <li>GOGOX, Senior Product Designer since 2020</li>
-      <li>GOGOX, Product Designer II 2018-2020</li>
-      <li>HYPEBEAST, UX/UI Designer 2017-2018</li>
+      <li>GogoX, Senior Product Designer since 2020</li>
+      <li>GogoX, Product Designer II 2018-2020</li>
+      <li>Hypebeast, UX/UI Designer 2017-2018</li>
       <li>Isobar, Art Director 2016</li>
       <li>Clarity Labs, UX/UI Designer 2014-2016</li>
     </ul>
