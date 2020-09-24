@@ -24,12 +24,6 @@ Through user interviews and focus groups, we found that couriers had **difficult
 
 We learned that couriers select orders based on distance from pick up location, drop off location and earnings. To empathize with our couriers, our team went out and delivered packages. This enabled further learnings such as order bundling planning to maximize travel efficiency and earnings, and package size and weight considerations.
 
-## Metrics
-
-0.4 daily orders per registered courier
-
-42 minutes average response time
-
 ## Design sprint
 
 I led a design sprint with cross-functional teams to identify the key problems to tackle for courier activation and decide which ideas to test.
@@ -95,27 +89,14 @@ In addition, we shipped filters for time constraints, package size, and weight. 
 ## Filters usage
 After one month of release, the package size and weight filters had the most usage at 95%. Whereas the time filter had 25%, and pick up region filter only at 10%. Overall response time increased. Next steps: research and iterate on improving the time and pick up region filters.
 
-<figure>
-		<img class="lazy" data-src="/assets/ggd-courier-filters-usage.png" alt="Filter usage one month since launch">
-	<figcaption>Filter usage one month since launch</figcaption>
-</figure>
-
-<figure>
-		<img class="lazy" data-src="/assets/ggd-courier-filters-adopters.png" alt="Adoption vs orders taken 30 days before and after launch">
-	<figcaption>Adoption vs orders taken 30 days before and after launch</figcaption>
-</figure>
 
 Filter adopters increased their orders by 1.8x post-launch
 
 ## Outcome
 
-### 1.8x
+- Daily orders by adopters increased 180%
 
-Daily orders by adopters (0.4 → 0.7)
-
-### -83%
-
-Average response time (42m → 8m)
+- Response time reduced 83%
 
 ## Retro
 

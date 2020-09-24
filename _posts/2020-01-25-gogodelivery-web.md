@@ -78,7 +78,7 @@ We also launched "reuse order" under order details so merchants can request an o
 
 
 
-## Batch deliveries
+## Bulk order
 
 We learned that merchants who consolidate orders and batch delivery orders manage their orders internally using spreadsheets. Some of them sold products on several different platforms, like Shopify, Shopline, and Price. They export spreadsheets from these platforms and combine the orders into one spreadsheet for management. They were also familiar with using bulk spreadsheet import on other logistic platforms. During user interviews, we learned more about their likes and dislikes on the bulk importing experience.
 
@@ -110,4 +110,6 @@ During our store visits and taking orders as couriers, we found that many mercha
 
 ## Outcome
 
-Launching soon - will update
+- Package information autofill reduced time spent on the order form by 23%
+- Reuse order contributed to 93% increase in orders placed
+- 65% merchants print shipping labels

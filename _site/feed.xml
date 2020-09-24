@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2020-09-05T20:42:37+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">Gogo Delivery for business</title><link href="http://tomoslau.com/gogo-delivery-web/" rel="alternate" type="text/html" title="Gogo Delivery for business" /><published>2020-01-25T00:00:00+08:00</published><updated>2020-01-25T00:00:00+08:00</updated><id>http://tomoslau.com/gogodelivery-web</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-web/">&lt;h2 id=&quot;role&quot;&gt;Role&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2020-09-24T20:02:27+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">Gogo Delivery mobile order experience</title><link href="http://tomoslau.com/gogo-delivery-mobile/" rel="alternate" type="text/html" title="Gogo Delivery mobile order experience" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://tomoslau.com/gogox-delivery-order-experience</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-mobile/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;GogoX is Hong Kong’s largest on-demand logistics platform (think Uber for logistics) and operates in Taiwan, Singapore, India, Vietnam, and South Korea. In 2018, GogoX launched a new service to tackle same-day last-mile delivery.&lt;/p&gt;
+
+&lt;p&gt;Our goal was to increase delivery demand while maintaining a high completion rate on the supply side. In this case study, we’ll focus on the activation and retention on the demand side.&lt;/p&gt;
+
+&lt;h2 id=&quot;role&quot;&gt;Role&lt;/h2&gt;
+
+&lt;p&gt;Senior Product Designer: User research, interaction, visual design, prototyping, testing, design QA&lt;/p&gt;
+
+&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;GogoX’s client app went through a revamp in late 2019. Due to constraints, components and flows were shared across both vehicle hiring and delivery services. After launching the new app, we decided to tackle the conversion in the place order flow to increase activation.&lt;/p&gt;
+
+&lt;p&gt;Based on the order funnel data and user interviews, we discovered opportunities to improve the conversion for entering sender and recipient and package information.&lt;/p&gt;
+
+&lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
+
+&lt;p&gt;Based on surveys I conducted and calls by the customer service team, we found the most frequently mentioned pain points were the completion rate and the amount of information to fill in on the order form.&lt;/p&gt;
+
+&lt;p&gt;To dig deeper into their pain points, I conducted qualitative user interviews.&lt;/p&gt;
+
+&lt;p&gt;“It feels like there are a lot of steps to enter the sender and recipient information. It’s also difficult to edit the address.”&lt;/p&gt;
+
+&lt;p&gt;“There’s a lot of input compared to other delivery services. For example, other services have a fixed rate and I don’t have to enter the package information like size and weight every time.”&lt;/p&gt;
+
+&lt;p&gt;“Sometimes I find it difficult to find an address. I usually copy and paste my customer’s address, but sometimes there are no search results.”&lt;/p&gt;
+
+&lt;h2 id=&quot;competitive-analysis&quot;&gt;Competitive analysis&lt;/h2&gt;
+
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-mobile-competitor-analysis.png&quot; alt=&quot;Competitor analysis&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+
+&lt;p&gt;When we placed our order flow next to our competitors’ and other on-demand delivery services’, it’s apparent there are more steps in our flow, especially in the sender/recipient details and package information steps.&lt;/p&gt;
+
+&lt;h2 id=&quot;brainstorm&quot;&gt;Brainstorm&lt;/h2&gt;
+
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-mobile-brainstorm.png&quot; alt=&quot;Brainstorm&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+
+&lt;p&gt;I shared the research and facilitated a brainstorm session with our cross-functional team to tackle the two steps of the funnel. Then, I took our favorite ideas and prototyped them to test with ad-hoc users and merchants.&lt;/p&gt;
+
+&lt;h2 id=&quot;simplified-the-senderrecipient-form&quot;&gt;Simplified the sender/recipient form&lt;/h2&gt;
+
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-from-to-before.png&quot; alt=&quot;From and to before&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-from-to-after.png&quot; alt=&quot;From and to after&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+
+&lt;p&gt;Based on usability tests, we found that the design that shows all the details for sender/recipient in a single page provided the most clarity to merchants. It allowed merchants to review their input and edit any field easier. The new form also prefilled the sender’s address using the device’s location as this was the most frequent use case based on data and interviews. The address details, sender name and phone number are also filled if there’s available information from their account details or a previous order.&lt;/p&gt;
+
+&lt;h2 id=&quot;select-on-map&quot;&gt;Select on map&lt;/h2&gt;
+
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-select-on-map.png&quot; alt=&quot;Select on map shipped&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;What we shipped for the first scope&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-select-on-map-alt.png&quot; alt=&quot;Select on map alt&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;Exploration on an idea suggested by our engineer Jay to suggest nearby addresses&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;During usability tests, we found that the GPS location taken to prefill the sender’s address isn’t always accurate, especially in dense cities. To tackle this issue, we shipped a select on map feature to allow merchants to drag their location on the map to refine their pickup or dropoff location.&lt;/p&gt;
+
+&lt;h2 id=&quot;package-information&quot;&gt;Package information&lt;/h2&gt;
+
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-package-info-before.png&quot; alt=&quot;Package info before&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-package-info-after.png&quot; alt=&quot;Package info after&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-package-info-autofill.png&quot; alt=&quot;Package info autofill&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;Package information autofill&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The package information page was the second highest dropoff point for new and ad-hoc users. Through user interviews, we learned that most ad-hoc users felt the package information took long to fill in. Most of them expected to be able to send a package as long as it fit under a size that fits in a motorbike or sedan, and found it unnecessary to fill in the details. Merchants, though, didn’t mind filling in the details like package size and weight because they are extremly price sensitive. In fact, many merchants we spoke with felt our box model options (i.e. within a 40x40x40cm cube) were too restrictive when they wanted to send flatter and longer packages.&lt;/p&gt;
+
+&lt;p&gt;We decided to create a different package information form for new/ad-hoc users, and merchants based on their needs:&lt;/p&gt;
+
+&lt;p&gt;For ad-hoc users, we simplified the 20 possible size and weight combinations to two options (40x40x40cm, 10kg, and 60x60x60cm, 20kg) based on the size and weight relationship from historical orders and competitive advantages.&lt;/p&gt;
+
+&lt;p&gt;For the merchant’s flow, we added separate input fields for length, width, and height to give businesses the flexibility to send long and narrow packages at a fairer price.&lt;/p&gt;
+
+&lt;p&gt;In both flows, we introduced package info defaults for new users, and reused previous order information for returning users. We also added a saved package feature, where merchants can autofill the package information page.&lt;/p&gt;
+
+&lt;h2 id=&quot;outcome&quot;&gt;Outcome&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;28% users selected a pickup or dropoff on the map&lt;/li&gt;
+  &lt;li&gt;Address confirmed increased by 125%&lt;/li&gt;
+  &lt;li&gt;The conversion between starting an order and completing the sender/recipient details increased by 8%&lt;/li&gt;
+  &lt;li&gt;Time spent on package info page reduced by 14% (after autofill rollout and before new package info flow)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;learnings&quot;&gt;Learnings&lt;/h2&gt;
+
+&lt;p&gt;A couple of months after rolling out the sender/recipient flow, our operations team received an increase in courier complaints regarding the accuracy of pickup addresses. Our assumption is that by prefilling the pickup location using the device’s GPS, some users may not be aware they should change it when the address is wrong. This resulted in couriers going to the wrong location and spending more time communicating with clients. A good problem to solve given the impact of the solutions.&lt;/p&gt;</content><author><name></name></author><summary type="html">Overview</summary></entry><entry><title type="html">Gogo Delivery for business</title><link href="http://tomoslau.com/gogo-delivery-web/" rel="alternate" type="text/html" title="Gogo Delivery for business" /><published>2020-01-25T00:00:00+08:00</published><updated>2020-01-25T00:00:00+08:00</updated><id>http://tomoslau.com/gogodelivery-web</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-web/">&lt;h2 id=&quot;role&quot;&gt;Role&lt;/h2&gt;
 
 &lt;p&gt;Gogo Delivery for business was a result of the continuous discovery that our PM and I conducted. I led user interviews, conducted surveys, and worked closely with our data analysts to learn more about our users on a regular basis. Based on our learnings, our PM and I defined product strategies that align with our business goals. From there, we defined hypotheses and metrics. I worked closely with engineers and the cross-functional team throughout the ideation and prototyping phase, sought feedback from designers via weekly critiques, and tested prototypes with merchants. For the final deliverables, I worked with designers who work on our Client mobile app and web app to align the UI and interaction, update the Design System if needed, and verify the translations. I discussed the design with engineers and QA during grooming, and design QA’ed before launch. Post-launch, we reviewed the metrics and retrospected.&lt;/p&gt;
 
@@ -60,7 +145,7 @@
 
 &lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggb-reuse-details.png&quot; alt=&quot;Reuse order details&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;batch-deliveries&quot;&gt;Batch deliveries&lt;/h2&gt;
+&lt;h2 id=&quot;bulk-order&quot;&gt;Bulk order&lt;/h2&gt;
 
 &lt;p&gt;We learned that merchants who consolidate orders and batch delivery orders manage their orders internally using spreadsheets. Some of them sold products on several different platforms, like Shopify, Shopline, and Price. They export spreadsheets from these platforms and combine the orders into one spreadsheet for management. They were also familiar with using bulk spreadsheet import on other logistic platforms. During user interviews, we learned more about their likes and dislikes on the bulk importing experience.&lt;/p&gt;
 
@@ -94,7 +179,121 @@
 
 &lt;h2 id=&quot;outcome&quot;&gt;Outcome&lt;/h2&gt;
 
-&lt;p&gt;Launching soon - will update&lt;/p&gt;</content><author><name></name></author><summary type="html">Role</summary></entry><entry><title type="html">Gogo Delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="Gogo Delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GogoX (formerly GogoVan) launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for Gogo Delivery.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Package information autofill reduced time spent on the order form by 23%&lt;/li&gt;
+  &lt;li&gt;Reuse order contributed to 93% increase in orders placed&lt;/li&gt;
+  &lt;li&gt;65% merchants print shipping labels&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Role</summary></entry><entry><title type="html">Gogo Delivery courier activation</title><link href="http://tomoslau.com/gogo-delivery-courier-activation/" rel="alternate" type="text/html" title="Gogo Delivery courier activation" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan-courier</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-courier-activation/">&lt;p&gt;Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-role&quot;&gt;My role&lt;/h2&gt;
+
+&lt;p&gt;I led the design for courier experience. I worked closely with our PM, FE and BE enginers, Data Analyst, and cross-functional team (Operations, Customer Service, Marketing) throughout the design process.&lt;/p&gt;
+
+&lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
+
+&lt;p&gt;Through user interviews and focus groups, we found that couriers had &lt;strong&gt;difficulty in finding relevant orders&lt;/strong&gt;. A few months earlier, when there was less demand, there were only around twenty pending orders that couriers can pick from at a given time. Now, there’s over a hundred.&lt;/p&gt;
+
+&lt;p&gt;We learned that couriers select orders based on distance from pick up location, drop off location and earnings. To empathize with our couriers, our team went out and delivered packages. This enabled further learnings such as order bundling planning to maximize travel efficiency and earnings, and package size and weight considerations.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-sprint&quot;&gt;Design sprint&lt;/h2&gt;
+
+&lt;p&gt;I led a design sprint with cross-functional teams to identify the key problems to tackle for courier activation and decide which ideas to test.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;div&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-finding-orders-sketches.png&quot; alt=&quot;Sketches from the design sprint to tackle couriers' problem of finding relevant orders&quot; /&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Sketches from the design sprint to tackle couriers' problem of finding relevant orders&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;most-popular-idea-order-bundling-suggestion&quot;&gt;Most popular idea: Order bundling suggestion&lt;/h2&gt;
+
+&lt;figure&gt;
+	&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
+		&lt;source src=&quot;https://cdn.dribbble.com/users/611270/videos/23476/20190424-courier-map-3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+	&lt;/video&gt;
+	&lt;figcaption&gt;Early prototype to explore suggested bundling for couriers&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;We explored the most popular idea: a visual map to show couriers available orders based on their location and suggesting bundling to increase efficiency and income. However, due to the technical scope of this idea, we chose not to pursue this.&lt;/p&gt;
+
+&lt;h2 id=&quot;order-suggestions&quot;&gt;Order suggestions&lt;/h2&gt;
+&lt;figure&gt;
+	&lt;div class=&quot;ratio-4x3&quot;&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-order-suggestions.png&quot; alt=&quot;Push notifications for new orders based on proximity to active orders&quot; /&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Push notifications for new orders based on proximity to active order&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Couriers tend to pick orders that are “on the way.” We tested the idea of sending push notifications for new orders to active couriers based on their orders’ pick up and drop off locations. This enables them to find orders they’re interested in without opening the app.&lt;/p&gt;
+
+&lt;h2 id=&quot;order-filtering&quot;&gt;Order filtering&lt;/h2&gt;
+
+&lt;figure&gt;
+	&lt;div class=&quot;ratio-4x3&quot;&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-filters-flow.png&quot; alt=&quot;Courier flow for filtering and sorting available orders&quot; /&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Courier flow for filtering and sorting available orders&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We also explored using filters and sorting to help couriers find relevant orders. We tested the prototype with couriers and made several iterations to suit their needs and technical constraints. The final design uses a sticky top bar with dropdown menus to indicate active filters (in a different color) and the sorting method at all times.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
+		&lt;source src=&quot;/assets/gogo-delivery-courier-filters.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+	&lt;/video&gt;
+	&lt;figcaption&gt;Prototype for pick up region, drop off region filters and sorting by time, distance to pick up and earnings&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We shipped the order filtering and sorting first. We assumed this had the greatest outcome for couriers due to their strong preference of picking orders by region and earnings.&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-filters&quot;&gt;Additional filters&lt;/h2&gt;
+&lt;figure&gt;
+	&lt;div class=&quot;ratio-4x3&quot;&gt;
+		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-filters-add.png&quot; alt=&quot;Additional filters for time, package size, and weight&quot; /&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Additional filters for time, package size, and weight&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In addition, we shipped filters for time constraints, package size, and weight. This enabled couriers to further filter orders that are more relevant to them - for example, package weights that they are physically capable of carrying when bundling orders.&lt;/p&gt;
+
+&lt;h2 id=&quot;filters-usage&quot;&gt;Filters usage&lt;/h2&gt;
+&lt;p&gt;After one month of release, the package size and weight filters had the most usage at 95%. Whereas the time filter had 25%, and pick up region filter only at 10%. Overall response time increased. Next steps: research and iterate on improving the time and pick up region filters.&lt;/p&gt;
+
+&lt;p&gt;Filter adopters increased their orders by 1.8x post-launch&lt;/p&gt;
+
+&lt;h2 id=&quot;outcome&quot;&gt;Outcome&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Daily orders by adopters increased 180%&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Response time reduced 83%&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;retro&quot;&gt;Retro&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Assumed pick up regions filter and sorting is more impactful than size, weight, time
+    &lt;ul&gt;
+      &lt;li&gt;Testing prototype indoor vs actual usage while making deliveries?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Why low usage on pick up region filters?
+    &lt;ul&gt;
+      &lt;li&gt;How often do couriers pick up orders from different regions?&lt;/li&gt;
+      &lt;li&gt;Are the defined regions too large?&lt;/li&gt;
+      &lt;li&gt;Interaction cost?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;When increased completion rate (price adjustment, coronavirus)
+    &lt;ul&gt;
+      &lt;li&gt;Less than 5 pending orders to pick from&lt;/li&gt;
+      &lt;li&gt;How impactful are the filters?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.</summary></entry><entry><title type="html">Gogo Delivery order experience</title><link href="http://tomoslau.com/gogo-delivery-order-experience/" rel="alternate" type="text/html" title="Gogo Delivery order experience" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-order-experience/">&lt;p&gt;GogoX (formerly GogoVan) launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for Gogo Delivery.&lt;/p&gt;
 
 &lt;h2 id=&quot;my-role&quot;&gt;My role&lt;/h2&gt;
 
@@ -211,132 +410,7 @@
 
 &lt;h3 id=&quot;test-designs-and-get-feedback-early&quot;&gt;Test designs and get feedback early&lt;/h3&gt;
 
-&lt;p&gt;Testing early gave us a more concrete direction and prevent tunnel vision. It also helped cross-functional teams understand the product roadmap and priorities. There were many times our hypotheses were proven wrong and saved us time.&lt;/p&gt;</content><author><name></name></author><summary type="html">GogoX (formerly GogoVan) launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for Gogo Delivery.</summary></entry><entry><title type="html">Gogo Delivery courier activation</title><link href="http://tomoslau.com/gogo-delivery-courier-activation/" rel="alternate" type="text/html" title="Gogo Delivery courier activation" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://tomoslau.com/gogovan-courier</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-courier-activation/">&lt;p&gt;Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-role&quot;&gt;My role&lt;/h2&gt;
-
-&lt;p&gt;I led the design for courier experience. I worked closely with our PM, FE and BE enginers, Data Analyst, and cross-functional team (Operations, Customer Service, Marketing) throughout the design process.&lt;/p&gt;
-
-&lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
-
-&lt;p&gt;Through user interviews and focus groups, we found that couriers had &lt;strong&gt;difficulty in finding relevant orders&lt;/strong&gt;. A few months earlier, when there was less demand, there were only around twenty pending orders that couriers can pick from at a given time. Now, there’s over a hundred.&lt;/p&gt;
-
-&lt;p&gt;We learned that couriers select orders based on distance from pick up location, drop off location and earnings. To empathize with our couriers, our team went out and delivered packages. This enabled further learnings such as order bundling planning to maximize travel efficiency and earnings, and package size and weight considerations.&lt;/p&gt;
-
-&lt;h2 id=&quot;metrics&quot;&gt;Metrics&lt;/h2&gt;
-
-&lt;p&gt;0.4 daily orders per registered courier&lt;/p&gt;
-
-&lt;p&gt;42 minutes average response time&lt;/p&gt;
-
-&lt;h2 id=&quot;design-sprint&quot;&gt;Design sprint&lt;/h2&gt;
-
-&lt;p&gt;I led a design sprint with cross-functional teams to identify the key problems to tackle for courier activation and decide which ideas to test.&lt;/p&gt;
-
-&lt;figure&gt;
-	&lt;div&gt;
-		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-finding-orders-sketches.png&quot; alt=&quot;Sketches from the design sprint to tackle couriers' problem of finding relevant orders&quot; /&gt;
-	&lt;/div&gt;
-	&lt;figcaption&gt;Sketches from the design sprint to tackle couriers' problem of finding relevant orders&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;most-popular-idea-order-bundling-suggestion&quot;&gt;Most popular idea: Order bundling suggestion&lt;/h2&gt;
-
-&lt;figure&gt;
-	&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
-		&lt;source src=&quot;https://cdn.dribbble.com/users/611270/videos/23476/20190424-courier-map-3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-	&lt;/video&gt;
-	&lt;figcaption&gt;Early prototype to explore suggested bundling for couriers&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;We explored the most popular idea: a visual map to show couriers available orders based on their location and suggesting bundling to increase efficiency and income. However, due to the technical scope of this idea, we chose not to pursue this.&lt;/p&gt;
-
-&lt;h2 id=&quot;order-suggestions&quot;&gt;Order suggestions&lt;/h2&gt;
-&lt;figure&gt;
-	&lt;div class=&quot;ratio-4x3&quot;&gt;
-		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-order-suggestions.png&quot; alt=&quot;Push notifications for new orders based on proximity to active orders&quot; /&gt;
-	&lt;/div&gt;
-	&lt;figcaption&gt;Push notifications for new orders based on proximity to active order&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Couriers tend to pick orders that are “on the way.” We tested the idea of sending push notifications for new orders to active couriers based on their orders’ pick up and drop off locations. This enables them to find orders they’re interested in without opening the app.&lt;/p&gt;
-
-&lt;h2 id=&quot;order-filtering&quot;&gt;Order filtering&lt;/h2&gt;
-
-&lt;figure&gt;
-	&lt;div class=&quot;ratio-4x3&quot;&gt;
-		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-filters-flow.png&quot; alt=&quot;Courier flow for filtering and sorting available orders&quot; /&gt;
-	&lt;/div&gt;
-	&lt;figcaption&gt;Courier flow for filtering and sorting available orders&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We also explored using filters and sorting to help couriers find relevant orders. We tested the prototype with couriers and made several iterations to suit their needs and technical constraints. The final design uses a sticky top bar with dropdown menus to indicate active filters (in a different color) and the sorting method at all times.&lt;/p&gt;
-
-&lt;figure&gt;
-	&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
-		&lt;source src=&quot;/assets/gogo-delivery-courier-filters.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-	&lt;/video&gt;
-	&lt;figcaption&gt;Prototype for pick up region, drop off region filters and sorting by time, distance to pick up and earnings&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We shipped the order filtering and sorting first. We assumed this had the greatest outcome for couriers due to their strong preference of picking orders by region and earnings.&lt;/p&gt;
-
-&lt;h2 id=&quot;additional-filters&quot;&gt;Additional filters&lt;/h2&gt;
-&lt;figure&gt;
-	&lt;div class=&quot;ratio-4x3&quot;&gt;
-		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-filters-add.png&quot; alt=&quot;Additional filters for time, package size, and weight&quot; /&gt;
-	&lt;/div&gt;
-	&lt;figcaption&gt;Additional filters for time, package size, and weight&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;In addition, we shipped filters for time constraints, package size, and weight. This enabled couriers to further filter orders that are more relevant to them - for example, package weights that they are physically capable of carrying when bundling orders.&lt;/p&gt;
-
-&lt;h2 id=&quot;filters-usage&quot;&gt;Filters usage&lt;/h2&gt;
-&lt;p&gt;After one month of release, the package size and weight filters had the most usage at 95%. Whereas the time filter had 25%, and pick up region filter only at 10%. Overall response time increased. Next steps: research and iterate on improving the time and pick up region filters.&lt;/p&gt;
-
-&lt;figure&gt;
-		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-filters-usage.png&quot; alt=&quot;Filter usage one month since launch&quot; /&gt;
-	&lt;figcaption&gt;Filter usage one month since launch&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-		&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-courier-filters-adopters.png&quot; alt=&quot;Adoption vs orders taken 30 days before and after launch&quot; /&gt;
-	&lt;figcaption&gt;Adoption vs orders taken 30 days before and after launch&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Filter adopters increased their orders by 1.8x post-launch&lt;/p&gt;
-
-&lt;h2 id=&quot;outcome&quot;&gt;Outcome&lt;/h2&gt;
-
-&lt;h3 id=&quot;18x&quot;&gt;1.8x&lt;/h3&gt;
-
-&lt;p&gt;Daily orders by adopters (0.4 → 0.7)&lt;/p&gt;
-
-&lt;h3 id=&quot;-83&quot;&gt;-83%&lt;/h3&gt;
-
-&lt;p&gt;Average response time (42m → 8m)&lt;/p&gt;
-
-&lt;h2 id=&quot;retro&quot;&gt;Retro&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Assumed pick up regions filter and sorting is more impactful than size, weight, time
-    &lt;ul&gt;
-      &lt;li&gt;Testing prototype indoor vs actual usage while making deliveries?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Why low usage on pick up region filters?
-    &lt;ul&gt;
-      &lt;li&gt;How often do couriers pick up orders from different regions?&lt;/li&gt;
-      &lt;li&gt;Are the defined regions too large?&lt;/li&gt;
-      &lt;li&gt;Interaction cost?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;When increased completion rate (price adjustment, coronavirus)
-    &lt;ul&gt;
-      &lt;li&gt;Less than 5 pending orders to pick from&lt;/li&gt;
-      &lt;li&gt;How impactful are the filters?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.</summary></entry><entry><title type="html">Hypebeast mobile redesign</title><link href="http://tomoslau.com/hypebeast-mobile-redesign/" rel="alternate" type="text/html" title="Hypebeast mobile redesign" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://tomoslau.com/hypebeast-mobile-redesign</id><content type="html" xml:base="http://tomoslau.com/hypebeast-mobile-redesign/">&lt;p&gt;&lt;a href=&quot;http://hypebeast.com&quot;&gt;Hypebeast&lt;/a&gt; is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.&lt;/p&gt;
+&lt;p&gt;Testing early gave us a more concrete direction and prevent tunnel vision. It also helped cross-functional teams understand the product roadmap and priorities. There were many times our hypotheses were proven wrong and saved us time.&lt;/p&gt;</content><author><name></name></author><summary type="html">GogoX (formerly GogoVan) launched a new crowd-sourced same-day delivery service in 2018 summer. Originally, the service targetted small-medium businesses with ad-hoc delivery needs in Hong Kong. I was part of an ambitious project to find the product-market fit for Gogo Delivery.</summary></entry><entry><title type="html">Hypebeast mobile redesign</title><link href="http://tomoslau.com/hypebeast-mobile-redesign/" rel="alternate" type="text/html" title="Hypebeast mobile redesign" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://tomoslau.com/hypebeast-mobile-redesign</id><content type="html" xml:base="http://tomoslau.com/hypebeast-mobile-redesign/">&lt;p&gt;&lt;a href=&quot;http://hypebeast.com&quot;&gt;Hypebeast&lt;/a&gt; is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.&lt;/p&gt;
 
 &lt;p&gt;Our goal was to increase our loyal readership by improving the mobile app reading experience. During 2017 and 2018, I redesigned Hypebeast’s mobile apps to foster a better reading experience. Below are a few changes we shipped.&lt;/p&gt;
 

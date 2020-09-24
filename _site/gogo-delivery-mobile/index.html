@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gogo Delivery mobile order experience</title>
+  <meta name="description" content="Overview">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="canonical" href="http://tomoslau.com/gogo-delivery-mobile/">
+  <link rel="alternate" type="application/rss+xml" title="Tom Lau" href="/feed.xml">
+  
+</head>
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    <a class="site-title" href="/">Tom Lau</a>
+    <nav class="site-nav">
+        <a href="mailto:tomoslau@gmail.com">tomoslau@gmail.com</a>
+    </nav>
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+    <figure class="banner-image-wrapper">
+      <img class="banner-image tofadein lazy" data-src="/assets/ggd-mobile-banner.png" alt="Gogo Delivery mobile order experience project banner image">
+    </figure>
+    
+    <div class="wrapper tofadein-second">
+      <h1 class="post-title" itemprop="name headline">Gogo Delivery mobile order experience</h1>
+      <h2 class="post-subtitle"></h2>
+      <ul class="post-meta list-reset">
+        <li>2020</li>
+        <li>Product designer</li>
+      </ul>
+      </p>
+    </div>
+  </header>
+  
+  <div class="post-content wrapper tofadein-second">
+    <h2 id="overview">Overview</h2>
+
+<p>GogoX is Hong Kong’s largest on-demand logistics platform (think Uber for logistics) and operates in Taiwan, Singapore, India, Vietnam, and South Korea. In 2018, GogoX launched a new service to tackle same-day last-mile delivery.</p>
+
+<p>Our goal was to increase delivery demand while maintaining a high completion rate on the supply side. In this case study, we’ll focus on the activation and retention on the demand side.</p>
+
+<h2 id="role">Role</h2>
+
+<p>Senior Product Designer: User research, interaction, visual design, prototyping, testing, design QA</p>
+
+<h2 id="problem">Problem</h2>
+
+<p>GogoX’s client app went through a revamp in late 2019. Due to constraints, components and flows were shared across both vehicle hiring and delivery services. After launching the new app, we decided to tackle the conversion in the place order flow to increase activation.</p>
+
+<p>Based on the order funnel data and user interviews, we discovered opportunities to improve the conversion for entering sender and recipient and package information.</p>
+
+<h2 id="research">Research</h2>
+
+<p>Based on surveys I conducted and calls by the customer service team, we found the most frequently mentioned pain points were the completion rate and the amount of information to fill in on the order form.</p>
+
+<p>To dig deeper into their pain points, I conducted qualitative user interviews.</p>
+
+<p>“It feels like there are a lot of steps to enter the sender and recipient information. It’s also difficult to edit the address.”</p>
+
+<p>“There’s a lot of input compared to other delivery services. For example, other services have a fixed rate and I don’t have to enter the package information like size and weight every time.”</p>
+
+<p>“Sometimes I find it difficult to find an address. I usually copy and paste my customer’s address, but sometimes there are no search results.”</p>
+
+<h2 id="competitive-analysis">Competitive analysis</h2>
+
+<figure><div><img class="lazy" data-src="/assets/ggd-mobile-competitor-analysis.png" alt="Competitor analysis" /></div></figure>
+
+<p>When we placed our order flow next to our competitors’ and other on-demand delivery services’, it’s apparent there are more steps in our flow, especially in the sender/recipient details and package information steps.</p>
+
+<h2 id="brainstorm">Brainstorm</h2>
+
+<figure><div><img class="lazy" data-src="/assets/ggd-mobile-brainstorm.png" alt="Brainstorm" /></div></figure>
+
+<p>I shared the research and facilitated a brainstorm session with our cross-functional team to tackle the two steps of the funnel. Then, I took our favorite ideas and prototyped them to test with ad-hoc users and merchants.</p>
+
+<h2 id="simplified-the-senderrecipient-form">Simplified the sender/recipient form</h2>
+
+<figure><div><img class="lazy" data-src="/assets/ggd-from-to-before.png" alt="From and to before" /></div></figure>
+
+<figure><div><img class="lazy" data-src="/assets/ggd-from-to-after.png" alt="From and to after" /></div></figure>
+
+<p>Based on usability tests, we found that the design that shows all the details for sender/recipient in a single page provided the most clarity to merchants. It allowed merchants to review their input and edit any field easier. The new form also prefilled the sender’s address using the device’s location as this was the most frequent use case based on data and interviews. The address details, sender name and phone number are also filled if there’s available information from their account details or a previous order.</p>
+
+<h2 id="select-on-map">Select on map</h2>
+
+<figure><div><img class="lazy" data-src="/assets/ggd-select-on-map.png" alt="Select on map shipped" /></div><figcaption>What we shipped for the first scope</figcaption></figure>
+
+<figure><div><img class="lazy" data-src="/assets/ggd-select-on-map-alt.png" alt="Select on map alt" /></div><figcaption>Exploration on an idea suggested by our engineer Jay to suggest nearby addresses</figcaption></figure>
+
+<p>During usability tests, we found that the GPS location taken to prefill the sender’s address isn’t always accurate, especially in dense cities. To tackle this issue, we shipped a select on map feature to allow merchants to drag their location on the map to refine their pickup or dropoff location.</p>
+
+<h2 id="package-information">Package information</h2>
+
+<figure><div><img class="lazy" data-src="/assets/ggd-package-info-before.png" alt="Package info before" /></div></figure>
+
+<figure><div><img class="lazy" data-src="/assets/ggd-package-info-after.png" alt="Package info after" /></div></figure>
+
+<figure><div><img class="lazy" data-src="/assets/ggd-package-info-autofill.png" alt="Package info autofill" /></div><figcaption>Package information autofill</figcaption></figure>
+
+<p>The package information page was the second highest dropoff point for new and ad-hoc users. Through user interviews, we learned that most ad-hoc users felt the package information took long to fill in. Most of them expected to be able to send a package as long as it fit under a size that fits in a motorbike or sedan, and found it unnecessary to fill in the details. Merchants, though, didn’t mind filling in the details like package size and weight because they are extremly price sensitive. In fact, many merchants we spoke with felt our box model options (i.e. within a 40x40x40cm cube) were too restrictive when they wanted to send flatter and longer packages.</p>
+
+<p>We decided to create a different package information form for new/ad-hoc users, and merchants based on their needs:</p>
+
+<p>For ad-hoc users, we simplified the 20 possible size and weight combinations to two options (40x40x40cm, 10kg, and 60x60x60cm, 20kg) based on the size and weight relationship from historical orders and competitive advantages.</p>
+
+<p>For the merchant’s flow, we added separate input fields for length, width, and height to give businesses the flexibility to send long and narrow packages at a fairer price.</p>
+
+<p>In both flows, we introduced package info defaults for new users, and reused previous order information for returning users. We also added a saved package feature, where merchants can autofill the package information page.</p>
+
+<h2 id="outcome">Outcome</h2>
+
+<ul>
+  <li>28% users selected a pickup or dropoff on the map</li>
+  <li>Address confirmed increased by 125%</li>
+  <li>The conversion between starting an order and completing the sender/recipient details increased by 8%</li>
+  <li>Time spent on package info page reduced by 14% (after autofill rollout and before new package info flow)</li>
+</ul>
+
+<h2 id="learnings">Learnings</h2>
+
+<p>A couple of months after rolling out the sender/recipient flow, our operations team received an increase in courier complaints regarding the accuracy of pickup addresses. Our assumption is that by prefilling the pickup location using the device’s GPS, some users may not be aware they should change it when the address is wrong. This resulted in couriers going to the wrong location and spending more time communicating with clients. A good problem to solve given the impact of the solutions.</p>
+
+    <ul class="list-reset" style="margin-top: 4rem;">
+        
+        
+        
+    </ul>
+  </div>
+  <div class="wrapper">
+    <hr>
+    
+    <div class="next-project work-item">
+      <a href="/gogo-delivery-web/" class="link-reset">
+        <h2>Next project &rarr;</h2>
+        <img class="lazy" data-src="/assets/ggd-web-order-details.png" />
+        <h3>Gogo Delivery for business</h3>
+        <p></p>
+      </a>
+    </div>
+    <hr>
+    
+  </div>
+
+</article>
+
+      </div>
+    </main>
+    <div class="wrapper">
+  <div class="section cta scrollreveal big-text">
+    <p>Get in touch: <a href="mailto:tomoslau@gmail.com">tomoslau@gmail.com</a></p>
+  </div>
+</div>
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="grid grid-d2-m1">
+      <div class="grid-item">
+        <p>
+          <a href="https://dribbble.com/tomoslau" target="blank">Dribbble</a> / <a href="https://www.linkedin.com/in/tomoslau/" target="blank">LinkedIn</a>
+        </p>
+      </div>
+      <div class="grid-item" id="footer-right">
+        <p>See this website on <a href="https://github.com/tomoslau/tomoslau.github.io" target="_blank">Github</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="/js/lazyload.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+  </body>
+
+</html>
