@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gogo Delivery courier activation
+title: GogoX Delivery courier activation
 date: 2019-07-14 00:00:00 +0800
 categories:
 year: 2019 Q2

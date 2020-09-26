@@ -8,9 +8,8 @@ role: UX / UI design
 type: Mobile app
 appstore-link: https://itunes.apple.com/us/app/hypebeast/id986768161?mt=8
 googleplay-link: https://play.google.com/store/apps/details?id=com.hypebeast.editorial&hl=en
-description: Improving reading experience on mobile
 banner-image: "/assets/hb-banner.jpg"
-thumbnail: "/assets/hb.jpg"
+thumbnail: "/assets/hb-home-devices.jpg"
 permalink: /hypebeast-mobile-redesign/
 ---
 

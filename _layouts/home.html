@@ -23,7 +23,9 @@ layout: default
       {% for post in site.posts %}
         <div class="grid-item work-item scrollreveal">
           <a href="{{ post.url }}" class="link-reset">
+            <figure>
               <img class="thumbnail" src="{{ post.thumbnail }}" />
+            </figure>
             <h3>{{ post.title }}</h3>
           </a>
         </div>

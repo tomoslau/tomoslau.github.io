@@ -1,12 +1,5 @@
-.post-header {
-	margin-bottom: 4rem;
-	@include breakpoint(xs) {
-		margin-bottom: 2rem;
-	}
-}
-
 .post-content {
-	p, h2, h3, h4, ul, ol {
+	p, h1, h2, h3, h4, ul, ol {
 		max-width: $max-line-length;
 		margin-left: auto;
 		margin-right: auto;
@@ -18,7 +11,7 @@
 		}
 	}
 	h2 {
-		margin-top: 8rem;
+		margin-top: 6rem;
 		margin-bottom: 0;
 		@include breakpoint(xs) {
 			margin-top: 4rem;
@@ -31,35 +24,21 @@
 	margin-bottom: 3rem;
 }
 
-.post-title, .post-subtitle {
-	margin: 0;
-}
-.post-subtitle {
-	font-size: $base-font-size*3;
-	font-weight: 400;
-	color: $color-text-light;
-	@include breakpoint(xs) {
-		font-size: $base-font-size*2;
+.post-header {
+	text-align: center;
+	margin-top: 6rem;
+	margin-bottom: 4rem;
+	h1, p {
+		max-width: 100%;
+	}
+	h1 {
+		margin-bottom: 0;
+	}
+	p {
+		margin-top: 1rem;
 	}
 }
 
-.post-meta li{
-	margin: 0;
+.post-meta {
 	color: $color-text-light;
-}
-
-.banner-image-wrapper {
-	padding-bottom: 40%;
-	margin-bottom: 3rem;
-	background-color: #f1f1f1;
-	position:relative;
-	.banner-image {
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		margin: 0;
-	}
 }

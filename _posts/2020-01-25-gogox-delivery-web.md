@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gogo Delivery for business
+title: GogoX Delivery for business
 date: 2020-01-25 00:00:00 +0800
 categories:
 year: 2020

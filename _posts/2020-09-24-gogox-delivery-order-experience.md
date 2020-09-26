@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Gogo Delivery mobile order experience
+title: GogoX Delivery mobile order experience
 date: 2020-09-24 00:00:00 +0800
 categories:
 year: 2020
-role: Product designer
+role: "Senior Product Designer"
 type: Mobile
 appstore-link:
 googleplay-link:

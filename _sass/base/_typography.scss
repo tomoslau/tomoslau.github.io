@@ -69,6 +69,10 @@ p {
 	}
 }
 
+small {
+	color: $color-text-light;
+}
+
 .big-text p {
 	font-size: $base-font-size*1.5;
 	margin: 1.5rem 0;
