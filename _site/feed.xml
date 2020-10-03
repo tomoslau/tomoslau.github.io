@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2020-09-26T14:00:24+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GogoX Delivery mobile order experience</title><link href="http://tomoslau.com/gogo-delivery-mobile/" rel="alternate" type="text/html" title="GogoX Delivery mobile order experience" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://tomoslau.com/gogox-delivery-order-experience</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-mobile/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2020-10-03T21:51:25+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GogoX Delivery mobile order experience</title><link href="http://tomoslau.com/gogo-delivery-mobile/" rel="alternate" type="text/html" title="GogoX Delivery mobile order experience" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://tomoslau.com/gogox-delivery-order-experience</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-mobile/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
 &lt;p&gt;GogoX is Hong Kong’s largest on-demand logistics platform (think Uber for logistics) and operates in Taiwan, Singapore, India, Vietnam, and South Korea. In 2018, GogoX launched a new service to tackle same-day last-mile delivery.&lt;/p&gt;
 
@@ -13,6 +13,15 @@
 &lt;p&gt;GogoX’s client app went through a revamp in late 2019. Due to constraints, components and flows were shared across both vehicle hiring and delivery services. After launching the new app, we decided to tackle the conversion in the place order flow to increase activation.&lt;/p&gt;
 
 &lt;p&gt;Based on the order funnel data and user interviews, we discovered opportunities to improve the conversion for entering sender and recipient and package information.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F1F1;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; style=&quot;max-width:320px;margin:0 auto&quot; controls=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/ggd-mobile-place-order-before.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Video of the old Delivery place order flow&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
 
@@ -40,6 +49,24 @@
 
 &lt;h2 id=&quot;simplified-the-senderrecipient-form&quot;&gt;Simplified the sender/recipient form&lt;/h2&gt;
 
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F1F1;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; style=&quot;max-width:320px;margin:0 auto&quot; controls=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/ggd-mobile-from-to-form-prototype.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Prototype exploring the idea of a single page form&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F1F1;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; style=&quot;max-width:320px;margin:0 auto&quot; controls=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/ggd-mobile-from-to-late-prototype.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Prototype of new sender/recipient details and address input flow&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-from-to-before.png&quot; alt=&quot;From and to before&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
 
 &lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-from-to-after.png&quot; alt=&quot;From and to after&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
@@ -56,17 +83,36 @@
 
 &lt;h2 id=&quot;package-information&quot;&gt;Package information&lt;/h2&gt;
 
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F1F1;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; style=&quot;max-width:320px;margin:0 auto&quot; controls=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/ggd-mobile-package-info-prototype-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Prototype of linking size and weight to package types based on historical data&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F1F1;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; style=&quot;max-width:320px;margin:0 auto&quot; controls=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/ggd-mobile-package-info-prototype-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Prototype of the Business flow with custom size and weight input (unlinked from package type)&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-package-info-before.png&quot; alt=&quot;Package info before&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
 
-&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-package-info-after.png&quot; alt=&quot;Package info after&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-package-info-after.png&quot; alt=&quot;Package info after&quot; /&gt;&lt;/div&gt;
+&lt;figcaption&gt;What we shipped for Personal and Business users&lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-package-info-autofill.png&quot; alt=&quot;Package info autofill&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;Package information autofill&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggd-package-info-autofill.png&quot; alt=&quot;Package info autofill&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;We also shipped autofill using merchants' previously entered package information&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;The package information page was the second highest dropoff point for new and ad-hoc users. Through user interviews, we learned that most ad-hoc users felt the package information took long to fill in. Most of them expected to be able to send a package as long as it fit under a size that fits in a motorbike or sedan, and found it unnecessary to fill in the details. Merchants, though, didn’t mind filling in the details like package size and weight because they are extremly price sensitive. In fact, many merchants we spoke with felt our box model options (i.e. within a 40x40x40cm cube) were too restrictive when they wanted to send flatter and longer packages.&lt;/p&gt;
 
 &lt;p&gt;We decided to create a different package information form for new/ad-hoc users, and merchants based on their needs:&lt;/p&gt;
 
-&lt;p&gt;For ad-hoc users, we simplified the 20 possible size and weight combinations to two options (40x40x40cm, 10kg, and 60x60x60cm, 20kg) based on the size and weight relationship from historical orders and competitive advantages.&lt;/p&gt;
+&lt;p&gt;For ad-hoc users, we simplified the 20 possible size and weight combinations to two options (40x40x40cm, 10kg, and 60x60x60cm, 20kg) based on the size and weight relationship from historical orders and competitive advantages. I conducted interviews and comparative usability tests to validate laypeople’s mental model on communicating size and weight of packages. I found that the existing box model (i.e. 40x40x40cm) is easier to understand than using combined dimensions or volumetric weight (common in logistics industry) and most people guess the size and weight instead of measuring with tools.&lt;/p&gt;
 
 &lt;p&gt;For the merchant’s flow, we added separate input fields for length, width, and height to give businesses the flexibility to send long and narrow packages at a fairer price.&lt;/p&gt;
 
