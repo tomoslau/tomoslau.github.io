@@ -39,7 +39,7 @@ I led a design sprint with cross-functional teams to identify the key problems t
 
 
 <figure>
-	<video class="lazy" autoplay loop style="max-width:960px;margin:0 auto">
+	<video class="lazy" style="max-width:960px;margin:0 auto" controls>
 		<source src="https://cdn.dribbble.com/users/611270/videos/23476/20190424-courier-map-3.mp4" type="video/mp4">
 	</video>
 	<figcaption>Early prototype to explore suggested bundling for couriers</figcaption>
@@ -68,7 +68,7 @@ Couriers tend to pick orders that are "on the way." We tested the idea of sendin
 We also explored using filters and sorting to help couriers find relevant orders. We tested the prototype with couriers and made several iterations to suit their needs and technical constraints. The final design uses a sticky top bar with dropdown menus to indicate active filters (in a different color) and the sorting method at all times. 
 
 <figure>
-	<video class="lazy" autoplay loop style="max-width:960px;margin:0 auto">
+	<video class="lazy" style="max-width:960px;margin:0 auto" controls>
 		<source src="/assets/gogo-delivery-courier-filters.mp4" type="video/mp4">
 	</video>
 	<figcaption>Prototype for pick up region, drop off region filters and sorting by time, distance to pick up and earnings</figcaption>

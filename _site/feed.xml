@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2020-10-03T21:51:25+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GogoX Delivery mobile order experience</title><link href="http://tomoslau.com/gogo-delivery-mobile/" rel="alternate" type="text/html" title="GogoX Delivery mobile order experience" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://tomoslau.com/gogox-delivery-order-experience</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-mobile/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://tomoslau.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://tomoslau.com/" rel="alternate" type="text/html" /><updated>2020-10-04T20:17:31+08:00</updated><id>http://tomoslau.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, a designer based in Hong Kong working with startups and businesses to build amazing products.</subtitle><entry><title type="html">GogoX Delivery mobile order experience</title><link href="http://tomoslau.com/gogo-delivery-mobile/" rel="alternate" type="text/html" title="GogoX Delivery mobile order experience" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://tomoslau.com/gogox-delivery-order-experience</id><content type="html" xml:base="http://tomoslau.com/gogo-delivery-mobile/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
 &lt;p&gt;GogoX is Hong Kong’s largest on-demand logistics platform (think Uber for logistics) and operates in Taiwan, Singapore, India, Vietnam, and South Korea. In 2018, GogoX launched a new service to tackle same-day last-mile delivery.&lt;/p&gt;
 
@@ -175,9 +175,29 @@
 
 &lt;p&gt;For the initial scope, we created a web app with the same functionalities as our mobile app so that merchants who work on a desktop can place and manage orders easier (such as copy and pasting delivery information from their e-commerce platform). The desktop real estate enabled us to create a single form for placing an order without going back and forth between screens, and a table view for managing orders easier.&lt;/p&gt;
 
-&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggb-place-order.png&quot; alt=&quot;Place order screens&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;!--
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggb-place-order.png&quot; alt=&quot;Place order screens&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
 
-&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggb-order-management.png&quot; alt=&quot;Order management screens&quot; /&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggb-order-management.png&quot; alt=&quot;Order management screens&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
+--&gt;
+
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F1F1;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; style=&quot;margin:0 auto&quot; controls=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/ggb-place-order.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Place order flow&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F1F1;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; style=&quot;margin:0 auto&quot; controls=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/ggb-order-management.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Order management&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h2 id=&quot;simplified-repeat-orders&quot;&gt;Simplified repeat orders&lt;/h2&gt;
 
@@ -213,7 +233,26 @@
 
 &lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggb-bulk-validation-1.png&quot; alt=&quot;Bulk order validation v1&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;Phase 1: Returned list of errors. In this example, the address is invalid, and backend returns a list of valid suggestions so merchants can copy the correct address and paste in their spreadsheet before importing again.&lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggb-bulk-validation-2.png&quot; alt=&quot;Bulk order validation v2&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;Phase 2: Editable table. Cells with errors are marked in red. Merchants can edit the values directly on the table. In this example, one of the addresses is invalid, and the merchant can select a valid address from the dropdown.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F1F1;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; style=&quot;margin:0 auto&quot; controls=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/ggb-bulk-order-spreadsheet.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Bulk order spreadsheet&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F1F1;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; style=&quot;margin:0 auto&quot; controls=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/ggb-bulk-order.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Bulk order import shipped for phase 2 with editable table for merchants to amend any invalid fields&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!--
+&lt;figure&gt;&lt;div&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/ggb-bulk-validation-2.png&quot; alt=&quot;Bulk order validation v2&quot;&gt;&lt;/div&gt;&lt;figcaption&gt;Phase 2: Editable table. Cells with errors are marked in red. Merchants can edit the values directly on the table. In this example, one of the addresses is invalid, and the merchant can select a valid address from the dropdown.&lt;/figcaption&gt;&lt;/figure&gt; --&gt;
 
 &lt;p&gt;During our store visits and taking orders as couriers, we found that many merchants wrote the recipient district and pick-up verification code on labels or directly on the packages. To aid this process, we introduced shipping labels that merchants can choose to print after placing their orders. Interestingly, when we tested this with merchants, some said they still preferred to hand-write to save the environment and printing costs.&lt;/p&gt;
 
@@ -255,7 +294,7 @@
 &lt;h2 id=&quot;most-popular-idea-order-bundling-suggestion&quot;&gt;Most popular idea: Order bundling suggestion&lt;/h2&gt;
 
 &lt;figure&gt;
-	&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
+	&lt;video class=&quot;lazy&quot; style=&quot;max-width:960px;margin:0 auto&quot; controls=&quot;&quot;&gt;
 		&lt;source src=&quot;https://cdn.dribbble.com/users/611270/videos/23476/20190424-courier-map-3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 	&lt;/video&gt;
 	&lt;figcaption&gt;Early prototype to explore suggested bundling for couriers&lt;/figcaption&gt;
@@ -284,7 +323,7 @@
 &lt;p&gt;We also explored using filters and sorting to help couriers find relevant orders. We tested the prototype with couriers and made several iterations to suit their needs and technical constraints. The final design uses a sticky top bar with dropdown menus to indicate active filters (in a different color) and the sorting method at all times.&lt;/p&gt;
 
 &lt;figure&gt;
-	&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; style=&quot;max-width:960px;margin:0 auto&quot;&gt;
+	&lt;video class=&quot;lazy&quot; style=&quot;max-width:960px;margin:0 auto&quot; controls=&quot;&quot;&gt;
 		&lt;source src=&quot;/assets/gogo-delivery-courier-filters.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 	&lt;/video&gt;
 	&lt;figcaption&gt;Prototype for pick up region, drop off region filters and sorting by time, distance to pick up and earnings&lt;/figcaption&gt;
@@ -339,209 +378,4 @@
       &lt;li&gt;How impactful are the filters?&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.</summary></entry><entry><title type="html">Hypebeast mobile redesign</title><link href="http://tomoslau.com/hypebeast-mobile-redesign/" rel="alternate" type="text/html" title="Hypebeast mobile redesign" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://tomoslau.com/hypebeast-mobile-redesign</id><content type="html" xml:base="http://tomoslau.com/hypebeast-mobile-redesign/">&lt;p&gt;&lt;a href=&quot;http://hypebeast.com&quot;&gt;Hypebeast&lt;/a&gt; is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.&lt;/p&gt;
-
-&lt;p&gt;Our goal was to increase our loyal readership by improving the mobile app reading experience. During 2017 and 2018, I redesigned Hypebeast’s mobile apps to foster a better reading experience. Below are a few changes we shipped.&lt;/p&gt;
-
-&lt;h2 id=&quot;creating-a-more-familiar-experience-for-both-platforms&quot;&gt;Creating a more familiar experience for both platforms&lt;/h2&gt;
-
-&lt;p&gt;Hypebeast’s Android app was designed to mimic the iOS counterpart. This created an &lt;strong&gt;unfamiliar interactive and visual experience&lt;/strong&gt; for our Android readers, as well as a &lt;strong&gt;reduction in app performance&lt;/strong&gt; due to custom components and animations based on iOS. Furthermore, Google Play refused to feature our app due to several usability and visual issues addressed in the Material Design guidelines.&lt;/p&gt;
-
-&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-drops-platforms.jpg&quot; alt=&quot;Application of Material Design patterns to the Android app&quot; /&gt;&lt;/figure&gt;
-&lt;p&gt;To make our app less confusing for our app readers, &lt;strong&gt;we utilized patterns shared by both iOS and Android platforms, while conforming to Human Interface Guidelines and Material Design specs.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;We used native components and system icons wherever possible.&lt;/strong&gt; By removing custom components and animations, such as the app bar and iOS-style “back” transition, the Android app’s performance increased and felt more snappy and familiar to our readers.&lt;/p&gt;
-
-&lt;h2 id=&quot;improving-readability-andfocus&quot;&gt;Improving readability and focus&lt;/h2&gt;
-
-&lt;p&gt;We received feedback from our readers that our app looks dated. This was apparent when compared to our competitors and other apps. Instead of simply following the minimalism trend, we decided to take this opportunity to improve readability and focus as a whole.&lt;/p&gt;
-
-&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-home-article.jpg&quot; alt=&quot;News feed and article&quot; /&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;We avoided long headlines on images&lt;/strong&gt; for articles where editors and designers don’t have control over placement and styling. Previously, the gradient overlays made images too dark, covered parts of images, and sometimes created undesirable visuals. The revised design allows both headline and image to be clear, and also uses the same assets across mobile, tablet and desktop designs to simplify editors’ workflow.&lt;/p&gt;
-
-&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-style.jpg&quot; alt=&quot;Visual styling revisited&quot; /&gt;&lt;/figure&gt;
-&lt;p&gt;We revisited the typography to &lt;strong&gt;create a stronger hierarchy&lt;/strong&gt;. Readers can identify important news and sponsored posts based on prominence. We reduced the complexity of icons to make them more recognizable. We also implemented new color guidelines to improve contrast and meet WCAG guidelines, and a soft 8-point grid to create vertical rhythm, consistent spacing and increased proximity.&lt;/p&gt;
-
-&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-components.jpg&quot; alt=&quot;App components&quot; /&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;more-natural-and-familiar-gesture-controls&quot;&gt;More natural and familiar gesture controls&lt;/h2&gt;
-
-&lt;p&gt;In usability tests, we noticed readers trying to use certain gesture controls based on their experience with other popular apps, but the app failed to do their desired action.&lt;/p&gt;
-
-&lt;figure&gt;
-	&lt;div&gt;
-		&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-			&lt;source src=&quot;/assets/hb-gestures.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-		&lt;/video&gt;
-	&lt;/div&gt;
-	&lt;figcaption&gt;Gesture interactions based on what readers expected&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;For example, we learned that many iOS readers didn’t know that tapping on the status bar scrolls to top. Instead, they tried to scroll to top by tapping on the bottom bar again. We added this gesture control to both platforms. We also made sure all the tabs were swipeable, and image galleries can be closed by flicking it away.&lt;/p&gt;
-
-&lt;p&gt;Since shipping these updates, our app reviews improved, and the app was featured on Google Play and the App Store. In 2017, we grew from 32k to 73k monthly active users.&lt;/p&gt;
-
-&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-home-devices.jpg&quot; alt=&quot;Hypebeast app on mobile and tablet&quot; /&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Hypebeast is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.</summary></entry><entry><title type="html">HBX size recommendation</title><link href="http://tomoslau.com/hbx-size-recommendation/" rel="alternate" type="text/html" title="HBX size recommendation" /><published>2018-01-01T00:00:00+08:00</published><updated>2018-01-01T00:00:00+08:00</updated><id>http://tomoslau.com/hbx-find-your-size</id><content type="html" xml:base="http://tomoslau.com/hbx-size-recommendation/">&lt;p&gt;We kickstarted tackling product returns by analyzing data to validate the top reason for returns: due to wrong size. Through user interviews and testing, we found that this was due to brands using different sizing and the difficulty of using traditional sizing charts. Most shoppers didn’t know their detailed body measurements like chest circumference and shoulder width, but knew their height and weight off the top of their head.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How might we help and encourage shoppers to find a more accurate size?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hbx-find-your-size-height-weight.jpg&quot; alt=&quot;We designed the size recommendation based on what most shoppers knew: their height and weight&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;We designed the size recommendation based on what most shoppers already knew: their height and weight&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;To simplify the process, we mapped the body measurements to the height and weight and tested with our coworkers in the office to refine the accuracy. We found that people who had a flat/round belly or broad/slim shoulders produced a wider range of results, so we added those options to the flow and encouraged them to input their body measurements for a more reliable size recommendation.&lt;/p&gt;
-
-&lt;figure&gt;
-	&lt;div&gt;
-		&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-			&lt;source src=&quot;/assets/hbx-find-your-size.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-		&lt;/video&gt;
-	&lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We AB tested the call-to-cation on the product page to determine the most effective design.&lt;/p&gt;
-
-&lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hbx-find-your-size-saved.jpg&quot; alt=&quot;The most effective call-to-action based on AB testing: an underlined link positioned right beneath the size options&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;The most effective call-to-action based on AB testing: an underlined link positioned right beneath the size options&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;Outcome: three months after we launched the size recommendation, returns due to improper sizing dropped by 86%.&lt;/p&gt;</content><author><name></name></author><summary type="html">We kickstarted tackling product returns by analyzing data to validate the top reason for returns: due to wrong size. Through user interviews and testing, we found that this was due to brands using different sizing and the difficulty of using traditional sizing charts. Most shoppers didn’t know their detailed body measurements like chest circumference and shoulder width, but knew their height and weight off the top of their head.</summary></entry><entry><title type="html">Jook app</title><link href="http://tomoslau.com/jook/" rel="alternate" type="text/html" title="Jook app" /><published>2017-01-01T00:00:00+08:00</published><updated>2017-01-01T00:00:00+08:00</updated><id>http://tomoslau.com/jook</id><content type="html" xml:base="http://tomoslau.com/jook/">&lt;p&gt;Jook is a side project I’ve been working on with &lt;a href=&quot;https://twitter.com/Kahou526&quot;&gt;Lucas Kuan&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/MaBoXiu&quot;&gt;Matthieu Bodin&lt;/a&gt;. I focus on design, front-end web development, user testing, and data analysis.&lt;/p&gt;
-
-&lt;h2 id=&quot;discovering-the-problem&quot;&gt;Discovering the problem&lt;/h2&gt;
-
-&lt;p&gt;Our project spawned from a specific problem my colleagues and I faced during the summer of 2015. Lucas, Matthieu and I worked in a small office room. &lt;strong&gt;We loved playing music on speakers while we worked.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/jook-office.jpg&quot; alt=&quot;Our office&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The set up was simple. Matthieu hooked up his computer to the speakers, and played music on Spotify. Although we shared similar tastes in music, Lucas and I would make song requests whenever we felt like a change of music.&lt;/p&gt;
-
-&lt;p&gt;Why did we feel the urge to change the music?&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;To share music that we like&lt;/li&gt;
-  &lt;li&gt;To have a sense of control, a voice/opinion&lt;/li&gt;
-  &lt;li&gt;To change the mood by playing something different&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;After a few weeks, we sensed that &lt;strong&gt;requesting songs became disruptive to our work.&lt;/strong&gt; We tried sending Spotify links on Slack to make it easier for Matthieu, but it still felt disruptive. We tried using a shared playlist on Spotify, but it didn’t feel spontaneous. &lt;strong&gt;What if we could each queue songs from our own devices without bothering each other?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/jook-sketch.jpg&quot; alt=&quot;Four years at art school and I still can’t draw straight lines.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We decided to build an app to do that—a jukebox for our office room that uses Spotify’s API. As we designed and developed the prototype, we realized that we could use the jukebox app outside of the office—for things like parties and startup events that we organized or attended.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/jook-flow.png&quot; alt=&quot;Initial host and guest diagram&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The host is responsible for:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Hosting the jukebox through the app.&lt;/li&gt;
-  &lt;li&gt;Inviting guests by sharing the jukebox link.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The guest:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Learns about the jukebox at the event.&lt;/li&gt;
-  &lt;li&gt;Opens the link to jukebox on browser (no log-in required to reduce friction), and sees the song currently playing and queued songs.&lt;/li&gt;
-  &lt;li&gt;Adds songs to the queue and upvote songs added by others.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/jook-web.png&quot; alt=&quot;Web app screenshots&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;At a small party, the host can easily tell everyone about the jukebox, and share a link to them through a group chat. At larger events, this becomes more tricky. Strangers are less likely to try something new, so broadcasting it is not as easy. We later learned from hosts that &lt;strong&gt;guests favor using the host’s device&lt;/strong&gt; to add songs instead of using their own. Many requested for a tablet version of the app to make this easier.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/jook-swhk.jpg&quot; alt=&quot;We tested Jook at a Startup Weekend event by word of mouth and handouts&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;↑ One of our first tests at a Startup Weekend event by word of mouth and handouts (like the one on this table above the Subway napkin).&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;testing&quot;&gt;Testing&lt;/h2&gt;
-
-&lt;p&gt;We tested Jook whenever possible—at the office, events, and parties. Getting organizers to host a jukebox turned out to be easier than we thought. After observing and talking to guests and hosts, this is what we learned:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Users felt the need to keep adding songs&lt;/strong&gt; when their jukebox ran out of songs in the queue.&lt;/li&gt;
-  &lt;li&gt;They spent a lot of time &lt;strong&gt;stuck at the search bar&lt;/strong&gt; thinking of what song to add.&lt;/li&gt;
-  &lt;li&gt;They often opened Spotify to find a song from their library, and then went back to Jook to search the song.&lt;/li&gt;
-  &lt;li&gt;At large events, hosts noticed that &lt;strong&gt;guests prefer to walk up to and use the host’s device&lt;/strong&gt; (ie. an iPad) rather than manually typing in the url when a share link is not sent to them.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;features-we-added-prior-to-public-beta&quot;&gt;Features we added prior to public beta&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Fallback playlist&lt;/strong&gt;: where the host can select a playlist to fallback on when there are no songs left in the queue, so that the jukebox will never run out of songs.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Drag-and-drop songs from Spotify&lt;/strong&gt; directly to Jook on web browser.&lt;/li&gt;
-  &lt;li&gt;Preview song snippets before adding them to the jukebox.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/jook-app.jpg&quot; alt=&quot;We added a fallback playlist feature so the jukebox will never run out of songs to play&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;We also added a prominent “Send Feedback” button to encourage our users to send us valuable feedback.&lt;/p&gt;
-
-&lt;p&gt;Since releasing Jook, hosts have created more than 500 jukeboxes with over 5,000 guests. We learned several things from our users:&lt;/p&gt;
-
-&lt;h2 id=&quot;what-they-loved&quot;&gt;What they loved&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;An easy way to play everyone’s favorite music in an environment&lt;/li&gt;
-  &lt;li&gt;Voting songs is fun&lt;/li&gt;
-  &lt;li&gt;The ease of adding songs on desktop&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;what-they-struggled-with&quot;&gt;What they struggled with&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Finding songs to add on mobile (no drag-and-drop in app or mobile web)&lt;/li&gt;
-  &lt;li&gt;Not knowing that a Spotify Premium account is needed to host a jukebox (high drop-off rate on login screen in app)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;what-they-asked-for&quot;&gt;What they asked for&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Downvote to drop unpopular songs&lt;/li&gt;
-  &lt;li&gt;Allow hosts to remove songs&lt;/li&gt;
-  &lt;li&gt;Explicit songs filter&lt;/li&gt;
-  &lt;li&gt;Android app&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thank you to all the users who helped us test the product and gave us amazing feedback. We’re continuously looking at feedback and data from our lovely users, and working towards an update.&lt;/p&gt;</content><author><name></name></author><summary type="html">Jook is a side project I’ve been working on with Lucas Kuan and Matthieu Bodin. I focus on design, front-end web development, user testing, and data analysis.</summary></entry><entry><title type="html">Bupa website redesign</title><link href="http://tomoslau.com/bupa/" rel="alternate" type="text/html" title="Bupa website redesign" /><published>2016-11-01T00:00:00+08:00</published><updated>2016-11-01T00:00:00+08:00</updated><id>http://tomoslau.com/bupa</id><content type="html" xml:base="http://tomoslau.com/bupa/">&lt;p&gt;Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.&lt;/p&gt;
-
-&lt;p&gt;Bupa is a healthcare group headquartered in the United Kingdom. It expanded into Hong Kong in 1976 and has been a health insurance and healthcare provision business since. Their audience is professional individuals and companies looking for a healthcare plan for their employees.&lt;/p&gt;
-
-&lt;h2 id=&quot;discovery&quot;&gt;Discovery&lt;/h2&gt;
-
-&lt;p&gt;We reviewed feedback on the current site and discovered that &lt;strong&gt;customers found it difficult to find a suitable insurance plan&lt;/strong&gt;. We did an analysis and found several problems: product names were vague and non-descriptive, the wide range of plans and broad categories were hard to browse, and the website wasn’t mobile-optimized.&lt;/p&gt;
-
-&lt;p&gt;We brainstormed on how to make it easier for customers to find a suitable plan, and proceeded with the idea of &lt;strong&gt;giving recommendations and quotations based on a simple form&lt;/strong&gt;. We added a form on the home page where customers fill in a few fields and immediately get three recommended plans. They can choose to refine the pricing by adding more information and enroll the plan.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/bupa-flow.png&quot; alt=&quot;Wireframes&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The beginning steps are the simplest, and with each step the flow becomes more specific and there is more information and data input.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Input a few pieces of information to receive three recommendations&lt;/li&gt;
-  &lt;li&gt;Compare and select a plan&lt;/li&gt;
-  &lt;li&gt;Refine the quotation by choosing payment and plan options&lt;/li&gt;
-  &lt;li&gt;Long form for personal details and a series of yes/no health questions&lt;/li&gt;
-  &lt;li&gt;Payment&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/bupa-desktop.jpg&quot; alt=&quot;Medical insurance plans and quotation engine&quot; /&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
-
-&lt;p&gt;We designed the recommended plans view to be in the same style as regular cards, but expanded vertically to show more information. The information is divided into sections and displayed in an underlying grid so the same information can be &lt;strong&gt;easily scanned&lt;/strong&gt; across all three plans.&lt;/p&gt;
-
-&lt;p&gt;Early feedback and testing of the wireframes showed that many customers found the forms &lt;strong&gt;long and overwhelming&lt;/strong&gt;. In addition to breaking up the long forms into smaller chunks and steps, we tested the idea of using placeholders as labels. Bupa and our team were initially drawn to this idea because it made the forms appear less overwhelming—the forms looked “cleaner” and the reduced vertical space meant less scroll.&lt;/p&gt;
-
-&lt;p&gt;Due to the density of Traditional Chinese characters, labels are easier to read in a larger size and lighter weight than smaller size and heavier weight. Material Design recommends increasing “Dense scripts” by 1 point from the specified size for English. This adds more vertical space for Chinese form labels, plus &lt;strong&gt;exaggerates the visual density&lt;/strong&gt; when compared to using placeholders as labels.&lt;/p&gt;
-
-&lt;p&gt;However, using placeholders as labels create a number of usability problems, as summarized by Katie Sherwin of Nielsen Norman Group. Here are the top three reasons that applied to the forms we were designing:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Strains short-term memory&lt;/strong&gt;: users have to delete what they wrote to reveal the placeholder label again&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Users cannot check their input with the label&lt;/strong&gt; (especially important for browsers with autocomplete)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Empty vs non-empty fields are less noticeable&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/bupa-labels.png&quot; alt=&quot;Traditional labels, placeholder labels and float labels&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;We compromised by using &lt;a href=&quot;https://medium.com/r/?url=http%3A%2F%2Fmds.is%2Ffloat-label-pattern%2F&quot; target=&quot;_blank&quot;&gt;float labels&lt;/a&gt;. Float labels allow the empty form to appear more clean and less overwhelming, while solving the usability problems of placeholder labels to a certain extent. When asked which form looks less overwhelming, most customers picked the one with float labels over labels on top of fields.&lt;/p&gt;
-
-&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/bupa-form.png&quot; alt=&quot;Enrollment form&quot; /&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
-
-&lt;p&gt;The website launched in early 2017. Bupa loved the brand new clean, simple and functional design. The new website increased sales leads by 200% and online purchases by 300%.&lt;/p&gt;</content><author><name></name></author><summary type="html">Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.</summary></entry></feed>

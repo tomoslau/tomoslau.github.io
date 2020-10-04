@@ -11,4 +11,7 @@
   {% if jekyll.environment == 'production' %}
   {% include google-analytics.html %}
   {% endif %}
+  {% if page.index == 'noindex' %}
+  <meta name="robots" content="noindex">
+  {% endif %}
 </head>

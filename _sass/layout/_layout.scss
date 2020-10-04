@@ -50,9 +50,19 @@ hr {
 	justify-content: space-between;
 }
 
+.grid-d4-m1 {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-content: space-between;
+}
+
 .span-2 {
 	grid-column: span 2;
 }
+
+.span-3 {
+	grid-column: span 3;
+}
+
 .page-content {
   padding: 0 0 $spacing-unit 0;
 }

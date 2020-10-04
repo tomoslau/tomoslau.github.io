@@ -12,6 +12,7 @@
   <link rel="canonical" href="http://tomoslau.com/gogo-delivery-web/">
   <link rel="alternate" type="application/rss+xml" title="Tom Lau" href="/feed.xml">
   
+  
 </head>
 
   <body>
@@ -86,9 +87,29 @@
 
 <p>For the initial scope, we created a web app with the same functionalities as our mobile app so that merchants who work on a desktop can place and manage orders easier (such as copy and pasting delivery information from their e-commerce platform). The desktop real estate enabled us to create a single form for placing an order without going back and forth between screens, and a table view for managing orders easier.</p>
 
-<figure><div><img class="lazy" data-src="/assets/ggb-place-order.png" alt="Place order screens" /></div></figure>
+<!--
+<figure><div><img class="lazy" data-src="/assets/ggb-place-order.png" alt="Place order screens"></div></figure>
 
-<figure><div><img class="lazy" data-src="/assets/ggb-order-management.png" alt="Order management screens" /></div></figure>
+<figure><div><img class="lazy" data-src="/assets/ggb-order-management.png" alt="Order management screens"></div></figure>
+-->
+
+<figure>
+	<div style="background-color:#F1F1F1;padding: 2rem">
+		<video class="lazy" style="margin:0 auto" controls="">
+			<source src="/assets/ggb-place-order.mp4" type="video/mp4" />
+		</video>
+	</div>
+	<figcaption>Place order flow</figcaption>
+</figure>
+
+<figure>
+	<div style="background-color:#F1F1F1;padding: 2rem">
+		<video class="lazy" style="margin:0 auto" controls="">
+			<source src="/assets/ggb-order-management.mp4" type="video/mp4" />
+		</video>
+	</div>
+	<figcaption>Order management</figcaption>
+</figure>
 
 <h2 id="simplified-repeat-orders">Simplified repeat orders</h2>
 
@@ -124,7 +145,26 @@
 
 <figure><div><img class="lazy" data-src="/assets/ggb-bulk-validation-1.png" alt="Bulk order validation v1" /></div><figcaption>Phase 1: Returned list of errors. In this example, the address is invalid, and backend returns a list of valid suggestions so merchants can copy the correct address and paste in their spreadsheet before importing again.</figcaption></figure>
 
-<figure><div><img class="lazy" data-src="/assets/ggb-bulk-validation-2.png" alt="Bulk order validation v2" /></div><figcaption>Phase 2: Editable table. Cells with errors are marked in red. Merchants can edit the values directly on the table. In this example, one of the addresses is invalid, and the merchant can select a valid address from the dropdown.</figcaption></figure>
+<figure>
+	<div style="background-color:#F1F1F1;padding: 2rem">
+		<video class="lazy" style="margin:0 auto" controls="">
+			<source src="/assets/ggb-bulk-order-spreadsheet.mp4" type="video/mp4" />
+		</video>
+	</div>
+	<figcaption>Bulk order spreadsheet</figcaption>
+</figure>
+
+<figure>
+	<div style="background-color:#F1F1F1;padding: 2rem">
+		<video class="lazy" style="margin:0 auto" controls="">
+			<source src="/assets/ggb-bulk-order.mp4" type="video/mp4" />
+		</video>
+	</div>
+	<figcaption>Bulk order import shipped for phase 2 with editable table for merchants to amend any invalid fields</figcaption>
+</figure>
+
+<!--
+<figure><div><img class="lazy" data-src="/assets/ggb-bulk-validation-2.png" alt="Bulk order validation v2"></div><figcaption>Phase 2: Editable table. Cells with errors are marked in red. Merchants can edit the values directly on the table. In this example, one of the addresses is invalid, and the merchant can select a valid address from the dropdown.</figcaption></figure> -->
 
 <p>During our store visits and taking orders as couriers, we found that many merchants wrote the recipient district and pick-up verification code on labels or directly on the packages. To aid this process, we introduced shipping labels that merchants can choose to print after placing their orders. Interestingly, when we tested this with merchants, some said they still preferred to hand-write to save the environment and printing costs.</p>
 
