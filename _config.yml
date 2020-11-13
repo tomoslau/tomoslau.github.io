@@ -19,7 +19,7 @@ username: happygoodhorse
 description: >- # this means to ignore newlines until "baseurl:"
   I'm Tom Lau, product designer in Hong Kong currently building crowdsourced delivery at GogoX
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://tomoslau.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://happygoodhorse.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
