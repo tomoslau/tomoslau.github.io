@@ -1,10 +1,11 @@
 ---
 layout: post
-title: GogoX Delivery for business
+company: GogoX
+title: Building the delivery experience for small and medium-sized merchants
 date: 2020-01-25 00:00:00 +0800
 categories:
 year: 2020
-role: Product designer
+role: Product Design
 type: Web
 appstore-link:
 googleplay-link:

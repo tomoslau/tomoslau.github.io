@@ -33,6 +33,10 @@
 	}
 	h1 {
 		margin-bottom: 0;
+		font-weight: $base-font-weight;
+		.company {
+			font-weight: $heading-font-weight;
+		}
 	}
 	p {
 		margin-top: 1rem;

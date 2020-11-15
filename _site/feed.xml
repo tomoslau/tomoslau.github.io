@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://happygoodhorse.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://happygoodhorse.com/" rel="alternate" type="text/html" /><updated>2020-11-13T23:57:18+08:00</updated><id>http://happygoodhorse.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, product designer in Hong Kong currently building crowdsourced delivery at GogoX</subtitle><entry><title type="html">GogoX Delivery mobile order experience</title><link href="http://happygoodhorse.com/gogo-delivery-mobile/" rel="alternate" type="text/html" title="GogoX Delivery mobile order experience" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://happygoodhorse.com/gogox-delivery-order-experience</id><content type="html" xml:base="http://happygoodhorse.com/gogo-delivery-mobile/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://happygoodhorse.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://happygoodhorse.com/" rel="alternate" type="text/html" /><updated>2020-11-15T21:15:05+08:00</updated><id>http://happygoodhorse.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>I'm Tom Lau, product designer in Hong Kong currently building crowdsourced delivery at GogoX</subtitle><entry><title type="html">Designing the mobile same-day delivery experience</title><link href="http://happygoodhorse.com/gogo-delivery-mobile/" rel="alternate" type="text/html" title="Designing the mobile same-day delivery experience" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://happygoodhorse.com/gogox-delivery-order-experience</id><content type="html" xml:base="http://happygoodhorse.com/gogo-delivery-mobile/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
 &lt;p&gt;GogoX is Hong Kong’s largest on-demand logistics platform (think Uber for logistics) and operates in Taiwan, Singapore, India, Vietnam, and South Korea. In 2018, GogoX launched a new service to tackle same-day last-mile delivery.&lt;/p&gt;
 
@@ -129,7 +129,7 @@
 
 &lt;h2 id=&quot;learnings&quot;&gt;Learnings&lt;/h2&gt;
 
-&lt;p&gt;A couple of months after rolling out the sender/recipient flow, our operations team received an increase in courier complaints regarding the accuracy of pickup addresses. Our assumption is that by prefilling the pickup location using the device’s GPS, some users may not be aware they should change it when the address is wrong. This resulted in couriers going to the wrong location and spending more time communicating with clients. A good problem to solve given the impact of the solutions.&lt;/p&gt;</content><author><name></name></author><summary type="html">Overview</summary></entry><entry><title type="html">GogoX Delivery for business</title><link href="http://happygoodhorse.com/gogo-delivery-web/" rel="alternate" type="text/html" title="GogoX Delivery for business" /><published>2020-01-25T00:00:00+08:00</published><updated>2020-01-25T00:00:00+08:00</updated><id>http://happygoodhorse.com/gogox-delivery-web</id><content type="html" xml:base="http://happygoodhorse.com/gogo-delivery-web/">&lt;h2 id=&quot;role&quot;&gt;Role&lt;/h2&gt;
+&lt;p&gt;A couple of months after rolling out the sender/recipient flow, our operations team received an increase in courier complaints regarding the accuracy of pickup addresses. Our assumption is that by prefilling the pickup location using the device’s GPS, some users may not be aware they should change it when the address is wrong. This resulted in couriers going to the wrong location and spending more time communicating with clients. A good problem to solve given the impact of the solutions.&lt;/p&gt;</content><author><name></name></author><summary type="html">Overview</summary></entry><entry><title type="html">Building the delivery experience for small and medium-sized merchants</title><link href="http://happygoodhorse.com/gogo-delivery-web/" rel="alternate" type="text/html" title="Building the delivery experience for small and medium-sized merchants" /><published>2020-01-25T00:00:00+08:00</published><updated>2020-01-25T00:00:00+08:00</updated><id>http://happygoodhorse.com/gogox-delivery-web</id><content type="html" xml:base="http://happygoodhorse.com/gogo-delivery-web/">&lt;h2 id=&quot;role&quot;&gt;Role&lt;/h2&gt;
 
 &lt;p&gt;Gogo Delivery for business was a result of the continuous discovery that our PM and I conducted. I led user interviews, conducted surveys, and worked closely with our data analysts to learn more about our users on a regular basis. Based on our learnings, our PM and I defined product strategies that align with our business goals. From there, we defined hypotheses and metrics. I worked closely with engineers and the cross-functional team throughout the ideation and prototyping phase, sought feedback from designers via weekly critiques, and tested prototypes with merchants. For the final deliverables, I worked with designers who work on our Client mobile app and web app to align the UI and interaction, update the Design System if needed, and verify the translations. I discussed the design with engineers and QA during grooming, and design QA’ed before launch. Post-launch, we reviewed the metrics and retrospected.&lt;/p&gt;
 
@@ -268,7 +268,7 @@
   &lt;li&gt;Package information autofill reduced time spent on the order form by 23%&lt;/li&gt;
   &lt;li&gt;Reuse order contributed to 93% increase in orders placed&lt;/li&gt;
   &lt;li&gt;65% merchants print shipping labels&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Role</summary></entry><entry><title type="html">GogoX Delivery courier activation</title><link href="http://happygoodhorse.com/gogo-delivery-courier-activation/" rel="alternate" type="text/html" title="GogoX Delivery courier activation" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://happygoodhorse.com/gogox-delivery-courier</id><content type="html" xml:base="http://happygoodhorse.com/gogo-delivery-courier-activation/">&lt;p&gt;Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Role</summary></entry><entry><title type="html">Helping couriers find more relevant delivery orders</title><link href="http://happygoodhorse.com/gogo-delivery-courier-activation/" rel="alternate" type="text/html" title="Helping couriers find more relevant delivery orders" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://happygoodhorse.com/gogox-delivery-courier</id><content type="html" xml:base="http://happygoodhorse.com/gogo-delivery-courier-activation/">&lt;p&gt;Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.&lt;/p&gt;
 
 &lt;h2 id=&quot;my-role&quot;&gt;My role&lt;/h2&gt;
 
@@ -341,11 +341,6 @@
 
 &lt;p&gt;In addition, we shipped filters for time constraints, package size, and weight. This enabled couriers to further filter orders that are more relevant to them - for example, package weights that they are physically capable of carrying when bundling orders.&lt;/p&gt;
 
-&lt;h2 id=&quot;filters-usage&quot;&gt;Filters usage&lt;/h2&gt;
-&lt;p&gt;After one month of release, the package size and weight filters had the most usage at 95%. Whereas the time filter had 25%, and pick up region filter only at 10%. Overall response time increased. Next steps: research and iterate on improving the time and pick up region filters.&lt;/p&gt;
-
-&lt;p&gt;Filter adopters increased their orders by 1.8x post-launch&lt;/p&gt;
-
 &lt;h2 id=&quot;outcome&quot;&gt;Outcome&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -357,25 +352,113 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;retro&quot;&gt;Retro&lt;/h2&gt;
+&lt;h2 id=&quot;learnings&quot;&gt;Learnings&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Assumed pick up regions filter and sorting is more impactful than size, weight, time
-    &lt;ul&gt;
-      &lt;li&gt;Testing prototype indoor vs actual usage while making deliveries?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Why low usage on pick up region filters?
-    &lt;ul&gt;
-      &lt;li&gt;How often do couriers pick up orders from different regions?&lt;/li&gt;
-      &lt;li&gt;Are the defined regions too large?&lt;/li&gt;
-      &lt;li&gt;Interaction cost?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;When increased completion rate (price adjustment, coronavirus)
-    &lt;ul&gt;
-      &lt;li&gt;Less than 5 pending orders to pick from&lt;/li&gt;
-      &lt;li&gt;How impactful are the filters?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.</summary></entry></feed>
+&lt;p&gt;During product discovery, we learned that region filters are more impactful than size, weight, and time filters. After launch, we found that the pick up region filter had less usage than the other filters. Our assumptions are that couriers are constantly travelling, so changing the pick up filter is too interaction costly. Also the defined region polygons may be too geographically large to be helpful. This is something that we missed due to interviewing and testing with couriers in a de-contextualized/scripted environment. We can improve by using research methods that involve natural use of the product, such as ethnographic field studies or testing a prototype that can be used with real orders in a real environment.&lt;/p&gt;</content><author><name></name></author><summary type="html">Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.</summary></entry><entry><title type="html">Improving the reading experience for millions of streetwear enthusiasts around the world</title><link href="http://happygoodhorse.com/2018/08/12/hypebeast-mobile-redesign.html" rel="alternate" type="text/html" title="Improving the reading experience for millions of streetwear enthusiasts around the world" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://happygoodhorse.com/2018/08/12/hypebeast-mobile-redesign</id><content type="html" xml:base="http://happygoodhorse.com/2018/08/12/hypebeast-mobile-redesign.html">&lt;p&gt;&lt;a href=&quot;http://hypebeast.com&quot;&gt;Hypebeast&lt;/a&gt; is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.&lt;/p&gt;
+
+&lt;p&gt;Our goal was to increase our loyal readership by improving the mobile app reading experience. During 2017 and 2018, I redesigned Hypebeast’s mobile apps to foster a better reading experience. Below are a few changes we shipped.&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-a-more-familiar-experience-for-both-platforms&quot;&gt;Creating a more familiar experience for both platforms&lt;/h2&gt;
+
+&lt;p&gt;Hypebeast’s Android app was designed to mimic the iOS counterpart. This created an &lt;strong&gt;unfamiliar interactive and visual experience&lt;/strong&gt; for our Android readers, as well as a &lt;strong&gt;reduction in app performance&lt;/strong&gt; due to custom components and animations based on iOS. Furthermore, Google Play refused to feature our app due to several usability and visual issues addressed in the Material Design guidelines.&lt;/p&gt;
+
+&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-drops-platforms.jpg&quot; alt=&quot;Application of Material Design patterns to the Android app&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;To make our app less confusing for our app readers, &lt;strong&gt;we utilized patterns shared by both iOS and Android platforms, while conforming to Human Interface Guidelines and Material Design specs.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We used native components and system icons wherever possible.&lt;/strong&gt; By removing custom components and animations, such as the app bar and iOS-style “back” transition, the Android app’s performance increased and felt more snappy and familiar to our readers.&lt;/p&gt;
+
+&lt;h2 id=&quot;improving-readability-andfocus&quot;&gt;Improving readability and focus&lt;/h2&gt;
+
+&lt;p&gt;We received feedback from our readers that our app looks dated. This was apparent when compared to our competitors and other apps. Instead of simply following the minimalism trend, we decided to take this opportunity to improve readability and focus as a whole.&lt;/p&gt;
+
+&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-home-article.jpg&quot; alt=&quot;News feed and article&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;We avoided long headlines on images&lt;/strong&gt; for articles where editors and designers don’t have control over placement and styling. Previously, the gradient overlays made images too dark, covered parts of images, and sometimes created undesirable visuals. The revised design allows both headline and image to be clear, and also uses the same assets across mobile, tablet and desktop designs to simplify editors’ workflow.&lt;/p&gt;
+
+&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-style.jpg&quot; alt=&quot;Visual styling revisited&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;We revisited the typography to &lt;strong&gt;create a stronger hierarchy&lt;/strong&gt;. Readers can identify important news and sponsored posts based on prominence. We reduced the complexity of icons to make them more recognizable. We also implemented new color guidelines to improve contrast and meet WCAG guidelines, and a soft 8-point grid to create vertical rhythm, consistent spacing and increased proximity.&lt;/p&gt;
+
+&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-components.jpg&quot; alt=&quot;App components&quot; /&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;more-natural-and-familiar-gesture-controls&quot;&gt;More natural and familiar gesture controls&lt;/h2&gt;
+
+&lt;p&gt;In usability tests, we noticed readers trying to use certain gesture controls based on their experience with other popular apps, but the app failed to do their desired action.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;div&gt;
+		&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/hb-gestures.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Gesture interactions based on what readers expected&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For example, we learned that many iOS readers didn’t know that tapping on the status bar scrolls to top. Instead, they tried to scroll to top by tapping on the bottom bar again. We added this gesture control to both platforms. We also made sure all the tabs were swipeable, and image galleries can be closed by flicking it away.&lt;/p&gt;
+
+&lt;p&gt;Since shipping these updates, our app reviews improved, and the app was featured on Google Play and the App Store. In 2017, we grew from 32k to 73k monthly active users.&lt;/p&gt;
+
+&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-home-devices.jpg&quot; alt=&quot;Hypebeast app on mobile and tablet&quot; /&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Hypebeast is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.</summary></entry><entry><title type="html">Designing the streetwear shopping experience</title><link href="http://happygoodhorse.com/2018/01/01/hbx-find-your-size.html" rel="alternate" type="text/html" title="Designing the streetwear shopping experience" /><published>2018-01-01T00:00:00+08:00</published><updated>2018-01-01T00:00:00+08:00</updated><id>http://happygoodhorse.com/2018/01/01/hbx-find-your-size</id><content type="html" xml:base="http://happygoodhorse.com/2018/01/01/hbx-find-your-size.html">&lt;p&gt;We kickstarted tackling product returns by analyzing data to validate the top reason for returns: due to wrong size. Through user interviews and testing, we found that this was due to brands using different sizing and the difficulty of using traditional sizing charts. Most shoppers didn’t know their detailed body measurements like chest circumference and shoulder width, but knew their height and weight off the top of their head.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How might we help and encourage shoppers to find a more accurate size?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hbx-find-your-size-height-weight.jpg&quot; alt=&quot;We designed the size recommendation based on what most shoppers knew: their height and weight&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;We designed the size recommendation based on what most shoppers already knew: their height and weight&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;To simplify the process, we mapped the body measurements to the height and weight and tested with our coworkers in the office to refine the accuracy. We found that people who had a flat/round belly or broad/slim shoulders produced a wider range of results, so we added those options to the flow and encouraged them to input their body measurements for a more reliable size recommendation.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;div&gt;
+		&lt;video class=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+			&lt;source src=&quot;/assets/hbx-find-your-size.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We AB tested the call-to-cation on the product page to determine the most effective design.&lt;/p&gt;
+
+&lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hbx-find-your-size-saved.jpg&quot; alt=&quot;The most effective call-to-action based on AB testing: an underlined link positioned right beneath the size options&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;The most effective call-to-action based on AB testing: an underlined link positioned right beneath the size options&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Outcome: three months after we launched the size recommendation, returns due to improper sizing dropped by 86%.&lt;/p&gt;</content><author><name></name></author><summary type="html">We kickstarted tackling product returns by analyzing data to validate the top reason for returns: due to wrong size. Through user interviews and testing, we found that this was due to brands using different sizing and the difficulty of using traditional sizing charts. Most shoppers didn’t know their detailed body measurements like chest circumference and shoulder width, but knew their height and weight off the top of their head.</summary></entry><entry><title type="html">Designing a simple experience for choosing the right insurance plan</title><link href="http://happygoodhorse.com/2016/11/01/bupa.html" rel="alternate" type="text/html" title="Designing a simple experience for choosing the right insurance plan" /><published>2016-11-01T00:00:00+08:00</published><updated>2016-11-01T00:00:00+08:00</updated><id>http://happygoodhorse.com/2016/11/01/bupa</id><content type="html" xml:base="http://happygoodhorse.com/2016/11/01/bupa.html">&lt;p&gt;Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.&lt;/p&gt;
+
+&lt;p&gt;Bupa is a healthcare group headquartered in the United Kingdom. It expanded into Hong Kong in 1976 and has been a health insurance and healthcare provision business since. Their audience is professional individuals and companies looking for a healthcare plan for their employees.&lt;/p&gt;
+
+&lt;h2 id=&quot;discovery&quot;&gt;Discovery&lt;/h2&gt;
+
+&lt;p&gt;We reviewed feedback on the current site and discovered that &lt;strong&gt;customers found it difficult to find a suitable insurance plan&lt;/strong&gt;. We did an analysis and found several problems: product names were vague and non-descriptive, the wide range of plans and broad categories were hard to browse, and the website wasn’t mobile-optimized.&lt;/p&gt;
+
+&lt;p&gt;We brainstormed on how to make it easier for customers to find a suitable plan, and proceeded with the idea of &lt;strong&gt;giving recommendations and quotations based on a simple form&lt;/strong&gt;. We added a form on the home page where customers fill in a few fields and immediately get three recommended plans. They can choose to refine the pricing by adding more information and enroll the plan.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/bupa-flow.png&quot; alt=&quot;Wireframes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The beginning steps are the simplest, and with each step the flow becomes more specific and there is more information and data input.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Input a few pieces of information to receive three recommendations&lt;/li&gt;
+  &lt;li&gt;Compare and select a plan&lt;/li&gt;
+  &lt;li&gt;Refine the quotation by choosing payment and plan options&lt;/li&gt;
+  &lt;li&gt;Long form for personal details and a series of yes/no health questions&lt;/li&gt;
+  &lt;li&gt;Payment&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/bupa-desktop.jpg&quot; alt=&quot;Medical insurance plans and quotation engine&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
+
+&lt;p&gt;We designed the recommended plans view to be in the same style as regular cards, but expanded vertically to show more information. The information is divided into sections and displayed in an underlying grid so the same information can be &lt;strong&gt;easily scanned&lt;/strong&gt; across all three plans.&lt;/p&gt;
+
+&lt;p&gt;Early feedback and testing of the wireframes showed that many customers found the forms &lt;strong&gt;long and overwhelming&lt;/strong&gt;. In addition to breaking up the long forms into smaller chunks and steps, we tested the idea of using placeholders as labels. Bupa and our team were initially drawn to this idea because it made the forms appear less overwhelming—the forms looked “cleaner” and the reduced vertical space meant less scroll.&lt;/p&gt;
+
+&lt;p&gt;Due to the density of Traditional Chinese characters, labels are easier to read in a larger size and lighter weight than smaller size and heavier weight. Material Design recommends increasing “Dense scripts” by 1 point from the specified size for English. This adds more vertical space for Chinese form labels, plus &lt;strong&gt;exaggerates the visual density&lt;/strong&gt; when compared to using placeholders as labels.&lt;/p&gt;
+
+&lt;p&gt;However, using placeholders as labels create a number of usability problems, as summarized by Katie Sherwin of Nielsen Norman Group. Here are the top three reasons that applied to the forms we were designing:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Strains short-term memory&lt;/strong&gt;: users have to delete what they wrote to reveal the placeholder label again&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Users cannot check their input with the label&lt;/strong&gt; (especially important for browsers with autocomplete)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Empty vs non-empty fields are less noticeable&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/bupa-labels.png&quot; alt=&quot;Traditional labels, placeholder labels and float labels&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;We compromised by using &lt;a href=&quot;https://medium.com/r/?url=http%3A%2F%2Fmds.is%2Ffloat-label-pattern%2F&quot; target=&quot;_blank&quot;&gt;float labels&lt;/a&gt;. Float labels allow the empty form to appear more clean and less overwhelming, while solving the usability problems of placeholder labels to a certain extent. When asked which form looks less overwhelming, most customers picked the one with float labels over labels on top of fields.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/bupa-form.png&quot; alt=&quot;Enrollment form&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;The website launched in early 2017. Bupa loved the brand new clean, simple and functional design. The new website increased sales leads by 200% and online purchases by 300%.&lt;/p&gt;</content><author><name></name></author><summary type="html">Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.</summary></entry></feed>

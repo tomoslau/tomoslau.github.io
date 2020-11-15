@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Hypebeast mobile redesign
+company: HYPEBEAST
+title: Improving the reading experience for millions of streetwear enthusiasts around the world
 date: 2018-08-12 00:00:00 +0800
 categories:
 year: 2017-2018
-role: UX / UI design
+role: UX / UI Design
 type: Mobile app
 appstore-link: https://itunes.apple.com/us/app/hypebeast/id986768161?mt=8
 googleplay-link: https://play.google.com/store/apps/details?id=com.hypebeast.editorial&hl=en
 banner-image: "/assets/hb-banner.jpg"
 thumbnail: "/assets/hb-home-devices.jpg"
-permalink: /hypebeast-mobile-redesign/
 ---
 
 [Hypebeast](http://hypebeast.com) is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.

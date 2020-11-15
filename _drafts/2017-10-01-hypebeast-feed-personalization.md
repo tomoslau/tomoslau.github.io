@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "HYPEBEAST feed personalization"
+company: HYPEBEAST
+title:  Feed personalization
 date: 2017-10-01 00:00:00 +0800
 categories:
 year: 2017
-role: UX / UI design
+role: UX / UI Design
 type: Mobile app
 appstore-link: https://itunes.apple.com/us/app/hypebeast/id986768161?mt=8
 googleplay-link: https://play.google.com/store/apps/details?id=com.hypebeast.editorial&hl=en
 summary:
 banner-image: "/assets/hb-banner.jpg"
 thumbnail: "/assets/hb.jpg"
-permalink: /hypebeast-feed-personalization/
 ---
 
 During my job interview at HYPEBEAST, I was asked a question: “If you were to improve one thing on HYPEBEAST, what would it be?”

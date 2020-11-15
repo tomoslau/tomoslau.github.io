@@ -1,10 +1,11 @@
 ---
 layout: post
-title: GogoX Delivery mobile order experience
+company: GogoX
+title: Designing the mobile same-day delivery experience
 date: 2020-09-24 00:00:00 +0800
 categories:
 year: 2020
-role: "Senior Product Designer"
+role: Product Design
 type: Mobile
 appstore-link:
 googleplay-link:

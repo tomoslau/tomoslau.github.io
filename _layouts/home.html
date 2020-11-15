@@ -22,6 +22,20 @@ layout: default
     <div class="work-header tofadein-second">
       <h2>Work &darr;</h2>
     </div>
+   
+      {% for post in site.posts %}
+       <div class="work-item big-text">
+          <figure>
+            <img class="thumbnail" src="{{ post.thumbnail }}" />
+          </figure>
+          <h3><span class="company">{{ post.company }}</span> — {{ post.title }}</h3>
+          <p class="post-meta">{{ post.year }} · {{ post.role }}</p>
+          {% if post.permalink %}         
+          <p>→ <a href="{{ post.url }}">Read case study</a></p>
+          {% endif %}
+        </div>
+      {% endfor %}
+  <!--
     <div class="grid grid-d2-m1 work-grid">
       {% for post in site.posts %}
         <div class="grid-item work-item scrollreveal">
@@ -34,6 +48,7 @@ layout: default
         </div>
       {% endfor %}
     </div>
+  -->
   </div>
   <hr>
 </div>

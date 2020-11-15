@@ -1,10 +1,11 @@
 ---
 layout: post
-title: GogoX Delivery courier activation
+company: GogoX
+title: Helping couriers find more relevant delivery orders
 date: 2019-07-14 00:00:00 +0800
 categories:
-year: 2019 Q2
-role: Product designer
+year: 2019
+role: Product Design
 type: Mobile app
 description: 
 banner-image: "/assets/gogo-delivery-courier-banner.jpg"
@@ -86,26 +87,12 @@ We shipped the order filtering and sorting first. We assumed this had the greate
 
 In addition, we shipped filters for time constraints, package size, and weight. This enabled couriers to further filter orders that are more relevant to them - for example, package weights that they are physically capable of carrying when bundling orders.
 
-## Filters usage
-After one month of release, the package size and weight filters had the most usage at 95%. Whereas the time filter had 25%, and pick up region filter only at 10%. Overall response time increased. Next steps: research and iterate on improving the time and pick up region filters.
-
-
-Filter adopters increased their orders by 1.8x post-launch
-
 ## Outcome
 
 - Daily orders by adopters increased 180%
 
 - Response time reduced 83%
 
-## Retro
+## Learnings
 
-- Assumed pick up regions filter and sorting is more impactful than size, weight, time
-  - Testing prototype indoor vs actual usage while making deliveries?
-- Why low usage on pick up region filters?
-  - How often do couriers pick up orders from different regions?
-  - Are the defined regions too large?
-  - Interaction cost?
-- When increased completion rate (price adjustment, coronavirus)
-  - Less than 5 pending orders to pick from
-  - How impactful are the filters?
+During product discovery, we learned that region filters are more impactful than size, weight, and time filters. After launch, we found that the pick up region filter had less usage than the other filters. Our assumptions are that couriers are constantly travelling, so changing the pick up filter is too interaction costly. Also the defined region polygons may be too geographically large to be helpful. This is something that we missed due to interviewing and testing with couriers in a de-contextualized/scripted environment. We can improve by using research methods that involve natural use of the product, such as ethnographic field studies or testing a prototype that can be used with real orders in a real environment.
