@@ -12,7 +12,7 @@ googleplay-link:
 description: 
 banner-image: "/assets/ggd-web-banner.png"
 thumbnail: "/assets/ggd-web-order-details.png"
-permalink: /gogo-delivery-web/
+permalink: /gogox-delivery-experience-for-merchants/
 ---
 
 ## Role

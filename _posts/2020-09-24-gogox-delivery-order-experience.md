@@ -12,7 +12,7 @@ googleplay-link:
 description: 
 banner-image: "/assets/ggd-mobile-banner.png"
 thumbnail: "/assets/ggd-mobile-thumbnail.png"
-permalink: /gogo-delivery-mobile/
+permalink: /gogox-mobile-delivery-experience/
 ---
 
 ## Overview

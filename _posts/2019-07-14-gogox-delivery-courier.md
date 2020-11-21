@@ -10,7 +10,7 @@ type: Mobile app
 description: 
 banner-image: "/assets/gogo-delivery-courier-banner.jpg"
 thumbnail: "/assets/gogo-delivery-courier.jpg"
-permalink: /gogo-delivery-courier-activation/
+permalink: /gogox-courier-experience/
 ---
 
 Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.
