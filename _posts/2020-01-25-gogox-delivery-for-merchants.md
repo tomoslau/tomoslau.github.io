@@ -2,6 +2,7 @@
 layout: post
 company: GogoX
 title: Building the delivery experience for small and medium-sized merchants
+description: With the rise of e-commerce merchants using our delivery service, we identified, validated, and tackled their operational pain points by creating a seamless web and mobile app experience, simplifying their flow for repeat orders, and introducing bulk and API delivery to integrate with their e-commerce platforms. 
 date: 2020-01-25 00:00:00 +0800
 categories:
 year: 2020
@@ -9,7 +10,6 @@ role: Product Design
 type: Web
 appstore-link:
 googleplay-link:
-description: 
 banner-image: "/assets/ggd-web-banner.png"
 thumbnail: "/assets/ggd-web-order-details.png"
 permalink: /gogox-delivery-experience-for-merchants/

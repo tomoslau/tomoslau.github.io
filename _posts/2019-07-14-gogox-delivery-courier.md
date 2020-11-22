@@ -2,12 +2,12 @@
 layout: post
 company: GogoX
 title: Helping couriers find more relevant delivery orders
+description: I led a design sprint to tackle the couriers' difficulty in finding relevant delivery orders due to increasing demand. Order filters increased orders taken by adopters by 180%, and reduced the response time by 83%.
 date: 2019-07-14 00:00:00 +0800
 categories:
 year: 2019
 role: Product Design
 type: Mobile app
-description: 
 banner-image: "/assets/gogo-delivery-courier-banner.jpg"
 thumbnail: "/assets/gogo-delivery-courier.jpg"
 permalink: /gogox-courier-experience/

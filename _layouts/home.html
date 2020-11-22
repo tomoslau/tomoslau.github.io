@@ -9,7 +9,7 @@ layout: default
       <blockquote>
         <p>🎤 Join my talk "Understand people through experiences, not words" on Nov 26 7pm HKT at <a href="https://productmanagementfestival.com/pm-nights/product-management-night-hong-kong"/>Product Management Night</a></p> 
       </blockquote>
-      <p>Product designer currently building crowdsourced delivery at GogoX</p>
+      <p>Product designer currently building crowdsourced delivery at GogoX. Previously worked on the reading and shopping experience at Hypebeast, and served as Art Director at Isobar.</p>
       <p>→ <a href="/about/">Learn more about me</a><br>
       → <a href="https://dribbble.com/{{ site.username }}" target="blank">Dribbble</a></p>
       <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
@@ -30,6 +30,7 @@ layout: default
           </figure>
           <h3><span class="company">{{ post.company }}</span> — {{ post.title }}</h3>
           <p class="post-meta">{{ post.year }} · {{ post.role }}</p>
+          <p>{{ post.description }}</p>
           {% if post.permalink %}         
           <p>→ <a href="{{ post.url }}">Read case study</a></p>
           {% endif %}

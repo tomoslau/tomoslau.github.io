@@ -2,6 +2,7 @@
 layout: post
 company: HBX
 title: Designing the streetwear shopping experience
+description: HBX is Hypebeast's retail store. I worked on the online shopping experience and fashion design, including a gesture-based browsing experience, size recommendation that reduced returns due to improper sizing by 86%, and collabs with Heron Preston and Reebok.
 date: 2018-01-01 00:00:00 +0800
 categories:
 year: 2018

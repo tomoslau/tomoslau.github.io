@@ -2,6 +2,7 @@
 layout: post
 company: GogoX
 title: Designing the mobile same-day delivery experience
+description: To improve the funnel of placing a delivery order on mobile, I simplified the sender and recipient form to reduce interaction cost, added the option to select on map for cases when addresses can't be found, and redesigned the package information input to reduce cognitive load for personal senders and improve flexibility for businesses.
 date: 2020-09-24 00:00:00 +0800
 categories:
 year: 2020
@@ -9,7 +10,6 @@ role: Product Design
 type: Mobile
 appstore-link:
 googleplay-link:
-description: 
 banner-image: "/assets/ggd-mobile-banner.png"
 thumbnail: "/assets/ggd-mobile-thumbnail.png"
 permalink: /gogox-mobile-delivery-experience/

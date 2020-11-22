@@ -2,6 +2,7 @@
 layout: post
 company: HYPEBEAST
 title: Improving the reading experience for millions of streetwear enthusiasts around the world
+description: I redesigned the HYPEBEAST iOS and Android mobile apps to create a native and familiar experience that's blazingly fast, and improved the readability and focus. Featured on the App Store and Google Play.
 date: 2018-08-12 00:00:00 +0800
 categories:
 year: 2017-2018
