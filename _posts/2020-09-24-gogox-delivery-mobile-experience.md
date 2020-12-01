@@ -125,15 +125,15 @@ During usability tests, we found that the GPS location taken to prefill the send
 
 <figure><div><img class="lazy" data-src="/assets/ggd-package-info-autofill.png" alt="Package info autofill"></div><figcaption>We also shipped autofill using merchants' previously entered package information</figcaption></figure>
 
-The package information page was the second highest dropoff point for new and ad-hoc users. Through user interviews, we learned that most ad-hoc users felt the package information took long to fill in. Most of them expected to be able to send a package as long as it fit under a size that fits in a motorbike or sedan, and found it unnecessary to fill in the details. Merchants, though, didn't mind filling in the details like package size and weight because they are extremly price sensitive. In fact, many merchants we spoke with felt our box model options (i.e. within a 40x40x40cm cube) were too restrictive when they wanted to send flatter and longer packages. 
+The package information page was the second-highest dropoff point for new and ad-hoc users. Through user interviews, we learned that most ad-hoc users felt the package information took a long time to fill in. Most of them expected to be able to send a package as long as it fits under a size that fits in a motorbike or sedan, and found it unnecessary to fill in the details. Merchants, though, didn't mind filling in the details like package size and weight because they are price-sensitive. In fact, many merchants we spoke with felt our box model options (i.e. within a 40x40x40cm cube) were too restrictive when they wanted to send flatter and longer packages. 
 
 We decided to create a different package information form for new/ad-hoc users, and merchants based on their needs:
 
-For ad-hoc users, we simplified the 20 possible size and weight combinations to two options (40x40x40cm, 10kg, and 60x60x60cm, 20kg) based on the size and weight relationship from historical orders and competitive advantages. I conducted interviews and comparative usability tests to validate laypeople's mental model on communicating size and weight of packages. I found that the existing box model (i.e. 40x40x40cm) is easier to understand than using combined dimensions or volumetric weight (common in logistics industry) and most people guess the size and weight instead of measuring with tools.
+For ad-hoc users, we simplified the 20 possible size and weight combinations to two options (40x40x40cm, 10kg, and 60x60x60cm, 20kg) based on the size and weight relationship from historical orders and competitive advantages. I conducted interviews and comparative usability tests to validate laypeople's mental model on communicating the size and weight of packages. I found that the existing box model (i.e. 40x40x40cm) is easier to understand than using combined dimensions or volumetric weight (common in the logistics industry) and most people guess the size and weight instead of measuring with tools.
 
 For the merchant's flow, we added separate input fields for length, width, and height to give businesses the flexibility to send long and narrow packages at a fairer price. 
 
-In both flows, we introduced package info defaults for new users, and reused previous order information for returning users. We also added a saved package feature, where merchants can autofill the package information page.
+In both flows, we introduced package info defaults for new users and reused previous order information for returning users. We also added a saved package feature, where merchants can autofill the package information page.
 
 
 
