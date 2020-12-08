@@ -9,8 +9,10 @@ year: 2019
 role: Product Design
 type: Mobile app
 banner-image: "/assets/gogo-delivery-courier-banner.jpg"
-thumbnail: "/assets/gogo-delivery-courier.jpg"
+thumbnail: "/assets/gogo-delivery-courier.png"
 permalink: /gogox-courier-experience/
+background-color: "#DFF1F8"
+color: "#006097"
 ---
 
 Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.

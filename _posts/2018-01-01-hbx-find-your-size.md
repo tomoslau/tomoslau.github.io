@@ -12,7 +12,8 @@ appstore-link: https://apps.apple.com/us/app/hbx-globally-curated-fashion/id8953
 googleplay-link: https://play.google.com/store/apps/details?id=com.hypebeast.store&hl=en
 website-link: https://hbx.com
 banner-image: "/assets/hbx-find-your-size-banner.jpg"
-thumbnail: "/assets/hbx-find-your-size.jpg"
+thumbnail: "/assets/hbx.png"
+background-color: "#f1f1f1"
 ---
 
 We kickstarted tackling product returns by analyzing data to validate the top reason for returns: due to wrong size. Through user interviews and testing, we found that this was due to brands using different sizing and the difficulty of using traditional sizing charts. Most shoppers didn’t know their detailed body measurements like chest circumference and shoulder width, but knew their height and weight off the top of their head.

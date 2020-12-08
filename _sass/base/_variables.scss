@@ -15,8 +15,8 @@ $color-text-light: rgba(0,0,0,0.54);
 $color-link: #0000EE;
 $color-link-hover: #0000EE;
 $color-link-visited: #551A8B;
-$color-background: #fff;
-$color-background-skin: #FFF6EF;
+$color-background: #FFF6EF;
+$color-material-background: darken($color-background, 3%);
 
 //Spacing
 $spacing-unit: 16px;

@@ -13,6 +13,8 @@ googleplay-link:
 banner-image: "/assets/ggd-mobile-banner.png"
 thumbnail: "/assets/ggd-mobile-thumbnail.png"
 permalink: /gogox-mobile-delivery-experience/
+background-color: "#DFF1F8"
+color: "#006097"
 ---
 
 ## Overview

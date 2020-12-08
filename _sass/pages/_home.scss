@@ -10,9 +10,9 @@
  }
  
 .work-item {
-	margin-bottom: 8rem;
+	padding: 8rem 0;
 	@include breakpoint(xs) {
-		margin-bottom: 4rem;
+		padding: 4rem 0;
 	}
 	h3 {
 		font-size: $base-font-size*3;

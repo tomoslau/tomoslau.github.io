@@ -11,7 +11,9 @@ type: Mobile app
 appstore-link: https://itunes.apple.com/us/app/hypebeast/id986768161?mt=8
 googleplay-link: https://play.google.com/store/apps/details?id=com.hypebeast.editorial&hl=en
 banner-image: "/assets/hb-banner.jpg"
-thumbnail: "/assets/hb-home-devices.jpg"
+thumbnail: "/assets/hb-home-devices.png"
+background-color: "#FFF1F7"
+color: "#5F0012"
 ---
 
 [Hypebeast](http://hypebeast.com) is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.

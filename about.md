@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 index: noindex
+background-color: "#FFF6EF"
 ---
 
 <div class="section big-text grid grid-d3-m1 tofadein">

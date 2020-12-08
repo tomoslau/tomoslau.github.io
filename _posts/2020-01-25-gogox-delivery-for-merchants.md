@@ -13,6 +13,7 @@ googleplay-link:
 banner-image: "/assets/ggd-web-banner.png"
 thumbnail: "/assets/ggd-web-order-details.png"
 permalink: /gogox-delivery-experience-for-merchants/
+background-color: "#f1f1f1"
 ---
 
 ## Role
