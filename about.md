@@ -24,7 +24,7 @@ background-color: "#FFF6EF"
       <p>Tom also set a very good example for our team's feedback and continuous improvement culture. He always looked for feedback on his work and responded to others' feedback with an objective discussion every single time. At the same time, he never hesitated to give direct and honest feedback to his peers to help others grow.</p>      
       <div class="quote-person">
         <div>
-          <img src="https://media-exp1.licdn.com/dms/image/C5603AQFZTtPg5XrG1w/profile-displayphoto-shrink_200_200/0?e=1607558400&v=beta&t=8gQeS-mjUhb7BtHgbyRBLEB9i8bvK_7UnR9KQ60Yho8" class="pp"/>
+          <img src="https://media-exp1.licdn.com/dms/image/C5603AQFZTtPg5XrG1w/profile-displayphoto-shrink_800_800/0/1592363734497?e=1613606400&v=beta&t=8pAJeoXft8BrI8HnstI1wjUe2CTmasylwzr2bHkKNAA" class="pp"/>
         </div>
         <div>
           Vincent Chan, Director of Product Management at GogoX
@@ -35,7 +35,7 @@ background-color: "#FFF6EF"
       <p>Tom's dedication to understanding users' needs has been key to our product development. He possesses a strong sense of design aesthetic and humor. He is reliable, professional and a team player.</p>
       <div class="quote-person">
         <div>
-          <img src="https://media-exp1.licdn.com/dms/image/C5103AQFh9IXmjH--6w/profile-displayphoto-shrink_100_100/0?e=1607558400&v=beta&t=HMc3YvXPKzayp40kdkiXrfpJTvxpZjVm_C438tVbN7c" class="pp"/>
+          <img src="https://media-exp1.licdn.com/dms/image/C5103AQFh9IXmjH--6w/profile-displayphoto-shrink_800_800/0/1559864611913?e=1613606400&v=beta&t=wg5e2N-SCT7ohptlNgYYYz0CWHth_YZYAa8hykj60w4" class="pp"/>
         </div>
         <div>
           Cassandra Mak, former VP Product & Growth at Happy Owl
