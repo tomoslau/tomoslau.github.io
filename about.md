@@ -46,7 +46,7 @@ background-color: "#FFF6EF"
       <p>HARD AS FUCK</p>
       <div class="quote-person">
         <div>
-          <img src="https://instagram.fhkg3-2.fna.fbcdn.net/v/t51.2885-19/s150x150/126507742_378554240048250_4195806533357888224_n.jpg?_nc_ht=instagram.fhkg3-2.fna.fbcdn.net&_nc_ohc=7yMziBhsxl4AX8xB5rl&tp=1&oh=5a983ebe147d1000fbb4f750421cc722&oe=5FED8977" class="pp"/>
+          <img src="https://cdn11.bigcommerce.com/s-1tlq4flmn2/product_images/uploaded_images/chinatown-market-apparel-brand-logo-thedrop.png" class="pp"/>
         </div>
         <div>
           <a href="https://www.instagram.com/chinatownmarket/?hl=en">Chinatown Market</a> on <a href="https://www.instagram.com/p/BbON8ZGhCOO/">clogs concept</a>
