@@ -8,6 +8,7 @@ background-color: "#FFF6EF"
 
 <div class="section big-text grid grid-d3-m1 tofadein">
   <div class="grid-item span-2">
+    <h1>"All input are errors."</h1>
     <p>Hi, I’m a designer with skills in experience/interface design and front-end development. I enjoy working holistically in the design process: research, product strategy, prototyping, usability testing, interaction, visual, and motion design.</p>
     <p>My current obsessions are trying to hit a post-covid PR at the gym and lying to my friends on Among Us.</p>  
   </div>
