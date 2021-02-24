@@ -136,8 +136,26 @@ To reduce errors before import, we added data validation on the spreadsheet temp
 	<figcaption>Bulk order import shipped for phase 2 with editable table for merchants to amend any invalid fields</figcaption>
 </figure>
 
+## Reducing address input and errors
+
+Shortly after rolling out the editable table to merchants, we found that there was a high amount of errors for recipient address. This was in line with our assumption that the Google Places API couldn't return a match based on the merchants' customers' input. To validate this assumption, we interviewed several merchants. Luckily, the merchants shared with us screenshots of real input from the customers. Most of these addresses resulted in no match found. After importing, merchants had to go into each incorrect address and then manually edit them one by one in order to get a match. Furthermore, merchants expressed concern over having to manually split the address details (i.e. floor and room) from the building / street and number.
+
+To tackle this issue, I led a brainstorming session with the engineers to find ways to match addresses better and reduce the effort from the merchant side during import. Initially, I wanted to figure out the root cause of the Google API not being able to return results, because most of the addresses were able to return on Google Maps. However, due to a limitation of resource from our backend engineer, we explored how we could tackle it on the front-end. 
+
+<figure><div><img class="lazy" data-src="/assets/ggb-als-flow.png" alt="Bulk order address input and error improvement flow"></div><figcaption>Bulk order address input and error improvement flow</figcaption></figure>
+
+Our front-end engineers found a local service that could dissect an address, which we could then select parts of the address query and improve the rate of matching on our existing API. For example, we found that searching residential addresses by the street, number, and district only increased the matching rate significantly. This would also allow merchants to copy and paste customers' addresses without having to manually separate the details.
+
+<figure><div><img class="lazy" data-src="/assets/ggb-als-poc.png" alt="The POC returns 25x less errors"></div><figcaption>The POC returns 25x less errors</figcaption></figure>
+
+We went on to build a proof of concept and ran thousands of addresses to test the solution. In the first version, the matching rate increased by over 25x. However, with an increased matching rate, there's a higher chance of matching a wrong address. Luckily, there's a confidence score from the lookup service, so we sorted the addresses and results based on the score, and cross referenced them to determine the threshold for marking a result inconfident. For these results, we highlighted them in the table and prompted the merchant to double check with the original address before placing the order.
+
+To futher increase the matching rate, we looked at the remaining results that couldn't get a match. We found that by reformatting building names and block numbers, the API returned a more accurate result, which accounted for 4% of the addresses tested. There's also 1% of addresses that are in villages without accurate street names on Google, so for those cases we searched by village name and number instead.
+
 <!--
 <figure><div><img class="lazy" data-src="/assets/ggb-bulk-validation-2.png" alt="Bulk order validation v2"></div><figcaption>Phase 2: Editable table. Cells with errors are marked in red. Merchants can edit the values directly on the table. In this example, one of the addresses is invalid, and the merchant can select a valid address from the dropdown.</figcaption></figure> -->
+
+## Shipping label and QR code
 
 During our store visits and taking orders as couriers, we found that many merchants wrote the recipient district and pick-up verification code on labels or directly on the packages. To aid this process, we introduced shipping labels that merchants can choose to print after placing their orders. Interestingly, when we tested this with merchants, some said they still preferred to hand-write to save the environment and printing costs.
 
