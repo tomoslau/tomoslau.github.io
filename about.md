@@ -116,8 +116,8 @@ background-color: "#FFF6EF"
   <div class="grid-item">
     <h2>Experience 🧠</h2>
     <ul class="list-reset">
-      <li>GogoX, Senior Product Designer since 2020</li>
-      <li>GogoX, Product Designer II 2018-2020</li>
+      <li>Delivery Hero, Product Designer 2021<br><small>foodpanda, foodora, NetPincér, Dáme jídlo, Mjam</small></li>
+      <li>GogoX, Senior Product Designer 2018-2021</li>
       <li>Hypebeast, UX/UI Designer 2017-2018</li>
       <li>Isobar, Art Director 2016<br><small>Audi, Estee Lauder, Bupa, Disney, Zespri</small></li>
       <li>Clarity Labs, UX/UI Designer 2014-2016<br><small>Axter, Fresenius, Hyatt, Spacebox, Tittle Light</small></li>
