@@ -1,7 +1,7 @@
 ---
 layout: post
 company: Foodpanda/Foodora
-title: Designing the group ordering experience
+title: Designing the food delivery experience
 description:
 date: 2021-04-01 00:00:00 +0800
 categories:
