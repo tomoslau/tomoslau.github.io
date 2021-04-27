@@ -6,13 +6,13 @@ index: noindex
 background-color: "#FFF6EF"
 ---
 
-<div class="section big-text grid grid-d3-m1 tofadein">
+<div class="section big-text grid grid-d3-m1 tofadein bio">
   <div class="grid-item span-2">
-    <h1>"All input are errors."</h1>
+    <h1 style="margin-top: 0">"All input are errors."</h1>
     <p>Hi, I’m a designer with skills in experience/interface design and front-end development. I enjoy working holistically in the design process: research, product strategy, prototyping, usability testing, interaction, visual, and motion design.</p> 
   </div>
   <div class="grid-item">
-    <img src="/assets/me-4.jpg" class="pp"/>
+    <img src="/assets/me-about.jpg" class="pp"/>
   </div>
 </div>
 
