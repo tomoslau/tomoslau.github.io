@@ -18,4 +18,5 @@ published: true
 ---
 
 
- To increase the average order value for the third most downloaded food delivery app in the world, I improved the group ordering experience by simplifying the flow, and allowing participants to pay separately, and clarifying who ordered what.
+To increase the average order value for the third most downloaded food delivery app in the world, I improved the group ordering experience by simplifying the flow, and allowing participants to pay separately, and clarifying who ordered what.
+
