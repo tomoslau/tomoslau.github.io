@@ -2,7 +2,7 @@
 layout: post
 company: Foodpanda/Foodora
 title: Designing the food delivery experience
-description:
+description: Ping me to learn more → tomoslau@gmail.com
 date: 2021-04-01 00:00:00 +0800
 categories:
 year: 2021
