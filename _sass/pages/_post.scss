@@ -21,6 +21,11 @@
 		margin-top: 3rem;
 		margin-bottom : 0;
 	}
+	svg {
+		display:block; 
+		margin:auto;
+		width:100%;
+	}
 	margin-bottom: 3rem;
 }
 
@@ -45,4 +50,21 @@
 
 .post-meta {
 	opacity: 0.6;
+}
+
+.post-wrapper-callout {
+	background-color:#f1f1f1;
+	padding: 6rem;
+	margin: 6rem 0;
+	@include breakpoint(xs) {
+		padding: 2rem;
+		margin: 2rem 0;
+	}
+}
+
+.post-wrapper-flush {
+	margin: 6rem 0;
+	@include breakpoint(xs) {
+		margin: 2rem 0;
+	}	
 }

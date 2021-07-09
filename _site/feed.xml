@@ -1,4 +1,149 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://happygoodhorse.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://happygoodhorse.com/" rel="alternate" type="text/html" /><updated>2021-06-25T17:09:29+08:00</updated><id>http://happygoodhorse.com/feed.xml</id><title type="html">Tom Lau</title><subtitle>Multidisciplinary product designer who does UX, UI, coding, project management, mentoring, and problem solving. Worked with Foodpanda, GogoX, Hypebeast, Isobar, Audi, Estee Lauder, Bupa, and Disney.</subtitle><entry><title type="html">Designing the food delivery experience</title><link href="http://happygoodhorse.com/2021/04/01/delivery-hero-group-ordering.html" rel="alternate" type="text/html" title="Designing the food delivery experience" /><published>2021-04-01T00:00:00+08:00</published><updated>2021-04-01T00:00:00+08:00</updated><id>http://happygoodhorse.com/2021/04/01/delivery-hero-group-ordering</id><content type="html" xml:base="http://happygoodhorse.com/2021/04/01/delivery-hero-group-ordering.html">&lt;p&gt;To increase the average order value for the third most downloaded food delivery app in the world, I improved the group ordering experience by simplifying the flow, and allowing participants to pay separately, and clarifying who ordered what.&lt;/p&gt;</content><author><name></name></author><summary type="html">To increase the average order value for the third most downloaded food delivery app in the world, I improved the group ordering experience by simplifying the flow, and allowing participants to pay separately, and clarifying who ordered what.</summary></entry><entry><title type="html">Designing the mobile same-day delivery experience</title><link href="http://happygoodhorse.com/gogox-mobile-delivery-experience/" rel="alternate" type="text/html" title="Designing the mobile same-day delivery experience" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://happygoodhorse.com/gogox-delivery-mobile-experience</id><content type="html" xml:base="http://happygoodhorse.com/gogox-mobile-delivery-experience/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-09T18:04:35+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tom Lau</title><subtitle>Multidisciplinary product designer who does UX, UI, coding, project management, mentoring, and problem solving. Worked with Foodpanda, GogoX, Hypebeast, Isobar, Audi, Estee Lauder, Bupa, and Disney.</subtitle><entry><title type="html">Designing the food delivery experience</title><link href="http://localhost:4000/foodpanda/" rel="alternate" type="text/html" title="Designing the food delivery experience" /><published>2021-04-01T00:00:00+08:00</published><updated>2021-04-01T00:00:00+08:00</updated><id>http://localhost:4000/delivery-hero-group-ordering</id><content type="html" xml:base="http://localhost:4000/foodpanda/">&lt;p&gt;#FFE5EB&lt;/p&gt;
+
+&lt;p&gt;To increase the average order value for the third most downloaded food delivery app in the world, I improved the group ordering experience by simplifying the flow, and allowing participants to pay separately, and clarifying who ordered what.&lt;/p&gt;
+
+&lt;div class=&quot;post-wrapper-flush&quot;&gt;
+	&lt;svg style=&quot;max-width:720px; display:block; margin:auto&quot; width=&quot;100%&quot; viewBox=&quot;0 0 722 372&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;0&quot; y=&quot;73.3182&quot;&gt;Average # participants in a group order&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;48&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;0&quot; y=&quot;46.4545&quot;&gt;3&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text opacity=&quot;0.5&quot; fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;0&quot; y=&quot;368.318&quot;&gt;Average regular order size&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text opacity=&quot;0.5&quot; fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;48&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;308&quot; y=&quot;346.455&quot;&gt;&amp;#x20ac;6.74&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;0&quot; y=&quot;232.318&quot;&gt;Average group order size&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;48&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;570&quot; y=&quot;219.455&quot;&gt;&amp;#x20ac;15.97&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;380&quot; y=&quot;73.3182&quot;&gt;Group order share of total orders&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;48&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;380&quot; y=&quot;46.4545&quot;&gt;0.11%&lt;/tspan&gt;&lt;/text&gt;
+	&lt;rect y=&quot;198&quot; width=&quot;538&quot; height=&quot;8&quot; rx=&quot;4&quot; fill=&quot;black&quot; /&gt;
+	&lt;rect y=&quot;327&quot; width=&quot;273&quot; height=&quot;8&quot; rx=&quot;4&quot; opacity=&quot;0.5&quot; fill=&quot;black&quot; /&gt;
+	&lt;/svg&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;post-wrapper-callout&quot;&gt;
+	&lt;svg style=&quot;max-width:793px; display:block; margin:auto&quot; width=&quot;100%&quot; viewBox=&quot;0 0 793 422&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;0&quot; y=&quot;73.3182&quot;&gt;Host conversion rate&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;48&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;0&quot; y=&quot;46.4545&quot;&gt;9%&lt;/tspan&gt;&lt;/text&gt;
+	&lt;path d=&quot;M180.5 314.5L4.5 125L3.5 386.5H708.5V366.5L532 348.5L356 326.5L180.5 314.5Z&quot; fill=&quot;black&quot; fill-opacity=&quot;0.05&quot; /&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;0&quot; y=&quot;418.318&quot;&gt;Start group&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;176&quot; y=&quot;418.318&quot;&gt;Invite guests&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;352&quot; y=&quot;418.318&quot;&gt;Add to cart&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;528&quot; y=&quot;418.318&quot;&gt;Checkout&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;704&quot; y=&quot;418.318&quot;&gt;Transaction&lt;/tspan&gt;&lt;/text&gt;
+	&lt;rect y=&quot;125&quot; width=&quot;8&quot; height=&quot;262&quot; rx=&quot;4&quot; fill=&quot;black&quot; /&gt;
+	&lt;rect x=&quot;176&quot; y=&quot;314&quot; width=&quot;8&quot; height=&quot;73.36&quot; rx=&quot;4&quot; fill=&quot;black&quot; /&gt;
+	&lt;rect x=&quot;352&quot; y=&quot;326&quot; width=&quot;8&quot; height=&quot;61.32&quot; rx=&quot;4&quot; fill=&quot;black&quot; /&gt;
+	&lt;rect x=&quot;528&quot; y=&quot;348&quot; width=&quot;8&quot; height=&quot;39.2448&quot; rx=&quot;4&quot; fill=&quot;black&quot; /&gt;
+	&lt;rect x=&quot;704&quot; y=&quot;366&quot; width=&quot;8&quot; height=&quot;20.62&quot; rx=&quot;4&quot; fill=&quot;black&quot; /&gt;
+	&lt;/svg&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;post-wrapper-callout&quot;&gt;
+	&lt;svg style=&quot;max-width:576px; display:block; margin:auto&quot; width=&quot;100%&quot; viewBox=&quot;0 0 576 422&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;0&quot; y=&quot;73.3182&quot;&gt;Guest conversion rate&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;48&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;0&quot; y=&quot;46.4545&quot;&gt;54%&lt;/tspan&gt;&lt;/text&gt;
+	&lt;path d=&quot;M180.5 196L4.5 125L3.5 386.5H531.5V366.5L532 251L356 235L180.5 196Z&quot; fill=&quot;black&quot; fill-opacity=&quot;0.05&quot; /&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;0&quot; y=&quot;418.318&quot;&gt;Invite loaded&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;176&quot; y=&quot;418.318&quot;&gt;Joins group&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;352&quot; y=&quot;418.318&quot;&gt;Add to cart&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;528&quot; y=&quot;418.318&quot;&gt;Ready&lt;/tspan&gt;&lt;/text&gt;
+	&lt;rect y=&quot;125&quot; width=&quot;8&quot; height=&quot;262&quot; rx=&quot;4&quot; fill=&quot;black&quot; /&gt;
+	&lt;rect x=&quot;176&quot; y=&quot;196&quot; width=&quot;8&quot; height=&quot;191.26&quot; rx=&quot;4&quot; fill=&quot;black&quot; /&gt;
+	&lt;rect x=&quot;352&quot; y=&quot;234&quot; width=&quot;8&quot; height=&quot;153.008&quot; rx=&quot;4&quot; fill=&quot;black&quot; /&gt;
+	&lt;rect x=&quot;528&quot; y=&quot;249&quot; width=&quot;8&quot; height=&quot;137.709&quot; rx=&quot;4&quot; fill=&quot;black&quot; /&gt;
+	&lt;/svg&gt;
+&lt;/div&gt;
+
+&lt;h2 style=&quot;text-align: center;&quot;&gt;What if we increased group order share of total orders by 0.01%?&lt;/h2&gt;
+&lt;div class=&quot;post-wrapper-flush&quot;&gt;
+	&lt;svg style=&quot;max-width:360; display:block; margin:auto&quot; width=&quot;100%&quot; viewBox=&quot;0 0 360 128&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+	&lt;text opacity=&quot;0.5&quot; fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;139&quot; y=&quot;124.318&quot;&gt;(Quarterly)&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;9&quot; y=&quot;73.3182&quot;&gt;Group orders&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;48&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;0&quot; y=&quot;46.4545&quot;&gt;+96k&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;16&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;257&quot; y=&quot;73.3182&quot;&gt;GMV&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;48&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;191&quot; y=&quot;46.4545&quot;&gt;+&amp;#x20ac;1.5M&lt;/tspan&gt;&lt;/text&gt;
+	&lt;/svg&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;post-wrapper-flush&quot;&gt;
+	&lt;img src=&quot;/assets/fp/world.svg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;user-research&quot;&gt;User research&lt;/h2&gt;
+
+&lt;p&gt;Worked with local product specialists from 20 APAC and EU countries to understand the user journey and pain points&lt;/p&gt;
+
+&lt;p&gt;Challenge is that not all local teams have signals from users. Relied on internal feedback.&lt;/p&gt;
+
+&lt;p&gt;Some countries have higher adoption due to marketing incentives &amp;amp; pandemic.&lt;/p&gt;
+
+&lt;p&gt;Planned qualitative user interviews with user researcher.&lt;/p&gt;
+
+&lt;div class=&quot;post-wrapper-callout&quot;&gt;
+	&lt;img src=&quot;/assets/fp/quote1-screens.png&quot; style=&quot;margin-bottom:2rem;&quot; /&gt;
+	&lt;svg style=&quot;max-width:392;&quot; viewBox=&quot;0 0 392 99&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+	&lt;rect width=&quot;392&quot; height=&quot;78&quot; rx=&quot;24&quot; fill=&quot;white&quot; /&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;18&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;32.0455&quot;&gt;It&amp;#x2019;s difficult to invite a large group of &lt;/tspan&gt;&lt;tspan x=&quot;16&quot; y=&quot;59.0455&quot;&gt;people if we're not already in a group chat.&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-size=&quot;32&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;95.76&quot;&gt;&amp;#x1f615;&lt;/tspan&gt;&lt;/text&gt;
+	&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class=&quot;post-wrapper-callout&quot;&gt;
+	&lt;img src=&quot;/assets/fp/quote2-screens.png&quot; style=&quot;margin-bottom:2rem;&quot; /&gt;
+	&lt;svg style=&quot;max-width:392;&quot; viewBox=&quot;0 0 392 104&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+	&lt;rect width=&quot;392&quot; height=&quot;78&quot; rx=&quot;24&quot; fill=&quot;white&quot; /&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;18&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;32.0455&quot;&gt;My friends don&amp;#x2019;t know how to add food &lt;/tspan&gt;&lt;tspan x=&quot;16&quot; y=&quot;59.0455&quot;&gt;after joining my group.&lt;/tspan&gt;&lt;/text&gt;
+	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-size=&quot;32&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;95.76&quot;&gt;&amp;#129335;&lt;/tspan&gt;&lt;/text&gt;
+	&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid-d3-m1&quot;&gt;
+	&lt;div class=&quot;grid-item&quot;&gt;
+		&lt;svg style=&quot;max-width:332&quot; viewBox=&quot;0 0 332 96&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+&lt;rect width=&quot;332&quot; height=&quot;70&quot; rx=&quot;24&quot; fill=&quot;black&quot; fill-opacity=&quot;0.05&quot; /&gt;
+&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;18&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;28.0455&quot;&gt;When the delivery arrives, I&amp;#x2019;m not &lt;/tspan&gt;&lt;tspan x=&quot;16&quot; y=&quot;55.0455&quot;&gt;sure who ordered what.&lt;/tspan&gt;&lt;/text&gt;
+&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;32&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;92.76&quot;&gt;&amp;#x1f615;&lt;/tspan&gt;&lt;/text&gt;
+&lt;/svg&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;grid-item&quot;&gt;
+		&lt;svg style=&quot;max-width:332&quot; viewBox=&quot;0 0 332 149&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+&lt;rect width=&quot;332&quot; height=&quot;124&quot; rx=&quot;24&quot; fill=&quot;black&quot; fill-opacity=&quot;0.05&quot; /&gt;
+&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;18&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;28.0455&quot;&gt;I have to calculate how much each &lt;/tspan&gt;&lt;tspan x=&quot;16&quot; y=&quot;55.0455&quot;&gt;person owes (incl. delivery and &lt;/tspan&gt;&lt;tspan x=&quot;16&quot; y=&quot;82.0455&quot;&gt;tax) and follow up with payment if &lt;/tspan&gt;&lt;tspan x=&quot;16&quot; y=&quot;109.045&quot;&gt;they forget to pay me back.&lt;/tspan&gt;&lt;/text&gt;
+&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;32&quot; font-weight=&quot;bold&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;145.76&quot;&gt;&amp;#x1f644;&lt;/tspan&gt;&lt;/text&gt;
+&lt;/svg&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;grid-item&quot;&gt;
+&lt;svg style=&quot;max-width:332&quot; viewBox=&quot;0 0 332 124&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+&lt;rect width=&quot;332&quot; height=&quot;97&quot; rx=&quot;24&quot; fill=&quot;black&quot; fill-opacity=&quot;0.05&quot; /&gt;
+&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;18&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;28.0455&quot;&gt;I always have to wait a long time &lt;/tspan&gt;&lt;tspan x=&quot;16&quot; y=&quot;55.0455&quot;&gt;after guests ready to see the &lt;/tspan&gt;&lt;tspan x=&quot;16&quot; y=&quot;82.0455&quot;&gt;updated cart.&lt;/tspan&gt;&lt;/text&gt;
+&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;32&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;120.76&quot;&gt;&amp;#x1f629;&lt;/tspan&gt;&lt;/text&gt;
+&lt;/svg&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;post-wrapper-callout&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;https://i.giphy.com/media/0HMhOCi7k9BH0BPdM5/giphy.webp&quot; style=&quot;max-width:300px;margin:1rem auto;&quot; /&gt;
+
+&lt;h2&gt;Session replay&lt;/h2&gt;
+
+&lt;p&gt;We reviewed session replays to validate the pain points regarding user interaction. For example, we found several sessions where hosts kept trying to refresh the page by dragging the page down, going back and forth between pages, and rage taps while waiting for the page to update with their guests’ items.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;post-wrapper-callout&quot;&gt;
+	&lt;img src=&quot;/assets/fp/tree-1.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;post-wrapper-callout&quot;&gt;
+	&lt;img src=&quot;/assets/fp/tree-2.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;post-wrapper-callout&quot;&gt;
+	&lt;img src=&quot;/assets/fp/tree-3.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;post-wrapper-callout&quot;&gt;
+	&lt;img src=&quot;/assets/fp/tree-4.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;post-wrapper-callout&quot;&gt;
+	&lt;img src=&quot;/assets/fp/tree-5.png&quot; /&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">#FFE5EB</summary></entry><entry><title type="html">Designing the mobile same-day delivery experience</title><link href="http://localhost:4000/gogox-mobile-delivery-experience/" rel="alternate" type="text/html" title="Designing the mobile same-day delivery experience" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://localhost:4000/gogox-delivery-mobile-experience</id><content type="html" xml:base="http://localhost:4000/gogox-mobile-delivery-experience/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
 &lt;p&gt;GogoX is Hong Kong’s largest on-demand logistics platform (think Uber for logistics) and operates in Taiwan, Singapore, India, Vietnam, and South Korea. In 2018, GogoX launched a new service to tackle same-day last-mile delivery.&lt;/p&gt;
 
@@ -129,7 +274,7 @@
 
 &lt;h2 id=&quot;learnings&quot;&gt;Learnings&lt;/h2&gt;
 
-&lt;p&gt;A couple of months after rolling out the sender/recipient flow, our operations team received an increase in courier complaints regarding the accuracy of pickup addresses. Our assumption is that by prefilling the pickup location using the device’s GPS, some users may not be aware they should change it when the address is wrong. This resulted in couriers going to the wrong location and spending more time communicating with clients. A good problem to solve given the impact of the solutions.&lt;/p&gt;</content><author><name></name></author><summary type="html">Overview</summary></entry><entry><title type="html">Building the delivery experience for small and medium-sized merchants</title><link href="http://happygoodhorse.com/gogox-delivery-experience-for-merchants/" rel="alternate" type="text/html" title="Building the delivery experience for small and medium-sized merchants" /><published>2020-01-25T00:00:00+08:00</published><updated>2020-01-25T00:00:00+08:00</updated><id>http://happygoodhorse.com/gogox-delivery-for-merchants</id><content type="html" xml:base="http://happygoodhorse.com/gogox-delivery-experience-for-merchants/">&lt;h2 id=&quot;role&quot;&gt;Role&lt;/h2&gt;
+&lt;p&gt;A couple of months after rolling out the sender/recipient flow, our operations team received an increase in courier complaints regarding the accuracy of pickup addresses. Our assumption is that by prefilling the pickup location using the device’s GPS, some users may not be aware they should change it when the address is wrong. This resulted in couriers going to the wrong location and spending more time communicating with clients. A good problem to solve given the impact of the solutions.&lt;/p&gt;</content><author><name></name></author><summary type="html">Overview</summary></entry><entry><title type="html">Building the delivery experience for small and medium-sized merchants</title><link href="http://localhost:4000/gogox-delivery-experience-for-merchants/" rel="alternate" type="text/html" title="Building the delivery experience for small and medium-sized merchants" /><published>2020-01-25T00:00:00+08:00</published><updated>2020-01-25T00:00:00+08:00</updated><id>http://localhost:4000/gogox-delivery-for-merchants</id><content type="html" xml:base="http://localhost:4000/gogox-delivery-experience-for-merchants/">&lt;h2 id=&quot;role&quot;&gt;Role&lt;/h2&gt;
 
 &lt;p&gt;Gogo Delivery for business was a result of the continuous discovery that our PM and I conducted. I led user interviews, conducted surveys, and worked closely with our data analysts to learn more about our users on a regular basis. Based on our learnings, our PM and I defined product strategies that align with our business goals. From there, we defined hypotheses and metrics. I worked closely with engineers and the cross-functional team throughout the ideation and prototyping phase, sought feedback from designers via weekly critiques, and tested prototypes with merchants. For the final deliverables, I worked with designers who work on our Client mobile app and web app to align the UI and interaction, update the Design System if needed, and verify the translations. I discussed the design with engineers and QA during grooming, and design QA’ed before launch. Post-launch, we reviewed the metrics and retrospected.&lt;/p&gt;
 
@@ -286,7 +431,7 @@
   &lt;li&gt;Package information autofill reduced time spent on the order form by 23%&lt;/li&gt;
   &lt;li&gt;Reuse order contributed to 93% increase in orders placed&lt;/li&gt;
   &lt;li&gt;65% merchants print shipping labels&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Role</summary></entry><entry><title type="html">Helping couriers find more relevant delivery orders</title><link href="http://happygoodhorse.com/gogox-courier-experience/" rel="alternate" type="text/html" title="Helping couriers find more relevant delivery orders" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://happygoodhorse.com/gogox-delivery-courier</id><content type="html" xml:base="http://happygoodhorse.com/gogox-courier-experience/">&lt;p&gt;Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Role</summary></entry><entry><title type="html">Helping couriers find more relevant delivery orders</title><link href="http://localhost:4000/gogox-courier-experience/" rel="alternate" type="text/html" title="Helping couriers find more relevant delivery orders" /><published>2019-07-14T00:00:00+08:00</published><updated>2019-07-14T00:00:00+08:00</updated><id>http://localhost:4000/gogox-delivery-courier</id><content type="html" xml:base="http://localhost:4000/gogox-courier-experience/">&lt;p&gt;Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.&lt;/p&gt;
 
 &lt;h2 id=&quot;my-role&quot;&gt;My role&lt;/h2&gt;
 
@@ -372,7 +517,7 @@
 
 &lt;h2 id=&quot;learnings&quot;&gt;Learnings&lt;/h2&gt;
 
-&lt;p&gt;During product discovery, we learned that region filters are more impactful than size, weight, and time filters. After launch, we found that the pick up region filter had less usage than the other filters. Our assumptions are that couriers are constantly travelling, so changing the pick up filter is too interaction costly. Also the defined region polygons may be too geographically large to be helpful. This is something that we missed due to interviewing and testing with couriers in a de-contextualized/scripted environment. We can improve by using research methods that involve natural use of the product, such as ethnographic field studies or testing a prototype that can be used with real orders in a real environment.&lt;/p&gt;</content><author><name></name></author><summary type="html">Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.</summary></entry><entry><title type="html">Improving the reading experience for millions of streetwear enthusiasts around the world</title><link href="http://happygoodhorse.com/2018/08/12/hypebeast-mobile-redesign.html" rel="alternate" type="text/html" title="Improving the reading experience for millions of streetwear enthusiasts around the world" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://happygoodhorse.com/2018/08/12/hypebeast-mobile-redesign</id><content type="html" xml:base="http://happygoodhorse.com/2018/08/12/hypebeast-mobile-redesign.html">&lt;p&gt;&lt;a href=&quot;http://hypebeast.com&quot;&gt;Hypebeast&lt;/a&gt; is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.&lt;/p&gt;
+&lt;p&gt;During product discovery, we learned that region filters are more impactful than size, weight, and time filters. After launch, we found that the pick up region filter had less usage than the other filters. Our assumptions are that couriers are constantly travelling, so changing the pick up filter is too interaction costly. Also the defined region polygons may be too geographically large to be helpful. This is something that we missed due to interviewing and testing with couriers in a de-contextualized/scripted environment. We can improve by using research methods that involve natural use of the product, such as ethnographic field studies or testing a prototype that can be used with real orders in a real environment.&lt;/p&gt;</content><author><name></name></author><summary type="html">Nine months into launching Gogo Delivery (a crowd-sourced delivery service), the demand grew to a point where the supply couldn’t keep up. Couriers were scrolling through a long list of orders to find orders to take. Response time increased and completion rate dropped. To improve this, our team pivoted our objective to improve courier activation.</summary></entry><entry><title type="html">Improving the reading experience for millions of streetwear enthusiasts around the world</title><link href="http://localhost:4000/2018/08/12/hypebeast-mobile-redesign.html" rel="alternate" type="text/html" title="Improving the reading experience for millions of streetwear enthusiasts around the world" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/12/hypebeast-mobile-redesign</id><content type="html" xml:base="http://localhost:4000/2018/08/12/hypebeast-mobile-redesign.html">&lt;p&gt;&lt;a href=&quot;http://hypebeast.com&quot;&gt;Hypebeast&lt;/a&gt; is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.&lt;/p&gt;
 
 &lt;p&gt;Our goal was to increase our loyal readership by improving the mobile app reading experience. During 2017 and 2018, I redesigned Hypebeast’s mobile apps to foster a better reading experience. Below are a few changes we shipped.&lt;/p&gt;
 
@@ -413,7 +558,7 @@
 
 &lt;p&gt;Since shipping these updates, our app reviews improved, and the app was featured on Google Play and the App Store. In 2017, we grew from 32k to 73k monthly active users.&lt;/p&gt;
 
-&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-home-devices.jpg&quot; alt=&quot;Hypebeast app on mobile and tablet&quot; /&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Hypebeast is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.</summary></entry><entry><title type="html">Designing the streetwear shopping experience</title><link href="http://happygoodhorse.com/2018/01/01/hbx-find-your-size.html" rel="alternate" type="text/html" title="Designing the streetwear shopping experience" /><published>2018-01-01T00:00:00+08:00</published><updated>2018-01-01T00:00:00+08:00</updated><id>http://happygoodhorse.com/2018/01/01/hbx-find-your-size</id><content type="html" xml:base="http://happygoodhorse.com/2018/01/01/hbx-find-your-size.html">&lt;p&gt;We kickstarted tackling product returns by analyzing data to validate the top reason for returns: due to wrong size. Through user interviews and testing, we found that this was due to brands using different sizing and the difficulty of using traditional sizing charts. Most shoppers didn’t know their detailed body measurements like chest circumference and shoulder width, but knew their height and weight off the top of their head.&lt;/p&gt;
+&lt;figure class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hb-home-devices.jpg&quot; alt=&quot;Hypebeast app on mobile and tablet&quot; /&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Hypebeast is a media platform for youth culture to get the latest news in streetwear, sneakers, fashion, entertainment and music.</summary></entry><entry><title type="html">Designing the streetwear shopping experience</title><link href="http://localhost:4000/2018/01/01/hbx-find-your-size.html" rel="alternate" type="text/html" title="Designing the streetwear shopping experience" /><published>2018-01-01T00:00:00+08:00</published><updated>2018-01-01T00:00:00+08:00</updated><id>http://localhost:4000/2018/01/01/hbx-find-your-size</id><content type="html" xml:base="http://localhost:4000/2018/01/01/hbx-find-your-size.html">&lt;p&gt;We kickstarted tackling product returns by analyzing data to validate the top reason for returns: due to wrong size. Through user interviews and testing, we found that this was due to brands using different sizing and the difficulty of using traditional sizing charts. Most shoppers didn’t know their detailed body measurements like chest circumference and shoulder width, but knew their height and weight off the top of their head.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;How might we help and encourage shoppers to find a more accurate size?&lt;/strong&gt;&lt;/p&gt;
 
@@ -431,7 +576,7 @@
 &lt;p&gt;We AB tested the call-to-cation on the product page to determine the most effective design.&lt;/p&gt;
 
 &lt;figure&gt;&lt;div class=&quot;ratio-4x3&quot;&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/hbx-find-your-size-saved.jpg&quot; alt=&quot;The most effective call-to-action based on AB testing: an underlined link positioned right beneath the size options&quot; /&gt;&lt;/div&gt;&lt;figcaption&gt;The most effective call-to-action based on AB testing: an underlined link positioned right beneath the size options&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;Outcome: three months after we launched the size recommendation, returns due to improper sizing dropped by 86%.&lt;/p&gt;</content><author><name></name></author><summary type="html">We kickstarted tackling product returns by analyzing data to validate the top reason for returns: due to wrong size. Through user interviews and testing, we found that this was due to brands using different sizing and the difficulty of using traditional sizing charts. Most shoppers didn’t know their detailed body measurements like chest circumference and shoulder width, but knew their height and weight off the top of their head.</summary></entry><entry><title type="html">Designing a simple experience for choosing the right insurance plan</title><link href="http://happygoodhorse.com/2016/11/01/bupa.html" rel="alternate" type="text/html" title="Designing a simple experience for choosing the right insurance plan" /><published>2016-11-01T00:00:00+08:00</published><updated>2016-11-01T00:00:00+08:00</updated><id>http://happygoodhorse.com/2016/11/01/bupa</id><content type="html" xml:base="http://happygoodhorse.com/2016/11/01/bupa.html">&lt;p&gt;Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.&lt;/p&gt;
+&lt;p&gt;Outcome: three months after we launched the size recommendation, returns due to improper sizing dropped by 86%.&lt;/p&gt;</content><author><name></name></author><summary type="html">We kickstarted tackling product returns by analyzing data to validate the top reason for returns: due to wrong size. Through user interviews and testing, we found that this was due to brands using different sizing and the difficulty of using traditional sizing charts. Most shoppers didn’t know their detailed body measurements like chest circumference and shoulder width, but knew their height and weight off the top of their head.</summary></entry><entry><title type="html">Designing a simple experience for choosing the right insurance plan</title><link href="http://localhost:4000/2016/11/01/bupa.html" rel="alternate" type="text/html" title="Designing a simple experience for choosing the right insurance plan" /><published>2016-11-01T00:00:00+08:00</published><updated>2016-11-01T00:00:00+08:00</updated><id>http://localhost:4000/2016/11/01/bupa</id><content type="html" xml:base="http://localhost:4000/2016/11/01/bupa.html">&lt;p&gt;Between May and November of 2016, I worked on Bupa Hong Kong’s new website as Art Director at Isobar. I designed the visual interface and worked closely with the UX team.&lt;/p&gt;
 
 &lt;p&gt;Bupa is a healthcare group headquartered in the United Kingdom. It expanded into Hong Kong in 1976 and has been a health insurance and healthcare provision business since. Their audience is professional individuals and companies looking for a healthcare plan for their employees.&lt;/p&gt;
 
