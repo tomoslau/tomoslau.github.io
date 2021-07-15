@@ -97,20 +97,24 @@ Some countries have higher adoption due to marketing incentives & pandemic.
 Planned qualitative user interviews with user researcher.
 
 <div class="post-wrapper-callout">
-	<img src ="/assets/fp/quote1-screens.png" style="margin-bottom:2rem;">
 	<svg style="max-width:392;" viewBox="0 0 392 99" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<rect width="392" height="78" rx="24" fill="white"/>
 	<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="18" letter-spacing="0em"><tspan x="16" y="32.0455">It&#x2019;s difficult to invite a large group of </tspan><tspan x="16" y="59.0455">people if we're not already in a group chat.</tspan></text>
 	<text fill="black" xml:space="preserve" style="white-space: pre" font-size="32"><tspan x="16" y="95.76">&#x1f615;</tspan></text>
 	</svg>
+	<div class="wrapper-tight">
+		<img src ="/assets/fp/quote1-screens.png" style="margin-top:2rem;">
+	</div>
 </div>
 <div class="post-wrapper-callout">
-	<img src ="/assets/fp/quote2-screens.png" style="margin-bottom:2rem;">
 	<svg style="max-width:392;" viewBox="0 0 392 104" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<rect width="392" height="78" rx="24" fill="white"/>
 	<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="18" letter-spacing="0em"><tspan x="16" y="32.0455">My friends don&#x2019;t know how to add food </tspan><tspan x="16" y="59.0455">after joining my group.</tspan></text>
 	<text fill="black" xml:space="preserve" style="white-space: pre" font-size="32"><tspan x="16" y="95.76">&#129335;</tspan></text>
 	</svg>
+	<div class="wrapper-tight">
+		<img src ="/assets/fp/quote2-screens.png" style="margin-top:2rem;">
+	</div>
 </div>
 <div class="grid grid-d3-m1">
 	<div class="grid-item">
@@ -165,3 +169,21 @@ Planned qualitative user interviews with user researcher.
 <div class="post-wrapper-callout">
 	<img src="/assets/fp/tree-5.png">
 </div>
+
+<figure>
+	<div style="background-color:#F1F1F1;padding: 2rem">
+		<video class="lazy" style="max-width:320px;margin:0 auto" controls preload="metadata">
+			<source src="/assets/fp/proto-host.mp4#t=0.1" type="video/mp4">
+		</video>
+	</div>
+	<figcaption>Host prototype</figcaption>
+</figure>
+
+<figure>
+	<div style="background-color:#F1F1F1;padding: 2rem">
+		<video class="lazy" style="max-width:320px;margin:0 auto" controls preload="metadata">
+			<source src="/assets/fp/proto-guest.mp4#t=0.1" type="video/mp4">
+		</video>
+	</div>
+	<figcaption>Guest prototype</figcaption>
+</figure>

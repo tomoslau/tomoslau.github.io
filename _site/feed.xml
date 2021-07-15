@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-09T18:04:35+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tom Lau</title><subtitle>Multidisciplinary product designer who does UX, UI, coding, project management, mentoring, and problem solving. Worked with Foodpanda, GogoX, Hypebeast, Isobar, Audi, Estee Lauder, Bupa, and Disney.</subtitle><entry><title type="html">Designing the food delivery experience</title><link href="http://localhost:4000/foodpanda/" rel="alternate" type="text/html" title="Designing the food delivery experience" /><published>2021-04-01T00:00:00+08:00</published><updated>2021-04-01T00:00:00+08:00</updated><id>http://localhost:4000/delivery-hero-group-ordering</id><content type="html" xml:base="http://localhost:4000/foodpanda/">&lt;p&gt;#FFE5EB&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-15T09:32:18+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tom Lau</title><subtitle>Multidisciplinary product designer who does UX, UI, coding, project management, mentoring, and problem solving. Worked with Foodpanda, GogoX, Hypebeast, Isobar, Audi, Estee Lauder, Bupa, and Disney.</subtitle><entry><title type="html">Designing the food delivery experience</title><link href="http://localhost:4000/foodpanda/" rel="alternate" type="text/html" title="Designing the food delivery experience" /><published>2021-04-01T00:00:00+08:00</published><updated>2021-04-01T00:00:00+08:00</updated><id>http://localhost:4000/delivery-hero-group-ordering</id><content type="html" xml:base="http://localhost:4000/foodpanda/">&lt;p&gt;#FFE5EB&lt;/p&gt;
 
 &lt;p&gt;To increase the average order value for the third most downloaded food delivery app in the world, I improved the group ordering experience by simplifying the flow, and allowing participants to pay separately, and clarifying who ordered what.&lt;/p&gt;
 
@@ -77,20 +77,24 @@
 &lt;p&gt;Planned qualitative user interviews with user researcher.&lt;/p&gt;
 
 &lt;div class=&quot;post-wrapper-callout&quot;&gt;
-	&lt;img src=&quot;/assets/fp/quote1-screens.png&quot; style=&quot;margin-bottom:2rem;&quot; /&gt;
 	&lt;svg style=&quot;max-width:392;&quot; viewBox=&quot;0 0 392 99&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
 	&lt;rect width=&quot;392&quot; height=&quot;78&quot; rx=&quot;24&quot; fill=&quot;white&quot; /&gt;
 	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;18&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;32.0455&quot;&gt;It&amp;#x2019;s difficult to invite a large group of &lt;/tspan&gt;&lt;tspan x=&quot;16&quot; y=&quot;59.0455&quot;&gt;people if we're not already in a group chat.&lt;/tspan&gt;&lt;/text&gt;
 	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-size=&quot;32&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;95.76&quot;&gt;&amp;#x1f615;&lt;/tspan&gt;&lt;/text&gt;
 	&lt;/svg&gt;
+	&lt;div class=&quot;wrapper-tight&quot;&gt;
+		&lt;img src=&quot;/assets/fp/quote1-screens.png&quot; style=&quot;margin-top:2rem;&quot; /&gt;
+	&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;post-wrapper-callout&quot;&gt;
-	&lt;img src=&quot;/assets/fp/quote2-screens.png&quot; style=&quot;margin-bottom:2rem;&quot; /&gt;
 	&lt;svg style=&quot;max-width:392;&quot; viewBox=&quot;0 0 392 104&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
 	&lt;rect width=&quot;392&quot; height=&quot;78&quot; rx=&quot;24&quot; fill=&quot;white&quot; /&gt;
 	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-family=&quot;Inter&quot; font-size=&quot;18&quot; letter-spacing=&quot;0em&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;32.0455&quot;&gt;My friends don&amp;#x2019;t know how to add food &lt;/tspan&gt;&lt;tspan x=&quot;16&quot; y=&quot;59.0455&quot;&gt;after joining my group.&lt;/tspan&gt;&lt;/text&gt;
 	&lt;text fill=&quot;black&quot; xml:space=&quot;preserve&quot; style=&quot;white-space: pre&quot; font-size=&quot;32&quot;&gt;&lt;tspan x=&quot;16&quot; y=&quot;95.76&quot;&gt;&amp;#129335;&lt;/tspan&gt;&lt;/text&gt;
 	&lt;/svg&gt;
+	&lt;div class=&quot;wrapper-tight&quot;&gt;
+		&lt;img src=&quot;/assets/fp/quote2-screens.png&quot; style=&quot;margin-top:2rem;&quot; /&gt;
+	&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;grid grid-d3-m1&quot;&gt;
 	&lt;div class=&quot;grid-item&quot;&gt;
@@ -143,7 +147,25 @@
 
 &lt;div class=&quot;post-wrapper-callout&quot;&gt;
 	&lt;img src=&quot;/assets/fp/tree-5.png&quot; /&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">#FFE5EB</summary></entry><entry><title type="html">Designing the mobile same-day delivery experience</title><link href="http://localhost:4000/gogox-mobile-delivery-experience/" rel="alternate" type="text/html" title="Designing the mobile same-day delivery experience" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://localhost:4000/gogox-delivery-mobile-experience</id><content type="html" xml:base="http://localhost:4000/gogox-mobile-delivery-experience/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F1F1;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; style=&quot;max-width:320px;margin:0 auto&quot; controls=&quot;&quot; preload=&quot;metadata&quot;&gt;
+			&lt;source src=&quot;/assets/fp/proto-host.mp4#t=0.1&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Host prototype&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;div style=&quot;background-color:#F1F1F1;padding: 2rem&quot;&gt;
+		&lt;video class=&quot;lazy&quot; style=&quot;max-width:320px;margin:0 auto&quot; controls=&quot;&quot; preload=&quot;metadata&quot;&gt;
+			&lt;source src=&quot;/assets/fp/proto-guest.mp4#t=0.1&quot; type=&quot;video/mp4&quot; /&gt;
+		&lt;/video&gt;
+	&lt;/div&gt;
+	&lt;figcaption&gt;Guest prototype&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">#FFE5EB</summary></entry><entry><title type="html">Designing the mobile same-day delivery experience</title><link href="http://localhost:4000/gogox-mobile-delivery-experience/" rel="alternate" type="text/html" title="Designing the mobile same-day delivery experience" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://localhost:4000/gogox-delivery-mobile-experience</id><content type="html" xml:base="http://localhost:4000/gogox-mobile-delivery-experience/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
 &lt;p&gt;GogoX is Hong Kong’s largest on-demand logistics platform (think Uber for logistics) and operates in Taiwan, Singapore, India, Vietnam, and South Korea. In 2018, GogoX launched a new service to tackle same-day last-mile delivery.&lt;/p&gt;
 

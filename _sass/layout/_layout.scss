@@ -13,6 +13,10 @@ hr {
 	@include breakpoint(sm) {
 		padding: 0 2rem;
 	}
+	&-tight {
+		max-width:720px;
+		margin: 0 auto;
+	}
 }
 
 .section {
