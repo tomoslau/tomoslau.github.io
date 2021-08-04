@@ -1,0 +1,39 @@
+body {
+    max-width: 1048px;
+    margin: auto;
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+    background-color: #FFFAF0;
+    color: #111;
+}
+
+h1, h2, h3, p, small, span {
+    padding: 0 24px;
+}
+
+small {
+    display: block;
+}
+
+.section {
+    margin: 64px 0;
+}
+
+.project {
+    margin-bottom: 64px;
+}
+
+.project-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #FDF5E6;
+    height: 50vw;
+    max-height: 500px;
+    min-height: 320px
+}
+
+@media (min-width: 1048px) {
+    .project-image {
+        margin: 0 24px;
+    }
+}
