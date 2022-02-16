@@ -10,6 +10,9 @@ h1, h2, h3, p, small, span {
     padding: 0 24px;
 }
 
+ul {
+    padding-right: 24px;
+}
 small {
     display: block;
 }
