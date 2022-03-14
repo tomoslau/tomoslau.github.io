@@ -40,3 +40,16 @@ small {
         margin: 0 24px;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #FFFAF0;
+        background: #111;
+    }
+    body a {
+        color: #809fff;
+    }
+    .project-image {
+        background-color: #222;
+    }
+}
