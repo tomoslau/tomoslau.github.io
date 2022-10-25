@@ -1,23 +1,45 @@
 body {
     font-family: sans-serif;
-    padding: 1.5rem;
+    margin: 1.5rem;
     max-width: 64rem;
+    color: rgba(0,0,255,1);
+    background-color: rgba(0,0,255,0.1);
+}
+
+
+h2 {
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    width: 100%;
+    background-color: rgba(0,0,255,0.1);
+}
+
+div {
+    margin-bottom: 1.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
     body {
-        color: #fff;
-        background: #111;
+        color: rgb(66, 164, 255);
+        background:rgb(18, 21, 26);
     }
     body a {
         color: #42A4FF;
     }
-}
-
-h1 {
-    font-size: 3rem;
-}
-
-p {
-    font-size: 1.5rem;
+    img {
+        background-color: rgba(66, 164, 255, 0.1);
+    }
 }
