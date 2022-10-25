@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
-    margin: 1.5rem auto;
+    margin: 0 auto;
+    padding: 1.5rem;
     max-width: 64rem;
     color: rgba(0,0,255,1);
     background-color: rgba(0,0,255,0.1);
