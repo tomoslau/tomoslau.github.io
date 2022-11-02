@@ -7,18 +7,17 @@ body {
     background-color: rgba(0,0,255,0.1);
     background: linear-gradient(0deg, rgba(0,0,255,0.3) 0%, rgba(255,255,255,1) 100%);
     background-attachment: fixed;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
     font-size: 1.5rem;
-    font-family: 'Roboto Mono', monospace;
     text-transform: uppercase;
 }
 
 h2 {
     font-size: 1rem;
     margin-top: 2rem;
-    font-family: 'Roboto Mono', monospace;
     text-transform: uppercase;
 }
 
