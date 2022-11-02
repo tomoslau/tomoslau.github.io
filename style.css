@@ -2,11 +2,9 @@ body {
     font-family: sans-serif;
     margin: 0 auto;
     padding: 1.5rem;
-    max-width: 64rem;
+    max-width: 48rem;
     color: rgba(0,0,255,1);
-    background-color: rgba(0,0,255,0.1);
-    background: linear-gradient(0deg, rgba(0,0,255,0.3) 0%, rgba(255,255,255,1) 100%);
-    background-attachment: fixed;
+    background: rgba(0,0,255,0.2);
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -41,9 +39,7 @@ div {
 @media (prefers-color-scheme: dark) {
     body {
         color: rgb(66, 164, 255);
-        background-color:rgb(18, 21, 26);
-        background: linear-gradient(180deg, rgb(18, 42, 65) 0%, rgb(18, 21, 26) 100%);
-        background-attachment: fixed;
+        background: rgb(18, 21, 26) 100%;
     }
     body a {
         color: #42A4FF;
