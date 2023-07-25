@@ -6,6 +6,14 @@ h1, h2, h3, h4 {
     font-family: 'Inter Tight', sans-serif;
 }
 
+img {
+  background-color: #f1f1f1;
+}
+
+.rounded {
+  border-radius: 1rem !important;
+}
+
 .project-media {
     border-radius: 16px;
     background-color: #f1f1f1;
