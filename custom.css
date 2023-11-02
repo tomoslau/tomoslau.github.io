@@ -49,6 +49,9 @@ video {
     overflow: hidden;
   }
 
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.01); }
+
 .slider {
     animation: slidein 30s linear infinite;
     white-space: nowrap;
@@ -84,4 +87,4 @@ video {
       opacity: 1;
     }
   }
-  
+
