@@ -23,8 +23,14 @@ video {
   margin: auto;
   max-width: 960px;
   text-decoration: none;
-  h4 {color: #fff;}
-  p {color: rgba(255,255,255,0.7)}
+  h4 {
+    color: #fff;
+    margin-bottom: 0;
+  }
+  p {
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 0;
+  }
 }
 
 #intro-wrapper {
