@@ -27,7 +27,7 @@ video {
 .navbar {
   -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
-  background: rgba(255,255,255,0.7)
+  background: rgba(255,255,255,0.8)
 }
 
 .navbar-brand {
