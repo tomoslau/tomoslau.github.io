@@ -2,8 +2,9 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .display-5 {
     font-family: 'Inter Tight', sans-serif;
+    font-weight: 700;
 }
 
 img {
@@ -23,6 +24,15 @@ video {
   max-width: 960px;
 }
 
+.navbar {
+  backdrop-filter: blur(16px);
+  background: rgba(255,255,255,0.7)
+}
+
+.navbar-brand {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+}
 .project-wrapper {
   border-radius: 16px;
   margin: auto;
