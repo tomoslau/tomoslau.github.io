@@ -12,11 +12,19 @@ h4,
 }
 
 img {
-  background-color: #f1f1f1;
+  
 }
 
 video {
   display: block
+}
+
+.invert {
+  filter: invert(100%);
+}
+
+.grayscale {
+  filter: grayscale(1);
 }
 
 .rounded {
@@ -28,11 +36,13 @@ video {
   max-width: 960px;
 }
 
+/**
 .navbar {
   -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
-  background: rgba(255, 255, 255, 0.8)
+  background: rgba(32, 32, 32, 0.8)
 }
+**/
 
 .navbar-brand {
   font-family: 'Inter Tight', sans-serif;
@@ -61,16 +71,8 @@ video {
   background: linear-gradient(135deg, #0c3b7b, #081d39);
 }
 
-#cdc:hover {
-  box-shadow: 0 16px 32px #0c3b7b;
-}
-
 #foodpanda {
   background: linear-gradient(135deg, #a10a49, #380915);
-}
-
-#foodpanda:hover {
-  box-shadow: 0 16px 32px #a10a49;
 }
 
 #wristcheck {
@@ -81,8 +83,8 @@ video {
   background: linear-gradient(135deg, #0a6793, #003046);
 }
 
-#gogox:hover {
-  box-shadow: 0 16px 32px #0a6793;
+#hypebeast {
+  background: linear-gradient(135deg, #2d2f30, #101011);
 }
 
 .project-media {
