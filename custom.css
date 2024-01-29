@@ -35,7 +35,6 @@ video {
 
 #intro-wrapper {
   margin: auto;
-  max-width: 960px;
 }
 
 /**
@@ -54,7 +53,6 @@ video {
 .project-wrapper {
   border-radius: 16px;
   margin: auto;
-  max-width: 960px;
   text-decoration: none;
   transition: 0.2s ease-out;
 
