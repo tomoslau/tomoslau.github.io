@@ -2,9 +2,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-h1,
-h2,
-h3,
+h1, h2 {
+  font-family: 'Domine', serif;
+}
+
 h4,
 .display-5 {
   font-family: 'Inter Tight', sans-serif;
