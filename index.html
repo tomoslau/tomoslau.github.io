@@ -12,41 +12,26 @@
     <link rel="stylesheet" type="text/css" href="custom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Inter+Tight:wght@500;700&family=Domine:wght@700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Inter+Tight:wght@500;700&display=swap"
         rel="stylesheet">
     <script src="auto-dark-mode.js"></script>
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg border-bottom border-secondary-subtle bg-body">
-        <div class="container">
-            <a class="navbar-brand d-flex" href="index.html">
-                <img src="img/seal.svg" class="bg-transparent pe-2 to-invert">
-                Thomas Lau
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/in/tom-lau/" target=”_blank”>LinkedIn</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="mailto:c.h.thomas.lau@gmail.com">c.h.thomas.lau@gmail.com</a>
-                    </li>
-                </ul>
-            </div>
+    <div class="container py-3">
+        <div class="px-lg-5 col-lg-8 mx-auto">
+          <a href="index.html">
+            <img src="img/seal.svg" class="bg-transparent to-invert">
+          </a>
         </div>
-    </nav>
+      </div>
 
-    <div class="container-fluid pt-5 px-0">
+    <div class="container-fluid px-0">
         <div class="container py-5">
-            <div class="px-4 px-lg-5 col-lg-8 mx-auto">
-                <h1 class="text-body-emphasis">Hi, I’m Thomas.
+            <div class="px-lg-5 col-lg-8 mx-auto">
+                <h1 class="text-body-emphasis">Thomas Lau
                 </h1>
-                <p class="lead">I’m a designer living in Vancouver.</p>
+                <p class="lead">Hi, I’m a designer living in Vancouver.</p>
                 <p>Most recently, I was a Product Design Manager at <a href="https://crypto.com"
                         target="_blank">Crypto.com</a> where I led a team of designers and researchers to build the
                     safest and most convenient crypto exchange, and designed the v1 of <a
@@ -58,121 +43,127 @@
                         target="_blank">Hypebeast</a>.</p>
                 <p>
                     I was born and raised in Hong Kong, and studied Advertising at Savannah College of Art and Design.
-                    Prior to becoming a product designer, I was a film production assistant, and an Art Director at an ad agency, where I worked with brands like
+                    Prior to becoming a product designer, I was a film production assistant, and an Art Director at an
+                    ad agency, where I worked with brands like
                     Audi, Disney, and Estee Lauder.</p>
             </div>
         </div>
 
         <div class="container overflow-visible">
             <div class="col-lg-8 mx-auto">
-            <div class="project-wrapper position-relative mb-3" id="cdc" data-bs-theme="dark">
-                <a href="crypto-com.html" class="text-decoration-none">
-                    <div class="row px-4 px-lg-5 pt-4 pt-lg-5">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h4>Crypto.com</h4>
-                            <svg width="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g id="SVGRepo_iconCarrier">
-                                    <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#ffffff" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round"></path>
-                                </g>
-                            </svg>
+                <div class="project-wrapper position-relative mb-3" id="cdc" data-bs-theme="dark">
+                    <a href="crypto-com.html" class="text-decoration-none">
+                        <div class="row px-4 px-lg-5 pt-4 pt-lg-5">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4>Crypto.com</h4>
+                                <svg width="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#ffffff" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p>2021 - 2023</p>
+                            <p>Led a team of designers to build the safest and most convenient crypto exchange</p>
                         </div>
-                        <p>2021 - 2023</p>
-                        <p>Led a team of designers to build the safest and most convenient crypto exchange</p>
+                        <div class="video-wrapper">
+                            <video autoplay muted loop playsinline class="project-media">
+                                <source src="video/cdc-hevc-safari.mp4" type='video/mp4; codecs="hvc1"'>
+                                <source src="video/cdc-vp9-chrome.webm" type="video/webm">
+                            </video>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project-wrapper position-relative mb-3 border border-secondary-subtle" id="wristcheck"
+                    data-bs-theme="dark">
+                    <div class="row px-4 px-lg-5 pt-4 pt-lg-5">
+                        <h4>Wristcheck</h4>
+                        <p>2020 - 2021</p>
+                        <p>Launched v1 of Wristcheck, a luxury watch marketplace.</p>
                     </div>
                     <div class="video-wrapper">
                         <video autoplay muted loop playsinline class="project-media">
-                            <source src="video/cdc-hevc-safari.mp4" type='video/mp4; codecs="hvc1"'>
-                            <source src="video/cdc-vp9-chrome.webm" type="video/webm">
+                            <source src="video/wristcheck-hevc-safari.mp4" type='video/mp4; codecs="hvc1"'>
+                            <source src="video/wristcheck-vp9-chrome.webm" type="video/webm">
                         </video>
                     </div>
-                </a>
-            </div>
-
-            <div class="project-wrapper position-relative mb-3 border border-secondary-subtle" id="wristcheck"
-                data-bs-theme="dark">
-                <div class="row px-4 px-lg-5 pt-4 pt-lg-5">
-                    <h4>Wristcheck</h4>
-                    <p>2020 - 2021</p>
-                    <p>Launched v1 of Wristcheck, a luxury watch marketplace.</p>
                 </div>
-                <div class="video-wrapper">
-                    <video autoplay muted loop playsinline class="project-media">
-                        <source src="video/wristcheck-hevc-safari.mp4" type='video/mp4; codecs="hvc1"'>
-                        <source src="video/wristcheck-vp9-chrome.webm" type="video/webm">
-                    </video>
-                </div>
-            </div>
 
-            <div class="project-wrapper position-relative mb-3" id="foodpanda" data-bs-theme="dark">
-                <a href="https://tomlau.notion.site/Delivery-Hero-Foodpanda-Foodora-fd987263151649279d061b0d659e1fd8"
-                    class="stretched-link text-decoration-none" target="_blank">
-                    <div class="row px-4 px-lg-5 pt-4 pt-lg-5">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h4>Foodora & Foodpanda</h4>
-                            <svg width="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g id="SVGRepo_iconCarrier">
-                                    <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#ffffff" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round"></path>
-                                </g>
-                            </svg>
+                <div class="project-wrapper position-relative mb-3" id="foodpanda" data-bs-theme="dark">
+                    <a href="https://tomlau.notion.site/Delivery-Hero-Foodpanda-Foodora-fd987263151649279d061b0d659e1fd8"
+                        class="stretched-link text-decoration-none" target="_blank">
+                        <div class="row px-4 px-lg-5 pt-4 pt-lg-5">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4>Foodora & Foodpanda</h4>
+                                <svg width="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#ffffff" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p>2020</p>
+                            <p>Group ordering and pre-ordering experience at the world’s
+                                largest food-ordering network</p>
+
                         </div>
-                        <p>2020</p>
-                        <p>Group ordering and pre-ordering experience at the world’s
-                            largest food-ordering network</p>
+                        <div class="video-wrapper">
+                            <video autoplay muted loop playsinline class="project-media">
+                                <source src="video/foodpanda-hevc-safari.mp4" type='video/mp4; codecs="hvc1"'>
+                                <source src="video/foodpanda-vp9-chrome.webm" type="video/webm">
+                            </video>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-wrapper position-relative mb-3" id="gogox" data-bs-theme="dark">
+                    <a href="https://tomlau.notion.site/GogoX-f802340a47484c56bf6c68f04c95606c"
+                        class="text-decoration-none" target="_blank">
+                        <div class="row px-4 px-lg-5 pt-4 pt-lg-5">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4>GogoX</h4>
+                                <svg width="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#ffffff" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <p>2018 - 2020</p>
+                            <p>Found the product-market fit for crowd-sourced on-demand last-mile
+                                logistics</p>
+                        </div>
+                        <div class="video-wrapper">
+                            <video autoplay muted loop playsinline class="project-media">
+                                <source src="video/gogox-hevc-safari.mp4" type='video/mp4; codecs="hvc1"'>
+                                <source src="video/gogox-vp9-chrome.webm" type="video/webm">
+                            </video>
+                        </div>
+                    </a>
+                </div>
 
+                <div class="project-wrapper position-relative mb-3 border border-secondary-subtle" id="hypebeast"
+                    data-bs-theme="dark">
+                    <div class="row px-4 px-lg-5 pt-4 pt-lg-5">
+                        <h4>Hypebeast</h4>
+                        <p>2016 - 2018</p>
+                        <p>Reading and shopping experience on web and mobile</p>
                     </div>
                     <div class="video-wrapper">
-                        <video autoplay muted loop playsinline class="project-media">
-                            <source src="video/foodpanda-hevc-safari.mp4" type='video/mp4; codecs="hvc1"'>
-                            <source src="video/foodpanda-vp9-chrome.webm" type="video/webm">
-                        </video>
+                        <img src="img/hypebeast.webp" class="project-media" style="background:transparent">
                     </div>
-                </a>
-            </div>
-            <div class="project-wrapper position-relative mb-3" id="gogox" data-bs-theme="dark">
-                <a href="https://tomlau.notion.site/GogoX-f802340a47484c56bf6c68f04c95606c" class="text-decoration-none"
-                    target="_blank">
-                    <div class="row px-4 px-lg-5 pt-4 pt-lg-5">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h4>GogoX</h4>
-                            <svg width="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g id="SVGRepo_iconCarrier">
-                                    <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#ffffff" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round"></path>
-                                </g>
-                            </svg>
-                        </div>
-                        <p>2018 - 2020</p>
-                        <p>Found the product-market fit for crowd-sourced on-demand last-mile
-                            logistics</p>
-                    </div>
-                    <div class="video-wrapper">
-                        <video autoplay muted loop playsinline class="project-media">
-                            <source src="video/gogox-hevc-safari.mp4" type='video/mp4; codecs="hvc1"'>
-                            <source src="video/gogox-vp9-chrome.webm" type="video/webm">
-                        </video>
-                    </div>
-                </a>
-            </div>
-
-            <div class="project-wrapper position-relative mb-3 border border-secondary-subtle" id="hypebeast"
-                data-bs-theme="dark">
-                <div class="row px-4 px-lg-5 pt-4 pt-lg-5">
-                    <h4>Hypebeast</h4>
-                    <p>2016 - 2018</p>
-                    <p>Reading and shopping experience on web and mobile</p>
                 </div>
-                <div class="video-wrapper">
-                    <img src="img/hypebeast.webp" class="project-media" style="background:transparent">
-                </div>
-            </div>
             </div>
         </div>
 
         <div class="container py-5 text-center">
-            <img src="img/seal.svg" class="bg-transparent to-invert" style="opacity:0.3">
+            <img src="img/seal.svg" class="bg-transparent to-invert pb-3" style="opacity:0.3">
+            <br>
+            <a class="link-secondary link-underline-opacity-0 pe-2" href="https://www.linkedin.com/in/tom-lau/" target=”_blank”>LinkedIn</a>
+            <a class="link-secondary link-underline-opacity-0" href="mailto:c.h.thomas.lau@gmail.com">c.h.thomas.lau@gmail.com</a>
+            </ul>
         </div>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>
