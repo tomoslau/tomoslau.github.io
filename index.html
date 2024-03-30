@@ -1,278 +1,100 @@
+<!--
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣳⠦⢖⣒⢲⣲⡦⢤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡴⢻⣦⡲⠤⡀⠹⡋⢷⡇⣿⡷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢼⢠⣿⡟⠃⢀⣠⡄⠱⠀⣿⣿⠛⢻⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠠⣿⣿⣛⡀⠚⠟⠛⠁⠀⠀⠙⠈⣧⣰⣽⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣠⣾⣿⡟⠏⠀⠀⠀⠀⠀⠀⡀⠀⣸⡟⢃⠼⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢰⣿⣿⡿⢆⣀⢠⡶⠀⠀⠀⣠⠆⠐⠁⠀⠃⢀⣼⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠈⠛⠳⡾⡾⠛⠀⠀⠀⡎⠁⠀⠀⠀⡀⠀⠈⠁⠀⠳⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢹⠀⠀⠀⠀⠀⢣⡀⠀⣠⠖⠁⠀⠀⠀⠀⢠⡟⢦⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢸⡀⠀⠀⠀⠀⠈⠣⠊⠁⠀⠀⠀⠀⠀⢠⠟⠇⢀⣿⣄⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡾⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠴⠀⠃⠀⠀⠀⢼⡏⠘⢇⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢠⣇⡀⠀⠀⠀⠀⠀⢀⠤⠒⠁⠀⢀⡄⠀⠀⠀⢰⠊⠀⠀⣾⡄⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠸⡿⢤⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⡾⠂⠀⠀⠘⠉⠀⠀⣴⢻⢷⡀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢿⠬⠑⠤⠀⠀⠀⠀⠀⠀⣠⠞⠁⠀⠀⠀⢀⠀⠀⠐⠃⢘⣿⣷⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣼⡇⠀⠀⠀⠀⠀⠀⠀⡘⠁⡀⠀⠀⠀⢠⡟⠀⠀⠀⠟⣈⣻⣿⡇
+⠀⠀⠀⠀⠀⠀⠀⠀⣻⡇⠀⠀⣸⡁⠀⠀⠀⢷⣸⠀⠀⠀⠀⣯⠀⣄⣫⣤⣺⣿⣿⡿⠀
+⠀⠀⠀⠀⠀⣀⠤⠚⣹⡂⠀⢰⣿⣿⣦⠤⠤⠾⡟⠀⠀⠀⣼⣿⣧⣿⣿⣿⣿⣿⠟⠁⠀
+⢀⣠⠒⠋⠉⢁⣠⠴⣻⠁⢠⣼⠛⠁⠀⠀⠀⠀⣷⠀⠀⢠⣿⣿⣿⣿⣿⣿⠟⠉⠀⠀⠀
+⠈⠛⠛⠒⠉⠉⣀⢤⠃⢀⣿⠷⠴⠤⣄⣀⡀⠀⡿⠀⢀⣾⣿⣿⣿⠿⠛⠁⠀⠀⠀⠀⠀
+⠀⠀⣠⠤⠒⠉⡠⠃⠀⢨⠏⠀⠀⠀⠀⠀⠉⠉⡇⠀⢸⡟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠈⠛⠧⣶⠟⢠⠀⣠⠋⠀⠀⠀⠀⠀⠀⠀⢠⠇⠀⢸⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠿⢴⡷⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⡞⠀⠀⢸⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⡄⢀⡀⢸⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⣇⣸⡥⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+-->
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noindex" />
+    <meta name="color-scheme" content="dark light">
     <title>Thomas Lau</title>
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="custom.css">
-    <script src="auto-dark-mode.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <!-- Nav -->
-    <div class="container py-3">
-        <div>
-            <a href="/">
-                <img src="img/seal.svg" class="bg-transparent to-invert">
-            </a>
-        </div>
-    </div>
-    <!-- Intro -->
-    <div class="container py-5">
-        <div class="col-lg-12">
-            <h1 class="text-body-emphasis">
-                Thomas Lau is a Hong Kong designer living in Vancouver, British Columbia.
-            </h1>
-            <p>
-                <a class="pe-2" href="https://www.linkedin.com/in/tom-lau/" target=”_blank”>LinkedIn</a>
-            </p>
-        </div>
-    </div>
-    <!-- Work -->
     <div class="container">
-        <!-- CDC -->
-        <div class="row py-3">
-            <div class="col-lg-4 pt-lg-5 pb-3">
-                <h4>Crypto.com</h4>
-                <p>2021 - 2023</p>
-                <p>I led a team of five designers/researchers to build the Crypto.com app, the safest and most
-                    convenient crypto exchange.
-                </p>
-                <a href="https://crypto.com/" target="_blank" class="text-decoration-none">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="rounded-start card-link-img">
-                                <img src="img/logo/cdc.webp" class="img-fluid rounded-start">
-                            </div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <p class="card-title">Crypto.com</p>
-                                    <p class="card-text"><small class="text-body-secondary">https://crypto.com</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-8">
-                <div class="py-5 bg-body-tertiary rounded">
-                    <video autoplay muted loop playsinline class="mx-auto"
-                        style="border-radius: 13%/6%; width:240px; height:507.89px; border: 6px solid black">
-                        <source src="video/screen-recordings/cdc-480.webm" type="video/webm">
-                    </video>
-                </div>
-            </div>
+        <div>
+            <h1>Thomas Lau</h1>
+            <h2>Product designer</h2>
+            <hr>
+            <h2>Crypto.com</h2>
+            <h3>2021 - 2023</h3>
+            <ul>
+                <li id="cdc"><a href="https://crypto.com/" target="_blank">Crypto.com app ↗</a><span
+                        class="play-icon">▶</span></li>
+                <li id="tectonic"><a href="https://tectonic.finance/" target="_blank">Tectonic ↗</a><span
+                        class="play-icon">▶</span></li>
+            </ul>
+            <hr>
+            <h2>Wristcheck</h2>
+            <h3>2020 - 2021</h3>
+            <ul>
+                <li id="wristcheck"><a href="https://wristcheck.com/" target="_blank">wristcheck.com ↗</a><span
+                        class="play-icon">▶</span></li>
+            </ul>
+            <hr>
+            <h2>Delivery Hero</h2>
+            <h3>2020</h3>
+            <ul>
+                <li id="dhgroupordering"><a href="https://www.deliveryhero.com/" target="_blank">Group order ↗</a><span
+                        class="play-icon">▶</span></li>
+                <li id="dhpreorder"><a href="https://www.deliveryhero.com/" target="_blank">Preorder ↗</a><span
+                        class="play-icon">▶</span></li>
+            </ul>
+            <hr>
+            <h2>GoGoX</h2>
+            <h3>2018 - 2020</h3>
+            <ul>
+                <li id="gogoxdelivery"><a href="https://www.gogox.com/delivery" target="_blank">Delivery ↗</a><span
+                        class="play-icon">▶</span></li>
+                <li id="ggb"><a href="https://www.gogox.com/business/" target="_blank">Delivery for Business ↗</a><span
+                        class="play-icon">▶</span></li>
+            </ul>
+            <hr>
+            <h2>Hypebeast</h2>
+            <h3>2017 - 2018</h3>
+            <ul>
+                <li id="hypebeast"><a href="https://hypebeast.com/" target="_blank">Hypebeast ↗</a><span
+                        class="play-icon">▶</span></li>
+                <li id="hbx"><a href="https://hbx.com/" target="_blank">HBX ↗</a><span class="play-icon">▶</span></li>
+            </ul>
+            <hr>
+            <picture>
+                <source srcset="img/seal.svg" media="(prefers-color-scheme: light)">
+                <source srcset="img/seal-dark.svg" media="(prefers-color-scheme: dark)">
+                <img src="img/seal.svg">
+            </picture>
+            <p>© 2024, Thomas Lau</p>
+            <p><a href="https://www.linkedin.com/in/tom-lau/" target="_blank">LinkedIn ↗</a></p>
         </div>
-        <!-- Tectonic -->
-        <div class="row py-3">
-            <div class="col-lg-4 pt-5 pb-3">
-                <h4>Tectonic</h4>
-                <p>2021</p>
-                <p>I designed the v1 of Tectonic, a defi
-                    lending protocol on the Cronos chain.
-                </p>
-                <a href="https://tectonic.finance/" target="_blank" class="text-decoration-none">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="rounded-start card-link-img">
-                                <img src="img/logo/tectonic.webp" class="img-fluid rounded-start">
-                            </div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <p class="card-title">Tectonic Finance</p>
-                                    <p class="card-text"><small
-                                            class="text-body-secondary">https://tectonic.finance</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-8">
-                <div class="py-md-5 px-md-5 bg-body-tertiary rounded">
-                    <video autoplay muted loop playsinline class="img-fluid mx-auto rounded"
-                        style="border: 6px solid black;">
-                        <source src="video/screen-recordings/tectonic.webm" type="video/webm">
-                    </video>
-                </div>
-            </div>
+        <div id="preview">
         </div>
-        <!-- Wristcheck -->
-        <div class="row py-3">
-            <div class="col-lg-4 pt-5 pb-3">
-                <h4>Wristcheck</h4>
-                <p>2020 - 2021</p>
-                <p>I helped launch v1 of Wristcheck as a designer/PM/QA. Wristcheck is a luxury watch marketplace
-                    connecting sellers with buyers and bidders, aiming to be the most trusted platform through
-                    transparent authentication and pricing.</p>
-                <a href="https://wristcheck.com/" target="_blank" class="text-decoration-none">
-                    <div class="card mb-3" style="max-width: 540px">
-                        <div class="row g-0">
-                            <div class="rounded-start card-link-img">
-                                <img src="img/logo/wristcheck.webp" class="img-fluid rounded-start">
-                            </div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <p class="card-title">Wristcheck</p>
-                                    <p class="card-text"><small
-                                            class="text-body-secondary">https://wristcheck.com</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-8">
-                <div class="py-md-5 px-md-5 bg-body-tertiary rounded">
-                    <video autoplay muted loop playsinline class="img-fluid mx-auto rounded"
-                        style="border: 6px solid black;">
-                        <source src="video/screen-recordings/wristcheck-1520.webm" type="video/webm">
-                    </video>
-                </div>
-            </div>
-        </div>
-        <!-- Delivery Hero -->
-        <div class="row py-3">
-            <div class="col-lg-4 pt-5 pb-3">
-                <h4>Delivery Hero</h4>
-                <p>2020</p>
-                <p>
-                    I designed the group ordering and pre-ordering experience at Delivery Hero, the
-                    world's largest food-ordering network (including Foodora & Foodpanda).</p>
-                <a href="https://www.deliveryhero.com/" target="_blank" class="text-decoration-none">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="rounded-start card-link-img">
-                                <img src="img/logo/deliveryhero.webp" class="img-fluid rounded-start">
-                            </div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <p class="card-title">Delivery Hero</p>
-                                    <p class="card-text"><small
-                                            class="text-body-secondary">https://www.deliveryhero.com</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-8">
-                <div class="py-5 bg-body-tertiary rounded">
-                    <video autoplay muted loop playsinline class="mx-auto"
-                        style="border-radius: 13%/6%; width:240px; height: 507.89px; border: 6px solid black">
-                        <source src="video/screen-recordings/foodpanda-480.webm" type="video/webm">
-                    </video>
-                </div>
-            </div>
-        </div>
-        <!-- GoGoX -->
-        <div class="row py-3">
-            <div class="col-lg-4 pt-5 pb-3">
-                <h4>GoGoX</h4>
-                <p>2018 - 2020</p>
-                <p>
-                    GoGoX, formerly GoGoVan, is an on-demand logistics
-                    service. I helped find the product-market fit for a new crowd-sourced last-mile delivery
-                    service (think Uber for door-to-door delivery).
-                </p>
-                <a href="https://gogox.com/" target="_blank" class="text-decoration-none">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="rounded-start card-link-img">
-                                <img src="img/logo/gogox.webp" class="img-fluid rounded-start">
-                            </div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <p class="card-title">GoGoX</p>
-                                    <p class="card-text"><small class="text-body-secondary">https://gogox.com</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-8">
-                <div class="py-5 bg-body-tertiary rounded">
-                    <video autoplay muted loop playsinline class="mx-auto"
-                        style="border-radius: 13%/6%; max-width:240px; height: 505.78px; border: 6px solid black">
-                        <source src="video/screen-recordings/gogox.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-        </div>
-        <!-- Hypebeast -->
-        <div class="row py-3">
-            <div class="col-lg-4 pt-5 pb-3">
-                <h4>Hypebeast</h4>
-                <p>2017 - 2018</p>
-                <p>I designed the Hypebeast/HBX reading and shopping experience on web and mobile, and collaboration
-                    projects with brands like Reebok and Heron Preston. </p>
-                <a href="https://hypebeast.com/" target="_blank" class="text-decoration-none">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="rounded-start card-link-img">
-                                <img src="img/logo/hypebeast.webp" class="img-fluid rounded-start">
-                            </div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <p class="card-title">Hypebeast</p>
-                                    <p class="card-text"><small
-                                            class="text-body-secondary">https://hypebeast.com</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://hbx.com/" target="_blank" class="text-decoration-none">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="rounded-start card-link-img">
-                                <img src="img/logo/hbx.webp" class="img-fluid rounded-start">
-                            </div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <p class="card-title">HBX</p>
-                                    <p class="card-text"><small class="text-body-secondary">https://hbx.com</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-8">
-                <div class="py-md-5 px-md-5 bg-body-tertiary rounded">
-                    <img src="img/hypebeast-flush.webp" class="img-fluid mx-auto rounded"
-                        style="border: 6px solid black; aspect-ratio: 1.5266/1;">
-                </div>
-            </div>
-        </div>  
     </div>
-    <!-- Footer -->
-    <div class="container py-5 text-center">
-        <img src="img/seal.svg" class="bg-transparent to-invert pb-3" style="opacity:0.5">
-        <br>
-        <p class="text-body-secondary">Thomas Lau</p>
-        <a href="https://www.linkedin.com/in/tom-lau/"
-            target=”_blank”>LinkedIn</a>
-        </ul>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script src="to-invert.js"></script>
+    <script src="preview.js"></script>
 </body>
 
 </html>

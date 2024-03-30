@@ -1,50 +1,154 @@
 body {
-    font-family: sans-serif;
-    margin: 0 auto;
-    padding: 1.5rem;
-    max-width: 48rem;
-    color: rgba(0,0,255,1);
-    background: rgba(0,0,255,0.2);
-    font-family: 'Roboto Mono', monospace;
+    font-family: monospace;
+    margin: 0;
+    font-size: 14px;
+    color: #111;
+}
+
+h1, h2, h3 {
+    margin: 4px 0;
 }
 
 h1 {
-    font-size: 1.5rem;
-    text-transform: uppercase;
+    font-size: 24px;
+    margin: 8px 0;
 }
 
 h2 {
-    font-size: 1rem;
-    margin-top: 2rem;
-    text-transform: uppercase;
+    font-size: 18px;
 }
 
-p {
-    font-size: 1rem;
+h3 {
+    font-size: 14px;
 }
 
-img {
-    width: 100%;
-    background-color: rgba(0,0,255,0.1);
+hr {
+    opacity: 0;
+    margin: 16px 0;
 }
 
-div {
-    margin-bottom: 3rem;
+ul {
+    list-style-type: none;
+    margin: 8px 0;
+    padding: 0;
 }
 
-#pfp {
-    width: 6rem;
-    border-radius:100%;
+li {
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    border-color: rgba(0, 0, 0, 0.1)
 }
+
+li:last-child {
+    border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 0.1)
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin: 0.5rem;
+    padding-right: 12px;
+}
+
+.play-icon {
+    margin-right: 4px;
+    margin-left: 16px;
+    opacity: 0.5;
+    cursor: default;
+}
+
+.phone {
+    border-radius: 13%/6%; 
+    width:100%;
+    max-width:320px; 
+    border: 6px solid black;
+    background:black;
+}
+
+.desktop {
+    border: 2px solid black; 
+    background:black;
+    width:100%; 
+}
+
+.d3-2 {
+    border-radius: 1.33%/2%
+}
+
+.d16-9 {
+    border-radius: 1.125%/2%
+}
+
+#preview {
+    position: sticky;
+    align-self: start;
+    top: 1rem;
+    text-align: center;
+}
+
+#ellipsis:after {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    -webkit-animation: ellipsis steps(4,end) 1000ms infinite;      
+    animation: ellipsis steps(4,end) 1000ms infinite;
+    content: "...";
+    width: 0px;
+  }
+  
+  @keyframes ellipsis {
+    to {
+      width: 2rem;    
+    }
+  }
+  
+  @-webkit-keyframes ellipsis {
+    to {
+      width: 2rem;    
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     body {
-        color: rgb(66, 164, 255);
-        background: rgb(18, 21, 26) 100%;
+        background: #111;
+        color: #fff;
     }
-    body a {
-        color: #42A4FF;
+
+    a {
+        color: #ffff11;
     }
-    img {
-        background-color: rgba(66, 164, 255, 0.1);
+
+    a:visited {
+        color: #aae574;
+    }
+
+    li, li:last-child {
+        border-color: rgba(255,255,255,0.1);
+    }
+
+    li:hover {
+        background-color: rgba(255, 255, 255, 0.04)
+        ;
+    }
+}
+
+@media (min-width: 480px) {
+    .play-icon {
+        display: none;
+    }
+    .desktop {
+        border: 6px solid black; 
     }
 }
