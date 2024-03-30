@@ -2,9 +2,13 @@ body {
     font-family: monospace;
 }
 
+h2, h3 {
+    margin: 0.5rem 0;
+}
+
 hr {
     opacity: 0.1;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 ul {
@@ -14,11 +18,16 @@ ul {
 }
 
 li {
-    margin: 0.5rem 0;
+    padding: 0.5rem 0;
 }
 
 a {
     text-decoration: none;
+}
+
+
+div {
+    padding: 8px;
 }
 
 .container {
@@ -26,8 +35,11 @@ a {
     grid-template-columns: 1fr 1fr;
 }
 
-div {
-    padding: 8px;
+#preview {
+    position: sticky;
+    align-self: start;
+    top: 0;
+    text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,4 +55,10 @@ div {
     a:visited {
         color: #aae574;
     }
+
+    li:hover {
+        background-color: rgba(255, 255, 17, 0.1)
+        ;
+    }
+
 }
