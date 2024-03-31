@@ -127,11 +127,11 @@ a {
     }
 
     a {
-        color: #ffff11;
+        color: rgb(138, 180, 248);
     }
 
     a:visited {
-        color: #aae574;
+        color: rgb(197, 138, 249);
     }
 
     li, li:last-child {
