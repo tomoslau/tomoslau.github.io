@@ -57,7 +57,6 @@ a {
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 0.5rem;
 }
 
 .play-icon {
@@ -75,6 +74,10 @@ a {
     background:black;
 }
 
+.big-phone {
+    width: calc(100% - 12px);
+}
+
 .desktop {
     border: 2px solid black; 
     background:black;
@@ -90,16 +93,17 @@ a {
 }
 
 #main {
-    padding: 0.5rem;
+    padding: 8px;
 }
 
 #preview {
-    position: sticky;
+    position: fixed;
     align-self: start;
     top: 0;
+    right: 0;
     text-align: right;
     z-index: 100;
-    padding:0.5rem;
+    padding:8px;
 }
 
 #ellipsis:after {
@@ -160,6 +164,7 @@ a {
     }
     #preview {
         text-align: center;
-        padding-top: 16px;
+        padding: 16px;
+        position: sticky;
     }
 }
