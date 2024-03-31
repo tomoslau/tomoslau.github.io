@@ -56,10 +56,8 @@ a {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 0.5rem;
-    margin: 0.5rem;
-    padding-right: 12px;
 }
 
 .play-icon {
@@ -71,7 +69,7 @@ a {
 
 .phone {
     border-radius: 13%/6%; 
-    width:100%;
+    width: 140px;
     max-width:320px; 
     border: 6px solid black;
     background:black;
@@ -80,7 +78,7 @@ a {
 .desktop {
     border: 2px solid black; 
     background:black;
-    width:100%; 
+    width: calc(100% - 4px); 
 }
 
 .d3-2 {
@@ -91,11 +89,17 @@ a {
     border-radius: 1.125%/2%
 }
 
+#main {
+    padding: 0.5rem;
+}
+
 #preview {
     position: sticky;
     align-self: start;
-    top: 1rem;
-    text-align: center;
+    top: 0;
+    text-align: right;
+    z-index: 100;
+    padding:0.5rem;
 }
 
 #ellipsis:after {
@@ -150,5 +154,12 @@ a {
     }
     .desktop {
         border: 6px solid black; 
+    }
+    .phone {
+        width: calc(100% - 12px);
+    }
+    #preview {
+        text-align: center;
+        padding-top: 16px;
     }
 }

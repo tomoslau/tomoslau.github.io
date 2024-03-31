@@ -13,10 +13,10 @@ const previewReset = () => {
     preview.innerHTML = ``;
 }
 
-cdc.addEventListener("mouseover", () => {preview.innerHTML = `<video controls autoplay muted loop playsinline controls class="phone" src="video/screen-recordings/cdc-480.webm" poster="video/poster/cdc.webp" type="video/webm"></video>`});
+cdc.addEventListener("mouseover", () => {preview.innerHTML = `<video  autoplay muted loop playsinline  class="phone" src="video/screen-recordings/cdc-480.webm" poster="video/poster/cdc.webp" type="video/webm"></video>`});
 cdc.addEventListener("mouseout", previewReset);
 
-tectonic.addEventListener("mouseover", () => {preview.innerHTML = `<video controls autoplay muted loop playsinline class="desktop d3-2"
+tectonic.addEventListener("mouseover", () => {preview.innerHTML = `<video  autoplay muted loop playsinline class="desktop d3-2"
 src="video/screen-recordings/tectonic.webm" poster="video/poster/tectonic.webp" type="video/webm">
 </video>`});
 tectonic.addEventListener("mouseout", previewReset);
@@ -24,19 +24,19 @@ tectonic.addEventListener("mouseout", previewReset);
 wristcheck.addEventListener("mouseover", () => {preview.innerHTML = `<img class="desktop d16-9" src="img/wristcheck.webp">`});
 wristcheck.addEventListener("mouseout", previewReset);
 
-dhgroupordering.addEventListener("mouseover", () => {preview.innerHTML = `<video controls autoplay muted loop playsinline class="phone" src="video/screen-recordings/foodpanda-480.webm" poster="video/poster/foodpanda-480.webp" type="video/webm">
+dhgroupordering.addEventListener("mouseover", () => {preview.innerHTML = `<video  autoplay muted loop playsinline class="phone" src="video/screen-recordings/foodpanda-480.webm" poster="video/poster/foodpanda-480.webp" type="video/webm">
 </video>`});
 dhgroupordering.addEventListener("mouseout", previewReset);
 
-dhpreorder.addEventListener("mouseover", () => {preview.innerHTML = `<video controls autoplay muted loop playsinline class="phone" src="video/screen-recordings/foodpanda-preorder.webm" poster="video/poster/foodpanda-preorder.webp" type="video/webm">
+dhpreorder.addEventListener("mouseover", () => {preview.innerHTML = `<video  autoplay muted loop playsinline class="phone" src="video/screen-recordings/foodpanda-preorder.webm" poster="video/poster/foodpanda-preorder.webp" type="video/webm">
 </video>`});
 dhpreorder.addEventListener("mouseout", previewReset);
 
-gogoxdelivery.addEventListener("mouseover", () => {preview.innerHTML = `<video controls autoplay muted loop playsinline class="phone" src="video/screen-recordings/gogox.mp4" poster="video/poster/gogox.webp" type="video/mp4">
+gogoxdelivery.addEventListener("mouseover", () => {preview.innerHTML = `<video  autoplay muted loop playsinline class="phone" src="video/screen-recordings/gogox.mp4" poster="video/poster/gogox.webp" type="video/mp4">
 </video>`});
 gogoxdelivery.addEventListener("mouseout", previewReset);
 
-ggb.addEventListener("mouseover", () => {preview.innerHTML = `<video controls autoplay muted loop playsinline class="desktop d16-9" src="video/screen-recordings/ggb.webm" poster="video/poster/ggb.webp" type="video/webm">
+ggb.addEventListener("mouseover", () => {preview.innerHTML = `<video  autoplay muted loop playsinline class="desktop d16-9" src="video/screen-recordings/ggb.webm" poster="video/poster/ggb.webp" type="video/webm">
 </video>`});
 ggb.addEventListener("mouseout", previewReset);
 
