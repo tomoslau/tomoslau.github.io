@@ -5,7 +5,9 @@ body {
     color: #111;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin: 4px 0;
 }
 
@@ -54,6 +56,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -67,21 +73,17 @@ a {
 }
 
 .phone {
-    border-radius: 13%/6%; 
+    border-radius: 13%/6%;
     width: 140px;
-    max-width:320px; 
+    max-width: 320px;
     border: 6px solid black;
-    background:black;
-}
-
-.big-phone {
-    width: calc(100% - 12px);
+    background: black;
 }
 
 .desktop {
-    border: 2px solid black; 
-    background:black;
-    width: calc(100% - 4px); 
+    border: 2px solid black;
+    background: black;
+    width: calc(100% - 4px);
 }
 
 .d3-2 {
@@ -103,28 +105,28 @@ a {
     right: 0;
     text-align: right;
     z-index: 100;
-    padding:8px;
+    padding: 8px;
 }
 
 #ellipsis:after {
     overflow: hidden;
     display: inline-block;
     vertical-align: bottom;
-    -webkit-animation: ellipsis steps(4,end) 1000ms infinite;      
-    animation: ellipsis steps(4,end) 1000ms infinite;
+    -webkit-animation: ellipsis steps(4, end) 1000ms infinite;
+    animation: ellipsis steps(4, end) 1000ms infinite;
     content: "...";
     width: 0px;
-  }
-  
-  @keyframes ellipsis {
+}
+
+@keyframes ellipsis {
     to {
-      width: 2rem;    
+        width: 2rem;
     }
-  }
-  
-  @-webkit-keyframes ellipsis {
+}
+
+@-webkit-keyframes ellipsis {
     to {
-      width: 2rem;    
+        width: 2rem;
     }
 }
 
@@ -142,13 +144,13 @@ a {
         color: rgb(197, 138, 249);
     }
 
-    li, li:last-child {
-        border-color: rgba(255,255,255,0.1);
+    li,
+    li:last-child {
+        border-color: rgba(255, 255, 255, 0.1);
     }
 
     li:hover {
-        background-color: rgba(255, 255, 255, 0.04)
-        ;
+        background-color: rgba(255, 255, 255, 0.04);
     }
 }
 
@@ -156,12 +158,15 @@ a {
     .play-icon {
         display: none;
     }
+
     .desktop {
-        border: 6px solid black; 
+        border: 6px solid black;
     }
+
     .phone {
         width: calc(100% - 12px);
     }
+
     #preview {
         text-align: center;
         padding: 16px;
