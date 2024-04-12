@@ -13,7 +13,7 @@ const previewReset = () => {
     preview.innerHTML = ``;
 }
 const previewPhantom = () => {
-    preview.innerHTML = `<dotlottie-player src="https://phantom.app/lottie/wink-purple.lottie" speed="1" style="width: 300px; display:inline-block;" direction="1" playMode="normal" autoplay></dotlottie-player>`
+    preview.innerHTML = `<dotlottie-player src="lottie/wink-purple.lottie" speed="1" style="width: 300px; display:inline-block;" direction="1" playMode="normal" autoplay></dotlottie-player>`
 }
 const previewCdc = () => {
     preview.innerHTML = `<video autoplay muted loop playsinline  class="phone" src="video/screen-recordings/cdc-480.webm" poster="video/poster/cdc.webp" type="video/webm"></video>`
