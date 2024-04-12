@@ -8,8 +8,12 @@ const gogoxdelivery = document.getElementById("gogoxdelivery")
 const ggb = document.getElementById("ggb")
 const hypebeast = document.getElementById("hypebeast")
 const hbx = document.getElementById("hbx")
+const phantom = document.getElementById("phantom")
 const previewReset = () => {
     preview.innerHTML = ``;
+}
+const previewPhantom = () => {
+    preview.innerHTML = `<dotlottie-player src="https://phantom.app/lottie/wink-purple.lottie" speed="1" style="width: 300px; display:inline-block;" direction="1" playMode="normal" autoplay></dotlottie-player>`
 }
 const previewCdc = () => {
     preview.innerHTML = `<video autoplay muted loop playsinline  class="phone" src="video/screen-recordings/cdc-480.webm" poster="video/poster/cdc.webp" type="video/webm"></video>`
@@ -46,7 +50,8 @@ const previewHbx = () => {
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     document.onclick = function (e) {
-        e.target == cdc ? previewCdc()
+        e.target == phantom ? previewPhantom()
+        : e.target == cdc ? previewCdc()
             : e.target == tectonic ? previewTectonic()
                 : e.target == wristcheck ? previewWristcheck()
                     : e.target == dhgroupordering ? previewDhgroupordering()
@@ -58,6 +63,8 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
                                                 : previewReset()
     }
 } else {
+    phantom.addEventListener("mouseenter", previewPhantom);
+    phantom.addEventListener("mouseleave", previewReset);
     cdc.addEventListener("mouseenter", previewCdc);
     cdc.addEventListener("mouseleave", previewReset);
     tectonic.addEventListener("mouseenter", previewTectonic);
