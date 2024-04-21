@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-size: 14px;
     color: #111;
-    background: #f1f1f1
+    background: #F5F5F5
 }
 
 h1,
@@ -36,7 +36,6 @@ a {
 .row {
     display: flex;
     flex-direction: column;
-    max-width: 420px;
     gap: 24px;
     margin: 24px;
 }
@@ -54,6 +53,10 @@ a {
 
 .card a {
     color: #111;
+}
+
+.card-body h2 {
+    margin-top: 0;
 }
 
 .card-padding {
@@ -80,16 +83,21 @@ a {
     flex: 1 1 auto;
 }
 
+.phone, .desktop {
+    background: black;
+    border-color: black;
+}
+
 .phone {
     border-radius: 13%/6%;
-    border: 6px solid black;
+    border-width: 6px;
+    border-style: solid;
     width: calc(100% - 12px);
-    background: black;
 }
 
 .desktop {
-    border: 2px solid black;
-    background: black;
+    border-width: 2px;
+    border-style: solid;
     width: calc(100% - 4px);
 }
 
@@ -118,27 +126,12 @@ a {
     .card a {
         color: #fff;
     }
-
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 576px) {
     .row {
         flex-direction: row;
-        width: 87.5vw;
-        max-width: 1680px;
-        margin: 24px auto;
-    }
-
-    .card {
-        height: 40vw;
-    }
-
-    .card-padding {
-        padding: 32px;
-    }
-
-    .desktop {
-        border: 6px solid black;
     }
 
     .fg-1 {
@@ -152,4 +145,29 @@ a {
     .fg-3 {
         flex: 3 1 0;
     }
+
+    .desktop {
+        border-width: 6px;
+    }
+
+    .card {
+        height: 36vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .row {
+        width: 87.5vw;
+        max-width: 1680px;
+        margin: 24px auto;
+    }
+
+
+
+    .card-padding {
+        padding: 32px;
+    }
+
+
+
 }
