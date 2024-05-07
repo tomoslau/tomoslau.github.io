@@ -24,84 +24,107 @@ h3 {
     font-size: 14px;
 }
 
-h3, .external-icon {
+h3 {
     opacity: 0.6;
 }
 
 a {
     text-decoration: none;
-    color: blue;
+    color: #111;
 }
 
-.flag {
-    height: 12px;
-    border-radius: 2px;
+button {
+    all: unset;
+    cursor: pointer;
+    font-size: 24px;
+    min-width: 20px;
+    text-align: center;
 }
 
-.row {
-    display: flex;
-    flex-direction: column;
+.phantom {
+    color: #3c315b;
+}
+
+.btn,
+button {
+    padding: 8px 12px;
+    border-radius: 88px;
+}
+
+.section {
     gap: 24px;
     margin: 24px;
 }
 
-.header, .footer {
-    padding: 24px 0;
+.card-groups {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1vw;
+    margin: 1vw;
 }
 
 .card {
-    background: #11111105;
-    border: 1px solid #11111150;
+    width: calc((100% - 1vw * 4) / 3);
+    aspect-ratio: 1/1;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card,
+.btn,
+button {
+    background: #1111110D;
     overflow: hidden;
 }
 
 .card a {
     color: #111;
+    cursor: zoom-in;
 }
 
-.card-body h2 {
-    margin-top: 0;
+.card:hover,
+.btn:hover {
+    background: #1111111A;
 }
 
-.card-padding {
-    padding: 24px;
-}
-
-.card:hover {
-    background: #11111110;
-    border: 1px solid #111;
-}
-
-.card-body {
-    display: flex;
-    justify-content: space-between;
-    gap:8px;
-}
 
 .card-media {
-    padding-top: 24px;
+    padding: 2vw;
+    width: calc(100% - 2vw * 2);
+    height: calc(100% - 2vw * 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.fg-1,
-.fg-2,
-.fg-3 {
-    flex: 1 1 auto;
+.page-media-phone {
+    height: calc(100vh - 230px)
 }
 
-.phone, .desktop {
+.page-media-desktop {
+    max-width: 1024px;
+}
+
+.phone,
+.desktop {
     background: black;
     border-color: black;
 }
 
 .phone {
     border-radius: 13%/6%;
-    border-width: 6px;
+    border-width: 0.5vw;
     border-style: solid;
-    width: calc(100% - 12px);
+    height: 100%;
 }
 
 .desktop {
-    border-width: 2px;
+    border-width: 0.5vw;
     border-style: solid;
     width: calc(100% - 4px);
 }
@@ -124,61 +147,45 @@ a {
         color: #BBEEFF;
     }
 
-    .card {
-        background: #BBEEFF05;
-        border: 1px solid #BBEEFF50;
+    .card,
+    .btn,
+    button {
+        background: #BBEEFF0D;
     }
 
     .card a {
         color: #BBEEFF;
     }
 
-    .card:hover {
-        background: #BBEEFF10;
-        border: 1px solid #BBEEFF;
-    }
-}
-
-
-@media (min-width: 576px) {
-    .row {
-        flex-direction: row;
+    .card:hover,
+    .btn:hover,
+    button:hover {
+        background: #BBEEFF1A;
     }
 
-    .fg-1 {
-        flex: 1 1 0;
-    }
-
-    .fg-2 {
-        flex: 2 1 0;
-    }
-
-    .fg-3 {
-        flex: 3 1 0;
-    }
-
-    .desktop {
-        border-width: 6px;
-    }
-
-    .card {
-        height: 36vw;
+    .phantom {
+        color: #AB9FF2;
     }
 }
 
 @media (min-width: 768px) {
-    .row {
+    .section {
         width: 87.5vw;
         max-width: 1680px;
         margin: 24px auto;
     }
 
-
-
-    .card-padding {
-        padding: 32px;
+    .card {
+        width: calc((100% - 1vw * 3) / 4);
+        aspect-ratio: 1/1;
     }
 
+    .phone {
+        border-width: 4px;
+    }
 
+    .desktop {
+        border-width: 4px;
+    }
 
 }
