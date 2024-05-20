@@ -1,5 +1,6 @@
 body {
-  text-wrap: pretty
+  text-wrap: pretty;
+  background-color: #808080;
 }
 
 video {
@@ -28,23 +29,28 @@ video {
 }
 
 #cdc {
-  background: linear-gradient(135deg, #0c3b7b, #081d39);
+  background: #0c3b7b;
+  /*background: linear-gradient(135deg, #0c3b7b, #081d39);*/
+}
+
+#tectonic {
+  background: rgb(244, 244, 153);
 }
 
 #foodpanda {
-  background: linear-gradient(135deg, #a10a49, #380915);
+  background: #cd0e68;
 }
 
 #wristcheck {
-  background: linear-gradient(135deg, #2d2f30, #101011);
+  background: #101011;
 }
 
 #gogox {
-  background: linear-gradient(135deg, #0a6793, #003046);
+  background: #0a6793;
 }
 
 #hypebeast {
-  background: linear-gradient(135deg, #2d2f30, #101011);
+  background: #101011;
 }
 
 .avatar {
