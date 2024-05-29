@@ -4,12 +4,45 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Inter Tight", sans-serif;
 }
 
 video {
   display: block
+}
+
+.tomei {
+  width: fit-content;
+  /* Fallback: Set a background color. */
+  background-color: red;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(69deg, #4a9ffd, #251bb9, #701a52, #c37000);
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.link-light {
+  color: #6EA8FE !important;
+}
+
+.link-light:hover {
+  color: #8BB9FE !important;
 }
 
 .invert {
@@ -27,9 +60,9 @@ video {
 }
 
 .card-link-img {
-  width:88px; 
-  height:88px; 
-  background-size: cover; 
+  width: 88px;
+  height: 88px;
+  background-size: cover;
   background-position: center center;
 }
 
