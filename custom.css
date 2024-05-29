@@ -20,7 +20,7 @@ video {
 .tomei {
   width: fit-content;
   /* Fallback: Set a background color. */
-  background-color: red;
+  background-color: #251bb9;
 
   /* Create the gradient. */
   background-image: linear-gradient(69deg, #4a9ffd, #251bb9, #701a52, #c37000);
