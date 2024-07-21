@@ -31,14 +31,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thomas Lau - Designer</title>
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="custom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&family=Inter:wght@500&display=swap"
         rel="stylesheet">
+    <style>
+        body {
+            font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            text-wrap: pretty;
+            margin: 0.75rem;
+        }
+        a {
+            text-decoration: none;
+            color: royalblue;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        img, video {
+            width: 100%;
+        }
+        .f {
+            display:flex;
+        }
+        .f-50 {
+            flex:50%;
+        }
+        .p {
+            padding: 0.75rem;
+        }
+        @media only screen and (max-width: 768px) {
+            .f {
+                flex-direction:column;
+            }
+            h2 {
+            margin-top: 1.5rem;
+        }
+        }
+        @media (prefers-color-scheme:dark) { 
+            body {
+                color: white; 
+                background: #111;
+            } 
+            a {
+                color: lightskyblue;
+            }
+        }
+    </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3SZ96H3EJH"></script>
     <script>
@@ -48,176 +88,91 @@
         gtag('config', 'G-3SZ96H3EJH');
     </script>
 </head>
-
 <body>
-    <!-- Intro -->
-    <div id="header" class="">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 px-4 px-lg-5 px-lg-5 py-5">
-                    <h1 class="h2 tomei">
-                        Thomas Lau
-                    </h1>
-                    <p class="mb-1">
-                        Product designer at <a href="https://phantom.app/" target="_blank"
-                            class="text-decoration-none"><img src="img/logo/Phantom-Icon_Transparent_Purple.svg"
-                                width="20.438px" height="17px" style="vertical-align:middle;" /> Phantom</a>
-                    </p>
-                    <p class="mb-1">Born and raised in Hong Kong and living in Vancouver, BC</p>
-                </div>
-            </div>
+    <div class="p">
+        <h1>Thomas Lau - Product designer at <a href="https://phantom.app/">Phantom</a></h1>
+    </div>
+    <div class="f">
+        <div class="f-50 p">
+            <h2 style="margin-top: 0">Crypto.com</h2>
+            <p>Building the safest and most convenient crypto
+                exchange for 80 million users.
+            </p>
+                <a href="https://crypto.com/" class="text-decoration-none">Visit
+                    crypto.com</a>
+        </div>
+        <div class="f-50 p">
+            <video autoplay muted loop playsinline poster="assets/flat/cdc.webp">
+                <source src="assets/flat/cdc.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
-    <!-- Work -->
-    <div id="cdc" class="mb-4 mx-3">
-        <div class="container">
-            <div class="row py-4 py-lg-5 align-items-center bg-light rounded-lg">
-                <div class="col-lg-6 py-3 px-4 px-lg-5 px-lg-5">
-                    <h2 class="h4">Crypto.com</h2>
-                    <p>2021 - 2023</p>
-                    <p>I worked on the Crypto.com app product design to build the safest and most convenient crypto
-                        exchange for 80 million users.
-                    </p>
-                    <p>
-                        <a href="https://crypto.com/" target="_blank" class="text-decoration-none">Visit
-                            crypto.com</a>
-                    </p>
-                </div>
-                <div class="col-lg-6 py-3 px-4 px-lg-5 px-lg-5">
-                    <video autoplay muted loop playsinline class="mx-auto"
-                        style="border-radius: 13%/6%; width:240px; height:507.89px; border: 6px solid black"
-                        poster="video/poster/cdc.webp">
-                        <source src="video/screen-recordings/cdc-480.webm" type="video/webm">
-                    </video>
-                </div>
-            </div>
+    <div class="f">
+        <div class="f-50 p">
+            <h2>Tectonic</h2>
+            <p>Creating v1 of Tectonic, a defi
+                lending & borrowing protocol on the Cronos chain.
+            </p>
+            <a href="https://tectonic.finance/">Visit
+                tectonic.finance</a>
+        </div>
+        <div class="f-50 p">
+            <img src="assets/ang/tectonic.webp">
         </div>
     </div>
-    <div id="tectonic" class="mb-4 mx-3">
-        <div class="container">
-            <div class="row py-4 py-lg-5 align-items-center bg-light rounded-lg">
-                <div class="col-lg-6 py-3 px-4 px-lg-5">
-                    <h2 class="h4">Tectonic</h2>
-                    <p>2021</p>
-                    <p>I designed the v1 of Tectonic, a defi
-                        lending & borrowing protocol on the Cronos chain.
-                    </p>
-                    <a href="https://tectonic.finance/" target="_blank" class="text-decoration-none">Visit
-                        tectonic.finance</a>
-                </div>
-                <div class="col-lg-6 py-3 py-md-5 px-4 px-lg-5">
-                    <img src="img/tectonic.webp" class="img-fluid mx-auto rounded" style="border: 6px solid black;" />
-                </div>
-            </div>
+    <div class="f">
+        <div class="f-50 p">
+            <h2>Wristcheck</h2>
+            <p>Building v1 of the most trusted luxury watch marketplace through transparent authentication and pricing.
+            </p>
+            <a href="https://wristcheck.com/">
+                Visit wristcheck.com
+            </a>
+        </div>
+        <div class="f-50 p">
+            <img src="assets/ang/wristcheck.webp">
         </div>
     </div>
-    <div id="wristcheck" class="mb-4 mx-3">
-        <div class="container">
-            <div class="row py-4 py-lg-5 align-items-center bg-light rounded-lg" id="wristcheck">
-                <div class="col-lg-6 py-3 px-4 px-lg-5">
-                    <h2 class="h4">Wristcheck</h2>
-                    <p>2020 - 2021</p>
-                    <p>Wristcheck is a luxury watch marketplace
-                        connecting sellers with buyers and bidders, aiming to be the most trusted platform through
-                        transparent authentication and pricing. I worked on the product and design for Wristcheck v1.
-                    </p>
-                    <a href="https://wristcheck.com/" target="_blank" class="text-decoration-none">
-                        Visit wristcheck.com
-                    </a>
-                </div>
-                <div class="col-lg-6 px-4 px-lg-5 py-3 py-md-5">
-                    <img src="img/wristcheck.webp" class="img-fluid mx-auto rounded" style="border: 6px solid black;">
-                </div>
-            </div>
+    <div class="f">
+        <div class="f-50 p">
+            <h2>Delivery Hero</h2>
+            <p>Increasing food ordering profitability across 70+ countries and 500k+ restaurant partners.</p>
+            <a href="https://www.deliveryhero.com/" class="text-decoration-none">
+                Visit deliveryhero.com
+            </a>
+        </div>
+        <div class="f-50 p">
+            <video autoplay muted loop playsinline poster="assets/flat/foodpanda.webp" src="assets/flat/foodpanda.mp4" type="video/mp4">
         </div>
     </div>
-    <div id="foodpanda" class="mb-4 mx-3">
-        <div class="container">
-            <div class="row py-4 py-lg-5 align-items-center bg-light rounded-lg" id="foodpanda">
-                <div class="col-lg-6 py-3 px-4 px-lg-5">
-                    <h2 class="h4">Delivery Hero</h2>
-                    <p>2020</p>
-                    <p>
-                        Delivery Hero is a food ordering company that operates in 70+ countries and partners with 500k+
-                        restaurants via brands like Foodpanda and Foodora.
-                        I designed the experiences to increase order values and profitability, which included group
-                        ordering and pre-ordering.</p>
-                    <a href="https://www.deliveryhero.com/" target="_blank" class="text-decoration-none">
-                        Visit deliveryhero.com
-                    </a>
-                </div>
-                <div class="col-lg-6 py-3 px-4 px-lg-5">
-                    <video autoplay muted loop playsinline class="mx-auto "
-                        style="border-radius: 13%/6%; width:240px; height: 507.89px; border: 6px solid black"
-                        poster="video/poster/foodpanda-480.webp">
-                        <source src="video/screen-recordings/foodpanda-480.webm" type="video/webm">
-                    </video>
-                </div>
-            </div>
+    <div class="f">
+        <div class="f-50 p">
+            <h2>GoGoX</h2>
+            <p>Finding the product-market fit for crowd-sourced last-mile delivery in high density cities.
+            </p>
+            <a href="https://gogox.com/" class="text-decoration-none">
+                Visit gogox.com
+            </a>
+        </div>
+        <div class="f-50 p">
+            <video autoplay muted loop playsinline poster="assets/flat/gogox.webp" src="assets/flat/gogox.mp4" type="video/mp4">
         </div>
     </div>
-    <div id="gogox" class="mb-4 mx-3">
-        <div class="container">
-            <div class="row py-4 py-lg-5 align-items-center bg-light rounded-lg" id="gogox">
-                <div class="col-lg-6 py-3 px-4 px-lg-5">
-                    <h2 class="h4">GoGoX</h2>
-                    <p>2018 - 2020</p>
-                    <p>
-                        GoGoX, formerly GoGoVan, is an on-demand logistics
-                        service. I helped find the product-market fit for a new crowd-sourced last-mile delivery
-                        service.
-                    </p>
-                    <a href="https://gogox.com/" target="_blank" class="text-decoration-none">
-                        Visit gogox.com
-                    </a>
-                </div>
-                <div class="col-lg-6 px-4 px-lg-5 py-3">
-                    <video autoplay muted loop playsinline class="mx-auto "
-                        style="border-radius: 13%/6%; max-width:240px; height: 505.78px; border: 6px solid black"
-                        poster="video/poster/gogox.webp">
-                        <source src="video/screen-recordings/gogox.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
+    <div class="f">
+        <div class="f-50 p">
+            <h2>Hypebeast</h2>
+            <p>Building the reading and shopping experience for millions of streetwear and sneaker enthusiasts.</p>
+            <a href="https://hypebeast.com/" class="text-decoration-none">
+                    Visit hypebeast.com
+                </a>
+        </div>
+        <div class="f-50 p">
+            <img src="assets/ang/hypebeast.webp">
         </div>
     </div>
-    <div id="hypebeast" class="mb-4 mx-3">
-        <div class="container">
-            <div class="row py-4 py-lg-5 align-items-center bg-light rounded-lg" id="hypebeast">
-                <div class="col-lg-6 py-3 px-4 px-lg-5">
-                    <h2 class="h4">Hypebeast</h2>
-                    <p>2017 - 2018</p>
-                    <p>I worked on Hypebeast and HBX's reading and shopping experience, and collaborated with brands
-                        like Reebok and Heron Preston. </p>
-                    <p><a href="https://hypebeast.com/" target="_blank" class="text-decoration-none">
-                            Visit hypebeast.com
-                        </a></p>
-                </div>
-                <div class="col-lg-6 py-3 py-md-5 px-4 px-lg-5">
-                    <img src="img/hypebeast-flush.webp" class="img-fluid mx-auto rounded"
-                        style="border: 6px solid black; aspect-ratio: 1.5266/1;">
-                </div>
-            </div>
-        </div>
+    <div class="p">
+        <small style="opacity:0.5">©
+            <script>document.write(new Date().getFullYear());</script> Thomas Lau
+        </small>
     </div>
-    <!-- Footer -->
-    <div id="footer" class="">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 py-5 px-4 px-lg-5">
-                    <picture>
-                        <img src="img/seal.svg" class="mb-3">
-                    </picture>
-                    <p>©
-                        <script>document.write(new Date().getFullYear());</script> Thomas Lau
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
 </body>
-
-</html>
