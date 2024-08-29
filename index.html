@@ -33,53 +33,87 @@
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <style>
         body {
-            font-family: "Helvetica Neue", Arial, sans-serif; 
+            font-family: "Helvetica Neue", Arial, sans-serif;
             font-optical-sizing: auto;
             text-wrap: pretty;
             margin: 0.75rem;
         }
+
         a {
             text-decoration: none;
             color: royalblue;
         }
-        div {
-            max-width: 1440px;
-        }
-        h1,h2,h3 {
-            text-transform: uppercase;
-        }
+
+        h1,
+        h2,
         h3 {
-            margin-top: 0;
-            font-size: 20px;
+            font-weight: normal;
         }
+
+        h1,h2, p {
+            margin-bottom: 0;
+        }
+
         p {
             font-size: 20px;
+            line-height: 1.5;
         }
-        img, video {
+
+        figure {
+            margin: 0;
+        }
+
+        figcaption {
+            margin: 8px 0;
+            opacity: 0.5;
+        }
+
+        img,
+        video {
             width: 100%;
         }
+
         .f {
-            display:flex;
+            display: flex;
+            flex-wrap: wrap;
         }
-        .f-50 {
-            flex:50%;
+
+        .f-i {
+            flex-basis: calc(33.33% - 0.75rem * 2);
         }
+
+        @media(max-width: 1024px) {
+            .f-i {
+                flex-basis: calc(50% - 0.75rem * 2);
+            }
+        }
+
+        @media(max-width: 480px) {
+            .f-i {
+                flex-basis: 100%;
+            }
+        }
+
         .p {
             padding: 0.75rem;
         }
+
         @media only screen and (max-width: 768px) {
             .f {
-                flex-direction:column;
+                flex-direction: column;
             }
+
             h3 {
-            margin-top: 1.5rem;
+                margin-top: 1.5rem;
+            }
         }
-        }
-        @media (prefers-color-scheme:dark) { 
+
+        @media (prefers-color-scheme:dark) {
             body {
-                color: white; 
+                color: white;
                 background: #111;
-            } 
+            }
+
             a {
                 color: lightskyblue;
             }
@@ -94,95 +128,200 @@
         gtag('config', 'G-3SZ96H3EJH');
     </script>
 </head>
+
 <body>
     <div class="p">
         <h1>Thomas Lau</h1>
         <p>Design @ <a href="https://phantom.app/">👻</a></p>
+        <p><a href="mailto:c.h.thomas.lau@gmail.com">c.h.thomas.lau@gmail.com</a></p>
     </div>
     <div class="p">
         <h2>Select work</h2>
     </div>
-    <div class="f">
-        <div class="f-50 p">
-            <h3 style="margin-top: 0">Crypto.com</h3>
-            <p>Building the safest and most convenient crypto
-                exchange for 80 million users.
-            </p>
-            <p>
-                <a href="https://crypto.com/" class="text-decoration-none">Visit
-                    crypto.com</a>
-            </p>
+
+    <div class="p">
+        <p>Crypto.com<br><span style="opacity: 0.5">2023</span></p>
+    </div>
+    <div class="f">       
+        <div class="f-i p">
+            <figure>
+                <video autoplay muted loop playsinline poster="img/poster-cdc.png">
+                    <source src="assets/flat/cdc.mp4" type="video/mp4">
+                </video>
+            </figure>
         </div>
-        <div class="f-50 p">
-            <video autoplay muted loop playsinline poster="assets/flat/cdc.webp">
-                <source src="assets/flat/cdc.mp4" type="video/mp4">
-            </video>
+        <div class="f-i p">
+            <figure>
+                <img src="img/cdc/1/onboarding-3.png">
+
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <img src="img/cdc/1/trading-2.png">
+
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <img src="img/cdc/1/spot-1.png">
+
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <img src="img/cdc/1/spot-2.png">
+
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <img src="img/cdc/1/derivs-2.png">
+
+            </figure>
         </div>
     </div>
-    <div class="f">
-        <div class="f-50 p">
-            <h3>Tectonic</h3>
-            <p>Creating v1 of Tectonic, a defi
-                lending & borrowing protocol on the Cronos chain.
-            </p>
-            <p><a href="https://tectonic.finance/">Visit
-                tectonic.finance</a></p>
+    <div class="p">
+        <p>Tectonic.finance<br><span style="opacity: 0.5">2021</span></p>
+    </div>
+    <div class="f">   
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/tectonic-landing.webp">
+            </figure>
         </div>
-        <div class="f-50 p">
-            <img src="assets/ang/tectonic.webp">
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/tectonic-markets.webp">
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/tectonic-details.png">
+            </figure>
         </div>
     </div>
-    <div class="f">
-        <div class="f-50 p">
-            <h3>Wristcheck</h3>
-            <p>Building v1 of the most trusted luxury watch marketplace through transparent authentication and pricing.
-            </p>
-            <p><a href="https://wristcheck.com/">
-                Visit wristcheck.com
-            </a>
-            </p>
+    <div class="p">
+        <p>Wristcheck<br><span style="opacity: 0.5">2021</span></p>
+    </div>
+    <div class="f">  
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/wristcheck-brand.jpg">
+            </figure>
         </div>
-        <div class="f-50 p">
-            <img src="assets/ang/wristcheck.webp">
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/wristcheck-product.jpg">
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/wristcheck-detail.jpg">
+            </figure>
         </div>
     </div>
-    <div class="f">
-        <div class="f-50 p">
-            <h3>Delivery Hero</h3>
-            <p>Increasing food ordering profitability across 70+ countries and 500k+ restaurant partners.</p>
-            <p><a href="https://www.deliveryhero.com/" class="text-decoration-none">
-                Visit deliveryhero.com
-            </a></p>
-        </div>
-        <div class="f-50 p">
-            <video autoplay muted loop playsinline poster="assets/flat/foodpanda.webp" src="assets/flat/foodpanda.mp4" type="video/mp4">
-        </div>
+    <div class="p">
+        <p>Delivery Hero (foodpanda, foodora, PedidosYa)<br><span style="opacity: 0.5">2021</span></p>
     </div>
     <div class="f">
-        <div class="f-50 p">
-            <h3>GoGoX</h3>
-            <p>Finding the product-market fit for crowd-sourced last-mile delivery in high density cities.
-            </p>
-            <p><a href="https://gogox.com/" class="text-decoration-none">
-                Visit gogox.com
-            </a></p>
+        <div class="f-i p">
+            <figure>
+                <video loading="lazy" autoplay muted loop playsinline poster="img/poster-foodpanda.jpg" src="assets/flat/foodpanda.mp4"
+                type="video/mp4"></video>
+            </figure>
         </div>
-        <div class="f-50 p">
-            <video autoplay muted loop playsinline poster="assets/flat/gogox.webp" src="assets/flat/gogox.mp4" type="video/mp4">
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/foodpanda-2.jpg">
+            </figure>
         </div>
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/foodpanda-3.jpg">
+            </figure>
+        </div>
+    </div>
+    <div class="p">
+        <p>OneCharge<br><span style="opacity: 0.5">2020</span></p>
     </div>
     <div class="f">
-        <div class="f-50 p">
-            <h3>Hypebeast</h3>
-            <p>Building the reading and shopping experience for millions of streetwear and sneaker enthusiasts.</p>
-            <p><a href="https://hypebeast.com/" class="text-decoration-none">
-                    Visit hypebeast.com
-                </a></p>
+        <div class="f-i p">
+            <figure>
+                <video loading="lazy" autoplay muted loop playsinline poster="img/poster.png" src="video/onecharge.mp4"
+                type="video/mp4"></video>
+            </figure>
         </div>
-        <div class="f-50 p">
-            <img src="assets/ang/hypebeast.webp">
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/onecharge-1.png">
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/onecharge-2.png">
+            </figure>
         </div>
     </div>
+    <div class="p">
+        <p>GOGOX<br><span style="opacity: 0.5">2020</span></p>
+    </div>
+    <div class="f">
+        <div class="f-i p">
+            <figure>
+                <video loading="lazy" autoplay muted loop playsinline poster="assets/flat/gogox.webp" src="assets/flat/gogox.mp4"
+                type="video/mp4"></video>
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/gogox-1.png">
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/gogox-2.png">
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/gogox-3.png">
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/gogox-4.png">
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/gogox-5.png">
+            </figure>
+        </div>
+    </div>
+    <div class="p">
+        <p>HYPEBEAST<br><span style="opacity: 0.5">2017</span></p>
+    </div>
+    <div class="f">
+        <div class="f-i p">
+            <figure>
+                <img loading="lazy" src="img/hypebeast-1.png">
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <video loading="lazy" autoplay muted loop playsinline poster="img/poster.png" src="video/hypebeast-article.mp4"
+                type="video/mp4"></video>
+            </figure>
+        </div>
+        <div class="f-i p">
+            <figure>
+                <video loading="lazy" autoplay muted loop playsinline poster="img/poster.png" src="video/hbx-product.mp4"
+                type="video/mp4"></video>
+            </figure>
+        </div>
+    </div>
+    
     <div class="p">
         <small style="opacity:0.5">©
             <script>document.write(new Date().getFullYear());</script> Thomas Lau
