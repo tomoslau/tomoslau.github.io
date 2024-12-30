@@ -82,19 +82,33 @@
         }
 
         .f-i {
+            /*
             flex-basis: calc(33.33% - 1rem * 2);
+            */
+            flex-basis: 100%;
             padding: 1rem;
+            max-width: calc((100% - 4rem) / 5 * 3);
+        }
+
+        .m {
+            max-width: calc((100% - 4rem) / 5 * 2);
         }
 
         @media(max-width: 1024px) {
+            /*
             .f-i {
                 flex-basis: calc(50% - 1rem * 2);
             }
+            */
         }
 
-        @media(max-width: 480px) {
+        @media(max-width: 768px) {
             .f-i {
-                flex-basis: 100%;
+
+                max-width: 100%
+            }
+            .m {
+                max-width: 100%;
             }
         }
 
@@ -146,15 +160,15 @@
 </head>
 
 <body>
-    <div class="p" style="max-width: 1024px;">
+    <div class="p">
         <h1>Thomas Lau</h1>
         <p>Product designer shaping the future of crypto at Phantom</p>
         <p><a href="mailto:c.h.thomas.lau@gmail.com">c.h.thomas.lau@gmail.com</a></p>
     </div>
     <div class="f">
-        <div class="f-i">
+        <div class="f-i m">
             <figure>
-                <video autoplay controls muted loop playsinline poster="img/poster-cdc.png">
+                <video loading="lazy" autoplay muted loop playsinline poster="img/poster-cdc.png">
                     <source src="assets/flat/cdc.mp4" type="video/mp4">
                 </video>
                 <figcaption>Crypto.com<br><span style="opacity: 0.6">2023</span><br><small style="opacity: 0.6">Designed with Lexi Li, Caleb Tan, Ludy Lo, Kevin Ng, and Maeve Jennings.</small></figcaption>
@@ -162,7 +176,7 @@
         </div>
         <div class="f-i">
             <figure>
-                <img loading="lazy" src="img/tectonic-markets.webp">
+                <img loading="lazy" src="img/tectonic-markets-c.webp">
                 <figcaption>Tectonic.finance<br><span style="opacity: 0.6">2021</span></figcaption>
             </figure>          
         </div>
@@ -172,16 +186,16 @@
                 <figcaption>Wristcheck<br><span style="opacity: 0.6">2021</span><br><small style="opacity: 0.6">Designed with Norio Chan</small></figcaption>
             </figure>
         </div>
-        <div class="f-i">
+        <div class="f-i m">
             <figure>
-                <video loading="lazy" autoplay controls muted loop playsinline poster="img/poster-foodpanda.jpg" src="assets/flat/foodpanda.mp4"
+                <video loading="lazy" autoplay muted loop playsinline poster="img/poster-foodpanda.jpg" src="assets/flat/foodpanda.mp4"
                 type="video/mp4"></video>
                 <figcaption>Delivery Hero (foodpanda, foodora, PedidosYa)<br><span style="opacity: 0.6">2021</span></figcaption>
             </figure>            
         </div>
-        <div class="f-i">
+        <div class="f-i m">
             <figure>
-                <video loading="lazy" autoplay controls muted loop playsinline poster="assets/flat/gogox.webp" src="assets/flat/gogox.mp4"
+                <video loading="lazy" autoplay muted loop playsinline poster="assets/flat/gogox.webp" src="assets/flat/gogox.mp4"
                 type="video/mp4"></video>
                 <figcaption>GOGOX<br><span style="opacity: 0.6">2020</figcaption>
             </figure>
