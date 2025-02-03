@@ -31,124 +31,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thomas Lau - Designer</title>
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    <style>
-        @font-face { font-family: 'TransportNew'; src: url('font/TransportNew-Medium.otf'); font-weight: 500;} 
-        @font-face { font-family: 'TransportNew'; src: url('font/TransportNew-Light.otf'); } 
-        body {
-            font-family: 'TransportNew', sans-serif;
-            font-optical-sizing: auto;
-            text-wrap: pretty;
-            margin: 0;
-            padding: 1rem;
-        }
-
-        a {
-            text-decoration: none;
-            color: royalblue;
-        }
-
-        h1,
-        h2,
-        h3 {
-            font-weight: 500;
-        }
-
-        h1,h2, p {
-            margin-bottom: 0;
-        }
-
-        p {
-            font-size: 20px;
-            line-height: 1.5;
-        }
-
-        figure {
-            margin: 0;
-        }
-
-        figcaption {
-            margin: 8px 0;
-            padding: 0;
-        }
-
-        img,
-        video {
-            width: 100%;
-        }
-
-        .f {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .f-i {
-            /*
-            flex-basis: calc(33.33% - 1rem * 2);
-            */
-            flex-basis: 100%;
-            padding: 1rem;
-            max-width: calc((100% - 4rem) / 5 * 3);
-        }
-
-        .m {
-            max-width: calc((100% - 4rem) / 5 * 2);
-        }
-
-        @media(max-width: 1024px) {
-            /*
-            .f-i {
-                flex-basis: calc(50% - 1rem * 2);
-            }
-            */
-        }
-
-        @media(max-width: 768px) {
-            .f-i {
-
-                max-width: 100%
-            }
-            .m {
-                max-width: 100%;
-            }
-        }
-
-        .p {
-            padding: 1rem;
-        }
-
-        @media(max-width: 768px) {
-            body {
-                padding: 0;
-            }
-
-            .f {
-                flex-direction: column;
-            }
-
-            h3 {
-                margin-top: 1.5rem;
-            }
-
-            figcaption {
-                padding: 0 1rem;
-            }
-
-            .f-i {
-                padding: 1rem 0;
-            }
-        }
-
-        @media (prefers-color-scheme:dark) {
-            body {
-                color: white;
-                background: #111;
-            }
-
-            a {
-                color: lightskyblue;
-            }
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="c.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3SZ96H3EJH"></script>
     <script>
@@ -174,44 +57,44 @@
                 <video loading="lazy" autoplay muted loop playsinline poster="img/poster-cdc.png">
                     <source src="assets/flat/cdc.mp4" type="video/mp4">
                 </video>
-                <figcaption>Crypto.com<br><span style="opacity: 0.6">2023</span><br><small style="opacity: 0.6">Designed with Lexi Li, Caleb Tan, Ludy Lo, Kevin Ng, and Maeve Jennings.</small></figcaption>
+                <figcaption>Crypto.com<br><span class="text-muted">2023</span><br><small class="text-muted">Designed with Lexi Li, Caleb Tan, Ludy Lo, Kevin Ng, and Maeve Jennings.</small></figcaption>
             </figure>
         </div>
         <div class="f-i">
             <figure>
                 <img loading="lazy" src="img/tectonic-markets-c.webp">
-                <figcaption>Tectonic.finance<br><span style="opacity: 0.6">2021</span></figcaption>
+                <figcaption>Tectonic.finance<br><span class="text-muted">2021</span></figcaption>
             </figure>          
         </div>
         <div class="f-i">
             <figure>
                 <img loading="lazy" src="img/wristcheck-brand.jpg">
-                <figcaption>Wristcheck<br><span style="opacity: 0.6">2021</span><br><small style="opacity: 0.6">Designed with Norio Chan</small></figcaption>
+                <figcaption>Wristcheck<br><span class="text-muted">2021</span><br><small class="text-muted">Designed with Norio Chan</small></figcaption>
             </figure>
         </div>
         <div class="f-i m">
             <figure>
                 <video loading="lazy" autoplay muted loop playsinline poster="img/poster-foodpanda.jpg" src="assets/flat/foodpanda.mp4"
                 type="video/mp4"></video>
-                <figcaption>Delivery Hero (foodpanda, foodora, PedidosYa)<br><span style="opacity: 0.6">2021</span></figcaption>
+                <figcaption>Delivery Hero (foodpanda, foodora, PedidosYa)<br><span class="text-muted">2021</span></figcaption>
             </figure>            
         </div>
         <div class="f-i m">
             <figure>
                 <video loading="lazy" autoplay muted loop playsinline poster="assets/flat/gogox.webp" src="assets/flat/gogox.mp4"
                 type="video/mp4"></video>
-                <figcaption>GOGOX<br><span style="opacity: 0.6">2020</figcaption>
+                <figcaption>GOGOX<br><span class="text-muted">2020</figcaption>
             </figure>
         </div>
         <div class="f-i">
             <figure>
                 <img loading="lazy" src="img/hypebeast-1.png">
-                <figcaption>HYPEBEAST<br><span style="opacity: 0.6">2017</span></figcaption>
+                <figcaption>HYPEBEAST<br><span class="text-muted">2017</span></figcaption>
             </figure>
         </div>
     </div>
     <div class="p">
-        <p><small style="opacity:0.6">©
+        <p><small class="text-muted">©
             <script>document.write(new Date().getFullYear());</script> Thomas Lau
         </small></p>
     </div>

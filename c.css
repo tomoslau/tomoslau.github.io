@@ -1,0 +1,125 @@
+@font-face { font-family: 'TransportNew'; src: url('font/TransportNew-Medium.otf'); font-weight: 500;} 
+@font-face { font-family: 'TransportNew'; src: url('font/TransportNew-Light.otf'); } 
+body {
+    font-family: 'TransportNew', sans-serif;
+    font-optical-sizing: auto;
+    text-wrap: pretty;
+    margin: 0;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 500;
+}
+
+h1,h2, p {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    margin: 8px 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+img,
+video {
+    width: 100%;
+}
+
+.f {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.f-i {
+    /*
+    flex-basis: calc(33.33% - 1rem * 2);
+    */
+    flex-basis: 100%;
+    padding: 1rem;
+    max-width: calc((100% - 4rem) / 5 * 3);
+}
+
+.m {
+    max-width: calc((100% - 4rem) / 5 * 2);
+}
+
+.text-muted {
+    color: rgba(0,0,0,0.5)
+}
+
+@media(max-width: 1024px) {
+    /*
+    .f-i {
+        flex-basis: calc(50% - 1rem * 2);
+    }
+    */
+}
+
+@media(max-width: 768px) {
+    .f-i {
+
+        max-width: 100%
+    }
+    .m {
+        max-width: 100%;
+    }
+}
+
+.p {
+    padding: 1rem;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .f {
+        flex-direction: column;
+    }
+
+    h3 {
+        margin-top: 1.5rem;
+    }
+
+    figcaption {
+        padding: 0 1rem;
+    }
+
+    .f-i {
+        padding: 1rem 0;
+    }
+}
+
+@media (prefers-color-scheme:dark) {
+    body {
+        color: white;
+        background: #111;
+    }
+
+    a {
+        color: lightskyblue;
+    }
+
+    .text-muted {
+        color: rgba(255,255,255,0.5)
+    }
+}
