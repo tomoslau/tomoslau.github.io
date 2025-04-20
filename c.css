@@ -1,32 +1,49 @@
-@font-face { font-family: 'TransportNew'; src: url('font/TransportNew-Medium.otf'); font-weight: 500;} 
-@font-face { font-family: 'TransportNew'; src: url('font/TransportNew-Light.otf'); } 
+@font-face {
+    font-family: 'TransportNew';
+    src: url('font/TransportNew-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-display: swap;
+} 
+
+@font-face {
+    font-family: 'TransportNew';
+    src: url('font/TransportNew-Light.otf') format('opentype');
+    font-display: swap;
+} 
+
+:root {
+    --text-color: #000;
+    --text-muted: rgba(0, 0, 0, 0.5);
+    --spacing: 1rem;
+    --max-width: 800px;
+}
+
 body {
-    font-family: 'TransportNew', sans-serif;
+    font-family: 'TransportNew', system-ui, -apple-system, sans-serif;
     font-optical-sizing: auto;
     text-wrap: pretty;
     margin: 0 auto;
-    padding: 1rem;
-    max-width: 800px;
+    padding: var(--spacing);
+    max-width: var(--max-width);
+    color: var(--text-color);
 }
 
 a {
     text-decoration: none;
-    color: #000;
+    color: inherit;
 }
 
 h1,
 h2,
 h3 {
     font-weight: 500;
-}
-
-h1,h2, p {
     margin-bottom: 0;
 }
 
 p {
     font-size: 20px;
     line-height: 1.5;
+    margin-bottom: 0;
 }
 
 figure {
@@ -42,6 +59,8 @@ figcaption {
 img,
 video {
     width: 100%;
+    height: auto;
+    display: block;
 }
 
 .f {
@@ -51,10 +70,7 @@ video {
 
 .f-i {
     flex-basis: 100%;
-    padding: 1rem;
-    /*
-    max-width: calc((100% - 4rem) / 5 * 3);
-    */
+    padding: var(--spacing);
 }
 
 .m {
@@ -62,29 +78,7 @@ video {
 }
 
 .text-muted {
-    color: rgba(0,0,0,0.5)
-}
-
-@media(max-width: 1024px) {
-    /*
-    .f-i {
-        flex-basis: calc(50% - 1rem * 2);
-    }
-    */
-}
-
-@media(max-width: 768px) {
-    .f-i {
-
-        max-width: 100%
-    }
-    .m {
-        max-width: 100%;
-    }
-}
-
-.p {
-    padding: 1rem;
+    color: var(--text-muted);
 }
 
 @media(max-width: 768px) {
@@ -101,27 +95,19 @@ video {
     }
 
     figcaption {
-        padding: 0 1rem;
+        padding: 0 var(--spacing);
     }
 
     .f-i {
-        padding: 1rem 0;
+        padding: var(--spacing) 0;
+        max-width: 100%;
+    }
+
+    .m {
+        max-width: 100%;
     }
 }
 
-/*
-@media (prefers-color-scheme:dark) {
-    body {
-        color: white;
-        background: #111;
-    }
-
-    a {
-        color: lightskyblue;
-    }
-
-    .text-muted {
-        color: rgba(255,255,255,0.5)
-    }
+.p {
+    padding: var(--spacing);
 }
-*/
