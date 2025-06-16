@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lunch with Theo</title>
+  <meta name="robots" content="noindex, nofollow">
+  <!-- Local Abiah Fonts -->
+  <style>
+    @font-face {
+      font-family: 'Abiah Regular';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Abiah Regular'), url('abiah-webfont/Abiah-Regular.woff') format('woff');
+    }
+    
+    @font-face {
+      font-family: 'Abiah Bold';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Abiah Bold'), url('abiah-webfont/Abiah-Bold.woff') format('woff');
+    }
+    
+    @font-face {
+      font-family: 'Cerebri Sans Pro';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Cerebri Sans Pro'), url('Cerebri-Sans-Pro/CerebriSansPro-Regular.ttf') format('truetype');
+    }
+    
+    @font-face {
+      font-family: 'Cerebri Sans Pro';
+      font-style: normal;
+      font-weight: bold;
+      src: local('Cerebri Sans Pro Bold'), url('Cerebri-Sans-Pro/CerebriSansPro-Bold.ttf') format('truetype');
+    }
+    
+    body {
+      font-family: 'Cerebri Sans Pro', Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f0f8ff;
+      background-image: 
+        linear-gradient(45deg, #e6f3ff 25%, transparent 25%), 
+        linear-gradient(-45deg, #e6f3ff 25%, transparent 25%), 
+        linear-gradient(45deg, transparent 75%, #e6f3ff 75%), 
+        linear-gradient(-45deg, transparent 75%, #e6f3ff 75%);
+      background-size: 100px 100px;
+      background-position: 0 0, 0 50px, 50px -50px, -50px 0px;
+    }
+    .card {
+      background: #FCFAF6;
+      padding: 2rem;
+      border-radius: 24px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: auto;
+    }
+    .menu {
+      margin-top: 2rem;
+    }
+    .menu p {
+      margin: 0.2rem 0 1rem 0;
+    }
+    h1 {
+      font-family: 'Abiah Regular', Arial, sans-serif;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    h2, h3, h4 {
+      font-family: 'Abiah Regular', Arial, sans-serif;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    h4 {
+      font-size: 1.2rem;
+    }
+    #drinksMenu h3 {
+      margin-bottom: 0.2rem;
+    }
+    h1:first-child {
+      margin-top: 0;
+    }
+    h2:first-child {
+      margin-top: 0;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    h3 + ul {
+      margin-top: 0.5rem;
+    }
+    li {
+      margin: 0 0 0.8rem 0;
+      padding: 0;
+    }
+    .search-container {
+      position: relative;
+      margin-bottom: 1rem;
+    }
+    #nameSearch {
+      width: 100%;
+      padding: 0.75rem;
+      padding-right: 2.5rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-family: 'Cerebri Sans Pro', Arial, sans-serif;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+    .clear-button {
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: #999;
+      padding: 0.25rem 0.5rem;
+      border-radius: 3px;
+      line-height: 1;
+    }
+    .clear-button:hover {
+      background-color: #f0f0f0;
+      color: #666;
+    }
+    .dropdown-list {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: white;
+      border: 1px solid #ddd;
+      border-top: none;
+      border-radius: 0 0 4px 4px;
+      max-height: 200px;
+      overflow-y: auto;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .dropdown-item {
+      padding: 0.75rem;
+      cursor: pointer;
+      font-family: 'Cerebri Sans Pro', Arial, sans-serif;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .dropdown-item:hover {
+      background-color: #f5f5f5;
+    }
+    .dropdown-item:last-child {
+      border-bottom: none;
+    }
+    .dropdown-item.hidden {
+      display: none;
+    }
+    @keyframes gentle-rotate-1 {
+      0% { transform: rotate(-4deg); }
+      50% { transform: rotate(4deg); }
+      100% { transform: rotate(-4deg); }
+    }
+    @keyframes gentle-rotate-2 {
+      0% { transform: rotate(3deg); }
+      40% { transform: rotate(-4deg); }
+      70% { transform: rotate(2deg); }
+      100% { transform: rotate(3deg); }
+    }
+    @keyframes gentle-rotate-3 {
+      0% { transform: rotate(-2deg); }
+      30% { transform: rotate(4deg); }
+      60% { transform: rotate(-3deg); }
+      100% { transform: rotate(-2deg); }
+    }
+    @keyframes gentle-rotate-4 {
+      0% { transform: rotate(2deg); }
+      50% { transform: rotate(-3deg); }
+      100% { transform: rotate(2deg); }
+    }
+    .card-img {
+      width: 25%;
+      height: auto;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      border-radius: 0;
+      box-shadow: none;
+      background: none;
+      vertical-align: top;
+    }
+    .card-img:nth-child(1) { animation: gentle-rotate-1 3.5s ease-in-out infinite; }
+    .card-img:nth-child(2) { animation: gentle-rotate-2 3.5s ease-in-out infinite; }
+    .card-img:nth-child(3) { animation: gentle-rotate-3 3.5s ease-in-out infinite; }
+    .card-img:nth-child(4) { animation: gentle-rotate-4 3.5s ease-in-out infinite; }
+    .image-row {
+      max-width: 600px;
+      margin: 0 auto 2rem auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #drinksCard {
+      margin-top: 2.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-row">
+    <img src="assets/theo-1.png" alt="Theo 1" class="card-img">
+    <img src="assets/theo-2.png" alt="Theo 2" class="card-img">
+    <img src="assets/theo-3.png" alt="Theo 3" class="card-img">
+    <img src="assets/theo-4.png" alt="Theo 4" class="card-img">
+  </div>
+  <h1>Lunch with Theo</h1>
+  <div class="card">
+    <h2>Food</h2>
+    <p>Select your name below to view your food menu</p>
+    <div class="search-container">
+      <input type="text" id="nameSearch" placeholder="Select your name" autocomplete="off">
+      <button type="button" id="clearButton" class="clear-button" style="display: none;">×</button>
+      <div id="nameDropdown" class="dropdown-list" style="display: none;">
+        <div class="dropdown-item" data-value="Andrew Cheung">Andrew Cheung</div>
+        <div class="dropdown-item" data-value="Brian Lee">Brian Lee</div>
+        <div class="dropdown-item" data-value="Calvin Tan">Calvin Tan</div>
+        <div class="dropdown-item" data-value="Cara Tsang">Cara Tsang</div>
+        <div class="dropdown-item" data-value="Cecilia Chen">Cecilia Chen</div>
+        <div class="dropdown-item" data-value="Dan Jon Niel Carino">Dan Jon Niel Carino</div>
+        <div class="dropdown-item" data-value="David Huang">David Huang</div>
+        <div class="dropdown-item" data-value="Eddie Lai">Eddie Lai</div>
+        <div class="dropdown-item" data-value="Eugene So">Eugene So</div>
+        <div class="dropdown-item" data-value="Jane Lam">Jane Lam</div>
+        <div class="dropdown-item" data-value="Jared Heimsoth">Jared Heimsoth</div>
+        <div class="dropdown-item" data-value="Jasmine Li">Jasmine Li</div>
+        <div class="dropdown-item" data-value="Jennifer Lim">Jennifer Lim</div>
+        <div class="dropdown-item" data-value="Jerome Lim">Jerome Lim</div>
+        <div class="dropdown-item" data-value="Karina ng Cheng">Karina ng Cheng</div>
+        <div class="dropdown-item" data-value="Kenneth Chan">Kenneth Chan</div>
+        <div class="dropdown-item" data-value="Krystle Chan">Krystle Chan</div>
+        <div class="dropdown-item" data-value="Leo Chen">Leo Chen</div>
+        <div class="dropdown-item" data-value="Lily Lam">Lily Lam</div>
+        <div class="dropdown-item" data-value="Lucia Ho">Lucia Ho</div>
+        <div class="dropdown-item" data-value="Percie Wong">Percie Wong</div>
+        <div class="dropdown-item" data-value="Sally Li">Sally Li</div>
+        <div class="dropdown-item" data-value="Thomas Lau">Thomas Lau</div>
+        <div class="dropdown-item" data-value="Tiffany Lau">Tiffany Lau</div>
+        <div class="dropdown-item" data-value="Yoyo kwok">Yoyo kwok</div>
+      </div>
+    </div>
+    <div class="menu" id="menuDisplay" style="display: none;">
+      <h3>Starter</h3>
+      <p id="starter"></p>
+      <h3>Main</h3>
+      <p id="main"></p>
+      <h3>Dessert</h3>
+      <p id="dessert"></p>
+    </div>
+  </div>
+  <div class="card" id="drinksCard">
+    <h2>Drinks</h2>
+    <div style="border-radius:8px;">
+      <h3>White</h3>
+      <ul>
+        <li>Tantalus '24 Riesling</li>
+        <li>Garnier et Fils '22 Chardonnay Chablis</li>
+      </ul>
+      <h3>Red</h3>
+      <ul>
+        <li>Giovanni Rosso '22 Nebbiolo Langhe</li>
+        <li>Fontodi '21 Sangiovese Chianti Classico</li>
+      </ul>
+      <h3>Cocktails</h3>
+      <ul>
+        <li>Jungle Bird<br><small>Appleton 8 year reserve rum, Campari, pineapple, lime</small></li>
+        <li>Old Fashioned<br><small>Wild Turkey 101 bourbon, sugar, bitters</small></li>
+        <li>Margarita<br><small>Espolon tequila, Grand Marnier, lime</small></li>
+        <li>Martini<br><small>Beefeater or Absolut, vermouth</small></li>
+        <li>Aperol Spritz<br><small>Aperol, sparkling wine, soda</small></li>
+      </ul>
+      <h3>Craft Beer</h3>
+      <ul>
+        <li>L'ABATTOIR Pilsner</li>
+        <li>Riley's Cider</li>
+      </ul>
+      <h3>Non-Alcoholic Options</h3>
+      <ul>
+        <li>Leitz nv Sparkling Riesling 'Einz Zwei Zero', Rheingau, Germany</li>
+        <li>Divin '23 Sauvignon Blanc 'Vignerons' Touraine, Loire Valley, France</li>
+        <li>Lautus nv Shiraz+ 'Savvy Red' Olifants River, South Africa</li>
+        <li>Phony Negroni</li>
+        <li>Nonny Non-Alcoholic Beer</li>
+        <li>Strange Fellows Non-Alcoholic Beer</li>
+        <li>Passion fruit iced tea</li>
+        <li>Sparkling or still water (per 750ml bottle)</li>
+        <li>Coke, Diet Coke, Gingerale, Ginger Beer or Tonic</li>
+        <li>Club soda</li>
+        <li>Coffee</li>
+        <li>Tea</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    const menuData = {
+      "Cecilia Chen": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Tiffany Lau": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "Slow-baked spring salmon w/ tabouleh, fried chickpeas, lemon",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Jasmine Li": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Leo Chen": {
+        starter: "Crispy pork belly w/ nam jim, thai basil, crispy shallots",
+        main: "Harissa-glazed pork shoulder w/ roasted corn, beans, romesco",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Sally Li": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "Harissa-glazed pork shoulder w/ roasted corn, beans, romesco",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Dan Jon Niel Carino": {
+        starter: "Crispy pork belly w/ nam jim, thai basil, crispy shallots",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
+      },
+      "Kenneth Chan": {
+        starter: "Crispy pork belly w/ nam jim, thai basil, crispy shallots",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Lily Lam": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Andrew Cheung": {
+        starter: "Crispy pork belly w/ nam jim, thai basil, crispy shallots",
+        main: "Harissa-glazed pork shoulder w/ roasted corn, beans, romesco",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Thomas Lau": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
+      },
+      "Karina ng Cheng": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
+      },
+      "David Huang": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "Harissa-glazed pork shoulder w/ roasted corn, beans, romesco",
+        dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
+      },
+      "Jane Lam": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "Slow-baked spring salmon w/ tabouleh, fried chickpeas, lemon",
+        dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
+      },
+      "Calvin Tan": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Jared Heimsoth": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Cara Tsang": {
+        starter: "Crispy pork belly w/ nam jim, thai basil, crispy shallots",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Percie Wong": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
+      },
+      "Eddie Lai": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Lucia Ho": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "Slow-baked spring salmon w/ tabouleh, fried chickpeas, lemon",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Eugene So": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
+      },
+      "Krystle Chan": {
+        starter: "Crispy pork belly w/ nam jim, thai basil, crispy shallots",
+        main: "Slow-baked spring salmon w/ tabouleh, fried chickpeas, lemon",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Jennifer Lim": {
+        starter: "Crispy pork belly w/ nam jim, thai basil, crispy shallots",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
+      "Jerome Lim": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
+      },
+      "Brian Lee": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
+      },
+      "Yoyo kwok": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
+      }
+    };
+
+    const nameSearch = document.getElementById('nameSearch');
+    const nameDropdown = document.getElementById('nameDropdown');
+    const dropdownItems = document.querySelectorAll('.dropdown-item');
+    const clearButton = document.getElementById('clearButton');
+    const menuDisplay = document.getElementById('menuDisplay');
+    const starter = document.getElementById('starter');
+    const main = document.getElementById('main');
+    const dessert = document.getElementById('dessert');
+
+    // Show dropdown when input is focused
+    nameSearch.addEventListener('focus', () => {
+      nameDropdown.style.display = 'block';
+      filterNames();
+    });
+
+    // Hide dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!nameSearch.contains(e.target) && !nameDropdown.contains(e.target)) {
+        nameDropdown.style.display = 'none';
+      }
+    });
+
+    // Filter names as user types
+    nameSearch.addEventListener('input', () => {
+      filterNames();
+      nameDropdown.style.display = 'block';
+      updateClearButton();
+    });
+
+    // Clear button functionality
+    clearButton.addEventListener('click', () => {
+      nameSearch.value = '';
+      nameDropdown.style.display = 'none';
+      menuDisplay.style.display = 'none';
+      clearButton.style.display = 'none';
+      filterNames();
+    });
+
+    // Handle dropdown item clicks
+    dropdownItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const selectedName = item.getAttribute('data-value');
+        nameSearch.value = selectedName;
+        nameDropdown.style.display = 'none';
+        updateClearButton();
+        
+        if (menuData[selectedName]) {
+          starter.textContent = menuData[selectedName].starter;
+          main.textContent = menuData[selectedName].main;
+          dessert.textContent = menuData[selectedName].dessert;
+          menuDisplay.style.display = 'block';
+        } else {
+          menuDisplay.style.display = 'none';
+        }
+      });
+    });
+
+    // Filter function
+    function filterNames() {
+      const searchTerm = nameSearch.value.toLowerCase();
+      
+      dropdownItems.forEach(item => {
+        const name = item.textContent.toLowerCase();
+        if (name.includes(searchTerm) || searchTerm === '') {
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+    }
+
+    // Update clear button visibility
+    function updateClearButton() {
+      if (nameSearch.value.trim() !== '') {
+        clearButton.style.display = 'block';
+      } else {
+        clearButton.style.display = 'none';
+      }
+    }
+  </script>
+</body>
+</html>
