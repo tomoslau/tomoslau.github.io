@@ -38,6 +38,7 @@
     body {
       font-family: 'Cerebri Sans Pro', Arial, sans-serif;
       padding: 2rem;
+      margin: 0;
       background-color: #f0f8ff;
       background-image: 
         linear-gradient(45deg, #e6f3ff 25%, transparent 25%), 
@@ -102,6 +103,19 @@
     }
     h3 + ul {
       margin-top: 0.5rem;
+    }
+    
+    /* Add spacing between menu groupings */
+    #drinksCard h3 {
+      margin-bottom: 1rem;
+    }
+    
+    #drinksCard h3 + ul {
+      margin-bottom: 2rem;
+    }
+    
+    #drinksCard h3 + ul:last-child {
+      margin-bottom: 0;
     }
     li {
       margin: 0 0 0.8rem 0;
@@ -214,6 +228,52 @@
     }
     #drinksCard {
       margin-top: 2.5rem;
+    }
+    
+    /* Mobile styles */
+    @media (max-width: 768px) {
+      body {
+        padding: 16px;
+      }
+      
+      .card {
+        padding: 16px;
+      }
+      
+      h1 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        font-size: 1.75rem;
+      }
+      
+      h2, h3, h4 {
+        margin-top: 16px;
+        margin-bottom: 8px;
+      }
+      
+      h2 {
+        font-size: 1.5rem;
+      }
+      
+      h3 {
+        font-size: 1.25rem;
+      }
+      
+      h4 {
+        font-size: 1.1rem;
+      }
+      
+      .menu {
+        margin-top: 16px;
+      }
+      
+      .image-row {
+        margin-bottom: 16px;
+      }
+      
+      #drinksCard {
+        margin-top: 16px;
+      }
     }
   </style>
 </head>
