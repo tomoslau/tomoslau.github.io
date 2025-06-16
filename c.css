@@ -31,6 +31,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    display: inline;
 }
 
 h1,
@@ -54,6 +55,12 @@ figcaption {
     margin: 8px 0;
     padding: 0;
     line-height: 1.5;
+}
+
+figcaption a {
+    display: inline;
+    margin: 0;
+    padding: 0;
 }
 
 img,
@@ -110,4 +117,19 @@ video {
 
 .p {
     padding: var(--spacing);
+}
+
+.phantom-logo {
+    aspect-ratio: 16/9;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: var(--spacing) 0;
+}
+
+.phantom-logo img {
+    width: 24%;
+    height: auto;
 }
