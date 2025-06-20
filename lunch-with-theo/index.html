@@ -51,7 +51,7 @@
     .card {
       background: #FCFAF6;
       padding: 2rem;
-      border-radius: 24px;
+      border-radius: 16px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       max-width: 600px;
       margin: auto;
@@ -123,7 +123,17 @@
     }
     .search-container {
       position: relative;
-      margin-bottom: 1rem;
+      margin-bottom: 0;
+    }
+    .chevron {
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 20px;
+      pointer-events: none;
+      fill: #999;
     }
     #nameSearch {
       width: 100%;
@@ -290,6 +300,7 @@
     <p>Select your name below to view your food menu</p>
     <div class="search-container">
       <input type="text" id="nameSearch" placeholder="Select your name" autocomplete="off">
+      <svg class="chevron" viewBox="0 0 20 20" id="chevronIcon"><path d="M5.5 8l4.5 4.5L14.5 8" stroke="#999" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <button type="button" id="clearButton" class="clear-button" style="display: none;">×</button>
       <div id="nameDropdown" class="dropdown-list" style="display: none;">
         <div class="dropdown-item" data-value="Andrew Cheung">Andrew Cheung</div>
@@ -538,6 +549,7 @@
       menuDisplay.style.display = 'none';
       clearButton.style.display = 'none';
       filterNames();
+      updateClearButton();
     });
 
     // Handle dropdown item clicks
@@ -577,10 +589,15 @@
     function updateClearButton() {
       if (nameSearch.value.trim() !== '') {
         clearButton.style.display = 'block';
+        document.getElementById('chevronIcon').style.display = 'none';
       } else {
         clearButton.style.display = 'none';
+        document.getElementById('chevronIcon').style.display = 'block';
       }
     }
+
+    // Call updateClearButton() on page load to set initial state
+    updateClearButton();
   </script>
 </body>
 </html>
