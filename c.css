@@ -41,8 +41,12 @@ h3 {
     margin-bottom: 0;
 }
 
+h1 {
+    font-size: 24px;
+}
+
 p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 0;
 }
@@ -55,6 +59,7 @@ figcaption {
     margin: 8px 0;
     padding: 0;
     line-height: 1.5;
+    font-size: 16px;
 }
 
 figcaption a {
