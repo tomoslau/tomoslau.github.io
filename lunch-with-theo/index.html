@@ -15,24 +15,10 @@
     }
     
     @font-face {
-      font-family: 'Abiah Bold';
-      font-style: normal;
-      font-weight: normal;
-      src: local('Abiah Bold'), url('abiah-webfont/Abiah-Bold.woff') format('woff');
-    }
-    
-    @font-face {
       font-family: 'Cerebri Sans Pro';
       font-style: normal;
       font-weight: normal;
       src: local('Cerebri Sans Pro'), url('Cerebri-Sans-Pro/CerebriSansPro-Regular.ttf') format('truetype');
-    }
-    
-    @font-face {
-      font-family: 'Cerebri Sans Pro';
-      font-style: normal;
-      font-weight: bold;
-      src: local('Cerebri Sans Pro Bold'), url('Cerebri-Sans-Pro/CerebriSansPro-Bold.ttf') format('truetype');
     }
     
     body {
@@ -553,17 +539,37 @@
       nameDropdown.style.display = 'none';
       menuDisplay.style.display = 'none';
       clearButton.style.display = 'none';
+      localStorage.removeItem('selectedName');
       filterNames();
       updateClearButton();
     });
 
-    // Handle dropdown item clicks
+    // Call updateClearButton() on page load to set initial state
+    updateClearButton();
+
+    // Load saved name from localStorage on page load
+    window.addEventListener('load', () => {
+      const savedName = localStorage.getItem('selectedName');
+      if (savedName && menuData[savedName]) {
+        nameSearch.value = savedName;
+        starter.textContent = menuData[savedName].starter;
+        main.textContent = menuData[savedName].main;
+        dessert.textContent = menuData[savedName].dessert;
+        menuDisplay.style.display = 'block';
+        updateClearButton();
+      }
+    });
+
+    // Save selected name to localStorage when a name is selected
     dropdownItems.forEach(item => {
       item.addEventListener('click', () => {
         const selectedName = item.getAttribute('data-value');
         nameSearch.value = selectedName;
         nameDropdown.style.display = 'none';
         updateClearButton();
+        
+        // Save to localStorage
+        localStorage.setItem('selectedName', selectedName);
         
         if (menuData[selectedName]) {
           starter.textContent = menuData[selectedName].starter;
@@ -600,9 +606,6 @@
         document.getElementById('chevronIcon').style.display = 'block';
       }
     }
-
-    // Call updateClearButton() on page load to set initial state
-    updateClearButton();
   </script>
 </body>
 </html>
