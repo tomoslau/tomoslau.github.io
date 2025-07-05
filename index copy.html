@@ -84,74 +84,68 @@
 </head>
 
 <body>
-    <div class="p" style="text-align: center; margin: 2rem 0;">
-        <img src="img/seal.svg" alt="Seal" style="width: 48px; height: 48px;">
-    </div>
-    
     <div class="p">
-        <p id="typing-text"></p>
+        <h1>Thomas Lau<br>劉湯</h1>
+        <p>Product Designer<br>產品設計師</p>
+        <p><a href="mailto:c.h.thomas.lau@gmail.com">c.h.thomas.lau@gmail.com</a> <button onclick="copyEmail()" style="background: none; border: none; cursor: pointer; font-size: 16px; color: #666; padding: 0; width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-top: -2px;"><img src="icons/copy.svg" alt="Copy email" style="width: 16px; height: 16px; vertical-align: middle; filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);"></button></p>
+    </div>
+    <div class="f">
+        <div class="f-i">
+            <figure>
+                <div class="phantom-logo">
+                    <img src="img/phantom-logo.svg" alt="Phantom logo">
+                </div>
+                <figcaption><a href="https://phantom.com" target="_blank" rel="noopener noreferrer">Phantom ↗</a></figcaption>
+            </figure>
+        </div>
+        <div class="f-i">
+            <figure>
+                <video loading="lazy" autoplay muted loop playsinline poster="assets/flat-clay/cdc.jpg">
+                    <source src="assets/flat-clay/cdc.mp4" type="video/mp4">
+                </video>
+                <figcaption><a href="https://crypto.com" target="_blank" rel="noopener noreferrer">Crypto.com ↗</a></figcaption>
+            </figure>
+        </div>
+        <div class="f-i">
+            <figure>
+                <img loading="lazy" src="img/tectonic-markets.jpg" alt="Tectonic.finance decentralized lending platform interface design">
+                <figcaption><a href="https://tectonic.finance" target="_blank" rel="noopener noreferrer">Tectonic.finance ↗</a></figcaption>
+            </figure>          
+        </div>
+        <div class="f-i">
+            <figure>
+                <img loading="lazy" src="img/wristcheck-brand.jpg" alt="Wristcheck luxury watch marketplace interface design">
+                <figcaption><a href="https://wristcheck.com" target="_blank" rel="noopener noreferrer">Wristcheck ↗</a></figcaption>
+            </figure>
+        </div>
+        <div class="f-i">
+            <figure>
+                <video loading="lazy" autoplay muted loop playsinline poster="assets/flat-clay/foodpanda.jpg" src="assets/flat-clay/foodpanda.mp4"
+                type="video/mp4"></video>
+                <figcaption><a href="https://deliveryhero.com" target="_blank" rel="noopener noreferrer">Delivery Hero ↗</a></figcaption>
+            </figure>            
+        </div>
+        <div class="f-i">
+            <figure>
+                <video loading="lazy" autoplay muted loop playsinline poster="assets/flat-clay/gogox.jpg" src="assets/flat-clay/gogox.mp4"
+                type="video/mp4"></video>
+                <figcaption><a href="https://gogox.com" target="_blank" rel="noopener noreferrer">GOGOX ↗</a></figcaption>
+            </figure>
+        </div>
+        <div class="f-i">
+            <figure>
+                <img loading="lazy" src="img/hypebeast-1.jpg" alt="HYPEBEAST media and culture platform interface design">
+                <figcaption><a href="https://hypebeast.com" target="_blank" rel="noopener noreferrer">HYPEBEAST ↗</a></figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="p">
+        <p><small class="text-muted">©
+            <script>document.write(new Date().getFullYear());</script> Thomas Lau
+        </small></p>
     </div>
 
     <script>
-        // Typing effect function that properly handles HTML
-        function typeTextWithHTML(element, htmlContent, speed = 20) {
-            // Create a temporary element to parse the HTML
-            const tempDiv = document.createElement('div');
-            tempDiv.innerHTML = htmlContent;
-            
-            // Clear the target element
-            element.innerHTML = '';
-            
-            // Get all child nodes (text and elements)
-            const childNodes = Array.from(tempDiv.childNodes);
-            let nodeIndex = 0;
-            let charIndex = 0;
-            
-            function typeNext() {
-                if (nodeIndex < childNodes.length) {
-                    const currentNode = childNodes[nodeIndex];
-                    
-                    if (currentNode.nodeType === Node.TEXT_NODE) {
-                        // Handle text nodes
-                        const text = currentNode.textContent;
-                        if (charIndex < text.length) {
-                            // Create a text node for the current character
-                            const charNode = document.createTextNode(text.charAt(charIndex));
-                            element.appendChild(charNode);
-                            charIndex++;
-                            setTimeout(typeNext, speed);
-                        } else {
-                            // Move to next node
-                            nodeIndex++;
-                            charIndex = 0;
-                            setTimeout(typeNext, speed);
-                        }
-                    } else if (currentNode.nodeType === Node.ELEMENT_NODE) {
-                        // Handle HTML elements
-                        const clonedNode = currentNode.cloneNode(true);
-                        element.appendChild(clonedNode);
-                        nodeIndex++;
-                        setTimeout(typeNext, speed);
-                    } else {
-                        // Skip other node types
-                        nodeIndex++;
-                        setTimeout(typeNext, speed);
-                    }
-                }
-            }
-            
-            typeNext();
-        }
-
-        // Original text content with HTML
-        const originalText = `Hey, I'm Thomas Lau — a product designer from Hong Kong, now based in Canada. I've worked on all sorts of products, from crypto and fintech to lifestyle and logistics, with teams at <a href="https://phantom.app" target="_blank">Phantom</a>, <a href="https://crypto.com" target="_blank">Crypto.com</a>, <a href="https://wristcheck.com" target="_blank">Wristcheck</a>, <a href="https://www.deliveryhero.com" target="_blank">Delivery Hero</a> (covering <a href="https://www.foodpanda.com" target="_blank">Foodpanda</a> & <a href="https://www.foodora.com" target="_blank">Foodora</a>), <a href="https://www.gogox.com" target="_blank">GOGOX</a>, and <a href="https://hypebeast.com" target="_blank">Hypebeast</a>. I love figuring out how to make tricky problems feel simple and building things that people actually enjoy using.<br><br>Before that, I spent some time at agencies like Isobar, working with brands like <a href="https://disneyparks.disney.go.com" target="_blank">Disneyland</a>, <a href="https://www.esteelauder.com" target="_blank">Estée Lauder</a>, <a href="https://www.audi.com" target="_blank">Audi</a>, <a href="https://www.bupa.com" target="_blank">Bupa</a>, <a href="https://www.hyatt.com" target="_blank">Hyatt</a>, <a href="https://www.reebok.com" target="_blank">Reebok</a>, and <a href="https://www.heronpreston.com" target="_blank">Heron Preston</a>.<br><br><a href="mailto:c.h.thomas.lau@gmail.com">c.h.thomas.lau@gmail.com</a> <button onclick="copyEmail()" style="background: none; border: none; cursor: pointer; font-size: 16px; color: #666; padding: 0; width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-top: -2px;"><img src="icons/copy.svg" alt="Copy email" style="width: 16px; height: 16px; vertical-align: middle; filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);"></button>`;
-
-        // Start typing effect when page loads
-        window.addEventListener('load', function() {
-            const typingElement = document.getElementById('typing-text');
-            typeTextWithHTML(typingElement, originalText, 15);
-        });
-
         function copyEmail() {
             navigator.clipboard.writeText('c.h.thomas.lau@gmail.com').then(function() {
                 // Show visual feedback with check icon
