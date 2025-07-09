@@ -21,7 +21,6 @@
 body {
     font-family: 'TransportNew', system-ui, -apple-system, sans-serif;
     font-optical-sizing: auto;
-    text-wrap: pretty;
     margin: 0 auto;
     padding: var(--spacing);
     max-width: var(--max-width);
@@ -29,9 +28,11 @@ body {
 }
 
 a {
-    text-decoration: underline dotted;
+    border-bottom: 1px dotted currentColor;
     color: inherit;
     display: inline;
+    text-decoration: none;
+    text-underline-offset: 2px;
 }
 
 h1,
