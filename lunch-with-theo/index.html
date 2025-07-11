@@ -44,7 +44,27 @@
       margin: auto;
     }
     .menu {
-      margin-top: 2rem;
+      margin-top: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+      opacity: 0;
+      position: relative;
+    }
+    .menu.show {
+      max-height: 300px;
+      opacity: 1;
+    }
+    
+    .menu-text {
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    
+    .menu-text.fade-in {
+      opacity: 1;
+      transform: translateY(0);
     }
     .menu p {
       margin: 0.2rem 0 1rem 0;
@@ -205,6 +225,69 @@
       50% { transform: rotate(-3deg); }
       100% { transform: rotate(2deg); }
     }
+    
+    /* Sparkles Animation */
+    @keyframes sparkle {
+      0% { 
+        transform: scale(0) rotate(0deg); 
+        opacity: 0; 
+      }
+      50% { 
+        transform: scale(1) rotate(180deg); 
+        opacity: 1; 
+      }
+      100% { 
+        transform: scale(0) rotate(360deg); 
+        opacity: 0; 
+      }
+    }
+    
+    .sparkle {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      pointer-events: none;
+      animation: sparkle 1.5s ease-out forwards;
+    }
+    
+    .sparkle.yellow {
+      background: linear-gradient(45deg, #ffd700, #ffed4e, #fff);
+    }
+    
+    .sparkle.orange {
+      background: linear-gradient(45deg, #ff8c00, #ffa500, #ffd700);
+    }
+    
+    .sparkle.purple {
+      background: linear-gradient(45deg, #8a2be2, #9370db, #dda0dd);
+    }
+    
+    .sparkle.pink {
+      background: linear-gradient(45deg, #ff69b4, #ff1493, #ffb6c1);
+    }
+    
+    .sparkle::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: 3px;
+      width: 2px;
+      height: 12px;
+      background: inherit;
+      border-radius: 1px;
+    }
+    
+    .sparkle::after {
+      content: '';
+      position: absolute;
+      top: 3px;
+      left: -2px;
+      width: 12px;
+      height: 2px;
+      background: inherit;
+      border-radius: 1px;
+    }
     .card-img {
       width: 25%;
       height: auto;
@@ -288,13 +371,14 @@
   <h1>Lunch with Theo</h1>
   <div class="card">
     <h2>Food</h2>
-    <p>Select your name below to view your food menu</p>
+    <p>Select your name to view your food menu</p>
     <div class="search-container">
       <input type="text" id="nameSearch" placeholder="Select your name" autocomplete="off">
       <svg class="chevron" viewBox="0 0 20 20" id="chevronIcon"><path d="M5.5 8l4.5 4.5L14.5 8" stroke="#999" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <button type="button" id="clearButton" class="clear-button" style="display: none;">×</button>
       <div id="nameDropdown" class="dropdown-list" style="display: none;">
         <div class="dropdown-item" data-value="Andrew Cheung">Andrew Cheung</div>
+        <div class="dropdown-item" data-value="Bonnie Li">Bonnie Li</div>
         <div class="dropdown-item" data-value="Brian Lee">Brian Lee</div>
         <div class="dropdown-item" data-value="Calvin Tan">Calvin Tan</div>
         <div class="dropdown-item" data-value="Cara Tsang">Cara Tsang</div>
@@ -302,13 +386,15 @@
         <div class="dropdown-item" data-value="Dan Jon Niel Carino">Dan Jon Niel Carino</div>
         <div class="dropdown-item" data-value="David Huang">David Huang</div>
         <div class="dropdown-item" data-value="Eddie Lai">Eddie Lai</div>
+        <div class="dropdown-item" data-value="Edson Leung">Edson Leung</div>
+        <div class="dropdown-item" data-value="Ellie Heimsoth">Ellie Heimsoth</div>
         <div class="dropdown-item" data-value="Eugene So">Eugene So</div>
         <div class="dropdown-item" data-value="Jane Lam">Jane Lam</div>
         <div class="dropdown-item" data-value="Jared Heimsoth">Jared Heimsoth</div>
         <div class="dropdown-item" data-value="Jasmine Li">Jasmine Li</div>
         <div class="dropdown-item" data-value="Jennifer Lim">Jennifer Lim</div>
         <div class="dropdown-item" data-value="Jerome Lim">Jerome Lim</div>
-        <div class="dropdown-item" data-value="Karina ng Cheng">Karina ng Cheng</div>
+        <div class="dropdown-item" data-value="Karina Ng Cheng">Karina Ng Cheng</div>
         <div class="dropdown-item" data-value="Kenneth Chan">Kenneth Chan</div>
         <div class="dropdown-item" data-value="Krystle Chan">Krystle Chan</div>
         <div class="dropdown-item" data-value="Leo Chen">Leo Chen</div>
@@ -316,18 +402,19 @@
         <div class="dropdown-item" data-value="Lucia Ho">Lucia Ho</div>
         <div class="dropdown-item" data-value="Percie Wong">Percie Wong</div>
         <div class="dropdown-item" data-value="Sally Li">Sally Li</div>
+        <div class="dropdown-item" data-value="Theo Lau">Theo Lau</div>
         <div class="dropdown-item" data-value="Thomas Lau">Thomas Lau</div>
         <div class="dropdown-item" data-value="Tiffany Lau">Tiffany Lau</div>
-        <div class="dropdown-item" data-value="Yoyo kwok">Yoyo kwok</div>
+        <div class="dropdown-item" data-value="Yoyo Kwok">Yoyo Kwok</div>
       </div>
     </div>
-    <div class="menu" id="menuDisplay" style="display: none;">
-      <h3>Starter</h3>
-      <p id="starter"></p>
-      <h3>Main</h3>
-      <p id="main"></p>
-      <h3>Dessert</h3>
-      <p id="dessert"></p>
+    <div class="menu" id="menuDisplay">
+      <h3 class="menu-text">Starter</h3>
+      <p id="starter" class="menu-text"></p>
+      <h3 class="menu-text">Main</h3>
+      <p id="main" class="menu-text"></p>
+      <h3 class="menu-text">Dessert</h3>
+      <p id="dessert" class="menu-text"></p>
     </div>
   </div>
   <div class="card" id="drinksCard">
@@ -402,6 +489,11 @@
         main: "Harissa-glazed pork shoulder w/ roasted corn, beans, romesco",
         dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
       },
+      "Theo Lau": {
+        starter: "-",
+        main: "Cheesy pasta with chicken",
+        dessert: "Vanilla ice cream (by request)"
+      },
       "Dan Jon Niel Carino": {
         starter: "Crispy pork belly w/ nam jim, thai basil, crispy shallots",
         main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
@@ -427,7 +519,7 @@
         main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
         dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
       },
-      "Karina ng Cheng": {
+      "Karina Ng Cheng": {
         starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
         main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
         dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
@@ -467,6 +559,16 @@
         main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
         dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
       },
+      "Edson Leung": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
+      },
+      "Ellie Heimsoth": {
+        starter: "-",
+        main: "Cheesy pasta with chicken",
+        dessert: "Vanilla ice cream (by request)"
+      },
       "Lucia Ho": {
         starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
         main: "Slow-baked spring salmon w/ tabouleh, fried chickpeas, lemon",
@@ -492,12 +594,17 @@
         main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
         dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
       },
+      "Bonnie Li": {
+        starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
+        main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
+        dessert: "Dark chocolate torte w/ pumpkin seed praline, chocolate ganache, coconut cream"
+      },
       "Brian Lee": {
         starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
         main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
         dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
       },
-      "Yoyo kwok": {
+      "Yoyo Kwok": {
         starter: "Albacore tuna crudo w/ cucumber, radish, nashi pear, chili ponzu, shiso",
         main: "AAA Canadian beef tenderloin w/ charred gem lettuce, triple cooked potato, beef jus",
         dessert: "Salted caramel cream puff w/ vanilla pastry cream, caramel crémeux, caramel sauce"
@@ -537,7 +644,9 @@
     clearButton.addEventListener('click', () => {
       nameSearch.value = '';
       nameDropdown.style.display = 'none';
-      menuDisplay.style.display = 'none';
+      menuDisplay.classList.remove('show');
+      // Remove fade-in class when clearing
+      document.querySelectorAll('.menu-text').forEach(el => el.classList.remove('fade-in'));
       clearButton.style.display = 'none';
       localStorage.removeItem('selectedName');
       filterNames();
@@ -555,7 +664,11 @@
         starter.textContent = menuData[savedName].starter;
         main.textContent = menuData[savedName].main;
         dessert.textContent = menuData[savedName].dessert;
-        menuDisplay.style.display = 'block';
+        menuDisplay.classList.add('show');
+        // Trigger sparkles animation for saved name
+        setTimeout(() => createSparkles(), 150);
+        // Trigger text fade-in halfway through sparkles (1.5s sparkle animation / 2 = 0.75s + 0.15s initial delay)
+        setTimeout(() => fadeInMenuText(), 900);
         updateClearButton();
       }
     });
@@ -575,9 +688,15 @@
           starter.textContent = menuData[selectedName].starter;
           main.textContent = menuData[selectedName].main;
           dessert.textContent = menuData[selectedName].dessert;
-          menuDisplay.style.display = 'block';
+          menuDisplay.classList.add('show');
+          // Trigger sparkles animation
+          setTimeout(() => createSparkles(), 150);
+          // Trigger text fade-in halfway through sparkles (1.5s sparkle animation / 2 = 0.75s + 0.15s initial delay)
+          setTimeout(() => fadeInMenuText(), 900);
         } else {
-          menuDisplay.style.display = 'none';
+          menuDisplay.classList.remove('show');
+          // Remove fade-in class when hiding menu
+          document.querySelectorAll('.menu-text').forEach(el => el.classList.remove('fade-in'));
         }
       });
     });
@@ -605,6 +724,52 @@
         clearButton.style.display = 'none';
         document.getElementById('chevronIcon').style.display = 'block';
       }
+    }
+    
+    // Create sparkles animation
+    function createSparkles() {
+      const menuDisplay = document.getElementById('menuDisplay');
+      const rect = menuDisplay.getBoundingClientRect();
+      
+      // Create multiple sparkles
+      for (let i = 0; i < 8; i++) {
+        const sparkle = document.createElement('div');
+        sparkle.className = 'sparkle';
+        
+        // Random color selection
+        const colors = ['yellow', 'orange', 'purple', 'pink'];
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        sparkle.classList.add(randomColor);
+        
+        // Random position within the menu area
+        const x = Math.random() * rect.width;
+        const y = Math.random() * rect.height;
+        
+        sparkle.style.left = x + 'px';
+        sparkle.style.top = y + 'px';
+        
+        // Random delay for staggered effect
+        sparkle.style.animationDelay = (Math.random() * 0.5) + 's';
+        
+        menuDisplay.appendChild(sparkle);
+        
+        // Remove sparkle after animation
+        setTimeout(() => {
+          if (sparkle.parentNode) {
+            sparkle.parentNode.removeChild(sparkle);
+          }
+        }, 2000);
+      }
+    }
+    
+    // Fade in menu text with staggered delay
+    function fadeInMenuText() {
+      const menuTexts = document.querySelectorAll('.menu-text');
+      menuTexts.forEach((el, index) => {
+        setTimeout(() => {
+          el.classList.add('fade-in');
+        }, index * 200); // 200ms delay between each text element
+      });
     }
   </script>
 </body>
