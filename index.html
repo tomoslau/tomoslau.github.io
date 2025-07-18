@@ -29,8 +29,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Thomas Lau - Product Designer Portfolio</title>
-    <meta name="description" content="Thomas Lau is a product designer at Phantom, specializing in crypto and fintech UX/UI design. View his portfolio of work including Crypto.com, Tectonic.finance, and more.">
+    <title>Thomas Lau - Product Designer</title>
+    <meta name="description" content="Product Designer">
     <link rel="canonical" href="https://lauthomas.com/">
     
     <!-- Preload critical assets -->
@@ -46,15 +46,15 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://lauthomas.com/">
-    <meta property="og:title" content="Thomas Lau - Product Designer at Phantom">
-    <meta property="og:description" content="Product designer specializing in crypto and fintech UX/UI design. View portfolio of work including Crypto.com, Tectonic.finance, and more.">
+    <meta property="og:title" content="Thomas Lau">
+    <meta property="og:description" content="Product Designer">
     <meta property="og:image" content="https://lauthomas.com/img/og-image.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://lauthomas.com/">
-    <meta property="twitter:title" content="Thomas Lau - Product Designer at Phantom">
-    <meta property="twitter:description" content="Product designer specializing in crypto and fintech UX/UI design. View portfolio of work including Crypto.com, Tectonic.finance, and more.">
+    <meta property="twitter:title" content="Thomas Lau">
+    <meta property="twitter:description" content="Product Designer">
     <meta property="twitter:image" content="https://lauthomas.com/img/og-image.png">
 
     <!-- Google tag (gtag.js) -->
@@ -73,10 +73,6 @@
         "@type": "Person",
         "name": "Thomas Lau",
         "jobTitle": "Product Designer",
-        "worksFor": {
-            "@type": "Organization",
-            "name": "Phantom"
-        },
         "email": "c.h.thomas.lau@gmail.com",
         "url": "https://lauthomas.com"
     }
@@ -84,72 +80,23 @@
 </head>
 
 <body>
-    <div class="p" style="text-align: center; margin: 2rem 0;">
-        <img src="img/seal.svg" alt="Seal" style="width: 48px; height: 48px;">
-    </div>
     
     <div class="p">
-        <p id="typing-text"></p>
+        <p>
+            Hi, I'm Thomas Lau. I'm a designer from Hong Kong, now based in British Columbia.
+        </p>
+        <p>Currently, I'm building the trading experience at Phantom as a Senior Product Designer.
+        </p>
+        <p>
+            Previously, I led the design for the Crypto.com app.
+        </p>
+        <p>
+            <a href="mailto:c.h.thomas.lau@gmail.com">c.h.thomas.lau@gmail.com</a> 
+            <button onclick="copyEmail()" style="background: none; border: none; cursor: pointer; font-size: 16px; color: #666; padding: 0; width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-top: -2px;"><img src="icons/copy.svg" alt="Copy email" style="width: 16px; height: 16px; vertical-align: middle; filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);"></button>
+        </p>
     </div>
 
     <script>
-        // Typing effect function that prints word by word and handles HTML
-        function typeTextWithHTMLWordByWord(element, htmlContent, speed = 20) {
-            const tempDiv = document.createElement('div');
-            tempDiv.innerHTML = htmlContent;
-            element.innerHTML = '';
-            const childNodes = Array.from(tempDiv.childNodes);
-            let nodeIndex = 0;
-            let tokenIndex = 0;
-            let tokens = [];
-
-            function tokenize(text) {
-                // Split into words and spaces as separate tokens
-                return text.match(/\S+|\s+/g) || [];
-            }
-
-            function typeNext() {
-                if (nodeIndex < childNodes.length) {
-                    const currentNode = childNodes[nodeIndex];
-                    if (currentNode.nodeType === Node.TEXT_NODE) {
-                        if (tokens.length === 0) {
-                            tokens = tokenize(currentNode.textContent);
-                        }
-                        if (tokenIndex < tokens.length) {
-                            const token = tokens[tokenIndex];
-                            const node = document.createTextNode(token);
-                            element.appendChild(node);
-                            tokenIndex++;
-                            setTimeout(typeNext, speed);
-                        } else {
-                            nodeIndex++;
-                            tokenIndex = 0;
-                            tokens = [];
-                            setTimeout(typeNext, speed);
-                        }
-                    } else if (currentNode.nodeType === Node.ELEMENT_NODE) {
-                        const clonedNode = currentNode.cloneNode(true);
-                        element.appendChild(clonedNode);
-                        nodeIndex++;
-                        setTimeout(typeNext, speed);
-                    } else {
-                        nodeIndex++;
-                        setTimeout(typeNext, speed);
-                    }
-                }
-            }
-            typeNext();
-        }
-
-        // Original text content with HTML
-        const originalText = `Hey, I'm Thomas Lau — a product designer from Hong Kong, now based in Canada. I've worked on all sorts of products, from crypto and fintech to lifestyle and logistics, with teams at <a href="https://phantom.app" target="_blank">Phantom</a>, <a href="https://crypto.com" target="_blank">Crypto.com</a>, <a href="https://wristcheck.com" target="_blank">Wristcheck</a>, <a href="https://www.deliveryhero.com" target="_blank">Delivery Hero</a> (covering <a href="https://www.foodpanda.com" target="_blank">Foodpanda</a> & <a href="https://www.foodora.com" target="_blank">Foodora</a>), <a href="https://www.gogox.com" target="_blank">GOGOX</a>, and <a href="https://hypebeast.com" target="_blank">Hypebeast</a>. I love figuring out how to make tricky problems feel simple and building things that people actually enjoy using.<br><br>Before that, I spent some time at agencies like Isobar, working with brands like <a href="https://disneyparks.disney.go.com" target="_blank">Disneyland</a>, <a href="https://www.esteelauder.com" target="_blank">Estée Lauder</a>, <a href="https://www.audi.com" target="_blank">Audi</a>, <a href="https://www.bupa.com" target="_blank">Bupa</a>, <a href="https://www.hyatt.com" target="_blank">Hyatt</a>, and <a href="https://www.reebok.com" target="_blank">Reebok</a>.<br><br><a href="mailto:c.h.thomas.lau@gmail.com">c.h.thomas.lau@gmail.com</a> <button onclick="copyEmail()" style="background: none; border: none; cursor: pointer; font-size: 16px; color: #666; padding: 0; width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-top: -2px;"><img src="icons/copy.svg" alt="Copy email" style="width: 16px; height: 16px; vertical-align: middle; filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);"></button>`;
-
-        // Start typing effect when page loads
-        window.addEventListener('load', function() {
-            const typingElement = document.getElementById('typing-text');
-            typeTextWithHTMLWordByWord(typingElement, originalText, 20);
-        });
-
         function copyEmail() {
             navigator.clipboard.writeText('c.h.thomas.lau@gmail.com').then(function() {
                 // Show visual feedback with check icon

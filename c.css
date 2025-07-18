@@ -14,8 +14,8 @@
 :root {
     --text-color: #000;
     --text-muted: rgba(0, 0, 0, 0.5);
-    --spacing: 1rem;
-    --max-width: 800px;
+    --spacing: 2rem;
+    --max-width: 375px;
 }
 
 body {
@@ -25,6 +25,7 @@ body {
     padding: var(--spacing);
     max-width: var(--max-width);
     color: var(--text-color);
+    text-wrap: pretty;
 }
 
 a {
@@ -48,7 +49,7 @@ h1 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 21px;
     line-height: 1.5;
     margin-bottom: 0;
 }
