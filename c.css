@@ -1,19 +1,27 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Mobile: cover by default */
 body {
-    margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-image: url('img/yuan.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #fff; /* fallback for letterboxing on desktop */
 }
 
-div {
-}
-
-p {
-}
-
-.spoon-inline {
-    height: 2em;
-    width: auto;
-    vertical-align: middle;
+/* Desktop: fit image to viewport */
+@media (min-width: 768px) {
+  body {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff; /* fallback for letterboxing */
+  }
 }
