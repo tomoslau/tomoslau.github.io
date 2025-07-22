@@ -29,8 +29,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Thomas Lau - Product Designer</title>
-    <meta name="description" content="Product Designer">
+    <title>Thomas Lau</title>
     <link rel="canonical" href="https://lauthomas.com/">
     
     <!-- Preload critical assets -->
@@ -47,14 +46,12 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://lauthomas.com/">
     <meta property="og:title" content="Thomas Lau">
-    <meta property="og:description" content="Product Designer">
     <meta property="og:image" content="https://lauthomas.com/img/og-image.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://lauthomas.com/">
     <meta property="twitter:title" content="Thomas Lau">
-    <meta property="twitter:description" content="Product Designer">
     <meta property="twitter:image" content="https://lauthomas.com/img/og-image.png">
 
     <!-- Google tag (gtag.js) -->
@@ -72,46 +69,14 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Thomas Lau",
-        "jobTitle": "Product Designer",
-        "email": "c.h.thomas.lau@gmail.com",
         "url": "https://lauthomas.com"
     }
     </script>
 </head>
-
 <body>
-    
-    <div class="p">
-        <p>
-            Hi, I'm Thomas Lau. I'm a designer from Hong Kong, now based in British Columbia.
-        </p>
-        <p>Currently, I'm building the trading experience at Phantom as a Senior Product Designer.
-        </p>
-        <p>
-            Previously, I led the design for the Crypto.com app.
-        </p>
-        <p>
-            <a href="mailto:c.h.thomas.lau@gmail.com">c.h.thomas.lau@gmail.com</a> 
-            <button onclick="copyEmail()" style="background: none; border: none; cursor: pointer; font-size: 16px; color: #666; padding: 0; width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-top: -2px;"><img src="icons/copy.svg" alt="Copy email" style="width: 16px; height: 16px; vertical-align: middle; filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);"></button>
-        </p>
+    <div>
+        <h1>
+            劉湯 <img src="img/spoon.webp" alt="spoon" class="spoon-inline">
+        </h1>
     </div>
-
-    <script>
-        function copyEmail() {
-            navigator.clipboard.writeText('c.h.thomas.lau@gmail.com').then(function() {
-                // Show visual feedback with check icon
-                const button = event.target.closest('button');
-                const img = button.querySelector('img');
-                const originalSrc = img.src;
-                img.src = 'icons/check.svg';
-                img.style.filter = 'brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%)'; // Same as text color
-                setTimeout(() => {
-                    img.src = originalSrc;
-                    img.style.filter = 'brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%)';
-                }, 1000);
-            }).catch(function(err) {
-                console.error('Could not copy text: ', err);
-            });
-        }
-    </script>
 </body>
