@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thomas Liu - Designer</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #111;
+      font-family: sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 2rem;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: flex-start;
+    }
+
+    .name {
+      font-size: 4rem;
+      font-weight: bold;
+      line-height: 1;
+    }
+
+    .en-name {
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
+    }
+
+    .title {
+      text-align: right;
+    }
+
+    .title-cn {
+      font-size: 1.25rem;
+    }
+
+    .title-en {
+      font-weight: bold;
+      font-size: 1.25rem;
+    }
+
+    .work {
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .job {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .job-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .circle {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 1rem;
+    }
+
+    .arrow {
+      font-size: 1.5rem;
+      margin-left: 1rem;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+
+    .P { background-color: #a48bff; }
+    .C { background-color: #2f6edb; }
+    .W { background-color: #5b95ff; }
+    .F { background-color: #e0006b; }
+    .G { background-color: #ffd500; color: black; }
+    .H { background-color: white; color: black; }
+
+    @media (max-width: 600px) {
+      .job-title {
+        font-size: 1.25rem;
+      }
+
+      .circle {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div>
+      <div class="name">劉</div>
+      <div class="en-name">THOMAS</div>
+    </div>
+    <div class="title">
+      <div class="title-cn">設計師</div>
+      <div class="title-en">Designer</div>
+    </div>
+  </div>
+
+  <div class="work">
+    <div class="job">
+      <div class="job-title">Phantom</div>
+      <div class="row"><div class="circle P">P</div><div class="arrow">&#8594;</div></div>
+    </div>
+    <div class="job">
+      <div class="job-title">Crypto.com</div>
+      <div class="row"><div class="circle C">C</div><div class="arrow">&#8594;</div></div>
+    </div>
+    <div class="job">
+      <div class="job-title">Wristcheck</div>
+      <div class="row"><div class="circle W">W</div><div class="arrow">&#8594;</div></div>
+    </div>
+    <div class="job">
+      <div class="job-title">Foodpanda</div>
+      <div class="row"><div class="circle F">F</div><div class="arrow">&#8594;</div></div>
+    </div>
+    <div class="job">
+      <div class="job-title">GogoX</div>
+      <div class="row"><div class="circle G">G</div><div class="arrow">&#8594;</div></div>
+    </div>
+    <div class="job">
+      <div class="job-title">Hypebeast</div>
+      <div class="row"><div class="circle H">H</div><div class="arrow">&#8594;</div></div>
+    </div>
+  </div>
+</body>
+</html>

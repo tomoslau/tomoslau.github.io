@@ -62,7 +62,199 @@
         gtag('js', new Date());
         gtag('config', 'G-3SZ96H3EJH');
     </script>
+      <style>
+        @font-face {
+          font-family: 'Inter';
+          src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTcviYwY.woff2') format('woff2');
+          font-weight: 700;
+          font-style: normal;
+        }
 
+        body {
+          margin: 0;
+          background-color: #111;
+          font-family: 'Inter', sans-serif;
+          font-weight: bold;
+          color: white;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 2rem;
+          opacity: 0;
+          transition: opacity 1s ease;
+        }
+    
+        .header {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          align-items: flex-end; /* Align header children to the bottom */
+        }
+    
+        .name {
+          font-size: 4.5rem;
+          font-weight: bold;
+          line-height: 1;
+          font-family: 'Noto Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
+        }
+    
+        .en-name {
+          font-size: 1rem;
+          margin-top: 0.5rem;
+          font-weight: bold;
+        }
+    
+        .title {
+          text-align: right;
+        }
+    
+        .title-cn {
+          font-size: 1rem;
+          font-family: 'Noto Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
+          font-weight: bold;
+        }
+    
+        .title-en {
+          font-weight: bold;
+          font-size: 1rem;
+        }
+    
+        .work {
+          margin-top: 5rem;
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+          align-items: flex-end; /* Align work section content to the right */
+          width: 100%; /* Take full width of parent (body), not viewport */
+        }
+
+        .work a {
+          text-decoration: none;
+          color: inherit;
+          display: block;
+        }
+
+        .job {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end; /* Align job content to the right */
+          width: 100%;
+        }
+
+        .job-title {
+          font-size: 1.5rem;
+          font-weight: bold;
+          text-align: right; /* Align job title text to the right */
+          min-width: 120px;
+        }
+
+        .circle {
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+          color: white;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left: 1rem;
+          font-size: 1.5rem; /* Match job-title and arrow size */
+        }
+
+        .arrow {
+          font-size: 1.5rem; /* Match job-title and circle size */
+          margin-left: 1rem;
+        }
+
+        .row {
+          display: flex;
+          align-items: center;
+        }
+    
+        .P { background-color: #a48bff; color: black; }
+        .C { background-color: #2f6edb; }
+        .W { background-color: #5b95ff; color: black; }
+        .F { background-color: #e0006b; }
+        .G { background-color: #ffd500; color: black; }
+        .H { background-color: white; color: black; }
+    
+        @media (max-width: 600px) {
+          .job-title {
+            font-size: 1.25rem;
+            min-width: 90px;
+          }
+
+          .circle {
+            width: 40px;
+            height: 40px;
+            font-size: 1.25rem; /* Match job-title and arrow size on mobile */
+          }
+
+          .arrow {
+            font-size: 1.25rem; /* Match job-title and circle size on mobile */
+          }
+        }
+      </style>
 </head>
 <body>
+    <div class="header">
+    <div>
+      <div class="name">劉</div>
+      <div class="en-name">THOMAS</div>
+    </div>
+    <div class="title">
+      <div class="title-cn">設計師</div>
+      <div class="title-en">Designer</div>
+    </div>
+  </div>
+
+  <div class="work">
+    <a href="https://phantom.com" target="_blank" rel="noopener">
+      <div class="job">
+        <div class="job-title">Phantom</div>
+        <div class="row"><div class="circle P">P</div><div class="arrow">&#8594;</div></div>
+      </div>
+    </a>
+    <a href="https://crypto.com" target="_blank" rel="noopener">
+      <div class="job">
+        <div class="job-title">Crypto.com</div>
+        <div class="row"><div class="circle C">C</div><div class="arrow">&#8594;</div></div>
+      </div>
+    </a>
+    <a href="https://wristcheck.com" target="_blank" rel="noopener">
+      <div class="job">
+        <div class="job-title">Wristcheck</div>
+        <div class="row"><div class="circle W">W</div><div class="arrow">&#8594;</div></div>
+      </div>
+    </a>
+    <a href="https://foodpanda.com" target="_blank" rel="noopener">
+      <div class="job">
+        <div class="job-title">Foodpanda</div>
+        <div class="row"><div class="circle F">F</div><div class="arrow">&#8594;</div></div>
+      </div>
+    </a>
+    <a href="https://gogox.com" target="_blank" rel="noopener">
+      <div class="job">
+        <div class="job-title">GogoX</div>
+        <div class="row"><div class="circle G">G</div><div class="arrow">&#8594;</div></div>
+      </div>
+    </a>
+    <a href="https://hypebeast.com" target="_blank" rel="noopener">
+      <div class="job">
+        <div class="job-title">Hypebeast</div>
+        <div class="row"><div class="circle H">H</div><div class="arrow">&#8594;</div></div>
+      </div>
+    </a>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(function() {
+          document.body.style.opacity = '1';
+        });
+      } else {
+        document.body.style.opacity = '1';
+      }
+    });
+  </script>
 </body>
