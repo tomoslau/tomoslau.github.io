@@ -1,0 +1,59 @@
+/* Font face declaration */
+@font-face {
+  font-family: 'TransportNew';
+  src: url('font/TransportNew-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Light mode (default) */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --link-color: #0066cc;
+  --link-hover-color: #004499;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --link-color: #66b3ff;
+    --link-hover-color: #99ccff;
+  }
+  
+  /* Invert the SVG in dark mode */
+  img[src*="seal.svg"] {
+    filter: invert(1);
+  }
+}
+
+/* Apply CSS variables and font family */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'TransportNew', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Typography */
+h1, p {
+  font-family: 'TransportNew', sans-serif;
+}
+
+/* Link styles */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
